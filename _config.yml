@@ -13,7 +13,8 @@ addons:
 
 addons_commit: true
 
-remote_theme: rundocs/jekyll-rtd-theme
+#remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: daattali/beautiful-jekyll@4.0.1
 
 # use front matter sort
 readme_index:
