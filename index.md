@@ -6,6 +6,8 @@ This template exists as a way to implement a version menu without changing what
 the theme normally renders the menu on local builds and on builds on Read the
 Docs. This is for local testing purposes only.
 
+### Muestra de cambio para Richie
+
 
 
 1. Exploration of
