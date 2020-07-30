@@ -2,8 +2,6 @@
 sort: 1
 ---
 
-# Primera práctica
-## Estructuración en Darwin Core
+# Sobre el SiB Colombia
 
-Los contenidos de esta guia.....
-sigue pues
+Mini información de contexto y redirección a páginas oficiales
