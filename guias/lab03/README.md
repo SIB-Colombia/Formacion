@@ -2,7 +2,7 @@
 sort: 3
 ---
 
-# Laboratorio Datos en contexto - Metadatos
+# Laboratorio Datos en contexto
 
 
 Contexto del laboratorio.....
