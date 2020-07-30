@@ -2,6 +2,13 @@
 sort: 2
 ---
 
-# primer SECCIÓN
+# Laboratorio Estructuración y Calidad
+
+## Metas de aprendizaje 
+
+## Glosario
+
+
+{% include list.liquid %}
 
 
