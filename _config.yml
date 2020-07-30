@@ -1,6 +1,8 @@
-title: Ciclo de Formación SiB Colombia
-lang: en-US
-description: Just another documentation theme compatible with GitHub Pages, based on sphinx_rtd_theme
+title: Laboratorio de Formación SiB Colombia
+lang: es-CO
+description: Laboratorio de Formación para la Gestión, Publicación y Uso de Datos sobre Biodiversidad 
+logo: https://sibcolombia.net/wp-content/uploads/2018/06/logo-sib.svg
+
 
 edit: true
 
@@ -15,6 +17,9 @@ addons_commit: true
 
 remote_theme: rundocs/jekyll-rtd-theme
 #remote_theme: daattali/beautiful-jekyll@4.0.1
+
+#Set up code highlight
+rougify: github
 
 # use front matter sort
 readme_index:
