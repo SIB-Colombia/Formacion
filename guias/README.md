@@ -2,13 +2,7 @@
 sort: 2
 ---
 
-# Laboratorio Estructuración y Calidad
+# Laboratorios de datos
 
-## Metas de aprendizaje 
-
-## Glosario
-
-
-{% include list.liquid %}
 
 
