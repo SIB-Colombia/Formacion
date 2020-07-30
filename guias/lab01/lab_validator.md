@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# VALIDADOR DE DATOS
+# Validador de datos
 
 ### PASO 1
 
