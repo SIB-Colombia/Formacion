@@ -54,9 +54,35 @@ imagen prueba 4 html relative  path funciona en readme con tamaño
 
 <img src="_images/Fig.1_dataValidator.png" width=300>
 
-imagen prueba 5 html total  path funciona en readme con tamaño
+imagen prueba 5 html total  path funciona en readme con tamaño width 300
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png" width=300>
+
+imagen prueba 5 html total  path funciona en readme con tamaño width 400
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png" width=400>
+
+imagen prueba 5 html total  path funciona en readme con tamaño width 500
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png" width=500>
+
+imagen prueba 5 html total  path funciona en readme con tamaño width 600
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png" width=600>
+
+imagen prueba 5 html total  path funciona en readme con tamaño width 700
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png" width=700>
+
+imagen prueba 5 html total  path funciona en readme con tamaño width 800
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png" width=800>
+
+imagen prueba 5 html total  path funciona en readme con tamaño width 900
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png" width=900>
+
+
 
 [Fig1_dataValidator.png]
  ###### Figura 1.
