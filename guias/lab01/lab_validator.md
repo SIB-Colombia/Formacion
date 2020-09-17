@@ -3,21 +3,22 @@ sort: 2
 ---
 
 # Validador de datos
+
 #### *Data Validator* GBIF
 
 **Objetivo**
-Detectar posibles problemas en  la estructura y contenido de su conjunto de datos, y mejorar la calidad de los mismos para ser publicados a travÈs del SiB Colombia, GBIF y/o OBIS.
+Detectar posibles problemas en  la estructura y contenido de su conjunto de datos, y mejorar la calidad de los mismos para ser publicados a trav√©s del SiB Colombia, GBIF y/o OBIS.
 
 **Sobre la Herramienta**
-El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un servicio de [GBIF](https://www.gbif.org) que permite evaluar de manera autom·tica la completitud y algunos aspectos de la calidad de un conjunto de datos estructurado en el est·ndar [Darwin Core (DwC)](https://dwc.tdwg.org/terms/), el validador genera un informe sobre la sintaxis y la calidad de los datos que le permitir· detectar posibles problemas en sus datos antes de publicarlos. Si se valida un [DwC-A](https://www.gbif.org/darwin-core) el validador tambiÈn evalua la completitud y estructura de los metadatos en el est·ndar [EML](https://www.gbif.org/sites/default/files/gbif_resource/resource-80640/gbif_metadata_profile_guide_en_v1.pdf).
+El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un servicio de [GBIF](https://www.gbif.org) que permite evaluar de manera autom√°tica la completitud y algunos aspectos de la calidad de un conjunto de datos estructurado en el est√°ndar [Darwin Core (DwC)](https://dwc.tdwg.org/terms/), el validador genera un informe sobre la sintaxis y la calidad de los datos que le permitir√° detectar posibles problemas en sus datos antes de publicarlos. Si se valida un [DwC-A](https://www.gbif.org/darwin-core) el validador tambi√©n evalua la completitud y estructura de los metadatos en el est√°ndar [EML](https://www.gbif.org/sites/default/files/gbif_resource/resource-80640/gbif_metadata_profile_guide_en_v1.pdf).
 
 **Enlace** 
 https://www.gbif.org/es/tools/data-validator/
 
 **Requerimientos** 
-* La primera fila del conjunto de datos a validar debe tener el nombre de los elementos DwC en inglÈs.
+* La primera fila del conjunto de datos a validar debe tener el nombre de los elementos DwC en ingl√©s.
 
-* El conjunto de datos debe tener la columna del ID de tipo de datos que corresponda, ```occurenceID ```(registros biolÛgicos), ```eventID``` (eventos de muestreo)o ```taxonID``` (listas de especies). La columna debe estar documentada para todas las filas y los ID's deben ser ˙nicos.
+* El conjunto de datos debe tener la columna del ID de tipo de datos que corresponda, ```occurenceID ```(registros biol√≥gicos), ```eventID``` (eventos de muestreo)o ```taxonID``` (listas de especies). La columna debe estar documentada para todas las filas y los ID's deben ser √∫nicos.
 
 * El validador admite archivos con los siguientes formatos:
   * Formato Excel (.xls,.xlsx)
@@ -33,58 +34,58 @@ Descargue el archivo [```datos_Estructurados.xls```](https://www.gbif.org/tools/
  
 ### Paso 1
 
-Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya est· registrado, ingrese con sus credenciales al [validador de datos.](https://www.gbif.org/es/tools/data-validator/)
+Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya est√° registrado, ingrese con sus credenciales al [validador de datos.](https://www.gbif.org/es/tools/data-validator/)
 
 [Fig1_dataValidator.png]
 ###### Figura 1.
 
 ### Paso 2
-Cargue el archivo *```datos_Estructurados.xls```*  al validador; (1) haciendo clic en SELECT FILE y seleccionando el archivo o (2) arrastrando el archivo desde una carpeta y soltandolo en el Ìcono *Drop here*. 
+Cargue el archivo *```datos_Estructurados.xls```*  al validador; (1) haciendo clic en SELECT FILE y seleccionando el archivo o (2) arrastrando el archivo desde una carpeta y soltandolo en el √≠cono *Drop here*. 
 
 > **Advertencia**, es indispensable que el elemento *occurrenceID* este documentado para que el DataValidator reconozca el archivo
 
-El validador le indicar· si el conjunto de datos tiene la estructura adecuada para ser publicado  a travÈs del SiB Colombia, GBIF y OBIS, o si es necesario realizar ajustes. El informe de validaciÛn contiene la siguiente informaciÛn:
+El validador le indicar√° si el conjunto de datos tiene la estructura adecuada para ser publicado  a trav√©s del SiB Colombia, GBIF y OBIS, o si es necesario realizar ajustes. El informe de validaci√≥n contiene la siguiente informaci√≥n:
 
 
 * Un indicador semaforizado (rojo y verde) que indica si puede el conjunto de datos puede ser indexado (Fig. 2 A).
 * Resumen del tipo de conjunto de datos (Fig. 2 B).
-* Alertas de validaciÛn que indican **potenciales** problemas en la estructuraciÛn y calidad del conjunto de datos (Fig. 2 C).
+* Alertas de validaci√≥n que indican **potenciales** problemas en la estructuraci√≥n y calidad del conjunto de datos (Fig. 2 C).
 
 [paso2-1_dataValidator.jpg]
 ###### Figura 2.
 
 
-* N˙mero de registros (filas) interpretados con Èxito (Fig. 3 A).
-* Reporte del porcentaje de documentaciÛn de cada uno de los elementos del est·ndar DwC utilizados en el conjunto de datos (Fig. 3 B), secciÛn **Frecuencia del tÈrmino**.
+* N√∫mero de registros (filas) interpretados con √©xito (Fig. 3 A).
+* Reporte del porcentaje de documentaci√≥n de cada uno de los elementos del est√°ndar DwC utilizados en el conjunto de datos (Fig. 3 B), secci√≥n **Frecuencia del t√©rmino**.
 
 [paso2-2_dataValidator.jpg]
 ###### Figura 3.
 
 ### Paso 3
 
-Revise detalladamente el resultado de la validaciÛn 
+Revise detalladamente el resultado de la validaci√≥n 
 
-#### 3.1. øSu conjunto de datos puede ser indexado? 
+#### 3.1. ¬øSu conjunto de datos puede ser indexado? 
 
 Revise el encabezado del reporte, si aparece en rojo significa que no puede ser indexado (Fig. 4A), si aparece en verde significa que si lo peude indexar (Fig. 4B).Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramienta (Fig. 4C).
 
 [Fig.4A-B_dataValidator.jpg]
 ###### Figura 4.
 
-Los casos m·s frecuentes por los cuales un archivo no puede ser indexado son:
+Los casos m√°s frecuentes por los cuales un archivo no puede ser indexado son:
 
-a. Mensaje *Registro no identificado de forma ˙nica*, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID, eventID*,seg˙n el tipo de datos) NO son ˙nicos
+a. Mensaje *Registro no identificado de forma √∫nica*, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID, eventID*,seg√∫n el tipo de datos) NO son √∫nicos
 
-> En la secciÛn **Problemas de validaciÛn**  encontrar· los IDís que est·n duplicados.
+> En la secci√≥n **Problemas de validaci√≥n**  encontrar√° los ID‚Äôs que est√°n duplicados.
 
-Realice los ajustes necesarios y vuelva  a correr la validaciÛn, en esta ocasiÛn el validador le indicar· que el conjunto de datos se puede indexar (Fig. 4B).
+Realice los ajustes necesarios y vuelva  a correr la validaci√≥n, en esta ocasi√≥n el validador le indicar√° que el conjunto de datos se puede indexar (Fig. 4B).
 
-b. Mensaje *No se encontrÛ o determinÛ un rowType* indica que algunas de las columnas obligatorias para realizar la validaciÛn no se encuentran en el conjunto de datos, por ejemplo occurrenceID, taxonID, o eventID, seg˙n el tipo de datos. 
+b. Mensaje *No se encontr√≥ o determin√≥ un rowType* indica que algunas de las columnas obligatorias para realizar la validaci√≥n no se encuentran en el conjunto de datos, por ejemplo occurrenceID, taxonID, o eventID, seg√∫n el tipo de datos. 
 
 
-#### 3.2. Revise los **Problemas de validaciÛn**
+#### 3.2. Revise los **Problemas de validaci√≥n**
 
-Dirijase a la secciÛn **Problemas de validaciÛn** y revise cada una de las alertas. Para cada una de las alertas, el validador indica el n˙mero de registros a revisar (Fig. 5).
+Dirijase a la secci√≥n **Problemas de validaci√≥n** y revise cada una de las alertas. Para cada una de las alertas, el validador indica el n√∫mero de registros a revisar (Fig. 5).
 
 [Fig.5_dataValidator.png]
 ###### Figura 5. 
@@ -95,96 +96,96 @@ Haga clic sobre las flechas de cada una de las alertas para obtener un desglose 
 ###### Figura 6.
 
 
-Para interpretar las alertas de validaciÛn utilice el botÛn de ayuda, y obtendr· una breve explicaciÛn.
+Para interpretar las alertas de validaci√≥n utilice el bot√≥n de ayuda, y obtendr√° una breve explicaci√≥n.
 
 [Fig.7_dataValidator.png]
 ###### Figura 7.
 
 
-#### A continuaciÛn se explican las alertas m·s frecuentes:
+#### A continuaci√≥n se explican las alertas m√°s frecuentes:
 
-* Alertas de color **ROJO** - Indican un error estructura que no permite la indexaciÛn del recurso y debe ser corregido.
+* Alertas de color **ROJO** - Indican un error estructura que no permite la indexaci√≥n del recurso y debe ser corregido.
 
-* Alertas de color **AMARILLO** - Indican potenciales errores, deben ser revisadas con detalle para determinar si se debe o no hacer una correcciÛn en los datos.
+* Alertas de color **AMARILLO** - Indican potenciales errores, deben ser revisadas con detalle para determinar si se debe o no hacer una correcci√≥n en los datos.
 
-* Alertas de color **GRIS** - Indican el proceso de interpretaciÛn realizado por el validador, no necesariamente requiere que se realicen ajustes en los datos.
+* Alertas de color **GRIS** - Indican el proceso de interpretaci√≥n realizado por el validador, no necesariamente requiere que se realicen ajustes en los datos.
 ---
 
-**Alerta**: Base del registro inv·lida
+**Alerta**: Base del registro inv√°lida
 
-**Problema**: la base del registro  (basisOfRecord) no cumple con los requerimientos del est·ndar.
+**Problema**: la base del registro  (basisOfRecord) no cumple con los requerimientos del est√°ndar.
 
-**SoluciÛn 1**: revise que todos los registros (filas) tengan este elemento documentado.
+**Soluci√≥n 1**: revise que todos los registros (filas) tengan este elemento documentado.
 
-**SoluciÛn 2**: documente el elemento siguiendo el vocabulario controlado en inglÈs, ```HumanObservation, PreservedSpecimen, LivingSpecimen, MachineObservation, MaterialSample FossilSpecimen.```
+**Soluci√≥n 2**: documente el elemento siguiendo el vocabulario controlado en ingl√©s, ```HumanObservation, PreservedSpecimen, LivingSpecimen, MachineObservation, MaterialSample FossilSpecimen.```
 
 [reference link]
 -
 
-**Alerta**: ëCoordinate invalidí
+**Alerta**: ‚ÄòCoordinate invalid‚Äô
 
-**Problema**: coordenadas inv·lidas, las coordenadas documentadas no se encuentran estandarizadas en coordenadas decimales y/o las coordenadas originales no se pueden interpretar.
+**Problema**: coordenadas inv√°lidas, las coordenadas documentadas no se encuentran estandarizadas en coordenadas decimales y/o las coordenadas originales no se pueden interpretar.
 
-**SoluciÛn**: aseg˙rese que los elementos darwin core ëdecimalLatitudeí, ëdecimalLatitudeí  estÈn documentados con las coordenadas en formato decimal y/o que las coordenadas originales ëverbatimCoordinatesí hayan sido digitalizadas adecuadamente. 
+**Soluci√≥n**: aseg√∫rese que los elementos darwin core ‚ÄòdecimalLatitude‚Äô, ‚ÄòdecimalLatitude‚Äô  est√©n documentados con las coordenadas en formato decimal y/o que las coordenadas originales ‚ÄòverbatimCoordinates‚Äô hayan sido digitalizadas adecuadamente. 
 
 [reference link]
 
 #### Alerta - Se presume latitud negativa
-**Problema**: posible error en la latitud, se documentÛ como latitud sur pero posiblemente corresponda a  latitud norte (en coordenadas decimales se indica con un signo menos antes de la latitud).  
+**Problema**: posible error en la latitud, se document√≥ como latitud sur pero posiblemente corresponda a  latitud norte (en coordenadas decimales se indica con un signo menos antes de la latitud).  
 
-**SoluciÛn**: aseg˙rese que los elementos darwin core *decimalLatitude*, *decimalLatitude*  estÈn documentados con las coordenadas en formato decimal y/o que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud*, *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
+**Soluci√≥n**: aseg√∫rese que los elementos darwin core *decimalLatitude*, *decimalLatitude*  est√©n documentados con las coordenadas en formato decimal y/o que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud*, *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
 
 [reference link]
 ###### Figura
 
-**Alerta**: Coincidencia TaxÛn - TaxonomÌa superior
+**Alerta**: Coincidencia Tax√≥n - Taxonom√≠a superior
 
-**Problema**: el nombre cientÌfico fue validado a un nivel taxonÛmico superior al documentado, por ejemplo si el nombre cientÌfico corresponde a una especie (gÈnero + epÌteto especÌfico) significa que el validador solo pudo interpretar el gÈnero m·s no el epÌteto especÌfico.
+**Problema**: el nombre cient√≠fico fue validado a un nivel taxon√≥mico superior al documentado, por ejemplo si el nombre cient√≠fico corresponde a una especie (g√©nero + ep√≠teto espec√≠fico) significa que el validador solo pudo interpretar el g√©nero m√°s no el ep√≠teto espec√≠fico.
 
-**SoluciÛn 1.**: revise que el nombre cientÌfico no contenga calificadores de la identificaciÛn  (cf., aff.) u otros calificadores como *sp.*  
-**SoluciÛn 2.**: que el nombre cientÌfico estÈ escrito correctamente.
+**Soluci√≥n 1.**: revise que el nombre cient√≠fico no contenga calificadores de la identificaci√≥n  (cf., aff.) u otros calificadores como *sp.*  
+**Soluci√≥n 2.**: que el nombre cient√≠fico est√© escrito correctamente.
 
-> Es posible que algunos nombres v·lidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el [·rbol taxonÛmico de GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c). Esto es com˙n en el caso de especÌes endÈmicas o recientemente descritas. En tal caso ignore la alerta.
-
-[reference link]
-
-**Alerta**: Coincidencia aproximada del taxÛn
-
-**Problema**: hay una coincidencia parcial del nombre cÌentÌfico y el [·rbol taxonÛmico de GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c), por lo general esta alerta se genera cuando hay errores de tipeo  menores en el nombre cientÌfico.
-
-**SoluciÛn**: aseg˙rese que el nombre cientÌfico estÈ escrito correctamente.
-
+> Es posible que algunos nombres v√°lidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el [√°rbol taxon√≥mico de GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c). Esto es com√∫n en el caso de espec√≠es end√©micas o recientemente descritas. En tal caso ignore la alerta.
 
 [reference link]
 
-**Alerta**: Fecha registrada inv·lida
+**Alerta**: Coincidencia aproximada del tax√≥n
+
+**Problema**: hay una coincidencia parcial del nombre c√≠ent√≠fico y el [√°rbol taxon√≥mico de GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c), por lo general esta alerta se genera cuando hay errores de tipeo  menores en el nombre cient√≠fico.
+
+**Soluci√≥n**: aseg√∫rese que el nombre cient√≠fico est√© escrito correctamente.
+
+
+[reference link]
+
+**Alerta**: Fecha registrada inv√°lida
 
 **Problema**: el formato de la fecha no cumple con el formato ISO 8601: ```AAAA-MM-DD; AAAA-MM; AAAA; AAAA-MM-DD/AAAA-MM-DD```
 
-**SoluciÛn**: estandarice las fechas al formato ISO 8601
+**Soluci√≥n**: estandarice las fechas al formato ISO 8601
 
 
 [reference link]
 
-**Alerta**: Datum geodÈsico WGS84 asumido
+**Alerta**: Datum geod√©sico WGS84 asumido
 
-**Problema**: el datum geodÈsico no fue documentado, pero el validador lo identificÛ como WGS84.
+**Problema**: el datum geod√©sico no fue documentado, pero el validador lo identific√≥ como WGS84.
 
-**SoluciÛn 1**: documentar el elemento DwC  ```geodeticDatum``` como WGS84,
+**Soluci√≥n 1**: documentar el elemento DwC  ```geodeticDatum``` como WGS84,
 
-**SoluciÛn 2**: si las coordenadas tienen un datum diferente a WGS84 documentelo para evitar que este sea asumido.
+**Soluci√≥n 2**: si las coordenadas tienen un datum diferente a WGS84 documentelo para evitar que este sea asumido.
 
 [reference link]
 
 ### Paso 4
-DespuÈs de revisar todas las alertas de validaciÛn y ajustar los datos de acuerdo a estas cargue nuevamente el conjunto de datos en el validador para confirmar el estado de calidad de los datos.
+Despu√©s de revisar todas las alertas de validaci√≥n y ajustar los datos de acuerdo a estas cargue nuevamente el conjunto de datos en el validador para confirmar el estado de calidad de los datos.
 
 ### Paso 5
 
-Si realizÛ el laboratorio con un conjunto de datos propio, revise en la secciÛn **Frecuencia del tÈrmino** el reporte del porcentaje de documentaciÛn de los elementos de su conjunto de datos.
+Si realiz√≥ el laboratorio con un conjunto de datos propio, revise en la secci√≥n **Frecuencia del t√©rmino** el reporte del porcentaje de documentaci√≥n de los elementos de su conjunto de datos.
 
-Seg˙n el origen se sus datos (colecciones biolÛgicas, permisos de recolecciÛn, datos marinos, eventos de muestreo) compruebe que los elementos obligatorios, e idealmente los recomendados, esten documentados el 100%. Para ello utilice la de referencia la ultima [plantilla DwC Registros biolÛgicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0)
+Seg√∫n el origen se sus datos (colecciones biol√≥gicas, permisos de recolecci√≥n, datos marinos, eventos de muestreo) compruebe que los elementos obligatorios, e idealmente los recomendados, esten documentados el 100%. Para ello utilice la de referencia la ultima [plantilla DwC Registros biol√≥gicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0)
 
 
-**°Felicitaciones!** 
+**¬°Felicitaciones!** 
 Su conjunto de datos ha sido estructurado adecuadamente.
