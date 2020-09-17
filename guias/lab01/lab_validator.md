@@ -5,7 +5,8 @@ sort: 2
 # Validador de datos - GBIF
 
 **Objetivo**
- Detectar posibles problemas en  la estructura y contenido de su conjunto de datos, y mejorar la calidad de los mismos para ser publicados a través del SiB Colombia, GBIF y/o OBIS.
+
+Detectar posibles problemas en  la estructura y contenido de su conjunto de datos, y mejorar la calidad de los mismos para ser publicados a través del SiB Colombia, GBIF y/o OBIS.
 
 **Sobre la Herramienta**
 
@@ -31,7 +32,7 @@ Descargue el archivo [```datos_Estructurados.xls```](https://www.gbif.org/tools/
 
 ----
 
- ## Laboratorio
+## Laboratorio
  
 ### Paso 1
 
