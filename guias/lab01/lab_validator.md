@@ -38,21 +38,25 @@ Descargue el archivo [```datos_Estructurados.xls```](https://www.gbif.org/tools/
 
 Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está registrado, ingrese con sus credenciales al [validador de datos.](https://www.gbif.org/es/tools/data-validator/)
 
-imagen prueba 1
+imagen prueba 1 relative path funciona en readme
 
 ![1](_images/Fig.1_dataValidator.png)
 
-imagen prueba 2
+imagen prueba 2 total path funciona en readme
 
 ![2](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png)
 
-imagen prueba 3
+imagen prueba 3 html relative  path funciona en readme
 
 <img src="_images/Fig.1_dataValidator.png">
 
-imagen prueba 4
+imagen prueba 4 html relative  path funciona en readme con tamaño
 
 <img src="_images/Fig.1_dataValidator.png" width=300>
+
+imagen prueba 5 html total  path funciona en readme con tamaño
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png" width=300>
 
 [Fig1_dataValidator.png]
  ###### Figura 1.
