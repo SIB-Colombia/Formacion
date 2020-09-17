@@ -38,7 +38,21 @@ Descargue el archivo [```datos_Estructurados.xls```](https://www.gbif.org/tools/
 
 Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está registrado, ingrese con sus credenciales al [validador de datos.](https://www.gbif.org/es/tools/data-validator/)
 
-![](_images/Fig.1_dataValidator.png)
+imagen prueba 1
+
+![1](_images/Fig.1_dataValidator.png)
+
+imagen prueba 2
+
+![2](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/guias/lab01/_images/Fig.1_dataValidator.png)
+
+imagen prueba 3
+
+<img src="_images/Fig.1_dataValidator.png">
+
+imagen prueba 4
+
+<img src="_images/Fig.1_dataValidator.png" width=300>
 
 [Fig1_dataValidator.png]
  ###### Figura 1.
