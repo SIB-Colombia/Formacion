@@ -7,15 +7,19 @@ sort: 2
 #### *Data Validator* GBIF
 
 **Objetivo**
+
 Detectar posibles problemas en  la estructura y contenido de su conjunto de datos, y mejorar la calidad de los mismos para ser publicados a través del SiB Colombia, GBIF y/o OBIS.
 
 **Sobre la Herramienta**
+
 El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un servicio de [GBIF](https://www.gbif.org) que permite evaluar de manera automática la completitud y algunos aspectos de la calidad de un conjunto de datos estructurado en el estándar [Darwin Core (DwC)](https://dwc.tdwg.org/terms/), el validador genera un informe sobre la sintaxis y la calidad de los datos que le permitirá detectar posibles problemas en sus datos antes de publicarlos. Si se valida un [DwC-A](https://www.gbif.org/darwin-core) el validador también evalua la completitud y estructura de los metadatos en el estándar [EML](https://www.gbif.org/sites/default/files/gbif_resource/resource-80640/gbif_metadata_profile_guide_en_v1.pdf).
 
 **Enlace** 
+
 https://www.gbif.org/es/tools/data-validator/
 
 **Requerimientos** 
+
 * La primera fila del conjunto de datos a validar debe tener el nombre de los elementos DwC en inglés.
 
 * El conjunto de datos debe tener la columna del ID de tipo de datos que corresponda, ```occurenceID ```(registros biológicos), ```eventID``` (eventos de muestreo)o ```taxonID``` (listas de especies). La columna debe estar documentada para todas las filas y los ID's deben ser únicos.
@@ -37,7 +41,7 @@ Descargue el archivo [```datos_Estructurados.xls```](https://www.gbif.org/tools/
 Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está registrado, ingrese con sus credenciales al [validador de datos.](https://www.gbif.org/es/tools/data-validator/)
 
 [Fig1_dataValidator.png]
-###### Figura 1.
+ ###### Figura 1.
 
 ### Paso 2
 Cargue el archivo *```datos_Estructurados.xls```*  al validador; (1) haciendo clic en SELECT FILE y seleccionando el archivo o (2) arrastrando el archivo desde una carpeta y soltandolo en el ícono *Drop here*. 
@@ -52,7 +56,7 @@ El validador le indicará si el conjunto de datos tiene la estructura adecuada p
 * Alertas de validación que indican **potenciales** problemas en la estructuración y calidad del conjunto de datos (Fig. 2 C).
 
 [paso2-1_dataValidator.jpg]
-###### Figura 2.
+ ###### Figura 2.
 
 
 * Número de registros (filas) interpretados con éxito (Fig. 3 A).
