@@ -31,7 +31,13 @@ Te recomendamos ver todos los seminarios antes de realizar los laboratorios, est
 
 *¡Manos a la obra!* Esta página está diseñada para que aprendas con la práctica los conceptos expuestos durante los seminarios, nada mejor que trabajar directamente con los datos para afianzar tu conocimiento. Los laboratorios los puedes realizar con los conjuntos de ejemplo y/o con datos propios.
 
-```nota
+.. admonition:: Open Access!
+
+    The course is **open for everyone**. The aim of this course is to share the knowledge and help people to get started with their journey for doing GIS more efficiently and in a reproducible manner
+    using Python programming.
+
+
+```note
 :point_left: dirígete al menú lateral  para navegar los laboratorios.
 ```
 
