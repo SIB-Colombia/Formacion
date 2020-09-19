@@ -31,7 +31,15 @@ Te recomendamos ver todos los seminarios antes de realizar los laboratorios, est
 
 *¡Manos a la obra!* Esta página está diseñada para que aprendas con la práctica los conceptos expuestos durante los seminarios, nada mejor que trabajar directamente con los datos para afianzar tu conocimiento. Los laboratorios los puedes realizar con los conjuntos de ejemplo y/o con datos propios.
 
+::: warning
+
 :point_left: dirígete al menú lateral  para navegar los laboratorios.
+
+1. [Laboratorio de Estructuración y Calidad](pendiente)
+2. [Laboratorio de Validación y limpieza](pendiente)
+3. [Laboratorio Datos en contexto](pendiente)
+:::
+
 
 
 ### Sobre el SiB Colombia
