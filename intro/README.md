@@ -6,3 +6,5 @@ sort: 1
 
 
 Esta es una indroducción general :)
+
+{% include list.liquid %}
