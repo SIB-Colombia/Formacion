@@ -16,6 +16,8 @@ addons:
 
 addons_commit: true
 
+plugins: [jemoji]
+
 remote_theme: rundocs/jekyll-rtd-theme
 #remote_theme: daattali/beautiful-jekyll@4.0.1
 
