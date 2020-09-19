@@ -32,8 +32,8 @@ Descargue el archivo [```datos_Estructurados.xls```](https://www.gbif.org/tools/
 
 ----
 Laboratorio
-----
 
+----
 ## Paso 1
 
 Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está registrado, ingrese con sus credenciales al [validador de datos.](https://www.gbif.org/es/tools/data-validator/)
