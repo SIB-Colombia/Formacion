@@ -9,7 +9,7 @@ sort: 1
 Al finalizar este laboratorio habrás aprendido a:
 
 1. Estructurar un conjunto de datos bajo el estándar internacional de publicación de datos sobre biodiversidad *Darwin Core (DwC)*
-2. Utilizar la última versión de la la plantilla de publicación de registros biológicos del SiB Colombia.
+2. Utilizar la última versión de la plantilla de publicación de registros biológicos del SiB Colombia.
 3. Identificar y documentar los elementos obligatorios para la publicación a través del SiB Colombia según el origen de los datos.
 4. Entender las definiciones y vocabularios controlados de los elementos más utilizados del estándar *DwC*
 6. Aprender a identificar rápidamente errores de calidad críticos con el *Validador de datos de GBIF*.
@@ -36,7 +36,7 @@ Al finalizar este laboratorio habrás aprendido a:
 ### Lecturas y recursos externos
 
 :wrench:**Recursos**
-* [Darwin Corequick reference guide](https://dwc.tdwg.org/terms/)
+* [Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
 * [Plantillas de publicación](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0)
 * [Extensiones del estándar DwC](https://tools.gbif.org/dwca-validator/extensions.do)
 * [Darwin Core for OBIS schema](https://obis.org/manual/darwincore/)
