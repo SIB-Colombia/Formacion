@@ -1,16 +1,6 @@
+## Ciclo de Formación Virtual
 
-# Sobre el SiB Colombia
-
-El [Sistema de Información sobre Biodiversidad de Colombia (SiB Colombia)](https://sibcolombia.net/) funciona como una red de personas, organizaciones y redes que buscan gestionar de manera colaborativa los **datos e información sobre biodiversidad del país**, convirtiéndose en un medio de integración de actores públicos, privados, organizaciones no gubernamentales y la sociedad civil.
-
-Su principal propósito es brindar **acceso abierto** a información sobre la diversidad biológica del país para la construcción de una sociedad sostenible. Además, facilita la **publicación en línea de datos e información** sobre biodiversidad, y promueve su uso por parte de una amplia variedad de audiencias, apoyando de forma oportuna y eficiente la gestión integral de la biodiversidad.
-
-Conoce más sobre esta red nacional en: https://sibcolombia.net/
-
-
-# Ciclo de Formación Virtual
-
-Tradicionalmente el Equipo Coordinador del SiB Colombia  facilita talleres presenciales para la **publicación y gestión de los datos sobre biodiversdidad**, la gran demanda de estos talleres y el alto interes de la **comunidad** nos ha motivado a generar un ciclo de formación virtual para llegar a una mayor cantidad de personas y regiones del país.  
+Tradicionalmente el Equipo Coordinador del SiB Colombia  facilita talleres presenciales para la **publicación y gestión de los datos sobre biodiversdidad**, la gran demanda de estos talleres y el alto interés de la **comunidad** nos ha motivado a generar un ciclo de formación virtual para llegar a una mayor cantidad de personas y regiones del país.  
 
 **Objetivos específicos**
 
@@ -24,9 +14,9 @@ Conoce más sobre el [Ciclo de Formación virtual 2020](https://sibcolombia.net/
 
 ### Seminarios
 
-El ciclo comprende [8 seminarios](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l) que abarcán desde la generalidades del SiB Colombia hasta los aspectos más detallados de la publicación de datos.
+El ciclo comprende [8 seminarios](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l) que abarcan desde la generalidades del SiB Colombia hasta los aspectos más detallados de la publicación de datos.
 
-Te recomendamos ver todos los seminarios antes de realizar los laboratorios, esto te permitira tener un mejor contexto y sacarle el mayor provecho al componente práctico del ciclo.
+Te recomendamos ver todos los seminarios antes de realizar los laboratorios, esto te permitirá tener un mejor contexto y sacarle el mayor provecho al componente práctico del ciclo.
 
 1. [SiB Colombia: una iniciativa nacional para la publicación, acceso y uso de datos sobre biodiversidad](https://youtu.be/ImptmviMXgI)
 2. [¿Qué datos sobre nuestra biodiversidad se pueden publicar a través del SiB Colombia?](https://youtu.be/_f4gGfIBN3U)
@@ -39,13 +29,20 @@ Te recomendamos ver todos los seminarios antes de realizar los laboratorios, est
 
 ### Laboratorios
 
-*¡Manos a la obra!* Esta página esta diseñada para que aprendas con la práctica los conceptos expuestos durante los seminarios, nada mejor que trabajar directamente con los datos. 
+*¡Manos a la obra!* Esta página está diseñada para que aprendas con la práctica los conceptos expuestos durante los seminarios, nada mejor que trabajar directamente con los datos para afianzar tu conocimiento. Los laboratorios los puedes realizar con los conjuntos de ejemplo y/o con datos propios.
 
-Los laboratorios los puedes realizar con los datos de ejemplo y/o con datos propios.
-
-Dirigete al menu lateral :point_left: para navegar los laboratorios.
+:point_left: dirígete al menú lateral  para navegar los laboratorios.
 
 
+### Sobre el SiB Colombia
+
+El [Sistema de Información sobre Biodiversidad de Colombia (SiB Colombia)](https://sibcolombia.net/) funciona como una red de personas, organizaciones y redes que buscan gestionar de manera colaborativa los **datos e información sobre biodiversidad del país**, convirtiéndose en un medio de integración de actores públicos, privados, organizaciones no gubernamentales y la sociedad civil.
+
+Su principal propósito es brindar **acceso abierto** a información sobre la diversidad biológica del país para la construcción de una sociedad sostenible. Además, facilita la **publicación en línea de datos e información** sobre biodiversidad, y promueve su uso por parte de una amplia variedad de audiencias, apoyando de forma oportuna y eficiente la gestión integral de la biodiversidad.
+
+Conoce más sobre esta red nacional en: https://sibcolombia.net/
+
+----
 ### Agradecimientos
 
 Los contenidos de este ciclo de formación no serían posibles sin los aportes significativos de otras iniciativas que trabajan colaborativamente con el SiB Colombia en diferentes niveles.
