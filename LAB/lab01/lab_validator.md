@@ -96,9 +96,9 @@ Revise el encabezado del reporte, si aparece en rojo significa que no puede ser 
 
 Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
-a. Mensaje *Registro no identificado de forma única*, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID, eventID*,según el tipo de datos) NO son únicos.
+* Mensaje *Registro no identificado de forma única*, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID, eventID*,según el tipo de datos) NO son únicos.
 
-b. Mensaje *No se encontró o determinó un rowType* indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos, por ejemplo occurrenceID, taxonID, o eventID, según el tipo de datos. 
+* Mensaje *No se encontró o determinó un rowType* indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos, por ejemplo occurrenceID, taxonID, o eventID, según el tipo de datos. 
 
 ### 3.2. Ajuste de indexación
 
@@ -107,17 +107,13 @@ Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramien
 ```tip
 En la sección **Problemas de validación**  encontrará los ID’s que están duplicados.
 ```
-
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_datavalid_detalleerror.PNG" width=800>
 
 *Figura 6. Mensaje de alerta - Estructura del recurso. Al hacer clic en las alertas podrá ver el detalle de los registros que presentan el error y que debe ajustar. Al hacer clic en el ícono de información tendrá mas detalle acerca del problema*
 
-
 ### 3.3. Revise los *Problemas de validación*
 
 Dirijase a la sección **Problemas de validación**. Para cada una de las alertas, el validador indica el número de registros a revisar. Para ello haga clic sobre las flechas de cada una de las alertas para obtener un desglose de los registros que deben ser revisados y/o ajustados. Para interpretar las alertas de validación utilice el botón de ayuda, y obtendrá una breve explicación. (Fig. 7)
-
-
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig7_datavalid_detalleerror_2.png" width=1000>
 
@@ -150,7 +146,7 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 
 
 **:warning: Alerta** - Se presume latitud negativa
-**Problema**: posible error en la latitud, se documentó como latitud sur pero posiblemente corresponda a  latitud norte (en coordenadas decimales se indica con un signo menos antes de la latitud).  
+**Problema**: posible error en la latitud, se documentó como latitud sur pero posiblemente corresponda a  latitud norte (en coordenadas decimales se indica con un signo menos antes de la latitud).
 
 **Solución**: asegúrese que los elementos darwin core *decimalLatitude*, *decimalLatitude*  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud*, *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
 
@@ -159,7 +155,7 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 
 **Problema**: el nombre científico fue validado a un nivel taxonómico superior al documentado, por ejemplo si el nombre científico corresponde a una especie (género + epíteto específico) significa que el validador solo pudo interpretar el género más no el epíteto específico.
 
-**Solución 1.**: revise que el nombre científico no contenga calificadores de la identificación  (cf., aff.) u otros calificadores como *sp.*  
+**Solución 1.**: revise que el nombre científico no contenga calificadores de la identificación  (cf., aff.) u otros calificadores como *sp.* 
 **Solución 2.**: que el nombre científico esté escrito correctamente.
 
 ```tip
@@ -196,7 +192,7 @@ Después de revisar todas las alertas de validación y ajustar los datos de acue
 
 Descargue el siguiente archivo estandarizado según las definiciones del estándar, compárelo con su archivo y verifique en que acertó y que fallas presenta.¿Logró solucionar todas las alertas?.
 
-* Descargue el archivo [```datos_Estandarizados.xls```]
+* Descargue el archivo ```datos_Estandarizados.xls```
 
 ## Paso 6 - Datos propios
 
@@ -207,4 +203,3 @@ Según el origen se sus datos (colecciones biológicas, permisos de recolección
 ****
 **¡Felicitaciones!** :raised_hands:
 Su conjunto de datos ha sido estructurado adecuadamente.
-
