@@ -76,7 +76,7 @@ El validador le indicará si el conjunto de datos tiene la estructura adecuada p
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_datavalid_Informe_problemas.png" width=700>
 
-*Figura 4. Componentes del informe - Problemas de validación.
+*Figura 4. Componentes del informe - Problemas de validación.*
 
 
 ## Paso 3 - Validación
@@ -142,7 +142,7 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 
 **Problema**: coordenadas inválidas, las coordenadas documentadas no se encuentran estandarizadas en coordenadas decimales y/o las coordenadas originales no se pueden interpretar.
 
-**Solución**: asegúrese que los elementos darwin core ‘decimalLatitude’, ‘decimalLatitude’  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales ‘verbatimCoordinates’ hayan sido digitalizadas adecuadamente. 
+**Solución**: asegúrese que los elementos darwin core *decimalLatitude*, *decimalLatitude*  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales *verbatimCoordinates* hayan sido digitalizadas adecuadamente. 
 
 
 **:warning: Alerta** - Se presume latitud negativa
@@ -203,4 +203,3 @@ Según el origen se sus datos (colecciones biológicas, permisos de recolección
 ****
 **¡Felicitaciones!** :raised_hands:
 Su conjunto de datos ha sido estructurado adecuadamente.
-
