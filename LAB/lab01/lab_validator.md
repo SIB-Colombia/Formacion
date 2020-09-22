@@ -85,6 +85,7 @@ El validador le indicará si el conjunto de datos tiene la estructura adecuada p
 
 Revise el encabezado del reporte, si aparece en rojo significa que no puede ser indexado (Fig. 5A), si aparece en verde significa que si lo puede indexar (Fig. 5B).
 
+
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_datavalid_semaforo.PNG" width=600>
 
 *Figura 5. Posibles resultados de la validación. A. VERDE, el conjunto de datos puede ser indexado. B. ROJO, no puede indexarse.*
@@ -92,9 +93,10 @@ Revise el encabezado del reporte, si aparece en rojo significa que no puede ser 
 ```warning
 ¿Su conjunto de datos puede ser indexado :thinking:?
 ```
+
 Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
-**Mensaje:** Registro no identificado de forma única, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID*, *eventID*, según el tipo de datos) no son únicos.
+**Mensaje:** Registro no identificado de forma única, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID, eventID*, según el tipo de datos) no son únicos.
 
 **Mensaje:** No se encontró o determinó un *rowType*, indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos, por ejemplo occurrenceID, taxonID, o eventID, según el tipo de datos. 
 
@@ -103,13 +105,13 @@ Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramienta (Fig. 6). Realice los ajustes necesarios y vuelva a correr la validación, en esta ocasión el validador le debe indicar que el conjunto de datos se puede indexar.
 
 ```tip
-En la sección **Problemas de validación**  encontrará los ID’s que están duplicados.
+En la sección Problemas de validación encontrará los ID’s que están duplicados.
 ```
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_datavalid_detalleerror.PNG" width=800>
 
 *Figura 6. Mensaje de alerta - Estructura del recurso. Al hacer clic en las alertas podrá ver el detalle de los registros que presentan el error y que debe ajustar. Al hacer clic en el ícono de información tendrá mas detalle acerca del problema*
 
-### 3.3. Revise los *Problemas de validación*
+### 3.3. Revise los Problemas de validación
 
 Dirijase a la sección **Problemas de validación**. Para cada una de las alertas, el validador indica el número de registros a revisar. Para ello haga clic sobre las flechas de cada una de las alertas para obtener un desglose de los registros que deben ser revisados y/o ajustados. Para interpretar las alertas de validación utilice el botón de ayuda, y obtendrá una breve explicación. (Fig. 7)
 
@@ -143,7 +145,7 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 **Solución**: asegúrese que los elementos darwin core *decimalLatitude*, *decimalLatitude*  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales *verbatimCoordinates* hayan sido digitalizadas adecuadamente. 
 
 
-**:warning: Alerta** - Se presume latitud negativa
+**:warning: Alerta**: Se presume latitud negativa
 **Problema**: posible error en la latitud, se documentó como latitud sur pero posiblemente corresponda a  latitud norte (en coordenadas decimales se indica con un signo menos antes de la latitud).
 
 **Solución**: asegúrese que los elementos darwin core *decimalLatitude*, *decimalLatitude*  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud*, *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
@@ -156,9 +158,9 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 **Solución 1.**: revise que el nombre científico no contenga calificadores de la identificación  (cf., aff.) u otros calificadores como *sp.* 
 **Solución 2.**: que el nombre científico esté escrito correctamente.
 
-```tip
-Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el árbol taxonómico de GBIF. Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
-```
+
+> Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el árbol taxonómico de GBIF. Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
+
 
 **:warning: Alerta**: Coincidencia aproximada del taxón
 
@@ -201,3 +203,4 @@ Según el origen se sus datos (colecciones biológicas, permisos de recolección
 ****
 **¡Felicitaciones!** :raised_hands:
 Su conjunto de datos ha sido estructurado adecuadamente.
+
