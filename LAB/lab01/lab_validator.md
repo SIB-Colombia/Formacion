@@ -104,9 +104,8 @@ Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
 Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramienta (Fig. 6). Realice los ajustes necesarios y vuelva a correr la validación, en esta ocasión el validador le debe indicar que el conjunto de datos se puede indexar.
 
-```warning
-En la sección **Problemas de validación** encontrará los ID’s que están duplicados.
-```
+>En la sección **Problemas de validación** encontrará los ID’s que están duplicados.
+
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_datavalid_detalleerror.PNG" width=800>
 
 *Figura 6. Mensaje de alerta - Estructura del recurso. Al hacer clic en las alertas podrá ver el detalle de los registros que presentan el error y que debe ajustar. Al hacer clic en el ícono de información tendrá mas detalle acerca del problema*
@@ -158,9 +157,9 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 **Solución 1.**: revise que el nombre científico no contenga calificadores de la identificación  (cf., aff.) u otros calificadores como *sp.* 
 **Solución 2.**: que el nombre científico esté escrito correctamente.
 
-```tip
-Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el [árbol taxonómico de GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c). Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
-```
+
+>Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el [árbol taxonómico de GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c). Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
+
 
 **:warning: Alerta**: Coincidencia aproximada del taxón
 
