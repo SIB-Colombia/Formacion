@@ -104,8 +104,8 @@ Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
 Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramienta (Fig. 6). Realice los ajustes necesarios y vuelva a correr la validación, en esta ocasión el validador le debe indicar que el conjunto de datos se puede indexar.
 
-```tip
-En la sección **Problemas de validación**  encontrará los ID’s que están duplicados.
+```warning
+En la sección **Problemas de validación** encontrará los ID’s que están duplicados.
 ```
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_datavalid_detalleerror.PNG" width=800>
 
