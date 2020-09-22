@@ -56,10 +56,9 @@ Abra el archivo de trabajo ```Datos_Caso1_20reg.xls``` y cree los elementos obli
  
 > **Pista**: Debe crear un identificador único del registro biológico (*occurenceID*) a partir del código de la institucion (*institutionCode*), código de la colección (*collectionCode*) y número de catálogo (*catalogNumber*). Revise la definición del elemento occurrenceID en la pestaña plantilla para saber como construirlo.
 
-```tip
-Ejemplo:
-occurrenceID: UCN:MH-ORNIT:46-2300MI2008AV0954
-```
+>**Ejemplo**:
+*occurrenceID*: UCN:MH-ORNIT:46-2300MI2008AV0954
+
 
 ## Paso 4 - Mapedo de datos 
 Una vez haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo ```Datos_Caso1_20reg.xls``` e identifique a cuál elemento DwC de la plantilla de publicación corresponde. A esta actividad la llamamos **mapeo de datos**. Cuando identifique a cual elemento corresponde, copie y pegue el contenido en la plantilla, como se muestra en la siguiente imagen (Fig. 2).
