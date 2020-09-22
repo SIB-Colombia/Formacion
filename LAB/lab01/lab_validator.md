@@ -32,8 +32,6 @@ Data validator: https://www.gbif.org/es/tools/data-validator/
 Descargue el archivo [```datos_Estructurados.xls```](https://www.gbif.org/tools/data-validator.) para realizar el laboratorio
 
 ----
-Laboratorio
-----
 
 ## Paso 1 - Ingreso a GBIF 
 
