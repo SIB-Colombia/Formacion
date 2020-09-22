@@ -36,7 +36,7 @@ Lea detenidamente el Caso de estudio, acá encontrará información relevante pa
 >Su misión a lo largo de esta *práctica* consiste en estructurar los datos del Museo siguiendo los lineamientos del estándar Darwin Core (DwC).
 
 
-## Paso 2 - Identifique los elementos obligatorios 
+## Paso 2 - Identificar elementos obligatorios 
 Ingrese a la plantilla de publicación, donde encontrará 4 pestañas:
 
 * Instrucciones: Contiene la guía de uso y los puntos a tener en cuenta antes de iniciar la documentación de los registros biológicos.
@@ -50,7 +50,7 @@ En la pestaña de instrucciones encontrará adicionalmente una sección titulada
 
 *Figura 1. Instrucciones de la plantilla DwC. Elementos obligatorios según el origen de los datos.*
 
-## Paso 3 - Cree los elementos obligatorios 
+## Paso 3 - Crear elementos obligatorios 
 Abra el archivo de trabajo ```Datos_Caso1_20reg.xls``` y cree los elementos obligatorios faltantes a partir de la información que encuenta en el caso de estudio y en los mismos datos.
 
  
@@ -60,7 +60,7 @@ Abra el archivo de trabajo ```Datos_Caso1_20reg.xls``` y cree los elementos obli
 *occurrenceID*: UCN:MH-ORNIT:46-2300MI2008AV0954
 
 
-## Paso 4 - Mapeo de datos 
+## Paso 4 - Mapear datos 
 Una vez haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo ```Datos_Caso1_20reg.xls``` e identifique a cuál elemento DwC de la plantilla de publicación corresponde. A esta actividad la llamamos **mapeo de datos**. Cuando identifique a cual elemento corresponde, copie y pegue el contenido en la plantilla, como se muestra en la siguiente imagen (Fig. 2).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Estandarizacion_mapeo.png" width=1000>
@@ -86,7 +86,7 @@ Una vez esten todos los datos del archivo ```Datos_Caso1_20reg.xls``` en la plan
 
 *Figura 4. Estructura de la plantilla de publicación.*
 
-## Paso 7 - Verificación de resultados 
+## Paso 7 - Verificar resultados 
 
 Descargue el siguiente archivo estandarizado según las definiciones del estándar, compárelo con su archivo y verifique en que acertó y que fallas presenta.¿Logró completar mas información en la plantilla?.
 
