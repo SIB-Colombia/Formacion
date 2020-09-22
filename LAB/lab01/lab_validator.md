@@ -85,18 +85,16 @@ El validador le indicará si el conjunto de datos tiene la estructura adecuada p
 
 Revise el encabezado del reporte, si aparece en rojo significa que no puede ser indexado (Fig. 5A), si aparece en verde significa que si lo puede indexar (Fig. 5B).
 
-
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_datavalid_semaforo.PNG" width=600>
 
-*Figura 5.* Posibles resultados de la validación. A. VERDE, el conjunto de datos puede ser indexado. B. ROJO, no puede indexarse.
+*Figura 5. Posibles resultados de la validación. A. VERDE, el conjunto de datos puede ser indexado. B. ROJO, no puede indexarse.*
 
 ```warning
 ¿Su conjunto de datos puede ser indexado :thinking:?
 ```
-
 Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
-**Mensaje:** Registro no identificado de forma única, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID, eventID*, según el tipo de datos) no son únicos.
+**Mensaje:** Registro no identificado de forma única, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID*, *eventID*, según el tipo de datos) no son únicos.
 
 **Mensaje:** No se encontró o determinó un *rowType*, indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos, por ejemplo occurrenceID, taxonID, o eventID, según el tipo de datos. 
 
