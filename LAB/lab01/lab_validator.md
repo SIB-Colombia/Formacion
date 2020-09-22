@@ -33,6 +33,7 @@ Descargue el archivo [```datos_Estructurados.xls```](https://www.gbif.org/tools/
 
 ----
 
+
 ## Paso 1 - Ingreso a GBIF 
 
 Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está registrado, ingrese con sus credenciales al [validador de datos.](https://www.gbif.org/es/tools/data-validator/) (Fig. 1).
@@ -45,9 +46,8 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está regist
 ## Paso 2 - Cargar el Archivo
 Cargue el archivo *```datos_Estructurados.xls```*  al validador; (1) haciendo clic en SELECT FILE y seleccionando el archivo o (2) arrastrando el archivo desde una carpeta y soltandolo en el ícono *Drop here*. 
 
-```warning 
-Es indispensable que el elemento *occurrenceID* este documentado para que el DataValidator reconozca el archivo.
-```
+>:warning: Es indispensable que el elemento *occurrenceID* este documentado para que el DataValidator reconozca el archivo.
+
 
 El validador le indicará si el conjunto de datos tiene la estructura adecuada para ser publicado a través del SiB Colombia, GBIF y OBIS, o si es necesario realizar ajustes. El informe de validación contiene la siguiente información:
 
@@ -88,9 +88,7 @@ Revise el encabezado del reporte, si aparece en rojo significa que no puede ser 
 
 *Figura 5. Posibles resultados de la validación. A. VERDE, el conjunto de datos puede ser indexado. B. ROJO, no puede indexarse.*
 
-```warning
-¿Su conjunto de datos puede ser indexado :thinking:?
-```
+>:thinking: ¿Su conjunto de datos puede ser indexado?
 
 Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
@@ -102,9 +100,8 @@ Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
 Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramienta (Fig. 6). Realice los ajustes necesarios y vuelva a correr la validación, en esta ocasión el validador le debe indicar que el conjunto de datos se puede indexar.
 
-```tip
-En la sección Problemas de validación encontrará los ID’s que están duplicados.
-```
+> :rotating_light: En la sección Problemas de validación encontrará los ID’s que están duplicados.
+
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_datavalid_detalleerror.PNG" width=800>
 
 *Figura 6. Mensaje de alerta - Estructura del recurso. Al hacer clic en las alertas podrá ver el detalle de los registros que presentan el error y que debe ajustar. Al hacer clic en el ícono de información tendrá mas detalle acerca del problema*
@@ -157,7 +154,7 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 **Solución 2.**: que el nombre científico esté escrito correctamente.
 
 
-> Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el árbol taxonómico de GBIF. Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
+> :rotating_light: Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el árbol taxonómico de GBIF. Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
 
 
 **:warning: Alerta**: Coincidencia aproximada del taxón
@@ -201,4 +198,3 @@ Según el origen se sus datos (colecciones biológicas, permisos de recolección
 ****
 **¡Felicitaciones!** :raised_hands:
 Su conjunto de datos ha sido estructurado adecuadamente.
-
