@@ -53,9 +53,10 @@ En la pestaña de instrucciones encontrará adicionalmente una sección titulada
 ## Paso 3 - Cree los elementos obligatorios 
 Abra el archivo de trabajo ```Datos_Caso1_20reg.xls``` y cree los elementos obligatorios faltantes a partir de la información que encuenta en el caso de estudio y en los mismos datos.
 
-```tip
-Debe crear un identificador único del registro biológico (*occurenceID*) a partir del código de la institucion (*institutionCode*), código de la colección (*collectionCode*) y número de catálogo (*catalogNumber*). Revise la definición del elemento occurrenceID en la pestaña plantilla para saber como construirlo.
+ 
+> **Pista**: Debe crear un identificador único del registro biológico (*occurenceID*) a partir del código de la institucion (*institutionCode*), código de la colección (*collectionCode*) y número de catálogo (*catalogNumber*). Revise la definición del elemento occurrenceID en la pestaña plantilla para saber como construirlo.
 
+```tip
 Ejemplo:
 occurrenceID: UCN:MH-ORNIT:46-2300MI2008AV0954
 ```
@@ -90,7 +91,7 @@ Una vez esten todos los datos del archivo ```Datos_Caso1_20reg.xls``` en la plan
 
 Descargue el siguiente archivo estandarizado según las definiciones del estándar, compárelo con su archivo y verifique en que acertó y que fallas presenta.¿Logró completar mas información en la plantilla?.
 
-Descargue el archivo ```Datos_Caso1_20reg_estandarizado.xls```
+* Descargue el archivo ```Datos_Caso1_20reg_estandarizado.xls```
 
 ## Paso 8 - Datos propios
 
@@ -100,5 +101,6 @@ Si tienes datos propios que desees estandarizar en DwC, estandarizalos siguiendo
 Para registros biológicos siempre documenta los elementos obligatorios según el origen de tu publicación (**Paso 3**).
 
 ****
+
 **¡Felicitaciones!** :raised_hands:
 Su conjunto de datos ha sido estandarizado en DwC.
