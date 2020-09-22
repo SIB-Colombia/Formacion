@@ -2,6 +2,7 @@
 sort: 2
 ---
 
+
 # Validador de datos - GBIF
 
 
@@ -187,7 +188,6 @@ Es posible que algunos nombres válidos y correctamente escritos sean marcados c
 
 **Solución 2**: si las coordenadas tienen un datum diferente a WGS84 documentelo para evitar que este sea asumido.
 
-
 ## Paso 4 - Revisión de alertas
 
 Después de revisar todas las alertas de validación y ajustar los datos de acuerdo a estas cargue nuevamente el conjunto de datos en el validador para confirmar el estado de calidad de los datos.
@@ -204,8 +204,7 @@ Si realizó el laboratorio con un conjunto de datos propio, revise en la secció
 
 Según el origen se sus datos (colecciones biológicas, permisos de recolección, datos marinos, eventos de muestreo) compruebe que los elementos obligatorios, e idealmente los recomendados, esten documentados el 100%. Para ello utilice la de referencia la ultima [plantilla DwC Registros biológicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0)
 
-
-**¡Felicitaciones!** 
+****
+**¡Felicitaciones!** :raised_hands:
 Su conjunto de datos ha sido estructurado adecuadamente.
-
 
