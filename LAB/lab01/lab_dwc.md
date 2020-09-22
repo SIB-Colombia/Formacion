@@ -87,18 +87,19 @@ Una vez esten todos los datos del archivo ```Datos_Caso1_20reg.xls``` en la plan
 
 *Figura 4. Estructura de la plantilla de publicación.*
 
-## Paso 7 - Verificación de resultados  
+## Paso 7 - Verificación de resultados 
 
 Descargue el siguiente archivo estandarizado según las definiciones del estándar, compárelo con su archivo y verifique en que acertó y que fallas presenta.¿Logró completar mas información en la plantilla?.
 
 * Descargue el archivo [```Datos_Caso1_20reg_estandarizado.xls```]
 
-**¡Felicitaciones!** 
-Su conjunto de datos ha sido estandarizado en DwC.
-
-****
+## Paso 8 - Datos propios
 
 **¿Cómo lo harías con tus propios datos?**
-Si tienes datos propios que desees estandarizar en DwC, estandarizarlos siguiendo los pasos de esta guía. Recuerda usar la plantilla que correponda según tu tipo de datos (Registros biológicos, Eventos, Listas de especies). 
+Si tienes datos propios que desees estandarizar en DwC, estandarizalos siguiendo los pasos de esta guía. Recuerda usar la plantilla que correponda según tu tipo de datos (Registros biológicos, Eventos, Listas de especies). 
 
 Para registros biológicos siempre documenta los elementos obligatorios según el origen de tu publicación (**Paso 3**).
+
+****
+**¡Felicitaciones!** :raised_hands:
+Su conjunto de datos ha sido estandarizado en DwC.
