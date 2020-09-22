@@ -60,7 +60,7 @@ Abra el archivo de trabajo ```Datos_Caso1_20reg.xls``` y cree los elementos obli
 *occurrenceID*: UCN:MH-ORNIT:46-2300MI2008AV0954
 
 
-## Paso 4 - Mapedo de datos 
+## Paso 4 - Mapeo de datos 
 Una vez haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo ```Datos_Caso1_20reg.xls``` e identifique a cuál elemento DwC de la plantilla de publicación corresponde. A esta actividad la llamamos **mapeo de datos**. Cuando identifique a cual elemento corresponde, copie y pegue el contenido en la plantilla, como se muestra en la siguiente imagen (Fig. 2).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Estandarizacion_mapeo.png" width=1000>
