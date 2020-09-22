@@ -90,7 +90,7 @@ Una vez esten todos los datos del archivo ```Datos_Caso1_20reg.xls``` en la plan
 
 Descargue el siguiente archivo estandarizado según las definiciones del estándar, compárelo con su archivo y verifique en que acertó y que fallas presenta.¿Logró completar mas información en la plantilla?.
 
-* Descargue el archivo ```Datos_Caso1_20reg_estandarizado.xls```
+Descargue el archivo ```Datos_Caso1_20reg_estandarizado.xls```
 
 ## Paso 8 - Datos propios
 
