@@ -192,13 +192,13 @@ Es posible que algunos nombres válidos y correctamente escritos sean marcados c
 
 Después de revisar todas las alertas de validación y ajustar los datos de acuerdo a estas cargue nuevamente el conjunto de datos en el validador para confirmar el estado de calidad de los datos.
 
-## Paso 5 - Verificación del resultado  
+## Paso 5 - Verificación del resultado
 
 Descargue el siguiente archivo estandarizado según las definiciones del estándar, compárelo con su archivo y verifique en que acertó y que fallas presenta.¿Logró solucionar todas las alertas?.
 
 * Descargue el archivo [```datos_Estandarizados.xls```]
 
-## Paso 6
+## Paso 6 - Datos propios
 
 Si realizó el laboratorio con un conjunto de datos propio, revise en la sección **Frecuencia del término** el reporte del porcentaje de documentación de los elementos de su conjunto de datos.
 
@@ -207,4 +207,5 @@ Según el origen se sus datos (colecciones biológicas, permisos de recolección
 
 **¡Felicitaciones!** 
 Su conjunto de datos ha sido estructurado adecuadamente.
+
 
