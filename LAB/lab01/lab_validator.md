@@ -115,7 +115,7 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 *Figura 7. Mensaje de alerta - Interpretación de registro de GBIF. Al hacer clic en las alertas podrá ver el detalle de los registros que presentan el error y que debe ajustar. Al hacer clic en el ícono de información tendrá mas detalle acerca del problema*
 
 
-#### :vertical_traffic_light: A continuación se explican las alertas más frecuentes:
+**:vertical_traffic_light: A continuación se explican las alertas más frecuentes:**
 
 * Alertas de color **ROJO** - Indican un error estructura que no permite la indexación del recurso y debe ser corregido.
 
