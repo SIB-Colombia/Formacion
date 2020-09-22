@@ -54,9 +54,12 @@ En la pestaña de instrucciones encontrará adicionalmente una sección titulada
 Abra el archivo de trabajo ```Datos_Caso1_20reg.xls``` y cree los elementos obligatorios faltantes a partir de la información que encuenta en el caso de estudio y en los mismos datos.
 
 ```tip
+
 Debe crear un identificador único del registro biológico (*occurenceID*) a partir del código de la institucion (*institutionCode*), código de la colección (*collectionCode*) y número de catálogo (*catalogNumber*). Revise la definición del elemento occurrenceID en la pestaña plantilla para saber como construirlo.
+
 Ejemplo:
 occurrenceID: UCN:MH-ORNIT:46-2300MI2008AV0954
+
 ```
 
 ## Paso 4 - Mapedo de datos 
