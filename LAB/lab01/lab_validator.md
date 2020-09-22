@@ -123,7 +123,7 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 
 * Alertas de color **GRIS** - Indican el proceso de interpretación realizado por el validador, no necesariamente requiere que se realicen ajustes en los datos.
 
----
+
 **:warning: Alerta**: Base del registro inválida
 
 **Problema**: la base del registro  (basisOfRecord) no cumple con los requerimientos del estándar.
