@@ -88,7 +88,7 @@ Revise el encabezado del reporte, si aparece en rojo significa que no puede ser 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_datavalid_semaforo.PNG" width=600>
 
-*Figura 5.* Posibles resultados de la validación. A. VERDE, el conjunto de datos puede ser indexado. B. ROJO, no puede indexarse.*
+*Figura 5.* Posibles resultados de la validación. A. VERDE, el conjunto de datos puede ser indexado. B. ROJO, no puede indexarse.
 
 ```warning
 ¿Su conjunto de datos puede ser indexado :thinking:?
@@ -96,16 +96,17 @@ Revise el encabezado del reporte, si aparece en rojo significa que no puede ser 
 
 Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
-* Mensaje *Registro no identificado de forma única*, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID, eventID*,según el tipo de datos) NO son únicos.
+**Mensaje:** Registro no identificado de forma única, indica que los ID's documentados en el elemento DwC  *occurrenceID* (*taxonID, eventID*, según el tipo de datos) no son únicos.
 
-* Mensaje *No se encontró o determinó un rowType* indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos, por ejemplo occurrenceID, taxonID, o eventID, según el tipo de datos. 
+**Mensaje:** No se encontró o determinó un *rowType*, indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos, por ejemplo occurrenceID, taxonID, o eventID, según el tipo de datos. 
 
 ### 3.2. Ajuste de indexación
 
 Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramienta (Fig. 6). Realice los ajustes necesarios y vuelva a correr la validación, en esta ocasión el validador le debe indicar que el conjunto de datos se puede indexar.
 
->En la sección **Problemas de validación** encontrará los ID’s que están duplicados.
-
+```tip
+En la sección **Problemas de validación**  encontrará los ID’s que están duplicados.
+```
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_datavalid_detalleerror.PNG" width=800>
 
 *Figura 6. Mensaje de alerta - Estructura del recurso. Al hacer clic en las alertas podrá ver el detalle de los registros que presentan el error y que debe ajustar. Al hacer clic en el ícono de información tendrá mas detalle acerca del problema*
@@ -157,9 +158,9 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 **Solución 1.**: revise que el nombre científico no contenga calificadores de la identificación  (cf., aff.) u otros calificadores como *sp.* 
 **Solución 2.**: que el nombre científico esté escrito correctamente.
 
-
->Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el [árbol taxonómico de GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c). Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
-
+```tip
+Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el árbol taxonómico de GBIF. Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
+```
 
 **:warning: Alerta**: Coincidencia aproximada del taxón
 
@@ -202,3 +203,4 @@ Según el origen se sus datos (colecciones biológicas, permisos de recolección
 ****
 **¡Felicitaciones!** :raised_hands:
 Su conjunto de datos ha sido estructurado adecuadamente.
+
