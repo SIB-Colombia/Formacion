@@ -1,9 +1,9 @@
 title: Laboratorio de Formación SiB Colombia
 lang: en-US
 description: Laboratorio de Formación para la Gestión, Publicación y Uso de Datos sobre Biodiversidad 
-#logo: Logo SiB Colombia_ Blanco_200.png
+logo: Logo SiB Colombia_ Blanco_200.png
 #logo: https://sibcolombia.net/wp-content/uploads/2018/06/logo-sib.svg
-logo: https://github.com/SIB-Colombia/Formacion/blob/master/Logo%20SiB%20Colombia_%20Blanco-12.png
+#logo: https://github.com/SIB-Colombia/Formacion/blob/master/Logo%20SiB%20Colombia_%20Blanco-12.png
 
 edit: true
 
@@ -18,7 +18,8 @@ addons_commit: true
 
 plugins: [jemoji]
 
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: rundocs/jekyll-rtd-theme@v1.1.7
+#remote_theme: rundocs/jekyll-rtd-theme
 #remote_theme: daattali/beautiful-jekyll@4.0.1
 
 #Set up code highlight
