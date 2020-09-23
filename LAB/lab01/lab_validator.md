@@ -2,7 +2,6 @@
 sort: 2
 ---
 
-
 # Validador de datos - GBIF
 
 
@@ -12,16 +11,16 @@ Detectar posibles problemas en  la estructura y contenido de su conjunto de dato
 
 **Sobre la Herramienta**
 
-El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un servicio de [GBIF](https://www.gbif.org) que permite evaluar de manera automática la completitud y algunos aspectos de la calidad de un conjunto de datos estructurado en el estándar [Darwin Core (DwC)](https://dwc.tdwg.org/terms/), el validador genera un informe sobre la sintaxis y la calidad de los datos que le permitirá detectar posibles problemas en sus datos antes de publicarlos. Si se valida un [DwC-A](https://www.gbif.org/darwin-core) el validador también evalua la completitud y estructura de los metadatos en el estándar [EML](https://www.gbif.org/sites/default/files/gbif_resource/resource-80640/gbif_metadata_profile_guide_en_v1.pdf).
+El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un servicio de [GBIF](https://www.gbif.org) que permite evaluar de manera automática la completitud y algunos aspectos de la calidad de un conjunto de datos estructurado en el estándar [*Darwin Core (DwC)*](https://dwc.tdwg.org/terms/), el validador genera un informe sobre la sintaxis y la calidad de los datos que le permitirá detectar posibles problemas en sus datos antes de publicarlos. Si se valida un [*DwC-A*](https://www.gbif.org/darwin-core) el validador también evalua la completitud y estructura de los metadatos en el estándar [EML](https://www.gbif.org/sites/default/files/gbif_resource/resource-80640/gbif_metadata_profile_guide_en_v1.pdf).
 
 **Enlace**
 
-Data validator: https://www.gbif.org/es/tools/data-validator/
+*Data validator*: https://www.gbif.org/es/tools/data-validator/
 
 **Requerimientos** 
-* La primera fila del conjunto de datos a validar debe tener el nombre de los elementos DwC en inglés.
+* La primera fila del conjunto de datos a validar debe tener el nombre de los elementos *DwC* en inglés.
 
-* El conjunto de datos debe tener la columna del ID de tipo de datos que corresponda, ```occurenceID ```(registros biológicos), ```eventID``` (eventos de muestreo)o ```taxonID``` (listas de especies). La columna debe estar documentada para todas las filas y los ID's deben ser únicos.
+* El conjunto de datos debe tener la columna del ID de tipo de datos que corresponda, *```occurenceID ```*(registros biológicos), *```eventID```* (eventos de muestreo)o *```taxonID```* (listas de especies). La columna debe estar documentada para todas las filas y los ID's deben ser únicos.
 
 * El validador admite archivos con los siguientes formatos:
   * Formato Excel (.xls,.xlsx)
@@ -29,7 +28,7 @@ Data validator: https://www.gbif.org/es/tools/data-validator/
   * Archivos Darwin Core comprimidos (DwC-A)
 
 **Archivo de trabajo**
-Descargue el archivo [```datos_Estructurados.xls```](https://www.gbif.org/tools/data-validator.) para realizar el laboratorio
+Descargue el archivo [```datos_Estructurados.xls```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio
 
 ----
 
@@ -43,8 +42,8 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está regist
 
 *Figura 1. Ingreso/registro en la página de GBIF*
 
-## Paso 2 - Cargar el Archivo
-Cargue el archivo *```datos_Estructurados.xls```*  al validador; (1) haciendo clic en SELECT FILE y seleccionando el archivo o (2) arrastrando el archivo desde una carpeta y soltandolo en el ícono *Drop here*. 
+## Paso 2 - Cargar el archivo
+Cargue el archivo ```datos_Estructurados.xls```  al validador; (1) haciendo clic en SELECCIONAR UN ARCHIVO o (2) arrastrando el archivo desde una carpeta a el ícono SOLTAR AQUÍ. 
 
 >:warning: Es indispensable que el elemento *occurrenceID* este documentado para que el DataValidator reconozca el archivo.
 
@@ -62,7 +61,7 @@ El validador le indicará si el conjunto de datos tiene la estructura adecuada p
 
 **2. Frecuencia del término**
 * Número de registros (filas) interpretados con éxito (Fig. 3 A).
-* Reporte del porcentaje de documentación de cada uno de los elementos del estándar DwC utilizados en el conjunto de datos (Fig. 3 B).
+* Reporte del porcentaje de documentación de cada uno de los elementos del estándar *DwC* utilizados en el conjunto de datos (Fig. 3 B).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_datavalid_Informe_frecuencia.PNG" width=700>
 
@@ -79,7 +78,7 @@ El validador le indicará si el conjunto de datos tiene la estructura adecuada p
 
 ## Paso 3 - Validación
 
-### 3.1. Revise el resultado de la validación 
+### 3.1. Resultado general de la validación 
 
 Revise el encabezado del reporte, si aparece en rojo significa que no puede ser indexado (Fig. 5A), si aparece en verde significa que si lo puede indexar (Fig. 5B).
 
@@ -96,7 +95,7 @@ Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
 **Mensaje:** No se encontró o determinó un *rowType*, indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos, por ejemplo occurrenceID, taxonID, o eventID, según el tipo de datos. 
 
-### 3.2. Ajuste de indexación
+### 3.2. Ajuste elementos críticos
 
 Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramienta (Fig. 6). Realice los ajustes necesarios y vuelva a correr la validación, en esta ocasión el validador le debe indicar que el conjunto de datos se puede indexar.
 
@@ -106,16 +105,19 @@ Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramien
 
 *Figura 6. Mensaje de alerta - Estructura del recurso. Al hacer clic en las alertas podrá ver el detalle de los registros que presentan el error y que debe ajustar. Al hacer clic en el ícono de información tendrá mas detalle acerca del problema*
 
-### 3.3. Revise los Problemas de validación
+### 3.3. Problemas de validación
 
-Dirijase a la sección **Problemas de validación**. Para cada una de las alertas, el validador indica el número de registros a revisar. Para ello haga clic sobre las flechas de cada una de las alertas para obtener un desglose de los registros que deben ser revisados y/o ajustados. Para interpretar las alertas de validación utilice el botón de ayuda, y obtendrá una breve explicación. (Fig. 7)
+Diríjase a la sección **Problemas de validación**. Allí encontrá varias alertas, para cada una el validador indica el número de registros a revisar. 
+
+Haga clic sobre las flechas de cada una de las alertas para obtener un desglose de los registros que deben ser revisados y/o ajustados. Para interpretar las alertas de validación utilice el botón de ayuda, y obtendrá una breve explicación. (Fig. 7).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig7_datavalid_detalleerror_2.png" width=1000>
 
 *Figura 7. Mensaje de alerta - Interpretación de registro de GBIF. Al hacer clic en las alertas podrá ver el detalle de los registros que presentan el error y que debe ajustar. Al hacer clic en el ícono de información tendrá mas detalle acerca del problema*
 
 
-**:vertical_traffic_light: A continuación se explican las alertas más frecuentes**
+**:vertical_traffic_light: Las alertas se agrupan en 3 categorías según su color:**
+
 
 * Alertas de color **ROJO** - Indican un error estructura que no permite la indexación del recurso y debe ser corregido.
 
@@ -123,17 +125,22 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 
 * Alertas de color **GRIS** - Indican el proceso de interpretación realizado por el validador, no necesariamente requiere que se realicen ajustes en los datos.
 
+### Paso 3.4 - Revisión de alertas
+
+Revise todas las alertas de validación y ajuste los datos de acuerdo a estas (Fig. 7).
+
+**A continuación se explican las alertas más frecuentes**, como interpretarlas y solucionarlas:
 
 **:warning: Alerta**: Base del registro inválida
 
-**Problema**: la base del registro  (basisOfRecord) no cumple con los requerimientos del estándar.
+**Problema**: la base del registro  (*basisOfRecord*) no cumple con los requerimientos del estándar.
 
 **Solución 1**: revise que todos los registros (filas) tengan este elemento documentado.
 
-**Solución 2**: documente el elemento siguiendo el vocabulario controlado en inglés, ```HumanObservation, PreservedSpecimen, LivingSpecimen, MachineObservation, MaterialSample FossilSpecimen.```
+**Solución 2**: documente el elemento siguiendo el vocabulario controlado en inglés, *```HumanObservation, PreservedSpecimen, LivingSpecimen, MachineObservation, MaterialSample FossilSpecimen.```*
 
 
-**:warning: Alerta**: *Coordinate invalid*
+**:warning: Alerta**: *Coordenada inválida*
 
 **Problema**: coordenadas inválidas, las coordenadas documentadas no se encuentran estandarizadas en coordenadas decimales y/o las coordenadas originales no se pueden interpretar.
 
@@ -141,10 +148,12 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 
 
 **:warning: Alerta**: Se presume latitud negativa
+
 **Problema**: posible error en la latitud, se documentó como latitud sur pero posiblemente corresponda a  latitud norte (en coordenadas decimales se indica con un signo menos antes de la latitud).
 
 **Solución**: asegúrese que los elementos darwin core *decimalLatitude*, *decimalLatitude*  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud*, *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
 
+También puede obtener el mensaje *Se presume longitud negativa*, pero es menos común para los datos de Colombia, y posiblenete corresponda a un problema de digitalización.
 
 **:warning: Alerta**: Coincidencia Taxón - Taxonomía superior
 
@@ -179,22 +188,23 @@ Dirijase a la sección **Problemas de validación**. Para cada una de las alerta
 
 **Solución 2**: si las coordenadas tienen un datum diferente a WGS84 documentelo para evitar que este sea asumido.
 
-## Paso 4 - Revisión de alertas
 
-Después de revisar todas las alertas de validación y ajustar los datos de acuerdo a estas cargue nuevamente el conjunto de datos en el validador para confirmar el estado de calidad de los datos.
+## Paso 4 - Verificación del resultado
 
-## Paso 5 - Verificación del resultado
+Despues de resolver las alertas cargue nuevamente el conjunto de datos en el validador para confirmar el estado de calidad de los datos.
 
-Descargue el siguiente archivo estandarizado según las definiciones del estándar, compárelo con su archivo y verifique en que acertó y que fallas presenta.¿Logró solucionar todas las alertas?.
+Compare sus resultados con el siguiente archivo validado según las definiciones del estándar, verifique en que acertó y que puede mejorar.
+**¿Logró solucionar todas las alertas?**
 
-* Descargue el archivo ```datos_Estandarizados.xls```
+* [Descargue el archivo validado](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estandarizados.xlsx)
 
-## Paso 6 - Datos propios
+## Paso 5 - Datos propios
 
-Si realizó el laboratorio con un conjunto de datos propio, revise en la sección **Frecuencia del término** el reporte del porcentaje de documentación de los elementos de su conjunto de datos.
+Si tiene datos propios que desee publicar, pruebe validarlos siguiendo los pasos de este laboratorio.
 
-Según el origen se sus datos (colecciones biológicas, permisos de recolección, datos marinos, eventos de muestreo) compruebe que los elementos obligatorios, e idealmente los recomendados, esten documentados el 100%. Para ello utilice la de referencia la ultima [plantilla DwC Registros biológicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0)
+Recomendaciones:
+Revise en la sección **Frecuencia del término** el reporte del porcentaje de documentación de los elementos de su conjunto de datos. Y Según el origen se sus datos (colecciones biológicas, permisos de recolección, datos marinos, eventos de muestreo) compruebe que los elementos obligatorios, e idealmente los recomendados, esten documentados el 100%. Para ello utilice la de referencia la última [plantilla DwC Registros biológicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0)
 
 ****
 **¡Felicitaciones!** :raised_hands:
-Su conjunto de datos ha sido estructurado adecuadamente.
+Ha mejorado la calidad de su conjunto de datos 
