@@ -35,10 +35,11 @@ Al finalizar este laboratorio habrás aprendido a:
 
 ### Lecturas y recursos externos
 
-:wrench:**Recursos**
+:wrench: **Recursos**
 * [Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
 * [Plantillas de publicación](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0)
 * [Extensiones del estándar DwC](https://tools.gbif.org/dwca-validator/extensions.do)
+* [Darwin Core Hour](https://vimeo.com/showcase/4407185?page=2) 
 * [Darwin Core for OBIS schema](https://obis.org/manual/darwincore/)
 
 :books: **Lecturas**
