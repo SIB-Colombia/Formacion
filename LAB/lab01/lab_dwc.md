@@ -65,16 +65,16 @@ Ejemplo:
 occurrenceID: UCN:MH-ORNIT:46-2300MI2008AV0954
 
 
-## Paso 4 - Mapeo de los datos 
-Una vez haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo [```Datos_Caso1_20reg.xls```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx)  e identifique a cuál elemento *DwC* de la plantilla de publicación corresponde. A esta actividad la llamamos **mapeo de datos**. Cuando identifique a cual elemento corresponde, copie y pegue el contenido en la plantilla, como se muestra en la siguiente imagen (Fig. 2).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Estandarizacion_mapeo.png" width=1000>
+## Paso 5 - Ajustar los datos  
 
-*Figura 2. Mapeo de datos en la plantilla DwC.*
+Una vez esten todos los datos del archivo ```Datos_Caso1_20reg.xls``` en la plantilla de publicación, ajuste los datos de acuerdo a las definiciones y vocabularios controlados del estándar para cada elemento mapeado (Fig. 3).
 
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Estandarizacion_EstructuraPlantilla.png" width=800>
 
+*Figura 3. Estructura de la plantilla de publicación.*
 
-## Paso 6 - Eliminar elementos vacíos 
+## Paso 6 - Eliminar elementos vacíos ed
 Elimine en la plantilla de registros biológicos los elementos *DwC* que quedaron vacíos, recuerde que para la publicación solo debe mantener los elementos que hayan sido documentados.
 
 Al finalizar su plantilla se debe ver similar a la siguiente imagen (Fig. 4):
