@@ -72,13 +72,7 @@ Una vez haya creado los elementos obligatorios, revise detenidamente el nombre y
 
 *Figura 2. Mapeo de datos en la plantilla DwC.*
 
-## Paso 5 - Ajustar los datos  
 
-Una vez esten todos los datos del archivo ```Datos_Caso1_20reg.xls``` en la plantilla de publicación, ajuste los datos de acuerdo a las definiciones y vocabularios controlados del estándar para cada elemento mapeado (Fig. 3).
-
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Estandarizacion_EstructuraPlantilla.png" width=800>
-
-*Figura 3. Estructura de la plantilla de publicación.*
 
 ## Paso 6 - Eliminar elementos vacíos 
 Elimine en la plantilla de registros biológicos los elementos *DwC* que quedaron vacíos, recuerde que para la publicación solo debe mantener los elementos que hayan sido documentados.
