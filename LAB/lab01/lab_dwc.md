@@ -93,8 +93,7 @@ Compare el siguiente archivo estandarizado según las definiciones del estándar
 
 ## Paso 8 - Datos propios
 
-**¿Cómo estandarizarias tus datos en *Dwc*?**
-Si tienes datos propios que desees publicar, estandarízalos siguiendo los pasos de esta guía. Recuerda usar la plantilla de acuerdo al tipo y origen de los datos.
+Si tiene datos propios que desee publicar, estandarízelos siguiendo los pasos de esta guía. Recuerde usar la plantilla de acuerdo al tipo y origen de los datos.
 
 ****
 
