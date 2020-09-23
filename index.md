@@ -31,12 +31,6 @@ Te recomendamos ver todos los seminarios antes de realizar los laboratorios, est
 
 *¡Manos a la obra!* Esta página está diseñada para que aprendas con la práctica los conceptos expuestos durante los seminarios, nada mejor que trabajar directamente con los datos para afianzar tu conocimiento. Los laboratorios los puedes realizar con los conjuntos de ejemplo y/o con datos propios.
 
-.. admonition:: Open Access!
-
-    The course is **open for everyone**. The aim of this course is to share the knowledge and help people to get started with their journey for doing GIS more efficiently and in a reproducible manner
-    using Python programming.
-
-
 ```note
 :point_left: dirígete al menú lateral  para navegar los laboratorios.
 ```
@@ -57,6 +51,7 @@ Los contenidos de este ciclo de formación no serían posibles sin los aportes s
 * [GBIF](https://www.gbif.org/es/) - Global Biodiversity Information Facility
 * [OBIS](https://obis.org/) - Ocean Biodiversity Information System
 * [GBIF España](https://www.gbif.es/) - Nodo Español de GBIF 
-* [CANADENSYS](https://www.canadensys.net/)
+* [CANADENSYS](https://www.canadensys.net/) - Nodo GBIF Canadá
+* [VerNet](http://vertnet.org/) - Nodo GBIF
 * [SiBM](https://siam.invemar.org.co/sibm) - Sistema de Información sobre Biodiversidad Marina de Colombia
 * [WoRMS](http://marinespecies.org/) - World Register of Marine Species  
