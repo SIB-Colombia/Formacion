@@ -53,17 +53,18 @@ En la pestaña de instrucciones encontrará adicionalmente una sección titulada
 
 ## Paso 3 - Crear elementos obligatorios 
 Abra el archivo de trabajo [```Datos_Caso1_20reg.xls```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx)  y cree los elementos obligatorios faltantes a partir de la información que encuenta en el caso de estudio y en los mismos datos.
-
- ```tip
- dhsdgfh
- ````
- 
  
 > **Pista**: Debe crear un identificador único del registro biológico (*occurenceID*) a partir del código de la institucion (*institutionCode*), código de la colección (*collectionCode*) y número de catálogo (*catalogNumber*). Revise la definición del elemento occurrenceID en la pestaña plantilla para saber como construirlo.
 
 Ejemplo:
 occurrenceID: UCN:MH-ORNIT:46-2300MI2008AV0954
 
+## Paso 4 - Mapeo de los datos 
+Una vez haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo [```Datos_Caso1_20reg.xls```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx)  e identifique a cuál elemento *DwC* de la plantilla de publicación corresponde. A esta actividad la llamamos **mapeo de datos**. Cuando identifique a cual elemento corresponde, copie y pegue el contenido en la plantilla, como se muestra en la siguiente imagen (Fig. 2).
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Estandarizacion_mapeo.png" width=1000>
+
+*Figura 2. Mapeo de datos en la plantilla DwC.*
 
 
 ## Paso 5 - Ajustar los datos  
