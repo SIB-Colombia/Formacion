@@ -15,7 +15,8 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 
 **Enlace**
 
-*Data validator*: [](https://www.gbif.org/es/tools/data-validator/)
+*Data validator*: [https://www.gbif.org/es/tools/data-validator/](https://www.gbif.org/es/tools/data-validator/)
+
 
 **Requerimientos** 
 * La primera fila del conjunto de datos a validar debe tener el nombre de los elementos *DwC* en inglés.
