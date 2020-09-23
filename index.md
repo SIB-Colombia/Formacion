@@ -51,7 +51,7 @@ Los contenidos de este ciclo de formación no serían posibles sin los aportes s
 * [GBIF](https://www.gbif.org/es/) - Global Biodiversity Information Facility
 * [OBIS](https://obis.org/) - Ocean Biodiversity Information System
 * [GBIF España](https://www.gbif.es/) - Nodo Español de GBIF 
-* [CANADENSYS](https://www.canadensys.net/) - Nodo GBIF Canadá
+* [CANADENSYS](https://www.canadensys.net/) - Nodo GBIF Canada
 * [VerNet](http://vertnet.org/) - Nodo GBIF
 * [SiBM](https://siam.invemar.org.co/sibm) - Sistema de Información sobre Biodiversidad Marina de Colombia
 * [WoRMS](http://marinespecies.org/) - World Register of Marine Species  
