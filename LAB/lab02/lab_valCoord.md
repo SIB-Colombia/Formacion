@@ -4,8 +4,4 @@ sort: 5
 
 # Validación Coordenadas
 
-### PASO 1
-
-### PASO 2
-
-### PASO 3
+:warning: Este laboratorio estará disponible a partir del **Jueves 01 de Octubre del 2020**
