@@ -1,5 +1,5 @@
 ---
-sort:02
+sort: 2
 ---
 
 # Laboratorio de Validación y limpieza 
