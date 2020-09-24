@@ -1,6 +1,4 @@
----
-sort: 3
----
+
 
 # Laboratorio Datos en contexto
 
