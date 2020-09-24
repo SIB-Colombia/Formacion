@@ -1,15 +1,12 @@
-
+---
+sort:02
+---
 
 # Laboratorio de Validación y limpieza 
 
-Contexto del laboratorio.....
-
+:warning: Este laboratorio estará disponible a partir del **Jueves 01 de Octubre del 2020**
 
 ### Metas de aprendizaje
-
-1. Aprender información taxonómica
-2. Aprender información geográfica
-
 
 ### Guías
 
