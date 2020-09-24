@@ -1,6 +1,4 @@
----
-sort: 2
----
+
 
 # Laboratorio de Validación y limpieza 
 
