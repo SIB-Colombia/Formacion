@@ -1,16 +1,13 @@
+---
+sort: 3
+---
 
 
 # Laboratorio Datos en contexto
 
-
-Contexto del laboratorio.....
-
+:warning: Este laboratorio estará disponible a partir del **Jueves 08 de Octubre del 2020**
 
 ### Metas de aprendizaje
-
-1. Conocer la herramienta de publicación de datos IPT
-2. Documentar  metadatos
-
 
 ### Guías
 
