@@ -75,7 +75,7 @@ Una vez esten todos los datos del archivo ```Datos_Caso1_20reg.xls``` en la plan
 
 *Figura 3. Estructura de la plantilla de publicación.*
 
-## Paso 6 - Eliminar elementos vacíos ed
+## Paso 6 - Eliminar elementos vacíos
 Elimine en la plantilla de registros biológicos los elementos *DwC* que quedaron vacíos, recuerde que para la publicación solo debe mantener los elementos que hayan sido documentados.
 
 Al finalizar su plantilla se debe ver similar a la siguiente imagen (Fig. 4):
