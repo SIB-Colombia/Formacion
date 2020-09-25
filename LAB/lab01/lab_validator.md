@@ -50,9 +50,6 @@ Cargue el archivo ```datos_Estructurados.xls```  al validador; (1) haciendo clic
 Es indispensable que el elemento *occurrenceID* este documentado para que el DataValidator reconozca el archivo.
 ```
 
->:warning: Es indispensable que el elemento *occurrenceID* este documentado para que el DataValidator reconozca el archivo.
-
-
 El validador le indicará si el conjunto de datos tiene la estructura adecuada para ser publicado a través del SiB Colombia, GBIF y OBIS, o si es necesario realizar ajustes. El informe de validación contiene la siguiente información:
 
 **1. Resumen**.
