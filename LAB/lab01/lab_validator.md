@@ -46,6 +46,10 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está regist
 ## Paso 2 - Cargar el archivo
 Cargue el archivo ```datos_Estructurados.xls```  al validador; (1) haciendo clic en SELECCIONAR UN ARCHIVO o (2) arrastrando el archivo desde una carpeta a el ícono SOLTAR AQUÍ. 
 
+```warning
+Es indispensable que el elemento *occurrenceID* este documentado para que el DataValidator reconozca el archivo.
+```
+
 >:warning: Es indispensable que el elemento *occurrenceID* este documentado para que el DataValidator reconozca el archivo.
 
 
