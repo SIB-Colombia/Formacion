@@ -58,7 +58,7 @@ Puede cargar datos con diferentes formatos y extensiones: TSV, CSV, SV, Excel (.
 
 **1. Abrir un nuevo proyecto**
 
-Abra _Open Refine_** y diríjase a la pestaña ```_Create Project_```. Para cargar el archivo siga la ruta ```_Get data from > This Computer_```, y haga clic en ```_Choose Files_``` (Fig. 1).
+Abra _Open Refine_ y diríjase a la pestaña _```Create Project```_. Para cargar el archivo siga la ruta _```Get data from > This Computer```_, y haga clic en _```Choose Files```_ (Fig. 1).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_OR_cargar.png" width=800>
 
