@@ -87,7 +87,7 @@ Las coordenadas originales ingresadas apreceran  en la columna _```original```_ 
 
 **5.1. Configuración de la hoja de Excel de destino**
 
-Añada una nueva Hoja de cálculo en el archivo Excel ```datos_canadensys.xlsx``` y nombrela **Coordenadas Canadensys**. Seleccione las 3 primeras columnas (A, B, C) y asígneles formato de texto(Fig. 3).
+Añada una nueva Hoja de cálculo en el archivo Excel ```datos_canadensys.xlsx``` y nombrela **Coordenadas Canadensys**. Seleccione las 3 primeras columnas (A, B, C) y asígneles formato de texto (Fig. 4).
 
 ```tip
 El cambio de formato a texto es necesario para que Excel no haga interpretaciones sobre las nuevas coordenadas afectando así la calidad de los datos. 
