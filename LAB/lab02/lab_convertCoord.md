@@ -71,7 +71,7 @@ Haga clic en el botón _```Submit```_ para procesar los datos (Fig. 2).
 
 *Figura 2. Coordendas originales en sistema de Grados, minutos, segundos (GMS) ingresadas en la herramienta*
 
-## Paso 3 - Resultados
+## Paso 4 - Resultados
 
 Las coordenadas originales ingresadas apreceran  en la columna _```original```_ junto con dos nuevas columnas con las coordenadas geográficas decimales: _```decimalLatitude```_ y _```decimalLongitude```_. 
 
@@ -84,10 +84,10 @@ Las coordenadas originales ingresadas apreceran  en la columna _```original```_ 
 
 >**Nota**:  Si ingresa coordenadas que ya se encuentran en coordenadas decimales, Canadensys no cambiará la información original
 
-## Paso 4 - Copiar resultados
+## Paso 5 - Copiar resultados
 
 
-**4.1. Configuración de la hoja de Excel de destino**
+**5.1. Configuración de la hoja de Excel de destino**
 
 Añada una nueva Hoja de cálculo en el archivo Excel ```datos_canadensys.xlsx``` y nombrela **Coordenadas Canadensys**. Seleccione las 3 primeras columnas (A, B, C) y asígneles formato de texto(Fig. 3).
 
@@ -99,7 +99,7 @@ El cambio de formato a texto es necesario para que Excel no haga interpretacione
 
 *Figura 4. Configuración del formato de las columnas de Excel a texto*
 
-**4.2. Copiar coordenadas a Excel**
+**5.2. Copiar coordenadas a Excel**
 
 Desde la herramienta de conversión de coordenadas seleccione y copie  toda la tabla de los resultados (Fig. 4).
 
@@ -119,7 +119,7 @@ Ahora copie unicamente los valores de las columnas ```decimalLatitude``` y ```de
 
 *Figura 7. Copiado de las columnas de coordenadas decimales*
 
-**4.3. Copiar coordenadas al conjunto de datos**
+**5.3. Copiar coordenadas al conjunto de datos**
 
 Pegue los valores copiados en la Hoja de excel con el conjunto de datos completo, dando clic derecho sobre la columna donde desea pegar los valores y  seleccionando la opción *Insertar  las celdas copiadas* (Fig. 7).
 
@@ -133,7 +133,7 @@ Como resultado verá las columnas de las coordenadas decimales en formato texto 
 
 *Figura 9. Conjunto de datos final con coordenadas decimales*
 
-## Paso 5 - Datos propios
+## Paso 6 - Datos propios
 
 Si tiene datos propios que desee publicar, intente transformar las coordenadas a grados decimales siguiendo los pasos de este laboratorio.
 
