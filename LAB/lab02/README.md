@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# Laboratorio de validación y limpieza de datos sobre biodiversidad
+# Laboratorio de validación y limpieza
 
 ### Metas de aprendizaje
 
