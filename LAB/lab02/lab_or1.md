@@ -34,9 +34,7 @@ Descargue el archivo [```datos_Estructurados.xlsx```](https://github.com/SIB-Col
 
 ## Instalación 
 
-```tip
-Asegúrese de que su navegador predeterminado sea Chrome o Mozilla
-```
+> Asegúrese de que su navegador predeterminado sea Chrome o Mozilla
 
 ### Instalación en Windows
 1. Descargue [Open Refine versión 3.4.1 + Java para Windows](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip).
