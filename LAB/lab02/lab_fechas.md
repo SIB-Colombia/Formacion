@@ -21,6 +21,7 @@ La herramienta [_Date parsing_](https://data.canadensys.net/tools/dates), desarr
 * Para realizar este ejercicio debe contar con un programa procesador de archivos de texto como Excel.
 
 **Archivo de trabajo**
+
 Descargue el archivo [```datos_canadensys.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/datos_canadensys.xlsx) para realizar el laboratorio
 
 --------
@@ -46,7 +47,7 @@ Seleccione la columna  _```verbatimEventDate```_ que corresponde a la fecha del 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.1_dateParsing.JPG" width=400>
 
-*Figura 1. Seleccion y copia de las fechas originales _```verbatimEventDate```_*
+*Figura 1. Seleccion y copia de las fechas originales ```verbatimEventDate```*
 
 Ingrese a la aplicación [Date parsing](https://data.canadensys.net/tools/dates) y pegue los datos previamente copiados. Luego de clic en _```Submit```_ para iniciar la conversión de fechas (Fig. 2).
 
@@ -70,7 +71,7 @@ Si se presenta este tipo de ambiguedad, es necesario hacer una corrección manua
 
 También se pueden generar inconvenientes cuando hay convinaciones de texto y número ya que la herramienta esta construida en ingles.
 ```
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.4_dateParsing.JPG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.4_dateParsing.JPG" width=500>
 
 *Figura 4. Ejemplo de fechas ambiguas donde la herramienta no reconoce el formato y no puede hacer la transformación*
 
@@ -105,11 +106,11 @@ El pegado especial en formato texto es indispensable para que Excel no haga inte
 
 Verá las columnas incorporadas en el Excel (Fig. 8). Sin embargo note que la columna con la fecha del evento original se ha duplicado.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.8_dateParsing.JPG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.8_dateParsing.JPG" width=600>
 
 *Figura 8. Resultados de las fechas en la hoja de Excel*
 
-Para finalizar l estandarización debe renombrar y eliminar algunas columnas. 
+Para finalizar la estandarización debe renombrar y eliminar algunas columnas. 
 - Eliminar la columna _```original```_ 
 - Renombrar la columna ```ISO 8601```, por _```eventDate```_
 
