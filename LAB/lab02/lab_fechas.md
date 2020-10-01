@@ -4,8 +4,6 @@ sort: 3
 
 # Conversión Fechas
 
-:warning: Este laboratorio estará disponible a partir del **Jueves 01 de Octubre del 2020**
-
 **Objetivo**
 
 Realizar la transformación y estandarización de fechas en distintos formatos, al formato ISO 8601 (AAAA-MM-DD), de manera automática y masiva.
