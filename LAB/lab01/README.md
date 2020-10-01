@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# Laboratorio de Estructuración y Calidad
+# Laboratorio de estructuración y calidad
 
 ### Metas de aprendizaje
 
