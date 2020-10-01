@@ -4,8 +4,6 @@ sort: 4
 
 # Conversión Coordenadas
 
-:warning: Este laboratorio estará disponible a partir del **Jueves 01 de Octubre del 2020**
-
 **Objetivo**
 
 Convertir coordenadas geográficas en sistema de Grados, minutos, segundos (GMS) a grados decimales, de manera automática y masiva.
