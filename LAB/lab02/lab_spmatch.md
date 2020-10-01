@@ -26,7 +26,7 @@ https://www.gbif.org/es/tools/species-lookup
 * La herramienta solo admite archivos en formato CSV. 
 
 **Archivo de trabajo**
-Descargue el archivo [```Datos_speciesmatching.csv```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Datos_speciesmatching.csv) para realizar el laboratorio
+Descargue el archivo [```Datos_speciesmatching.zip```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Datos_speciesmatching.zip). Descomprima el archivo y en el encontrará un archivo ```Datos_speciesmatching.csv``` para realizar el laboratorio.
 
 --------
 
@@ -153,4 +153,7 @@ Si cuenta con un conjunto de datos propio, intente validar los nombres científi
 ****
 **¡Felicitaciones!** :raised_hands:
 Terminó la revisión de los nombres científicos con la herramienta species-matching
+
+___________
+
 
