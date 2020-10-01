@@ -40,7 +40,7 @@ Ingrese a la aplicación en línea [_Coordinate conversion_](https://data.canade
 >1 | 45.5° N, 129.6° W
 >2 | 40°26′47″N,74° 0' 21.5022"W
 
-## Paso 1 - Estandarización coordenadas originales
+## Paso 2 - Estandarización coordenadas originales
 Abra el archivo ```datos_canadensys.xlsx``` con el conjunto de datos de ejemplo. Ubique los elementos que describen la latitud y longitud originales, _```verbatimLatitude``` y ```verbatimLongitude```_. Verifique que el separador decimal ses  punto (.) y **no** coma (,) de lo contrario la herramienta no podrá convertir las coordenadas. 
 
 Para cambiar el separador decimal en Excel, seleccione las columnas de ```verbatimLatitude``` y ```verbatimLongitude```, usando la herramienta de **Buscar y reemplazar (Ctrl+L)** realice el cambio de coma (,) a punto (.) (Fig. 1).
