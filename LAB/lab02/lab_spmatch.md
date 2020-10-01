@@ -17,7 +17,8 @@ GBIF Backbone Taxonomy. El árbol taxonómico de GBIF está basado en 56 fuentes
 ```
 
 **Enlace**
-Species Matching - GBIF: [https://www.gbif.org/es/tools/species-lookup](https://www.gbif.org/es/tools/species-lookup)
+
+_Species Matching - GBIF_: [https://www.gbif.org/es/tools/species-lookup](https://www.gbif.org/es/tools/species-lookup)
 
 **Requerimientos**
 
@@ -26,6 +27,7 @@ Species Matching - GBIF: [https://www.gbif.org/es/tools/species-lookup](https://
 * La herramienta solo admite archivos en formato CSV. 
 
 **Archivo de trabajo**
+
 Descargue el archivo [```Datos_speciesmatching.zip```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Datos_speciesmatching.zip). Descomprima el archivo y en el encontrará un archivo ```Datos_speciesmatching.csv``` para realizar el laboratorio.
 
 --------
