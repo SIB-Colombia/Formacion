@@ -215,7 +215,7 @@ Empleando este comando _```value.replace```_ se puede sustituir cualquier valor 
 
 **2. Corrección elmentos _```recordedBy```  ```identifiedBy```_**
 
-Corrija las columnas _```recordedBy```_ e _```identifiedBy```_ y, empleando la misma función _```value.replace```_ del punto anterior, reemplace en cada una el carácter de separación entre los nombres ["; "] por el que acepta el estándar Darwin Core actualmente para este elemento [" | "] (Refierase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)).
+Corrija las columnas _```recordedBy```_ e _```identifiedBy```_ y, empleando la misma función _```value.replace```_ del punto anterior, reemplace en cada una el carácter de separación entre los nombres ```"; "``` por el que acepta el estándar Darwin Core actualmente para este elemento ```" | "``` (Refierase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)).
 
 Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
