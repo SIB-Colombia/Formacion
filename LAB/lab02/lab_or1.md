@@ -169,7 +169,7 @@ Observe la ventana del _Facet_ de _```individualCount```_, notará que ahora sol
 
 Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
-### Deteción de duplicados
+### Detección de duplicados
 
 Diríjase a la columna _```catalogNumber```_, haga clic en el menú de la columna y siga la ruta _```Facet > Customized facets > Duplicates facet```_, a su izquierda verá la ventana del _Facet_(Fig. 11).
 
