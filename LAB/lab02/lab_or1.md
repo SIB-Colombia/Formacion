@@ -4,6 +4,7 @@ sort: 1
 
 # Open Refine :gem:
 
+
 **Objetivo**
 
 Utilizar _Open Refine_ para manejar, validar y limpiar de manera eficiente datos sobre biodiversidad, asegurando una mejor calidad para su publicación.
@@ -34,7 +35,9 @@ Descargue el archivo [```datos_Estructurados.xlsx```](https://github.com/SIB-Col
 
 ## Instalación 
 
+
 > Asegúrese de que su navegador predeterminado sea Chrome o Mozilla
+
 
 ### Instalación en Windows
 1. Descargue [Open Refine versión 3.4.1 + Java para Windows](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip).
@@ -56,7 +59,7 @@ Puede cargar datos con diferentes formatos y extensiones: TSV, CSV, SV, Excel (.
 
 **1. Abrir un nuevo proyecto**
 
-Abra _Open Refine_ y diríjase a la pestaña _```Create Project```_. Para cargar el archivo siga la ruta _```Get data from > This Computer```_, y haga clic en _```Choose Files```_ (Fig. 1).
+Abra _Open Refine_** y diríjase a la pestaña ```_Create Project_```. Para cargar el archivo siga la ruta ```_Get data from > This Computer_```, y haga clic en ```_Choose Files_``` (Fig. 1).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_OR_cargar.png" width=800>
 
@@ -64,11 +67,11 @@ _Figura 1. Creación de un proyecto en Open Refine_
 
 **2. Selección del archivo**
 
-Seleccione el archivo ```Datos_Estructurado.xlsx``` que descargó al incio del laboratorio y haga clic en _```Next```_.
+Seleccione el archivo ```Datos_Estructurado.xlsx``` que descargó al incio del laboratorio y haga clic en _```Next```_ (Fig. 1).
 
-``` tip
-Puede subir varios archivos a la vez, el software unira los archivos basados en los encabezados de las columnas.
-```
+
+> Puede subir varios archivos a la vez, el software unirá los archivos basados en los encabezados de las columnas.
+> 
 
 **3. Configuración del archivo**
 
@@ -121,7 +124,7 @@ El _Text Facet_ creado aparecerá a la izquierda de la aplicación, verá una ve
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_OR_facet2.png" width=400>
 
-_Figura 5. Vista del ```Text Facet``` y las opciones para organizar las opciones de texto de la columna._
+_Figura 5. Vista del Text Facet y las opciones para organizar las opciones de texto de la columna._
 
 **3. Corrección de los datos**
 
@@ -129,14 +132,14 @@ Corrija las inconsistencias en los nombres de las clases ```Aves``` y ```Mammali
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_OR_classCorrect.png" width=400>
 
-_Figura 6. Correción masiva de la columna ```class``` usando un ```Text Facet```._
+_Figura 6. Correción masiva de la columna ```class``` usando un Text Facet._
 
 Realice el mismo proceso con la columna _```basisOfRecord```_ y _```sex```_  ajustandolas al vocabulario controlado de cada elemento (Refierase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html))(Fig. 7).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=400>
 
-_Figura 7. Correción masiva de las columnas ```basisOfRecord``` y ```sex``` usando un ```Text Facet```._
+_Figura 7. Correción masiva de las columnas ```basisOfRecord``` y ```sex``` usando un Text Facet._
 
 
 Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción Remove All (Fig. 8). Así removerá todos los Facets y Filtros que tenga en uso.
@@ -148,23 +151,23 @@ _Figura 8. Remover todos los facets y filtros activos_
 
 ### Limpieza de espacios en blanco
 
-Diríjase a la columna _```individualCount```_, haga clic en el menú  de la columna y realice un _Text Facet_.
+Diríjase a la columna _```individualCount```_, haga clic en el menú  de la columna y realice un _```Text Facet```_.
 A su izquierda aparecerá la ventana con el nombre de la columna y el Facet que se realizó (Fig. 9).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_OR_individual.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_OR_individual.png" width=400>
 
-_Figura 9. Vista del ```Text Facet``` y las diferentes formas de docuemntación del elemento ```individualCount```._
+_Figura 9. Vista del Text Facet y las diferentes formas de docuemntación del elemento ```individualCount```._
 
 Aunque a simple vista los datos se encuentran sin errores, al realizar este procedimiento vemos que el programa ha detectado espacios extra y por eso nos muestra cuatro opciones diferentes para el valor ```1```.
 Corrija las inconsistencias desde el menú de la columna _```individualCount```_, siguiendo la ruta _```Edit Cells > Common transforms > Trim leading and trailing whitespace```_, verá un mensaje de notificación que le indicará en cuantas celdas se eliminaron espacuios (Fig. 10).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig10_OR_trimSpaces.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig10_OR_trimSpaces.png" width=600>
 
 _Figura 10. Transformación de la columna para eliminar dobles espacios y espacios al final del texto._
 
 Observe la ventana del _Facet_ de _```individualCount```_, notará que ahora solo existe una opción y que los espacios fueron eliminados.
 
-Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción Remove All. Así removerá todos los Facets y Filtros que tenga en uso (Fig. 8).
+Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
 ### Deteción de duplicados
 
@@ -173,11 +176,11 @@ Diríjase a la columna _```catalogNumber```_, haga clic en el menú de la column
 
 Podemos ver que el programa ha detectado valores únicos _```false```_ y valores duplicados _```true```_ (Fig. 12).Haga clic en true y verá los registros. De esta manera se pueden detectar los duplicados para un análisis posterior. En este caso corrija el registro de ```Feb 2001``` por ```46-2300MI2008AV0248``` tanto en _```catalogNumber```_ como en _```occurrenceID```_; como se puede observar en la imagen a continuación.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig12_OR_fixDuplicates.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig12_OR_fixDuplicates.png" width=600>
 
 _Figura 12. Revisión de los registros duplicados y corrección de los identificadores._
 
-Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción Remove All. Así removerá todos los Facets y Filtros que tenga en uso
+Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
 ## Filtros
 
@@ -185,19 +188,19 @@ Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opció
 
 **1. Corrección elmento _```scientificName```_**
 
-Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _Text filter_, aparecerá la ventana del Filtro.
-Escriba en el campo de texto ```sp.``` y realice un _Text Facet_ en _```scientificName```_ para visualizar los registros con este valor.
+Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro.
+Escriba en el campo de texto ```sp.``` y realice un _```Text Facet```_ en _```scientificName```_ para visualizar los registros con este valor.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_OR_sp.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_OR_sp.png" width=400>
 
 _Figura 13. Aplicación de un filtro de texto a la columna```scientificName```e identificación de nombres científicos a corregir._
 
 
 Este tipo de identificación parcial no debe documentarse en el elemento _```scientificName```_, para ello se emplea el elemento _DwC_ _```verbatimTaxonRank```_.
 
-Realice un _Text Facet_ en _```verbatimTaxonRank```_ y edite masivamente reemplazando las celdas vacías (_blank_) con ```sp.```, haga clic en _Apply_ (Fig. 14).
+Realice un _```Text Facet```_ en _```verbatimTaxonRank```_ y edite masivamente reemplazando las celdas vacías (_blank_) con ```sp.```, haga clic en _Apply_ (Fig. 14).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_sp2.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_sp2.png" width=400>
 
 _Figura 14. Documentación masiva del elemento ```verbatimTaxonRank``` ._
 
@@ -214,48 +217,84 @@ Empleando este comando _```value.replace```_ se puede sustituir cualquier valor 
 
 Corrija las columnas _```recordedBy```_ e _```identifiedBy```_ y, empleando la misma función _```value.replace```_ del punto anterior, reemplace en cada una el carácter de separación entre los nombres ["; "] por el que acepta el estándar Darwin Core actualmente para este elemento [" | "] (Refierase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)).
 
-Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción Remove All. Así removerá todos los Facets y Filtros que tenga en uso
+Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
 ### Filtros con expresiones regulares
 
 **1. Corrección elmento _```family```_** 
 
-Diríjase a la columna _```family```_  y realice un _Text Facet_. Haga clic en el menú de la columna y luego en _Text filter_. Aparecerá la ventana del Filtro.
-Marque la casilla _regular expression_. Escriba en el campo de texto la expresión regular  ```.*(?:(?!ae).).$``` esta expresión nos permite excluir todas las palabras de la columna que no terminan en “ae” (Fig, 16).
+Diríjase a la columna _```family```_  y realice un _```Text Facet```_. Haga clic en el menú de la columna y luego en _```Text filter```_. Aparecerá la ventana del Filtro.
+Marque la casilla _regular expression_. Escriba en el campo de texto la expresión regular  ```.*(?:(?!ae).).$``` esta expresión permite excluir todas las palabras de la columna que no terminan en ```ae```, correspondiente a las últimas letras de la declinación en latín para la categoría taxonómica de familia (*idae*, *ceae*) (Fig, 16).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_OR_regulasExp.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_OR_regulasExp.png" width=400>
 
 _Figura 16. Uso de expresiones regulares en GREL para filtrar la columna ```family``` ._
 
 Podrá observar como los registros que no corresponden a familias han sido filtrados, usted puede editarlos haciendo uso de las opciones aprendidas en pasos previos. En este caso particular reemplace ```Bolitoglossa```, que corresponde a un Género, por ```Plethodontidae```,la Familia a la que pertenece el nombre científico (Fig. 16).
 
-Para conocer más de las expresiones regulares dirijase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
+> Para conocer más de las expresiones regulares diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
 
 Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción Remove All. Así removerá todos los Facets y Filtros que tenga en uso.
 
 **2. Corrección elmentos _```scientificName```_ _```identificationQualifier```_** 
 
-Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _Text filter_, aparecerá la ventana del Filtro. Marque la casilla _regular expression_. Escriba en el campo de texto la expresión regular  ```[.]``` y realice un _Text Facet_ para visualizar los registros con este  elemento(Fig. 17).
+Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _Text filter_, aparecerá la ventana del Filtro. Marque la casilla _regular expression_. Escriba en el campo de texto la expresión regular  ```[.]``` y realice un _T```ext Facet```_ para visualizar los registros con este  elemento(Fig. 17).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_qualifier.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_qualifier.png" width=400>
 
 _Figura 17. Uso de expresiones regulares en GREL para filtrar y corregir las columnas ```scientificName``` ```identificationQualifier```._
 
 Podrá observar los registros que cumplen con el criterio de la expresión regular. El elemento _```identificationQualifier```_ está diseñado para almacenar este tipo de información y por su parte el elemento _```scientificName```_ debe encontrarse sin calificadores.
 
-Para hacer el ajuste realice un Text Facet en el elemento _```identificationQualifier```_ para editar masivamente, de manera que en los blank se documente “cf. sowelli” y se borre en el _```scientificName```_ (Fig. 17).
+Para hacer el ajuste realice un _```Text Facet```_ en el elemento _```identificationQualifier```_ para editar masivamente, de manera que en los blank se documente “cf. sowelli” y se borre en el _```scientificName```_ (Fig. 17).
 
 Finalmente estos registros deben quedar documentados con el género Carollia en _```scientificName```_ y en _```identificationQualifier```_ el valor ```cf. sowelli``` (Fig. 18).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig18_OR_qualifierFix.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig18_OR_qualifierFix.png" width=400>
 
 _Figura 18. Documentación corregida y correcta de los elementos ```scientificName``` ```identificationQualifier```._
 
-Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción Remove All. Así removerá todos los Facets y Filtros que tenga en uso.
-
+Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
 ## Conjuntos
 
-:wrench: 🔨 :hammer: Este parte del laboratorio estará disponible a partir del **Viernes 02 de Octubre del 2020**
+Diríjase a la columna _```recordedBy```_, haga clic en el menú de la columna y luego en _```Text facet```_, aparecerá la ventana del Facet con más de 200 opciones  (_choices_) diferentes (Fig. 19).
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig19_OR_cluster1.png" width=400>
+
+_Figura 19. Facet y opciones del elemento ```recordedBy```._
+
+
+En la parte superior derecha verá el botón _Cluster_ haga clic (Fig. 19), aparecerá la ventana de _Cluster &  Edit_ para la columna _recordedBy_ (Fig. 20).
+
+Podrá ver la siguiente información:
+
+- ***Cluster size***: La cantidad versiones del dato que el algoritmo identifica como similares.
+- ***Row count:*** El número de registros por cluster.
+- ***Values in cluster:*** Los valores seleccionados por el algoritmo para esa agrupación y el número de registros por valor.
+- ***Merge?:*** En este cuadro se selecciona si los valores se fusionan en el valor que propone el algoritmo por defecto o el documentado por el usuario. 
+- ***New cell value:*** En este campo de texto se puede escribir un valor completamente nuevo para el _cluster_. También se puede hacer clic en cualquier valor para asignarlo como valor por defecto.
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig20_OR_cluster2.png" width=800>
+
+_Figura 20. Detalle de la ventana ventana de Cluster &  Edit para hacer realizar clusters y las opciones de configuración disponibles._
+
+
+Vaya a _```Keying Function```_, seleccione _```ngram-fingerprint```_ y en _```Ngram Size```_ escriba ```1``` (Fig. 20).
+
+> Para conocer más acerca de los algoritmos diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
+
+- Para el primer cluster asigne un valor nuevo, para esto vaya al cuadro de texto de _```New cell value```_ y escriba ```David H | Arango A | Bedoya J``` (dejando espacios sencillos). Luego haga check en el cuadro de _```Merge?```_ para ese _cluster_ (Fig. 20).
+
+- Para el segundo _cluster_ haga clic en ```Vargas I``` (la primera opción: sin espacios adicionales), automáticamente el valor en _```New cell value```_ cambiará y la casilla _```Merge?```_ se chequeará (Fig. 20).
+
+- Con los restantes evalúe si se deben o no agrupar dependiendo de las opciones disponibles y escoja en tal caso si selecciona o no la casilla.
+
+Una vez escoja las entradas que desee fusionar vaya a _```Merge Selected & close```_ para agrupar los valores y volver a la ventana principal. 
+
+
+Observe que la cantidad de opciones de datos disminuyó y que la primera entrada de nombres ha cambiado, es decir la información se simplificó y organizó correctamente gracias a este proceso.
+
+Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
 ## Uso avanzado
 
