@@ -44,9 +44,8 @@ El **libre acceso** y la **cooperación** son dos de los principios orientadores
 
 **Citación sugerida**
 
-```
-SiB Colombia (2020). Laboratorio de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
-```
+> SiB Colombia (2020). Laboratorio de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
+> 
 
 **Nuestro equipo**
 * Los laboratorios en línea fueron construidos por Camila Plata, Ricardo Ortíz y Esteban Marentes.
