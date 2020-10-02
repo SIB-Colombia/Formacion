@@ -1,4 +1,4 @@
-## Ciclo de Formación Virtual
+## Ciclo de formación virtual
 
 Tradicionalmente el Equipo Coordinador del SiB Colombia  facilita talleres presenciales para la **publicación y gestión de los datos sobre biodiversdidad**, la gran demanda de estos talleres y el alto interés de la **comunidad** nos ha motivado a generar un ciclo de formación virtual para llegar a una mayor cantidad de personas y regiones del país.  
 
@@ -23,7 +23,7 @@ Te recomendamos ver todos los seminarios antes de realizar los laboratorios, est
 3. [Aprendiendo un nuevo idioma, Darwin Core: reglas gramaticales y ortográficas para la publicación de datos sobre biodiversidad](https://youtu.be/nYGu8KY_K6U)
 4. [Crear, compartir, transformar: ¿Cómo publicar a través del SiB Colombia?](https://youtu.be/Q83XpNQwyEc)
 5. [Artículos de datos: ¿Cómo obtener un reconocimiento académico cuando mis datos tienen un alto valor científico?](https://youtu.be/z0JhWOdJKpI)
-6. Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad
+6. [Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad](https://youtu.be/_JBbEjG1wAU)
 7. Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?
 8. Datos abiertos sobre biodiversidad: ¿Cómo acceder y usar los datos publicados a través del SiB Colombia?
 
@@ -34,6 +34,26 @@ Te recomendamos ver todos los seminarios antes de realizar los laboratorios, est
 ```note
 :point_left: dirígete al menú lateral  para navegar los laboratorios.
 ```
+### Atribución y uso de los laboratorios
+
+![](https://licensebuttons.net/l/by/3.0/88x31.png)
+
+El **libre acceso** y la **cooperación** son dos de los principios orientadores del SiB Colombia, por eso todos los contenidos del ciclo de formación están bajo una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) que te permite usar, redistribuir y construir sobre estos contenidos libremente.
+
+:open_hands: Queremos que compartas estos laboratorios y que juntos logremos datos sobre biodiversidad de mejor calidad.
+
+**Citación sugerida**
+
+```
+SiB Colombia (2020). Laboratorio de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
+```
+
+**Nuestro equipo**
+* Los laboratorios en línea fueron construidos por Camila Plata, Ricardo Ortíz y Esteban Marentes.
+
+* Los contenidos de los laboratorios han sido contruidos a lo largo de múltiples talleres dictados por el equipo coordinador del SiB Colombia. 
+  * Miembros actuales: Camila Plata, Ricardo Ortíz y Dairo Escobar.
+  * Miembros históricos: Leonardo Buitrago y Nestor Beltran.
 
 ### Sobre el SiB Colombia
 
