@@ -21,7 +21,7 @@ El **libre acceso** y la **cooperación** son dos de los principios orientadores
 
 **Citación sugerida**
 
-> SiB Colombia (2020). Laboratorio de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
+> SiB Colombia (2020). Laboratorios de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
 > 
 
 **Nuestro equipo**
@@ -33,7 +33,7 @@ El **libre acceso** y la **cooperación** son dos de los principios orientadores
 
 ### Contribuciones
 
-Si tienes sugerencias apra mejorar los laboratorios o encuentras errores, lo puedes reportar por medio de github usando la función de **Issues** tu opinón es improtante para nosotros.
+Si tienes sugerencias para mejorar los laboratorios o encuentras errores, lo puedes reportar por medio de github usando la función de _**Issues**_, tu opinón es importante para nosotros.
 
 
 ----
