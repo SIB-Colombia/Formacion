@@ -65,7 +65,7 @@ Abra _Open Refine_ y diríjase a la pestaña _```Create Project```_. Para cargar
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_OR_cargar.png" width=800>
 
-_Figura 1. Creación de un proyecto en Open Refine_
+_Figura 1. Creación de un proyecto en Open Refine._
 
 **2. Selección del archivo**
 
@@ -85,15 +85,15 @@ _Open Refine_ hace una interpretación automática del tipo de archivo, codifica
 Si sube sus propios datos o utiliza otro formato debe fijarse en la vista previa del archivo y ajustar la configuración de lectura detenidamente (Fig. 2).
 ````
 
- - **A.** Tipo de archivo, permite configurar el tipo de la fuente de datos
- - **B.** Hojas a importar, si carga uno o varios archivos con múltiples hojas, puede seleccionar que hojas desea importar y cuáles no.
- - **C.** Selección de filas, permite seleccionar la fila que se convertirá en el encabezado de las columnas, ignorar filas, entre otros.
- - **D.** Carga de filas en blanco, permite especificar si serán cargadas y como se realizará la carga. 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2._OR_config.png">
 
 _Figura 2. Opciones para configurar la lectura y carga de los datos para un archivo Excel (.xls y .xlsx)_: A. tipo de archivo, B. hojas a importar, C.selección de filas, D. carga de filas. 
 
+ - **A.** Tipo de archivo, permite configurar el tipo de la fuente de datos
+ - **B.** Hojas a importar, si carga uno o varios archivos con múltiples hojas, puede seleccionar que hojas desea importar y cuáles no.
+ - **C.** Selección de filas, permite seleccionar la fila que se convertirá en el encabezado de las columnas, ignorar filas, entre otros.
+ - **D.** Carga de filas en blanco, permite especificar si serán cargadas y como se realizará la carga. 
 
 **4. Personalización del proyecto y carga del archivo**
 
@@ -101,7 +101,7 @@ Cambie el nombre del proyecto, en la esquina superior derecha verá un cuadro de
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3._OR_renombrar.png" width=800>
 
-_Figura 3. Cambiar el nombre del proyecto._
+_Figura 3. Configuración del proyecto, ajuste de nombre, adición de etiquetas y creación._
 
 
 Espere a que cargue el archivo, esto puede tomar un tiempo dependiendo del tamaño del mismo.
@@ -118,7 +118,7 @@ Diríjase a la columna _```class```_, haga clic en el menú de la columna y siga
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_OR_facet.png" width=400>
 
-_Figura 4. Creación de un ```Text Facet```._
+_Figura 4. Creación de un Text Facet._
 
 **3.1.2. Organizar el _Text Facet_**
 
@@ -134,21 +134,21 @@ Corrija las inconsistencias en los nombres de las clases ```Aves``` y ```Mammali
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_OR_classCorrect.png" width=400>
 
-_Figura 6. Corrección masiva de la columna ```class``` usando un Text Facet._
+_Figura 6. Corrección masiva de la columna class usando un Text Facet._
 
-Realice el mismo proceso con la columna _```basisOfRecord```_ y _```sex```_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html))(Fig. 7).
+Realice el mismo proceso con la columna _```basisOfRecord```_ y _```sex```_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=400>
 
-_Figura 7. Corrección masiva de las columnas ```basisOfRecord``` y ```sex``` usando un Text Facet._
+_Figura 7. Corrección masiva de las columnas basisOfRecord y sex usando un Text Facet._
 
 
 Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig8_OR_remover.png" width=400>
 
-_Figura 8. Remover todos los facets y filtros activos_
+_Figura 8. Remover todos los facets y filtros activos_.
 
 
 ### 3.2 Limpieza de espacios en blanco
@@ -158,7 +158,7 @@ A su izquierda aparecerá la ventana con el nombre de la columna y el Facet que 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_OR_individual.png" width=400>
 
-_Figura 9. Vista del Text Facet y las diferentes formas de documentación del elemento ```individualCount```._
+_Figura 9. Vista del Text Facet y las diferentes formas de documentación del elemento individualCount._
 
 Aunque a simple vista los datos se encuentran sin errores, al realizar este procedimiento vemos que el programa ha detectado espacios extra y por eso nos muestra cuatro opciones diferentes para el valor ```1```.
 Corrija las inconsistencias desde el menú de la columna _```individualCount```_, siguiendo la ruta _```Edit Cells > Common transforms > Trim leading and trailing whitespace```_, verá un mensaje de notificación que le indicará en cuéntas celdas se eliminaron espacios (Fig. 10).
@@ -186,16 +186,16 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 
 ## Paso 4 - Filtros
 
-### 4.1 Corección combinando filtros y funciones
+### 4.1 Corrección combinando filtros y funciones
 
-**4.1.1. Corrección elmento _```scientificName```_**
+**4.1.1. Corrección elemento _```scientificName```_**
 
 Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro.
 Escriba en el campo de texto ```sp.``` y realice un _```Text Facet```_ en _```scientificName```_ para visualizar los registros con este valor.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_OR_sp.png" width=400>
 
-_Figura 13. Aplicación de un filtro de texto a la columna```scientificName```e identificación de nombres científicos a corregir._
+_Figura 13. Aplicación de un filtro de texto a la columna scientificName e identificación de nombres científicos a corregir._
 
 
 Este tipo de identificación parcial (sp.) no debe documentarse en el elemento _```scientificName```_, para ello se emplea el elemento _DwC_ _```verbatimTaxonRank```_.
@@ -204,74 +204,82 @@ Realice un _```Text Facet```_ en _```verbatimTaxonRank```_ y edite masivamente r
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_sp2.png" width=400>
 
-<sub>_Figura 14. Documentación masiva del elemento verbatimTaxonRank._</sub>
+_Figura 14. Documentación masiva del elemento verbatimTaxonRank._
 
-Diríjase nuevamente al menú de la columna de _```scientificName```_ y siga la ruta _```Edit cells > Transform```_, luego ingrese la fórmula  _```value.replace(" sp.","")```_, note que en la pestaña _```Preview```_ puede ver la vista previa del resultado de aplicar la fórmula y corroborar si es el cambio deseado (Fig. 15). Haga clic en _```OK```_ y aparecerá un mensaje de confirmación de que los cambios se han realizado.
+
+Diríjase nuevamente al menú de la columna de _```scientificName```_ y siga la ruta _```Edit cells > Transform```_, luego ingrese la fórmula  _```value.replace(" sp.","")```_, note que en la pestaña _```Preview```_ puede ver la vista previa del resultado al aplicar la fórmula, y corroborar si es el cambio deseado (Fig. 15). Haga clic en _```OK```_ y aparecerá un mensaje de confirmación de que los cambios se han realizado.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig15_OR_replace.png" width=800>
 
-_Figura 15. Transformación masiva de los datos usando comando ```value.replace()``` del lenguaje GREL de Open Refine._
+_Figura 15. Transformación masiva de los datos usando comando value.replace() del lenguaje GREL de Open Refine._
 
-Empleando este comando _```value.replace```_ se puede sustituir cualquier valor de una columna poniendo dentro de un paréntesis inicialmente el valor a buscar (ej. " sp."), entre comillas [ “ ] y luego separado por una coma [ , ] el valor de reemplazo - en este caso ninguno por lo cual se ponen unas comillas vacías [""].
+Empleando el comando _```value.replace```_ se puede sustituir cualquier valor de una columna poniendo dentro de un paréntesis el valor a buscar (ej. " sp."), entre comillas [ “ ] y luego separado por una coma [ , ] el valor de reemplazo - en este caso ninguno por lo cual se ponen unas comillas vacías [""].
 
-> Para conocer más del lenguaje de programación GREL de diríjase a la [documentación de Open Refine](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions).
+> :brain: Para conocer más del lenguaje de programación GREL de diríjase a la [documentación de Open Refine](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions).
 
-**2. Corrección elmentos _```recordedBy```  ```identifiedBy```_**
+**2. Corrección elementos _```recordedBy```  ```identifiedBy```_**
 
-Corrija las columnas _```recordedBy```_ e _```identifiedBy```_ y, empleando la misma función _```value.replace```_ del punto anterior, reemplace en cada una el carácter de separación entre los nombres ```"; "``` por el que acepta el estándar Darwin Core actualmente para este elemento ```" | "``` (Refierase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)).
+Corrija las columnas _```recordedBy```_ e _```identifiedBy```_ empleando la función _```value.replace```_ del punto anterior, reemplace en cada una el carácter de separación entre los nombres ```"; "``` por el que acepta el estándar Darwin Core actualmente para este elemento ```" | "``` ( Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)).
 
-Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
+Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
 ### 4.2 Filtros con expresiones regulares
 
-**1. Corrección elmento _```family```_** 
+**4.2.1. Corrección elemento _```family```_** 
 
 Diríjase a la columna _```family```_  y realice un _```Text Facet```_. Haga clic en el menú de la columna y luego en _```Text filter```_. Aparecerá la ventana del Filtro.
 Marque la casilla _regular expression_. Escriba en el campo de texto la expresión regular  ```.*(?:(?!ae).).$``` esta expresión permite excluir todas las palabras de la columna que no terminan en ```ae```, correspondiente a las últimas letras de la declinación en latín para la categoría taxonómica de familia (*idae*, *ceae*) (Fig, 16).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_OR_regulasExp.png" width=400>
 
-_Figura 16. Uso de expresiones regulares en GREL para filtrar la columna ```family``` ._
+_Figura 16. Uso de expresiones regulares en GREL para filtrar la columna family._
 
-Podrá observar como los registros que no corresponden a familias han sido filtrados, usted puede editarlos haciendo uso de las opciones aprendidas en pasos previos. En este caso particular reemplace ```Bolitoglossa```, que corresponde a un Género, por ```Plethodontidae```,la Familia a la que pertenece el nombre científico (Fig. 16).
+Podrá observar como los registros que no corresponden a la categoría de familia han sido filtrados, usted puede editarlos haciendo uso de las opciones aprendidas en pasos previos. En este caso particular reemplace ```Bolitoglossa```, que corresponde a un género, por ```Plethodontidae```, la familia a la que pertenece el nombre científico (Fig. 16).
 
-> Para conocer más de las expresiones regulares diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
+> :brain: Para conocer más de las expresiones regulares diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
 
-Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción Remove All. Así removerá todos los Facets y Filtros que tenga en uso.
+Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los Facets y Filtros que tenga en uso.
 
-**2. Corrección elmentos _```scientificName```_ _```identificationQualifier```_** 
+**4.2.2. Corrección elmentos _```scientificName```_ _```identificationQualifier```_** 
 
-Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _Text filter_, aparecerá la ventana del Filtro. Marque la casilla _regular expression_. Escriba en el campo de texto la expresión regular  ```[.]``` y realice un _T```ext Facet```_ para visualizar los registros con este  elemento(Fig. 17).
+Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro. Marque la casilla _regular expression_. Escriba en el campo de texto la expresión regular  ```[.]``` y realice un _```Text Facet```_ para visualizar los registros con este  elemento (Fig. 17).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_qualifier.png" width=400>
 
-_Figura 17. Uso de expresiones regulares en GREL para filtrar y corregir las columnas ```scientificName``` ```identificationQualifier```._
+_Figura 17. Uso de expresiones regulares en GREL para filtrar y corregir las columnas scientificName identificationQualifier._
 
 Podrá observar los registros que cumplen con el criterio de la expresión regular. El elemento _```identificationQualifier```_ está diseñado para almacenar este tipo de información y por su parte el elemento _```scientificName```_ debe encontrarse sin calificadores.
 
 Para hacer el ajuste realice un _```Text Facet```_ en el elemento _```identificationQualifier```_ para editar masivamente, de manera que en los blank se documente “cf. sowelli” y se borre en el _```scientificName```_ (Fig. 17).
 
-Finalmente estos registros deben quedar documentados con el género Carollia en _```scientificName```_ y en _```identificationQualifier```_ el valor ```cf. sowelli``` (Fig. 18).
+```note
+El grado de incertidumbre de la identificación puede indicarse agregando varios términos, como **aff.** y **cf.** al nombre científico. El término calificativo se aplica a la parte del nombre que sigue inmediatamente al calificador y se pueden colocar delante de cualquier elemento del nombre.
+
+- **aff.** Similar o limítrofe, indica que una especie tiene afinidad con la especie mencionada, pero no es idéntica a ella.
+- **cf.** Comparar con, describe que un espécimen que es difícil de identificar e indica diversos grados o tipos de incertidumbre sobre el taxon, y pueden usarse de manera diferente según el autor.
+````
+
+Finalmente estos registros deben quedar documentados con el género _Carollia_ en _```scientificName```_ y en _```identificationQualifier```_ el valor ```cf. sowelli``` (Fig. 18).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig18_OR_qualifierFix.png" width=400>
 
-_Figura 18. Documentación corregida y correcta de los elementos ```scientificName``` ```identificationQualifier```._
+_Figura 18. Documentación corregida y correcta de los elementos scientificName identificationQualifier._
 
-Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
+Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _Facets_ y Filtros que tenga en uso.
 ## Paso 5 - Conjuntos
 
 Diríjase a la columna _```recordedBy```_, haga clic en el menú de la columna y luego en _```Text facet```_, aparecerá la ventana del Facet con más de 200 opciones  (_choices_) diferentes (Fig. 19).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig19_OR_cluster1.png" width=400>
 
-_Figura 19. Facet y opciones del elemento ```recordedBy```._
+_Figura 19. Facet y opciones del elemento recordedBy._
 
 
-En la parte superior derecha verá el botón _Cluster_ haga clic (Fig. 19), aparecerá la ventana de _Cluster &  Edit_ para la columna _recordedBy_ (Fig. 20).
+En la parte superior derecha verá el botón _```Cluster```_ haga clic (Fig. 19), aparecerá la ventana de _Cluster &  Edit_ para la columna _recordedBy_ (Fig. 20).
 
 Podrá ver la siguiente información:
 
-- ***Cluster size***: La cantidad versiones del dato que el algoritmo identifica como similares.
+- ***Cluster size***: La cantidad de versiones del dato que el algoritmo identifica como similares.
 - ***Row count:*** El número de registros por cluster.
 - ***Values in cluster:*** Los valores seleccionados por el algoritmo para esa agrupación y el número de registros por valor.
 - ***Merge?:*** En este cuadro se selecciona si los valores se fusionan en el valor que propone el algoritmo por defecto o el documentado por el usuario. 
@@ -284,7 +292,7 @@ _Figura 20. Detalle de la ventana ventana de Cluster &  Edit para hacer realizar
 
 Vaya a _```Keying Function```_, seleccione _```ngram-fingerprint```_ y en _```Ngram Size```_ escriba ```1``` (Fig. 20).
 
-> Para conocer más acerca de los algoritmos diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
+> :brain: Para conocer más acerca de los algoritmos diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
 
 - Para el primer cluster asigne un valor nuevo, para esto vaya al cuadro de texto de _```New cell value```_ y escriba ```David H | Arango A | Bedoya J``` (dejando espacios sencillos). Luego haga check en el cuadro de _```Merge?```_ para ese _cluster_ (Fig. 20).
 
@@ -302,76 +310,84 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 
 ## Paso 6 - Servicios externos vía API's
 
-### 6.1 Validación taxonómica
+En este ejercicio se utiliza el [API](https://www.gbif.org/developer/species) de [GBIF](https://www.gbif.org) para verificar la validez taxonómica de una lista de nombres determinada.
 
-En este ejercicio se utiliza el [API](https://www.gbif.org/developer/species) desarrollado por [GBIF](https://www.gbif.org) a través de OpenRefine para verificar la validez taxonómica de una lista de nombres determinada.
+**Árbol taxonómico GBIF**
 
-GBIF agrupa las clasificaciones de los grupos de organismos de diversos proveedores de contenido, cada uno de las cuales es soportado por una comunidad de científicos. Para una lista completa de los proveedores y descripción de los mismos ingrese al [GBIG Backbone Taxonomy](http://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c)
+GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de reconciliación de diversos grupos biológicos y proveedores de contenido (Tabla 1), cada uno de las cuales es soportado por una comunidad de científicos. Este árbol permite la integración de múltiples fuentes de datos fácilitando las busquedad y descargas del portal, y esta en constante actualización.
 
-Entre los proveedores de clasificaciones se encuentran:
-
-| Proveedor | Enlace | 
+Tabla 1. Principales fuentes a aprtir de alc uales se consolida el árbol taxonómico de GBIF
+| Proveedor * | Enlace | 
 | -------- | -------- | 
 | CoL    | http://www.catalogueoflife.org/   |
+| International Barcode of Life project (iBOL)   | https://ibol.org/  |
+| World Register of Marine Species (WoRMS)   | http://www.marinespecies.org/   |
 | Index Fungorum	   | http://www.indexfungorum.org/   |
-| IUCN   | http://www.iucn.org/   |
+| Integrated Taxonomic Information System (ITIS)  | http://www.itis.gov/  |
 | International Plant Names Index	   | http://www.ipni.org/   |
 | The Paleobiology Database   | http://www.paleodb.org/   |
-| Integrated Taxonomic Information System (ITIS)  | http://www.itis.gov/  |
-| World Register of Marine Species (WoRMS)   | http://www.marinespecies.org/   |
+<sub>*Para una lista completa de los proveedores y descripción de los mismos ingrese al [_GBIF Backbone Taxonomy_](http://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c)</sub>
 
-**Paso 1**
 
-Elimine los facets o filtros que tenga activos. Para tener una aproximación inicial al funcionamiento del API diríjase a la columna _```recordedBy```_ y realice un Text Facet. Haga clic en la opción _```count```_ y seleccione al investigador(es) con mayor número de registros asociados (Vargas I) (Fig. 21).
+**Preparación de los datos**
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava1.JPG" width=800>
+Elimine los facets o filtros que tenga activos. Para tener una aproximación inicial al funcionamiento del API diríjase a la columna _```recordedBy```_ y realice un _Text Facet_. Haga clic en la opción _```count```_ y seleccione al investigador(es) con mayor número de registros asociados (Vargas I) (Fig. 21).
 
-_Figura 21. Filtro por conteo en ```recordedBy```._
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava1.JPG" width=500>
 
-Vaya a la columna _```scientificName```_. Es importante que estos nombres no contengan calificadores de como ```aff.```, ```cf.```, ```sp.``` o ```spp.```, de ser este el caso, elimínelos como se mostró en el ejercicio 4 y 6 y deje solamente como valor el nombre científico sin autoría.
+_Figura 21. Filtro por conteo en ```recordedBy``` y selección de la opción con más registros._
 
-Para realizar la validación es necesario que los espacios en blanco en cada nombre científico sean reemplazados por un valor que reconozca el API (“%20”).
+Vaya a la columna _```scientificName```_. Es importante que estos nombres no contengan calificadores como ```aff.```, ```cf.```, ```sp.``` o ```spp.```, de ser este el caso, elimínelos como se mostró en los pasos anteriores y deje solamente como valor el nombre científico sin autoría.
 
+**Cree la columna NomAPI**
+
+Para realizar la validación a través del API es necesario que los espacios en blanco en cada nombre científico sean reemplazados por un valor que reconozca el API (“%20”).
 
 Para ello vaya a _```Edit column > Add column based on this column```_ e introduzca la expresión (tal y como aparece) _```value.replace(" ","%20")_``` y nombre la columna *NomAPI* (Fig. 22).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.JPG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.JPG" width=500>
 
 _Figura 22. Creación de la nueva columna NomAPI_
 
-Cree una nueva columna llamada *validTax* a partir de la columna NomAPI, para esto siga la ruta _```Edit column >  Add column by fetching URLs…```_ e introduzca la expresión _```"http://api.gbif.org/v1/species/match?strict=true&name="+value```_. En el campo _```Throttle delay```_ escriba 5, haga clic en _```OK```_ y espere a que finalice el proceso (Fig. 23).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava3.JPG" width=800>
+**LLamado al API a partir del nombre científico**
+
+Cree una nueva columna llamada *validTax* a partir de la columna NomAPI, para esto siga la ruta _```Edit column >  Add column by fetching URLs…```_ e introduzca la expresión _```"http://api.gbif.org/v1/species/match?strict=true&name="+value```_. En el campo _```Throttle delay```_ escriba ```5```, haga clic en _```OK```_ y espere a que finalice el proceso (Fig. 23).
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava3.JPG" width=500>
 
 _Figura 23. Creación de la nueva columna validTax_
 
 ``` warning
-El tiempo de consulta depende de la cantidad de información y de la velocidad de la red (para este caso no tardará más de un par de minutos).
+El tiempo de consulta depende de la cantidad de información, la velocidad de la red, y la memoria RAM del computador - para este caso solo tardará  un par de minutos.
 ```
-Podrá observar que en cada celda de la columna validTax aparecen expresiones  a partir del llamado al API de GBIF para cada nombre científico consultado (Fig. 24).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava4.JPG" width=800>
+Podrá observar que en cada celda de la columna _validTax_ aparecen expresiones  a partir del llamado al API de GBIF para cada nombre científico consultado (Fig. 24).
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava4.JPG" width=500>
 
 _Figura 24. Visualización de la columna validTax_
 
-Para observar claramente con cuál hubo o no coincidencia respecto al nombre científico agregue una columna
-basada en *validTax* _```Edit column >  Add column based on this column```_
+**Extracción de la información obtenida**
+
+Para observar claramente los resultados, y obtener la validación delnombre científico agregue una columna basada en *validTax* _```Edit column >  Add column based on this column```_ llamada *Match* a partir de la columna *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("matchType")```_(Fig. 25).
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava5.JPG" width=500>
+
+_Figura 25. Creación de la columna Match a partir de la información obtenida del API_
 
 
-llamada *Match* a partir de la columna *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("matchType")```_(Fig. 25).
+**Validación del nombre científico**
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava5.JPG" width=800>
-
-_Figura 25. Creación de la columna Match_
-
-Realice un Text facet en la columna *match* y seleccione _Fuzzy_, esta opción denota los nombres científicos con los que no hubo coincidencia exacta. No se encuentra coincidencia total para este caso con Dermanura cinereus ni Dermanura glaucus(Fig. 26).
+Realice un Text facet en la columna *match* y seleccione _Fuzzy_, esta opción denota los nombres científicos con los que no hubo coincidencia exacta entre el conjunto de datos y el árbol taxonómico de GBIF. No se encuentra coincidencia total para este caso con *Dermanura cinereus* ni *Dermanura glaucus*(Fig. 26).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava6.JPG" width=400>
 
 _Figura 26. Resultado del Facet para Fuzzy_
 
-Para limpiar este error GBIF también le retorna a través del API una posible opción de nombres científicos válidos de acuerdo a los que no reconoció totalmente.
-Para revisar esto agregue una columna llamada *validName* a partir de la columna  *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("species")```_(Fig. 27A) y haga clic en _```OK```_(Fig. 27B).
+GBIF también le retorna a través del API una posible opción de nombres científicos válidos de acuerdo a los que no reconoció totalmente, evalué estos nombres e indentifique si debe hacer una corrección.
+
+Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("species")```_(Fig. 27) y haga clic en _```OK```_(Fig. 27).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava7.JPG" width=400>
 
@@ -379,50 +395,89 @@ _Figura 27. Creación de la nueva columna validName_
 
 Haciendo un Text Facet en  la columna *validName* verá que GBIF reconoce que la especie que seguramente desea documentar es *Dermanura cinerea* y *Dermanura glauca*, respectivamente (Fig. 28A).
 Corrija y edite entonces las inconsistencias en la columna _```scientificName```_ de acuerdo al *validName* (Fig. 28B).
+
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava8.jpg" width=800>
 
 _Figura 28. Corrección del nombre científico en OpenRefine_
 
-Habiendo realizado el proceso de verificación y limpieza de nombres científicos elimine las columnas adicionales que se crearon para este fín (```NomAPI```, ```validTax```, ```Match``` y ```validName```) Para ello siga la ruta _```Edit column > Remove this column```_ (Fig. 29).
+Habiendo realizado el proceso de verificación y limpieza de nombres científicos elimine las columnas adicionales que se crearon para este fín (```NomAPI```, ```validTax```, ```Match``` y ```validName```). Para ello siga la ruta _```Edit column > Remove this column```_ (Fig. 29).
+
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava9.jpg" width=400>
 
 _Figura 29. Ruta para eliminar una columna_
 
-## Paso 7 - Exportación
+## Paso 7 - Modificación masiva de celdas
 
-### 7.1 Exportar un archivo
+Para hacer una modificación en todas las celdas del archivo, diríjase a la primera columna presente _```All```_ ,seleccione el menu desplegable y la opción _```Transform```_ (Fig. 30).
 
-Existen múltiples maneras de exportar los archivos en OpenRefine, la siguiente es la más confiables y con la mayor cantidad de opciones.
-Para hacerla, dirijase a la esquina superior derecha y siga la ruta _```Export >   Custom tabular exporter…```_ y le mostrara la ventada de exportación (Fig. 30).
-Esta pestaña _Content_ tiene algunas opciones para personalizar la exportación, entre estas estan:
-- Select and Order Columns to Export: En esta opción puede seleccionar las columnas y el orden en que se van a exportar.
-- Ignore facets and filters and export all rows: Si seleccionar esta opción se exportaran todos los datos, sin tener en cuenta los facets y filtros. De lo contrario se exportara con los facets y filtros presentes.
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava10.jpg" width=400>
+
+_Figura 30. Selección del menu para hacer el cambio masivo_
+
+En la pestaña emergente introduzca la fórmula _```value.trim().replace(/\u00A0/,' ').replace(/\s+/,' ')```_, esta elimina dobles espacios, saltos de línea y algunos carácteres no reconocibles. Al hacer clic en _```OK```_ le mostrará otra pestaña donde puede elegir las columnas a las que desea aplicarles la modificación. Deje la opción por defecto con todas las columnas y de clic en _```OK```_ (Fig. 31).
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava11.jpg" width=400>
+
+_Figura 31. Pestaña para introducir la función de transformaciñon, y para seleccionar las columnas a las cuales se aplica la función _
+
+``` warning
+El proceso puede tardar algunos segundos dependiendo del número de columnas y celdas.
+```
+
+## Paso 8 - Exportación
+
+### 8.1 Exportar un archivo
+
+Existen múltiples maneras de exportar los archivos en _Open Refine_, la siguiente es la más confiable y con la mayor cantidad de opciones. Dirijase a la esquina superior derecha y siga la ruta _```Export >   Custom tabular exporter…```_ y le mostrara la ventada de exportación (Fig. 32).
+
+En la pestaña _Content_ de la ventana emergente tiene encontrará varias opciones para personalizar la exportación, entre estas:
+
+- **_Select and Order Columns to Export_**: le permite seleccionar las columnas y el orden en que se van a exportar.
+- **_Ignore facets and filters and export all rows_**: si al momento de exportar el archivo tiene _Facets_ y Filtros activos, esta opción le permitirá ignorarlos, descargando así todo el conjunto de datos. 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex1.jpg" width=800>
 
-_Figura 30. Ruta para expotar el archivo y ventana content_
+_Figura 32. Ruta para expotar el archivo y ventana content_
 
-Vaya a la pestaña _Download_, esta tiene las siguientes opciones para seleccionar y descargar los datos:
-- Line-based text formats/Other formats: El tipo de archivo en el que quiere descargar los datos.
-- Line separator: El separador de caracteres para los datos.
-- Character encoding: La codificación para descargar los datos.
+Vaya a la pestaña _Download_, donde podrá configurar el formano en el cuál se descargan los datos:
 
-Para este caso, use *Other formats* y elija la opción ```Excel in XML(.xlsx)```, haga clic en ```Download``` y guarde su archivo(Fig. 31).
+- **_Line-based text formats/Other formats_**: si va a descargar los datos en formato de texto plano le permite selecionar el separado de las olumnas.
+- **_Line separator**_:si va a descargar los datos en formato de texto plano le permite seleccionar el separador de las filas.
+- **_Character encoding_**: le permite seleccionar la codificación de los datos. Se recomienda siempre utilizar [**UTF-8**](https://es.wikipedia.org/wiki/UTF-8)
+
+Para este caso, use *Other formats* y elija la opción ```Excel in XML(.xlsx)```, haga clic en ```Download``` y guarde su archivo (Fig. 33).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex2.jpg" width=800>
 
-_Figura 31. Selección de formato_
+_Figura 33. Selección del formato de descarga del conjunto de datos_
 
-### 7.2 Exportar un proyecto
+### 8.2 Exportar e importar un proyecto
 
-OpenRefine también le ofrece la posibilidad de exportar el proyeco completo, esto permite descargar un archivo que contiene toda la información que tenia el proyecto (Datos y cambios realizados). Este archivo se puede utilizar para trabajar OpenRefine desde otro equipo. 
-Para hacerlo diríjase a la esquina superior derecha y siga la ruta _```Export > OpenRefine project archive to file```_ y guarde su archivo (Fig. 32)
+_Open Refine_ también le ofrece la posibilidad de exportar el proyeco completo, esto permite descargar un archivo que contiene toda la información que tenia el proyecto (datos e histórico de cambios). Este archivo se puede utilizar para trabajar OpenRefine desde otro equipo. 
+Para hacerlo diríjase a la esquina superior derecha y siga la ruta _```Export > OpenRefine project archive to file```_ y guarde su archivo (Fig. 34)
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex3.jpg" width=400>
 
-_Figura 32. Exportación del proyecto_
+_Figura 34. Exportación del proyecto_
 
+```tip
+Los proyectos exportados tienen la extensión".openrefine.tar.gz" y no es necesario descomprimirlos para usarlos. Solamente abralos con el siguiente procedimiento.
+```
 
-## Uso avanzado
+Para importar el proyecto, abra _Open Refine_ y diríjase a la pestaña _```Import Project```_. Haga clic en _```Choose File```_ y seleccione el archivo ```datos_Estructurados.openrefine.tar.gz``` y escoja la opción  _```Import Project```_ (Fig. 35).
 
-:wrench: 🔨 :hammer: Contenidos adicionales estarán disponible a partir del **Sábado 03 de Octubre del 2020**
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex4.jpg" width=400>
+
+_Figura 35. Importación de un proyecto en OpenRefine_
+
+****
+**¡Felicitaciones!** :raised_hands: 
+Has aprendido a utilizar _Open Refine_ para validdar y limpiar tus datos sobte biodiversidad.
+
+_____________
+
+**Fuentes:**
+
+Verborgh, R., & De Wilde, M. (2013). Using OpenRefine. Packt Publishing Ltd.
+
+_____________
