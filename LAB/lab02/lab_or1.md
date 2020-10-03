@@ -204,8 +204,7 @@ Realice un _```Text Facet```_ en _```verbatimTaxonRank```_ y edite masivamente r
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_sp2.png" width=400>
 
-_Figura 14. Documentación masiva del elemento ```verbatimTaxonRank``` ._
-
+<sub>_Figura 14. Documentación masiva del elemento verbatimTaxonRank._</sub>
 
 Diríjase nuevamente al menú de la columna de _```scientificName```_ y siga la ruta _```Edit cells > Transform```_, luego ingrese la fórmula  _```value.replace(" sp.","")```_, note que en la pestaña _```Preview```_ puede ver la vista previa del resultado de aplicar la fórmula y corroborar si es el cambio deseado (Fig. 15). Haga clic en _```OK```_ y aparecerá un mensaje de confirmación de que los cambios se han realizado.
 
