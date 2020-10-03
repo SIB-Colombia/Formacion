@@ -30,7 +30,7 @@ General Public License, soportado como un proyecto de la Open Source Geospatial 
 * Descargue la carpeta [```ValidacionGeografica_SiB-QGIS```](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) con el proyecto de QGIS con todas las capas necesarias para realizar el laboratorio.
 
 
-:warning: Estamos puliendo este laboratorio, la guía puede presentar cambios menores de formato y estílo para una mejor navegación y aprendizaje. 
+:warning: Estamos puliendo este laboratorio, la guía puede presentar cambios menores de formato y estilo para una mejor navegación y aprendizaje. 
 
 --------
 
