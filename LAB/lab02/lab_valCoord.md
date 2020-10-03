@@ -30,7 +30,7 @@ General Public License, soportado como un proyecto de la Open Source Geospatial 
 * Descargue la carpeta [```ValidacionGeografica_SiB-QGIS```](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) con el proyecto de QGIS con todas las capas necesarias para realizar el laboratorio.
 
 
-:warning: Estamos puleindo este laboratorio, la guía puede presentar cambios menores de formato y estílo. 
+:warning: Estamos puliendo este laboratorio, la guía puede presentar cambios menores de formato y estílo para una mejor navegación y aprendizaje. 
 
 --------
 
@@ -162,8 +162,7 @@ Dentro del menú de intersección, en *Capa de entrada* (Input Layer) elija la c
 
 Una vez termine la ejecución se creará una nueva capa llamada ```Joined_layer```, revise que esta se encuentre en el *panel de capas* . Proceda a abrir la tabla de atributos de esta capa haciendo clic derecho sobre la capa y elija la opción *Abrir tabla de atributos* (Open Attribute Table). (Fig. 10).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig7_validQGIS_AttribT.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_validQGIS_AttribT.PNG" width=800>
 
 *Figura 7. Acceder a la Tabla de atributos de la capa resultante de la unión.* 
 
@@ -179,8 +178,7 @@ Fig8_validQGIS_AttribDetalle.PNG" width=600>
 
 Para poder realizar una comparación entre los nombres sugeridos de la capa y los nombres documentados en los registros, abra la calculadora de campos dentro de la tabla de atributos digitando el comando (Ctrl + i) o haciendo clic en el icono en la barra de herramientas dentro de la tabla de atributos (Fig. 9 ).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig9_validQGIS_SelecCalculadora.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_validQGIS_SelecCalculadora.PNG" width=600>
 
 *Figura 9. Sellección de la calculadora de campos desde el menú de herramientas de la tabla de atributos*
 
@@ -198,15 +196,13 @@ Este comando raliza la siguiente acción: revisa si el campo “county” está 
 ```
 * Finalmente, de clic en *Aceptar*(OK). (Fig. 10). 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig10_validQGIS_Calculadora.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig10_validQGIS_Calculadora.PNG" width=600>
 
 *Figura 10. Documentación de la Calculadora de campos para obtener un campo con la validación geográfica del municipio (county).*
 
 En la tabla de atributos verá una nueva columna (contyValidation), con el resultado de la validación geográfica. Los resultados los puede interpretar de la siguiente forma (Fig. 11):
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig11_validQGIS_VlidCounty.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig11_validQGIS_VlidCounty.PNG" width=600>
 
 *Figura 11. Verificación de resultados de la creación del campo con la validación del municipio (county)*
 
@@ -224,8 +220,7 @@ Repita el paso 6.3. para la validación del Departamento. Cree un nuevo campo pa
 ```
 if( "stateProvince"  =  "suggestedS" ,'1',if("stateProvince" is null, '','0'))
 ```
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig12_validQGIS_CalculadoraSP.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig12_validQGIS_CalculadoraSP.PNG" width=600>
 
 *Figura 12. Documentación de la Calculadora de campos para obtener un campo con la validación geográfica del departamento (stateProvince).**
 
@@ -237,29 +232,25 @@ A continuación va a generar un filtro para visualizar los datos que no coincide
 1. Abra nuevamente la tabla de atributos de la capa ```Joined_layer```
 2. En la parte inferior de la tabla de atributos haga clic en el botón ```Show all features```>```Field filter```>```countyValidation```. (Fig. 13)
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig13_validQGIS_SelectError.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_validQGIS_SelectError.PNG" width=800>
 
 *Figura 13. Filtro de campos a partir de la tabla de atributos*
 
 3. Se abrirá un cuadro de diálogo en la parte inferior de la tabla de atributos donde digitalizará un cero (```0```) para filtrar los datos inconsistentes (Fig. 14).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig14_validQGIS_Escriba0.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_validQGIS_Escriba0.PNG" width=600>
 
 *Figura 14. Filtro de campos a partir de la tabla de atributos.*
 
 4. Como resultado verá en la parte superior de la tabla de atributos el número de registros filtrados. Seleccione la esquina superior izquierda de los datos como se muestra en la Fig. 15. 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig15_validQGIS_Select0s.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig15_validQGIS_Select0s.PNG" width=800>
 
 *Figura 15. Seleccion y verificación de resultados del filtro a partir de resultados de la validación del campo countyValidation.*
 
 5. Minimice la tabla de atributos, verá los puntos con inconsistencias (```0's```) seleccionados en la pantalla de visualización del mapa (Fig. 16).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig16_validQGIS_VisualizacionPuntosErrores.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_validQGIS_VisualizacionPuntosErrores.PNG" width=800>
 
 *Figura 16. Visualización de registros seleccionados por no coincidir (0's) su ubicación con el municipio documentado en el elemento county (resaltados en amarillo)*
 
@@ -269,15 +260,13 @@ Por último va a guardar el archivo de validacion en formato de texto (Excel) en
 
 1. Clic derecho sobre la capa resultante de la Unión ```Joined_layer```> ```Exportar``` (Export) > ```Guardar como``` (Save feature as). (Fig. 17)
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig17_validQGIS_ExportExcel.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_validQGIS_ExportExcel.PNG" width=600>
 
 *Figura 17. Opciones para exportar el resultado de la validación geográfica en formato Excel.*
 
 2. En la ventana emergente seleccione el formato ```MS Office Open XML [XLSX]``` (Archivo excel). En ```Nombre del archivo```(File name) ubique la carpeta donde quiere guardar el resultado y luego haga clic en ```Aceptar```(Ok). (Fig. 18)
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/
-Fig18_validQGIS_ExportExcel.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig18_validQGIS_ExportExcel.PNG" width=600>
 
 *Figura 18. Documentación de ventana emergente para exportar resultados de la validación geográfica en formato Excel.*
 
