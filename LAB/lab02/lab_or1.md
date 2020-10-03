@@ -423,10 +423,6 @@ Para hacerlo diríjase a la esquina superior derecha y siga la ruta _```Export >
 
 _Figura 32. Exportación del proyecto_
 
-```tip
-Los proyectos exportados tienen un formato ".openrefine.tar.gz" y no es necesario descomprimirlos para usarlos. Solamente abralos con el siguiente procedimiento.
-```
-
 
 ## Uso avanzado
 
