@@ -2,7 +2,7 @@
 sort: 5
 ---
 
-# Validación Coordenadas
+# Visualización Coordenadas
 
 **Objetivo**
 
