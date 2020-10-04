@@ -17,7 +17,6 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 
 *Data validator*: [https://www.gbif.org/es/tools/data-validator/](https://www.gbif.org/es/tools/data-validator/)
 
-
 **Requerimientos** 
 * La primera fila del conjunto de datos a validar debe tener el nombre de los elementos *DwC* en inglés.
 
@@ -41,41 +40,42 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está regist
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig.1_dataValidator.png" width=800>
 
-*Figura 1. Ingreso/registro en la página de GBIF*
+<sup>*Figura 1. Ingreso/registro en la página de GBIF*</sup>
 
 ## Paso 2 - Cargar el archivo
 Cargue el archivo ```datos_Estructurados.xls```  al validador; (1) haciendo clic en SELECCIONAR UN ARCHIVO o (2) arrastrando el archivo desde una carpeta a el ícono SOLTAR AQUÍ. 
 
 ```warning
-Es indispensable que el elemento *occurrenceID* este documentado para que el DataValidator reconozca el archivo.
+Es indispensable que el elemento *occurrenceID* este documentado para que el _DataValidator_ reconozca el archivo.
 ```
+
 
 El validador le indicará si el conjunto de datos tiene la estructura adecuada para ser publicado a través del SiB Colombia, GBIF y OBIS, o si es necesario realizar ajustes. El informe de validación contiene la siguiente información:
 
-**1. Resumen**.
+**2.1. Resumen**
 * Un indicador semaforizado (rojo y verde) que indica si puede el conjunto de datos puede ser indexado (Fig. 2 A).
 * Resumen del tipo de conjunto de datos (Fig. 2 B).
 * Alertas de validación que indican **potenciales** problemas en la estructuración y calidad del conjunto de datos (Fig. 2 C).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_datavalid_Informe.PNG" width=800>
 
-*Figura 2. Componentes del informe - Resumen de validación del conjunto de datos*
+<sup>*Figura 2. Componentes del informe - Resumen de validación del conjunto de datos*</sup>
 
-**2. Frecuencia del término**
+**2.2. Frecuencia del término**
 * Número de registros (filas) interpretados con éxito (Fig. 3 A).
 * Reporte del porcentaje de documentación de cada uno de los elementos del estándar *DwC* utilizados en el conjunto de datos (Fig. 3 B).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_datavalid_Informe_frecuencia.PNG" width=700>
 
-*Figura 3. Componentes del informe - Frecuencia del término*
+<sup>*Figura 3. Componentes del informe - Frecuencia del término*</sup>
 
-**3. Problemas de validación**
+**2.3. Problemas de validación**
 
 * Reporte detallado de los problemas encontrados en el conjunto de datos por elemento DwC.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_datavalid_Informe_problemas.png" width=700>
 
-*Figura 4. Componentes del informe - Problemas de validación.*
+<sup>*Figura 4. Componentes del informe - Problemas de validación.*</sup>
 
 
 ## Paso 3 - Validación
@@ -87,7 +87,7 @@ Revise el encabezado del reporte, si aparece en rojo significa que no puede ser 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_datavalid_semaforo.PNG" width=600>
 
-*Figura 5. Posibles resultados de la validación. A. VERDE, el conjunto de datos puede ser indexado. B. ROJO, no puede indexarse.*
+<sup>*Figura 5. Posibles resultados de la validación. A. VERDE, el conjunto de datos puede ser indexado. B. ROJO, no puede indexarse.*</sup>
 
 >:thinking: ¿Su conjunto de datos puede ser indexado?
 
@@ -127,7 +127,7 @@ Haga clic sobre las flechas de cada una de las alertas para obtener un desglose 
 
 * Alertas de color **GRIS** - Indican el proceso de interpretación realizado por el validador, no necesariamente requiere que se realicen ajustes en los datos.
 
-### Paso 3.4 - Revisión de alertas
+### 3.4. Revisión de alertas
 
 Revise todas las alertas de validación y ajuste los datos de acuerdo a estas (Fig. 7).
 
@@ -165,7 +165,7 @@ También puede obtener el mensaje *Se presume longitud negativa*, pero es menos 
 **Solución 2.**: que el nombre científico esté escrito correctamente.
 
 
-> :rotating_light: Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el árbol taxonómico de GBIF. Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
+> Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si es que estos no se encuentran en el árbol taxonómico de GBIF. Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso ignore la alerta.
 
 
 **:warning: Alerta**: Coincidencia aproximada del taxón
@@ -186,10 +186,16 @@ También puede obtener el mensaje *Se presume longitud negativa*, pero es menos 
 
 **Problema**: el datum geodésico no fue documentado, pero el validador lo identificó como WGS84.
 
-**Solución 1**: documentar el elemento DwC  ```geodeticDatum``` como WGS84,
+**Solución 1**: documentar el elemento DwC  ```geodeticDatum``` como WGS84.
 
 **Solución 2**: si las coordenadas tienen un datum diferente a WGS84 documentelo para evitar que este sea asumido.
 
+
+**:warning: Alerta**: Coordenadas redondeadas
+
+**Problema**: las coordenadas decimales tienen más de 5 cifras significativas. Más allá de 6 cifras, las coordenadas no mejoran su precisión por lo cual es más eficiente redondearlas.
+
+**Solución 1**: no es necesarios ajustar las coordenadas ya que es solo una alerta de interpretación, sin embargo, si lo desea puede hacer cambios en el conjunto de datos.
 
 ## Paso 4 - Verificación del resultado
 
@@ -205,8 +211,21 @@ Compare sus resultados con el siguiente archivo validado según las definiciones
 Si tiene datos propios que desee publicar, pruebe validarlos siguiendo los pasos de este laboratorio.
 
 Recomendaciones:
-Revise en la sección **Frecuencia del término** el reporte del porcentaje de documentación de los elementos de su conjunto de datos. Y Según el origen se sus datos (colecciones biológicas, permisos de recolección, datos marinos, eventos de muestreo) compruebe que los elementos obligatorios, e idealmente los recomendados, esten documentados el 100%. Para ello utilice la de referencia la última [plantilla DwC Registros biológicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0)
+
+Según el origen de sus datos (colecciones biológicas, permisos de recolección, datos marinos, eventos de muestreo) compruebe que los elementos obligatorios, e idealmente los recomendados, esten documentados el 100%. Para ello utilice de referencia la última [plantilla DwC Registros biológicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0) y la sección del Validador de datos **Frecuencia del término** (Fig. 3 B). 
 
 ****
 **¡Felicitaciones!** :raised_hands:
 Ha mejorado la calidad de su conjunto de datos 
+
+****
+
+**Atribución y uso de los laboratorios**
+
+![](https://licensebuttons.net/l/by/3.0/88x31.png)
+
+La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usar, redistribuir y construir sobre estos contenidos libremente. :open_hands: Queremos que compartas estos laboratorios y que juntos logremos datos sobre biodiversidad de mejor calidad.
+
+**Citación sugerida**
+
+> SiB Colombia (2020). Laboratorios de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
