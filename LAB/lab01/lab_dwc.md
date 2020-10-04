@@ -49,23 +49,24 @@ En la pestaña de instrucciones encontrará adicionalmente una sección titulada
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig1_Estandarizacion_datosobligatorios.png" width=1000>
 
-*Figura 1. Instrucciones de la plantilla DwC. Elementos obligatorios según el origen de los datos.*
+<sup>*Figura 1. Instrucciones de la plantilla DwC. Elementos obligatorios según el origen de los datos.*</sup>
 
 ## Paso 3 - Crear elementos obligatorios 
 Abra el archivo de trabajo [```Datos_Caso1_20reg.xls```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx)  y cree los elementos obligatorios faltantes a partir de la información que encuenta en el caso de estudio y en los mismos datos.
+
  
 > **Pista**: Debe crear un identificador único del registro biológico (*occurenceID*) a partir del código de la institucion (*institutionCode*), código de la colección (*collectionCode*) y número de catálogo (*catalogNumber*). Revise la definición del elemento occurrenceID en la pestaña plantilla para saber como construirlo.
 
 Ejemplo:
 occurrenceID: UCN:MH-ORNIT:46-2300MI2008AV0954
 
+
 ## Paso 4 - Mapeo de los datos 
 Una vez haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo [```Datos_Caso1_20reg.xls```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx)  e identifique a cuál elemento *DwC* de la plantilla de publicación corresponde. A esta actividad la llamamos **mapeo de datos**. Cuando identifique a cual elemento corresponde, copie y pegue el contenido en la plantilla, como se muestra en la siguiente imagen (Fig. 2).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Estandarizacion_mapeo.png" width=1000>
 
-*Figura 2. Mapeo de datos en la plantilla DwC.*
-
+<sup>*Figura 2. Mapeo de datos en la plantilla DwC.*</sup>
 
 ## Paso 5 - Ajustar los datos  
 
@@ -73,16 +74,16 @@ Una vez esten todos los datos del archivo ```Datos_Caso1_20reg.xls``` en la plan
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Estandarizacion_EstructuraPlantilla.png" width=800>
 
-*Figura 3. Estructura de la plantilla de publicación.*
+<sup>*Figura 3. Estructura de la plantilla de publicación.*</sup>
 
-## Paso 6 - Eliminar elementos vacíos
+## Paso 6 - Eliminar elementos vacíos 
 Elimine en la plantilla de registros biológicos los elementos *DwC* que quedaron vacíos, recuerde que para la publicación solo debe mantener los elementos que hayan sido documentados.
 
 Al finalizar su plantilla se debe ver similar a la siguiente imagen (Fig. 4):
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_Estandarizacion_mapeofinal.png" width=1000>
 
-*Figura 4. Resultado final del mapeo de datos y eliminación de elementos vacíos.*
+<sup>*Figura 4. Resultado final del mapeo de datos y eliminación de elementos vacíos.*</sup>
 
 
 ## Paso 7 - Verificación del resultado
@@ -99,3 +100,15 @@ Si tiene datos propios que desee publicar, estandarízelos siguiendo los pasos d
 
 **¡Felicitaciones!** :raised_hands:
 Su conjunto de datos ha sido estandarizado en *Darwin Core*.
+
+****
+
+**Atribución y uso de los laboratorios**
+
+![](https://licensebuttons.net/l/by/3.0/88x31.png)
+
+La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usar, redistribuir y construir sobre estos contenidos libremente. :open_hands: Queremos que compartas estos laboratorios y que juntos logremos datos sobre biodiversidad de mejor calidad.
+
+**Citación sugerida**
+
+> SiB Colombia (2020). Laboratorios de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
