@@ -318,15 +318,17 @@ GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de recon
 
 
 <sup>Tabla 1. Principales fuentes a aprtir de alc uales se consolida el árbol taxonómico de GBIF</sup>
+
 | Proveedor * | Enlace | 
 | -------- | -------- | 
-| CoL    | http://www.catalogueoflife.org/   |
+| CoL | http://www.catalogueoflife.org/ |
 | International Barcode of Life project (iBOL)   | https://ibol.org/  |
 | World Register of Marine Species (WoRMS)   | http://www.marinespecies.org/   |
 | Index Fungorum	   | http://www.indexfungorum.org/   |
 | Integrated Taxonomic Information System (ITIS)  | http://www.itis.gov/  |
 | International Plant Names Index	   | http://www.ipni.org/   |
 | The Paleobiology Database   | http://www.paleodb.org/   |
+
 <sub>*Para una lista completa de los proveedores y descripción de los mismos ingrese al [_GBIF Backbone Taxonomy_](http://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c)</sub>
 
 
