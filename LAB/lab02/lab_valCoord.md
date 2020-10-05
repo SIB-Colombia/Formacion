@@ -43,10 +43,10 @@ General Public License, soportado como un proyecto de la Open Source Geospatial 
 3. Una vez finalice la descarga, ejecute el archivo descargado, haciendo clic sobre el archivo.
 4. Siga los pasos de instalación en su ordenador. Si es usuario de Windows seleccione la opción de descarga (32 bits o 64 bits) según su sistema operativo.
 
-
 ``` tip
-Puede encontrar instrucciones más específicas de instalación en la [página de descarags](https://qgis.org/es/site/forusers/alldownloads.html). 
-:film_projector: También puede consultar este [video tutorial (https://www.youtube.com/watch?v=4lSee2ewWsY) 
+Puede encontrar instrucciones más específicas de instalación en la [página de descargas](https://qgis.org/es/site/forusers/alldownloads.html). 
+
+:film_projector: También puede consultar este [video tutorial] (https://www.youtube.com/watch?v=4lSee2ewWsY) 
 ```
 
 ## Paso 2 - Descarga de datos
