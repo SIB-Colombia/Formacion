@@ -317,7 +317,7 @@ En este ejercicio se utiliza el [API](https://www.gbif.org/developer/species) de
 GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de reconciliación de diversos grupos biológicos y proveedores de contenido (Tabla 1), cada uno de las cuales es soportado por una comunidad de científicos. Este árbol permite la integración de múltiples fuentes de datos fácilitando las busquedad y descargas del portal, y esta en constante actualización.
 
 
-<sup>Tabla 1. Principales fuentes a aprtir de alc uales se consolida el árbol taxonómico de GBIF</sup>
+<sup>Tabla 1. Principales fuentes a partir de las cuales se consolida el árbol taxonómico de GBIF</sup>
 
 | Proveedor * | Enlace | 
 | -------- | -------- | 
