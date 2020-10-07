@@ -10,7 +10,7 @@ Tradicionalmente el Equipo Coordinador del SiB Colombia  facilita talleres prese
 * Aplicar protocolos para la captura de datos con fines de publicación a través del SiB Colombia.
 * Aplicar protocolos y herramientas para la estructuración, validación y limpieza de datos sobre biodiversidad para su publicación a través del SiB Colombia.
 
-Conoce más sobre el [Ciclo de Formación virtual 2020](https://sibcolombia.net/formacion/) llevado a cabo del 20 de agosto al 08 de octubre.
+Conoce más sobre el [Ciclo de Formación virtual 2020](https://sibcolombia.net/formacion/) llevado a cabo del 20 de agosto al 13 de octubre.
 
 ### Seminarios
 
