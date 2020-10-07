@@ -25,14 +25,12 @@ Al finalizar este laboratorio habrás aprendido a:
 
 - **Calidad de datos**: Se define como la capacidad de los datos de satisfacer las necesidades del quien los usa.
 
+- **API**: Funciona como un mensajero que genera una solicitud a un programa/base de datos y retorna una respuesta apropiada a la solicitud inicial. Técnicamente son un conjunto de comandos, funciones y protocolos informáticos que las aplicaciones pueden seguir para comunicarse entre ellas, aseguran la conectividad entre aplicaciones, páginas portales etc. De esta manera las APIs permiten hacer uso de funciones ya existentes en otras plataformas o páginas, sin necesidad de crearlas desde cero.
+Conoce más en los siguientes videos.
+  [Video en ingles](https://youtu.be/s7wmiS2mSXY)
+  [Video en español](https://youtu.be/rq6gdwEbowU)
+
 - **GBIF**: Infraestructura Mundial de Información en Biodiversidad— es una organización internacional y una red de investigación financiada por gobiernos de todo el mundo, destinada a proporcionar a cualquier persona, en cualquier lugar, acceso abierto y gratuito a datos sobre cualquier tipo de forma de vida que hay en la Tierra. *El SiB Colombia es el nodo nacional de GBIF.*
-
-- **Estándar sobre biodiversidad**: Un conjunto de términos que especifica la forma en que deben ser estructurados los datos sobre biodiversidad que faciliten el acceso, disponibilidad e intercambio de información sobre la biodiversidad.
-
-- **Estandarizar**: Estructurar y organizar un conjunto de datos bajo los términos y definiciones en un estándar sobre biodiversidad.
-
-- **Mapeo**: Identificación de la coincidencia entre los elementos de un conjunto de datos dentro de los términos y definiciones de un estándar.
-
 
 ### Lecturas y recursos externos
 
