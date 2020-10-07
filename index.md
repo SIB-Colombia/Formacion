@@ -24,7 +24,7 @@ Te recomendamos ver todos los seminarios antes de realizar los laboratorios, est
 4. [Crear, compartir, transformar: ¿Cómo publicar a través del SiB Colombia?](https://youtu.be/Q83XpNQwyEc)
 5. [Artículos de datos: ¿Cómo obtener un reconocimiento académico cuando mis datos tienen un alto valor científico?](https://youtu.be/z0JhWOdJKpI)
 6. [Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad](https://youtu.be/_JBbEjG1wAU)
-7. Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?
+7. [Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?](https://youtu.be/M8AgoWnLkrg)
 8. Datos abiertos sobre biodiversidad: ¿Cómo acceder y usar los datos publicados a través del SiB Colombia?
 
 ### Laboratorios
