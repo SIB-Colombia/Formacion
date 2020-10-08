@@ -3,7 +3,6 @@ sort: 3
 ---
 
 
-
 # Laboratorio datos en contexto
 
 ### Metas de aprendizaje
@@ -34,26 +33,25 @@ Cada Darwin Core Archive incluye como uno de sus componentes un archivo EML (esc
 
 
 - **DwC-A**: Este es el formato de archivo de intercambio de datos más utilizado en datos sobre biodiversidad, y consiste en un archivo comprimido que contiene:
-**Archivo de datos de ocurrencia**: un archivo de datos separado por tabulaciones que contiene según el tipo de publicación, los registros (occurrence.txt), especies (taxon.txt) o eventos (event.txt), asociados a la publicación.
-**Archivo de metadatos, "eml.xml"**: este archivo xml almacena toda la información que describe el contenido del conjunto de datos descargado.
-**Archivo de metadatos de descriptor, "meta.xml"**: este archivo xml describe la estructura del archivo Darwin Core para que el software pueda procesar todo el archivo automáticamente.
-**Archivos de extensiones**: Si la publicación contaba con extensiones Darwin Core, estas también se incluyen dentro del archivo DwC-A. El nombre del archivo varía según la extensión, algunos ejemplos son multimedia.txt, measurementorfact.txt, description.txt, resourcerelationship.txt, distribution.txt.
+  - **Archivo de datos de ocurrencia**: un archivo de datos separado por tabulaciones que contiene según el tipo de publicación, los registros (occurrence.txt), especies (taxon.txt) o eventos (event.txt), asociados a la publicación.
+  - **Archivo de metadatos, "eml.xml"**: este archivo xml almacena toda la información que describe el contenido del conjunto de datos descargado.
+  - **Archivo de metadatos de descriptor, "meta.xml"**: este archivo xml describe la estructura del archivo Darwin Core para que el software pueda procesar todo el archivo automáticamente.
+  - **Archivos de extensiones**: Si la publicación contaba con extensiones Darwin Core, estas también se incluyen dentro del archivo DwC-A. El nombre del archivo varía según la extensión, algunos ejemplos son multimedia.txt, measurementorfact.txt, description.txt, resourcerelationship.txt, distribution.txt.
 
 
 - **Datos abiertos:** Los datos abiertos son datos que cualquiera puede usar y que representan una filosofía y una práctica. Para que un dato sea verdaderamente abierto debe cumplir ciertas características:
-
-1. Se pueden usar con cualquier fin, no tienen restricciones legales, ni técnicas.
-2. El acceso debe ser gratuito
-3. Su formato debe ser accesible, y legible por computadores.
-4. Es explícito que cuenta con una licencia que permite su reutilización
+  - Se pueden usar con cualquier fin, no tienen restricciones legales, ni técnicas.
+  - El acceso debe ser gratuito
+  - Su formato debe ser accesible, y legible por computadores.
+  - Es explícito que cuenta con una licencia que permite su reutilización
 
 - **Atribución**: dar crédito de manera adecuada, dando por ejemplo el nombre de los autores y partes atribuidas, brindando un enlace a la licencia, e indicando si se han realizado cambios. Ver [CCBY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
 
 
 - **Licencias Creative Commons**:Creative Commons (**CC**) es una organización sin ánimo de lucro creada en Estados Unidos, que cuenta con una red de afiliados voluntarios en todo el mundo. Desarrolló una serie de licencias que facilitan compartir legalmente el conocimiento y la creatividad. A continuación se listan las licencias disponibles a través del IPT.
-**Herramienta Creative Commons Cero**: permite al público copiar, modificar, distribuir tu obra y hacer comunicación pública de ella, incluso para fines comerciales, sin pedirte permiso. Al usar esta licencia, dedicas tu obra al dominio público y renuncias a todos tus derechos patrimoniales de autor en todo el mundo, incluyendo todos los derechos conexos y afines, en la medida permitida por la ley.
-**Creative Commons Atribución 4.0 internacional**: permite al público distribuir, mezclar, ajustar y construir a partir de tu obra,incluso con fines comerciales, siempre quete sea reconocida la autoría de la creación original. Esta es la licencia más abierta de las ofrecidas. Recomendada para una máxima difusión y 
-**Creative Commons Atribución No Comercial 4.0 internacional** : permite al público distribuir, remezclar, retocar, y crear a partir de tu obra de manera no comercial. A pesar de que sus nuevas obras deben siempre mencionarte y mantenerse sin fines comerciales, no están obligados a licenciar sus obras derivadas bajo las mismas condiciones.
+  - **Herramienta Creative Commons Cero**: permite al público copiar, modificar, distribuir tu obra y hacer comunicación pública de ella, incluso para fines comerciales, sin pedirte permiso. Al usar esta licencia, dedicas tu obra al dominio público y renuncias a todos tus derechos patrimoniales de autor en todo el mundo, incluyendo todos los derechos conexos y afines, en la medida permitida por la ley.
+  - **Creative Commons Atribución 4.0 internacional**: permite al público distribuir, mezclar, ajustar y construir a partir de tu obra,incluso con fines comerciales, siempre quete sea reconocida la autoría de la creación original. Esta es la licencia más abierta de las ofrecidas. Recomendada para una máxima difusión y 
+  - **Creative Commons Atribución No Comercial 4.0 internacional** : permite al público distribuir, remezclar, retocar, y crear a partir de tu obra de manera no comercial. A pesar de que sus nuevas obras deben siempre mencionarte y mantenerse sin fines comerciales, no están obligados a licenciar sus obras derivadas bajo las mismas condiciones.
 
 - **DOI:** DOI es la sigla para Digital Object Identifier (Objeto de identificación digital), y consiste en un enlace permanente y abreviado que permite identificar un contenido electrónico, en este caso un recurso publicado a través del SiB Colombia. Todos los recursos publicados a través del SiB Colombia tienen asignados un DOI proporcionado por la agencia de registro Datacite. Entre los beneficios del uso del DOI está la persistencia del recurso en el tiempo sin importar si hay cambios en el nombre, la citación o los datos, y la facilidad de rastrear el uso de los datos en artículos, revistas, libros, etc. a través de la web.
 
