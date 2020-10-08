@@ -26,8 +26,6 @@ Al finalizar este laboratorio habrás aprendido:
 
 - **IPT**: [Herramienta de publicación](https://www.gbif.org/es/ipt), es un software gratuito y de código abierto que se utiliza para publicar y compartir conjuntos de datos de biodiversidad a través del SiB Colombia, GBIF y OBIS. Permite integrar datos y metadatos en un mismo archivo conocido como _DwC-A_.
 
-- **Recurso**: agrupación de un conjunto de datos y sus metadatos, refleja la unidad de datos e información que se puede publicar y consultar.¿?
-
 - **EML**: es un estándar para metadatos que consolida información sobre conjuntos de datos ecológicos en una serie de documentos XML modulares y extensibles. Todas las descripciones de los conjuntos de datos disponibles a través del SiB Colombia se basan en ‘metadatos’ —es decir, la información sobre los datos— y utilizan el estándar EML de código abierto, que administra y mantiene The Knowledge Network for Biocomplexity.
 Cada Darwin Core Archive incluye como uno de sus componentes un archivo EML (escrito en formato XML), que contiene un perfil específico para estos conjuntos de datos. Este perfil del EML es conocido como Perfil de Metadatos de GBIF o GMP ([GBIF Metadata Profile](https://eml.ecoinformatics.org/)).
 
@@ -55,6 +53,7 @@ Cada Darwin Core Archive incluye como uno de sus componentes un archivo EML (esc
 
 - **DOI:** DOI es la sigla para Digital Object Identifier (Objeto de identificación digital), y consiste en un enlace permanente y abreviado que permite identificar un contenido electrónico, en este caso un recurso publicado a través del SiB Colombia. Todos los recursos publicados a través del SiB Colombia tienen asignados un DOI proporcionado por la agencia de registro Datacite. Entre los beneficios del uso del DOI está la persistencia del recurso en el tiempo sin importar si hay cambios en el nombre, la citación o los datos, y la facilidad de rastrear el uso de los datos en artículos, revistas, libros, etc. a través de la web.
 
+- **Recurso**: agrupación de un conjunto de datos y sus metadatos, refleja la unidad de datos e información que se puede publicar y consultar.
 
 ### Lecturas y recursos externos
 
