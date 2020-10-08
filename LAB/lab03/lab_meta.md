@@ -77,6 +77,8 @@ Al final de la página del el menú ```Gestión de recursos``` encontrará la se
 
 Diríjase a la sección de creación del recurso al final del menú ```Gestión de recursos```, asigne un ```Nombre corto```(no use más de 5 palabras) al recurso que va a crear (Fig. 4A), no incluya  espacios ni carácteres especiales como tíldes o eñes 'ñ'. 
 
+Para este ejercicio cree el ```Nombre corto``` con sus iniciales y el acrónimo de su organización, así podrá encontrarlo fácilmente.
+
 **3.2 Tipo de recurso**
 
 Seleccione el ```Tipo``` de datos a publicar de la lista desplegable (Fig. 4B), en este caso ```Registros Biológicos```. La selección del tipo de datos durante la creación del recurso no es definitiva, puede cambiar el tipo de datos a lo largo de la publicación.
