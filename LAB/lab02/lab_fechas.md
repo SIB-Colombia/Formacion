@@ -88,11 +88,17 @@ Desde la herramienta _Date Parsisng_ seleccione y copie con le _mouse_ toda la t
 
 *Figura 6. Selección y copia de los resultados*
 
-Pegue la tabla copiada en el archivo Excel. Para hacerlo siga los siguientes pasos:
+Antes de pegar los datos, asegurese de asignarle el formato de texto a las columnas que creo en el documento de Excel (Fig. 7)
 
-1) Ubíquese sobre las celdas insertadas en el paso 5 (Fig. 7A).
-2) De clic en *Inicio* en el menú superior y seleccione *Pegar* > *Pegado especial* (Fig. 7B).
-3) En el menú de pegado especial seleccione *Texto* y luego *Aceptar* (Fig. 7C).
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.8_DateParsing.png" width=800>
+
+*Figura 7. Configuración del formato de las columnas a tipo texto*
+
+Pegue la tabla copiada en el archivo Excel con los siguientes pasos:
+
+1) Ubíquese sobre las celdas insertadas en el paso 5 (Fig. 8A).
+2) De clic en *Inicio* en el menú superior y seleccione *Pegar* > *Pegado especial* (Fig. 8B).
+3) En el menú de pegado especial seleccione *Texto* y luego *Aceptar* (Fig. 8C).
 
 ```tip
 El pegado especial en formato texto es indispensable para que Excel no haga interpretaciones erróneas sobre las fechas ya estandarizadas. Si no se realiza, Excel revertirá las fechas a otro formato y usted perdera su trabajo :sob:
@@ -100,13 +106,17 @@ El pegado especial en formato texto es indispensable para que Excel no haga inte
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.7_dateParsing.jpg" width=800>
 
-*Figura 7. Pasos para insertar las fechas copiadas con formato texto.*
+*Figura 8. Pasos para insertar las fechas copiadas con formato texto.*
 
-Verá las columnas incorporadas en el Excel (Fig. 8). Sin embargo note que la columna con la fecha del evento original se ha duplicado.
+```tip
+El pegado especial en formato texto es indispensable para que Excel no haga interpretaciones erróneas sobre las fechas ya estandarizadas. Si no se realiza, Excel revertirá las fechas a otro formato y usted perdera su trabajo :sob:
+```
+
+Verá las columnas incorporadas en el Excel (Fig. 9). Sin embargo note que la columna con la fecha del evento original se ha duplicado.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.8_dateParsing.JPG" width=600>
 
-*Figura 8. Resultados de las fechas en la hoja de Excel*
+*Figura 9. Resultados de las fechas en la hoja de Excel*
 
 Para finalizar la estandarización debe renombrar y eliminar algunas columnas. 
 - Eliminar la columna _```original```_ 
@@ -122,4 +132,5 @@ Si tiene datos propios que desee publicar, intente convertir las fechas al forma
 Terminó la conversión de las fechas del conjunto de datos a el estándar ISO 8601. 
 
 __________________
+
 
