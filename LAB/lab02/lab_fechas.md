@@ -99,9 +99,9 @@ Antes de pegar los datos, configure las columnas que creo en el documento de Exc
 
 Pegue la tabla copiada en el archivo Excel con los siguientes pasos:
 
- 1) Ubíquese sobre las celdas insertadas en el paso 5 (Fig. 8A).
- 2) De clic en *Inicio* en el menú superior y seleccione *Pegar* > *Pegado especial* (Fig. 8B).
- 3) En el menú de pegado especial seleccione *Texto* y luego *Aceptar* (Fig. 8C).
+ 1. Ubíquese sobre las celdas insertadas en el paso 5 (Fig. 8A).
+ 2. De clic en *Inicio* en el menú superior y seleccione *Pegar* > *Pegado especial* (Fig. 8B).
+ 3. En el menú de pegado especial seleccione *Texto* y luego *Aceptar* (Fig. 8C).
 
 ```tip
 El pegado especial en formato texto es indispensable para que Excel no haga interpretaciones erróneas sobre las fechas ya estandarizadas. Si no se realiza, Excel revertirá las fechas a otro formato y usted perdera su trabajo :sob:
