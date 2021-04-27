@@ -113,7 +113,7 @@ En la parte inferior derecha encontrará la opción _```GENERATE CSV```_ (Fig. 6
 
 En OpenRefine tiene la ventaja de poder realizar filtros y facets que le permitiran explorar con mas detalle los resultados obtenidos de la herramienta _Species Matching_.
 
-Cargue en OpenRefine el archivo ```normalized.csv``` obtenido del paso anterior. Para ello, abra OpenRefine y en el menú lateral y siga la ruta ```*Create Project* > *Get data from* > *This computer* > *Choose Files*```.
+Cargue en OpenRefine el archivo ```normalized.csv``` obtenido del paso anterior. Para ello, abra OpenRefine y en el menú lateral y siga la ruta _```Create Project* > Get data from > This computer > Choose Files```_.
 Seleccione el archivo que descargó en el paso anterior y de clic en la opción *```Next```* (Fig. 7).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.7_speciesMatching.JPG" width=800>
