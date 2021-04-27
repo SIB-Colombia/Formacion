@@ -37,7 +37,7 @@ Lea detenidamente el Caso de estudio, acá encontrará información relevante pa
 Su misión a lo largo de este laboratorio consiste en estructurar los datos del Museo siguiendo los lineamientos del estándar *Darwin Core (DwC)*.
 
 
-## Paso 2 - Identificar elementos obligatorios 
+## Paso 2 - Identificar los elementos obligatorios 
 Ingrese a la plantilla de publicación, donde encontrará 4 pestañas:
 
 * **Instrucciones**: Contiene la guía de uso y los puntos a tener en cuenta antes de iniciar la documentación de los registros biológicos.
@@ -75,7 +75,7 @@ Una vez esten todos los datos del archivo [```Datos_Caso1_20reg.xlsx```](https:/
 
 <sup>*Figura 3. Estructura de la plantilla de publicación.*</sup>
 
-## Paso 6 - Eliminar elementos vacíos 
+## Paso 6 - Eliminar los elementos vacíos 
 Elimine en la plantilla de registros biológicos los elementos *DwC* que quedaron vacíos, recuerde que para la publicación solo debe mantener los elementos que hayan sido documentados.
 
 Al finalizar, su plantilla se debe ver similar a la siguiente imagen (Fig. 4):
