@@ -52,12 +52,12 @@ Pegue **(Ctrl+V)** los datos en la sección *```Source data```* de la herramient
 <sup>*Figura 3. Resultado de la herramienta con los datos del archivo Excel*.</sup>
 
 ## Paso 3 - Visualización de resultados
-En la sección *```Field of interest```*, de clic sobre el desplegable *```Select field```* y podrá ver los elementos Darwin Core cargados en el *Source data* (Fig. 4). La herramienta asigna colores según el contenido del elemento. Si los puntos tienen los mismos colores, es porque el contenido para el elemento seleccionado es el mismo. 
+En la sección *```Field of interest```*, de clic sobre el desplegable *```Select field```* y podrá ver los elementos Darwin Core cargados en el *Source data* (Fig. 4). La herramienta asigna colores según el contenido del elemento. 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.4_valCoordenadas.jpg" width=500>
 
-<sup>*Figura 4. Selección de elemento en ```Field of interest```*.</sup>
+<sup>*Figura 4. Selección del departamento (stateProvince) en Field of interest*.</sup>
 
-Seleccione el elemento *stateProvince* en la sección ```Field of interest```. Verá los registros con el departamento documentado.  Ahora Intente identificar cuáles registros tienen inconsistencias en las coordenadas o la geografía superior dando clic sobre los puntos y evaluando su coherencia respecto a la ubicación en el mapa (Fig. 5). 
+Seleccione el elemento *stateProvince* en la sección ```Field of interest```. Verá los registros con el departamento documentado.  Ahora Intente identificar cuáles registros tienen inconsistencias en las coordenadas o la geografía superior dando clic sobre los puntos y evaluando su coherencia respecto a la ubicación en el mapa (Fig. 5).  Tenga en cuenta que si los puntos tienen los mismos colores, es porque el contenido para el elemento seleccionado es el mismo (Fig. 5).
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.5_valCoordenadas.jpg" width=500>
 
 <sup>*Figura 5. Registros mostrando la información por departamento*</sup>
@@ -82,9 +82,9 @@ Luego dirijase al elemento *```decimalLatitude```* y después de aplicar el filt
 
 :warning: Si al realizar este útlimo paso observa que cambia la configuración de la celda y la coordenada se convierte en un número entero separado por miles, es probable que deba cambiar la configuración de las opciones avanzadas de Excel para que reconozca el punto como separador decimal.
 
-
 **Reto...**
 ¿Puede identificar otro error en los registros? 
+
 :vertical_traffic_light: Pista: Con el elemento *```stateProvince```* seleccionado en *```Field of interest```* revise detalladamente los registros presentes al sur de Antioquia. 
 
 ## Paso 5 - Datos propios
