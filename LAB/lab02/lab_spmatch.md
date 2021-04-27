@@ -33,16 +33,16 @@ Descargue el archivo [```Datos_speciesmatching.zip```](https://raw.githubusercon
 --------
 
 ## Paso 1 - Carga de archivos en Species-Matching
-Ingrese a la herramienta en línea [Species-Matching]( https://www.gbif.org/es/tools/species-lookup) y cargue el archivo ```Datos_speciesmatching.csv``` (Fig. 1); Para ello tiene dos opciones:
+Ingrese a la herramienta en línea [_Species-Matching_]( https://www.gbif.org/es/tools/species-lookup) y cargue el archivo ```Datos_speciesmatching.csv``` (Fig. 1); Para ello tiene dos opciones:
 
-* Haga clic en *SELECT FILE* y seleccione el archivo desde la ubicación en su ordenador.
-* Arrastre el archivo desde su explorador de archivos y suéltelo en el ícono *DROP HERE*.
+* Haga clic en ```_SELECT FILE_``` y seleccione el archivo desde la ubicación en su ordenador.
+* Arrastre el archivo desde su explorador de archivos y suéltelo en el ícono ```*DROP HERE*```.
 
->:warning: Para que un archivo sea leído por la herramienta, debe estar en formato .csv y tener como mínimo una columna con nombres científicos llamada  *scientificName*
+>:warning: Para que el archivo sea leído por la herramienta, debe estar en formato .csv y tener como mínimo una columna con nombres científicos llamada  ```*scientificName*```
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.1_speciesMatching.JPG" width=800>
 
-*Figura 1. Página principal de la herramienta Species Matching*
+<sup>_Figura 1. Página principal de la herramienta Species Matching._</sup>
 
 
 ## Paso 2 - Manejo de la herramienta
@@ -56,7 +56,7 @@ Luego de cargar el archivo la herramienta le permite al usuario seleccionar un r
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.2_speciesMatching.JPG" width=800>
 
-*Figura 2. Detalle de la selección de Reino*
+<sup>_Figura 2. Detalle de la selección de Reino._</sup>
 
 
 >:ligth: **Recomendación:**:ligth: incluir el elemento ```kingdom``` cuando pertenecen a reinos diferentes y siempre que sea posible en el archivo de validación, de esta forma se evitan problemas ocasionados por homónimos entre distintos reinos. 
@@ -76,7 +76,7 @@ Una vez validado el archivo, visualizará en la herramienta en línea una tabla 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.3_speciesMatching.JPG" width=800>
 
-*Figura 3. Detalles del resultado de la validación en Species Matching*
+<sup>_Figura 3. Detalles del resultado de la validación en Species Matching._</sup>
 
 ### 2.3. Corrección y edición de nombres científicos
 
@@ -84,7 +84,7 @@ Diríjase a la columna *matchType*, al hacer clic en el encabezado podrá reorga
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.4_speciesMatching.JPG" width=800>
 
-*Figura 4. Resultados organizados en orden de coincidencia en la columna matchType*
+<sup>_Figura 4. Resultados organizados en orden de coincidencia en la columna matchType._</sup>
 
 Revise y ajuste los nombres científicos identificados con la etiqueta ```[HIGHERRANK]```. Diríjase a la columna ScientificName, y haga clic en el ícono del lápiz (Fig. 5A), luego aparecerá una ventana que le permitirá seleccionar el nombre científico válido para el registro (Fig. 5B). 
 
@@ -92,7 +92,7 @@ Revise y ajuste los nombres científicos identificados con la etiqueta ```[HIGHE
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.5_speciesMatching.jpg" width=800>
 
-*Figura 5. Edición del nombre científico*
+<sup>_Figura 5. Edición del nombre científico._</sup>
 
 La herramienta lápiz le permite editar el nombre interpretado por GBIF para cualquier registro.
 
@@ -105,7 +105,7 @@ Descargue el archivo con la validación taxonómica, en la parte inferior derech
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.6_speciesMatching.JPG" width=800>
 
-*Figura 6. Descarga del archivo validado con Species Matching.*
+<sup>_Figura 6. Descarga del archivo validado con Species Matching._</sup>
 
 
 ## Paso 3 - Carga de archivo validado en OpenRefine
@@ -117,13 +117,13 @@ Seleccione el archivo que descargó en el paso anterior y de clic en la opción 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.7_speciesMatching.JPG" width=800>
 
-*Figura 7. Carga del archivo en Open Refine*
+<sup>_Figura 7. Carga del archivo en Open Refine._</sup>
 
 Modifique el nombre del proyecto en la opción *Project name* dejando solamente *normalized*. En el campo *Character encoding* asegurese de seleccionar UTF-8 y finalmente seleccione la opción *Create Project>>*(Fig. 8).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.8_speciesMatching.JPG" width=800>
 
-*Figura 8. Modificación de nombre y creación de proyecto*
+<sup>_Figura 8. Modificación de nombre y creación de proyecto._</sup>
 
 ## Paso 4 - Exploración de resultados en OpenRefine
 
@@ -133,7 +133,7 @@ Adicionalmente cuenta con las columnas que contienen la jerarquía taxonómica (
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.9_speciesMatching.JPG" width=800>
 
-*Figura 9. Contenido de las columnas en OpenRefine*
+<sup>_Figura 9. Contenido de las columnas en OpenRefine._</sup>
 
 ### 4.1. Creación de filtros en OpenRefine
 
@@ -143,7 +143,7 @@ En el panel lateral izquierdo aparecerá los dos filtros creados (Fig. 10B), exp
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.10_speciesMatching.JPG" width=800>
 
-*Figura 10. Creación de filtros y visualización de resultados en OpenRefine*
+<sup>_Figura 10. Creación de filtros y visualización de resultados en OpenRefine._</sup>
 
 ### 4.2. Comparación
 
