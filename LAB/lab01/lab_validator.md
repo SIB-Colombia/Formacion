@@ -138,7 +138,7 @@ Revise todas las alertas de validación y ajuste los datos de acuerdo a estas (F
 
 **Solución 1**: revise que todos los registros (filas) tengan este elemento documentado.
 
-**Solución 2**: documente el elemento siguiendo el vocabulario controlado en inglés, *```HumanObservation, PreservedSpecimen, LivingSpecimen, MachineObservation, MaterialSample FossilSpecimen.```*
+**Solución 2**: documente el elemento siguiendo el vocabulario controlado en inglés. *```HumanObservation, PreservedSpecimen, LivingSpecimen, MachineObservation, MaterialSample FossilSpecimen.```*
 
 
 **:warning: Alerta**: Coordenada inválida
@@ -161,6 +161,7 @@ También puede obtener el mensaje *Se presume longitud negativa*, pero es menos 
 **Problema**: el nombre científico fue validado a un nivel taxonómico superior al documentado. Por ejemplo si el nombre científico corresponde a una especie (género + epíteto específico) significa que el validador solo pudo interpretar el género más no el epíteto específico.
 
 **Solución 1.**: revise que el nombre científico no contenga calificadores de la identificación  (cf., aff.) u otros calificadores como *sp.* 
+
 **Solución 2.**: revise que el nombre científico esté escrito correctamente.
 
 
