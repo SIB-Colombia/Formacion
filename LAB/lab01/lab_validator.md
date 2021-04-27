@@ -145,16 +145,16 @@ Revise todas las alertas de validación y ajuste los datos de acuerdo a estas (F
 
 **Problema**: coordenadas inválidas. Las coordenadas documentadas no se encuentran estandarizadas en coordenadas decimales y/o las coordenadas originales no se pueden interpretar.
 
-**Solución**: asegúrese que los elementos darwin core *decimalLatitude*, *decimalLatitude*  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales *verbatimCoordinates* hayan sido digitalizadas adecuadamente. 
+**Solución**: asegúrese que los elementos darwin core *```decimalLatitude```*, *```decimalLatitude```*  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales *```verbatimCoordinates```* hayan sido digitalizadas adecuadamente. 
 
 
 **:warning: Alerta**: Se presume latitud negativa
 
 **Problema**: posible error en la latitud. Se documentó como latitud sur pero posiblemente corresponda a  latitud norte (en coordenadas decimales se indica con un signo menos antes de la latitud).
 
-**Solución**: asegúrese que los elementos darwin core *decimalLatitude*, *decimalLatitude*  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud*, *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
+**Solución**: asegúrese que los elementos darwin core *decimalLatitude*, *```decimalLatitude```*  estén documentados con las coordenadas en formato decimal y/o que las coordenadas originales *```verbatimCoordinates```*, *```verbatimLatitud```*, *```verbatimLongitude```* hayan sido digitalizadas adecuadamente. 
 
-También puede obtener el mensaje *Se presume longitud negativa*, pero es menos común para los datos de Colombia, y posiblenete corresponda a un problema de digitalización.
+También puede obtener el mensaje *Se presume longitud negativa*, pero es menos común para los datos de Colombia y posiblemente corresponda a un problema de digitalización.
 
 **:warning: Alerta**: Coincidencia Taxón - Taxonomía superior
 
