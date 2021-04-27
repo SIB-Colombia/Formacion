@@ -10,35 +10,36 @@ Realizar una validación taxonómica de los nombres científicos para detectar p
 
 **Sobre la herramienta**
 
-La herramienta [_Species-matching_](https://www.gbif.org/es/tools/species-lookup) es un servicio de [GBIF](https://www.gbif.org) que permite validar de manera automática y masiva hasta 5.000 nombres científicos en un conjunto de datos, la herramienta compara los nombres científicos del conjunto contra el árbol taxonómico de GBIF, a partir del cual obtiene la jerarquía taxonómica de cada taxón (```_kingdom_```, ```_phylum_```, ```_class_```, ```_order_```, ```_family_```, ```_genus_```) y su estatus taxonómico (Sinónimo, Aceptado, Dudoso). 
+La herramienta [_Species-matching_](https://www.gbif.org/es/tools/species-lookup) es un servicio de [GBIF](https://www.gbif.org) que permite validar de manera automática y masiva hasta 5.000 nombres científicos en un conjunto de datos, la herramienta compara los nombres científicos del conjunto contra el árbol taxonómico de GBIF, a partir del cual obtiene la jerarquía taxonómica de cada taxón (```*kingdom*```, ```*phylum*```, ```*class*```, ```*order*```, ```*family*```, ```*genus*```) y su estatus taxonómico (Sinónimo, Aceptado, Dudoso). 
 
-```tip
+```note
 [El árbol taxonómico de GBIF](https://doi.org/10.15468/39omei) está basado en 94 fuentes taxonómicas mundiales, permitiendo la integración de nombres científicos independientemente de la fuente de los datos, registros biológicos, listas o eventos.
 ```
 
 **Enlace**
 
-_Species Matching - GBIF_: [https://www.gbif.org/es/tools/species-lookup](https://www.gbif.org/es/tools/species-lookup)
+*Species Matching - GBIF*: [https://www.gbif.org/es/tools/species-lookup](https://www.gbif.org/es/tools/species-lookup)
 
 **Requerimientos**
 
-* El conjunto de datos debe tener como mínimo una columna llamada ```_scientificName_``` con un nombre científico documentado para todas las filas.
+* El conjunto de datos debe tener como mínimo una columna llamada ```*scientificName*``` con un nombre científico documentado para todas las filas.
 
 * El conjunto de datos debe estar guardado en formato CSV. 
 
 **Archivo de trabajo**
 
-Descargue el archivo [```Datos_speciesmatching.zip```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Datos_speciesmatching.zip). Descomprima el archivo y en el encontrará un archivo ```Datos_speciesmatching.csv``` para realizar el laboratorio.
+Descargue el archivo [```Datos_speciesmatching.zip```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Datos_speciesmatching.zip) y descomprimalo para acceder al archivo ```Datos_speciesmatching.csv``` con el cual realizará el laboratorio.
 
 --------
 
 ## Paso 1 - Carga de archivos en Species-Matching
-Ingrese a la herramienta en línea [_Species-Matching_]( https://www.gbif.org/es/tools/species-lookup) y cargue el archivo ```Datos_speciesmatching.csv``` (Fig. 1); Para ello tiene dos opciones:
+Ingrese a la herramienta en línea [_Species-Matching_]( https://www.gbif.org/es/tools/species-lookup) y cargue el archivo ```Datos_speciesmatching.csv``` (Fig. 1), para hcerlo tiene dos opciones:
 
-* Haga clic en ```_SELECT FILE_``` y seleccione el archivo desde la ubicación en su ordenador.
+* Haga clic en ```*SELECT FILE*``` y seleccione el archivo desde la ubicación en su ordenador.
+ó
 * Arrastre el archivo desde su explorador de archivos y suéltelo en el ícono ```*DROP HERE*```.
 
->:warning: Para que el archivo sea leído por la herramienta, debe estar en formato .csv y tener como mínimo una columna con nombres científicos llamada  ```*scientificName*```
+> Para que el archivo sea leído por la herramienta, debe estar en formato .csv y tener como mínimo una columna con nombres científicos llamada  ```*scientificName*```
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.1_speciesMatching.JPG" width=800>
 
@@ -47,12 +48,12 @@ Ingrese a la herramienta en línea [_Species-Matching_]( https://www.gbif.org/es
 
 ## Paso 2 - Manejo de la herramienta
 
-### 2.1. Selección de reino 
+### 2.1. Acotar la búsqueda
 
-Luego de cargar el archivo la herramienta le permite al usuario seleccionar un reino (*kingdom*) contra el cual contrastar los nombres científicos, esto solo es recomendable cuando todos los registros pertenecen al mismo reino.
+Luego de cargar el archivo la herramienta le permite al usuario seleccionar un reino (```*kingdom*```) contra el cual contrastar los nombres científicos, esto es recomendable cuando todos los registros pertenecen al mismo reino para reducir ambiguedades en la búsqueda.
 
-**a) Seleccione el reino *animalia***
-**b) Haga clic en ```MATCH TO GBIF BACKNONE```**
+* a) Seleccione el reino _animalia_.
+* b) Haga clic en ```_MATCH TO GBIF BACKNONE_```.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.2_speciesMatching.JPG" width=800>
 
