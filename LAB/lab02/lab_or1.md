@@ -11,13 +11,13 @@ Utilizar _Open Refine_ para manejar, validar y limpiar de manera eficiente datos
 
 **Sobre la Herramienta**
 
-[_Open Refine_](https://openrefine.org/) es un software creado con el objetivo de pulir datos crudos hasta convertirlos en diamantes :gem:, activos valiosos en la era del _BigData_ .
+[_Open Refine_](https://openrefine.org/) es un software creado con el objetivo de pulir datos crudos hasta convertirlos en diamantes :gem:, activos valiosos en la era del _BigData_.
 
 Este sofware permite visualizar y manipular datos tabulares facilitando mejorar la calidad general de un conjunto de datos. Tiene la apariencia de un software tradicional de hoja de cálculo -similar a Excel, pero funciona como una base de datos. Esto significa que _OpenRefine_ no es adecuado para adicionar nuevas filas de datos, pero **es extremadamente poderoso cuando se trata de explorar, limpiar y vincular datos**. 
 
 _Open Refine_ es un _software_ de código abierto bajo una [licencia BSD](https://github.com/OpenRefine/OpenRefine/blob/master/LICENSE.txt), se instala localmente por lo cual funciona como una aplicación web personal y de acceso privado, al que se accede desde un navegador web.
 
-Esta herramienta sirve para **todo tipo de datos**, en este laboratorio se explica su funcionamiento en el contexto de datos sobre biodiversidad estandarizados en _Darwin Core_
+Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se explica su funcionamiento en el contexto de datos sobre biodiversidad estandarizados en _Darwin Core_
 
 **Requerimientos** 
 
@@ -31,15 +31,9 @@ No utilice Internet Explorer para este laboratorio ya que Open Refine no funcion
 
 - Descargue el archivo [```datos_Estructurados.xlsx```](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
 
-:warning: Estamos puliendo este laboratorio, la guía puede presentar cambios menores de formato y estilo para una mejor navegación y aprendizaje.
-
 --------
 
 ## Paso 1 - Instalación 
-
-
-> Asegúrese de que su navegador predeterminado sea Chrome o Mozilla
-
 
 ### Instalación en Windows
 1. Descargue [Open Refine versión 3.4.1 + Java para Windows](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip).
@@ -53,6 +47,8 @@ No utilice Internet Explorer para este laboratorio ya que Open Refine no funcion
 2. Haga doble clic sobre el archivo de descarga y arrastre el icono en la carpeta Aplicaciones.
 4. Haga doble clic en el icono y su navegador web mostrará una nueva ventana con la aplicación.
 5. Si al dar doble clic no abre _Open Refine_ en el navegador,  escriba la siguiente dirección en el buscador: [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
+
+> Asegúrese de que su navegador predeterminado sea Chrome o Mozilla
 
 ## Paso 2 - Crear un proyecto
 
@@ -95,9 +91,11 @@ Si sube sus propios datos o utiliza otro formato debe fijarse en la vista previa
  - **C.** Selección de filas, permite seleccionar la fila que se convertirá en el encabezado de las columnas, ignorar filas, entre otros.
  - **D.** Carga de filas en blanco, permite especificar si serán cargadas y como se realizará la carga. 
 
+> Character encoding: Cuando cargue datos en formato de texto plano, en la previsualización pueda que vea que las tíldes (í) y las eñes (ñ) remplazadas por caracteres extraños. Si es el caso, seleccione la codificación UTF-8. Esto le permitirá resolver el problema a menos que haya otro tipo de error en los datos. 
+
 **2.4. Personalización del proyecto y carga del archivo**
 
-Cambie el nombre del proyecto, en la esquina superior derecha verá un cuadro de texto en el que  puede cambiar el nombre del proyecto, nómbrelo ```Datos_OR``` y haga clic en el botón ```Create Project``` (Fig. 3). Opcionalmente puede añadir _Tags_ (etiquetas) para poder organizar y filtrar los proyectos en la aplicación.
+Cambie el nombre del proyecto, en la esquina superior derecha verá un cuadro de texto en el que puede cambiar el nombre del proyecto, nómbrelo ```Datos_OR``` y haga clic en el botón ```Create Project``` (Fig. 3). Opcionalmente puede añadir _Tags_ (etiquetas) para poder organizar y filtrar los proyectos en la aplicación.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3._OR_renombrar.png" width=800>
 
@@ -105,6 +103,7 @@ Cambie el nombre del proyecto, en la esquina superior derecha verá un cuadro de
 
 
 Espere a que cargue el archivo, esto puede tomar un tiempo dependiendo del tamaño del mismo.
+
 
 ## Paso 3 - _Faceting_
 
