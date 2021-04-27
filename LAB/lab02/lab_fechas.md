@@ -112,7 +112,7 @@ El pegado especial en formato texto es indispensable para que Excel no haga inte
 <sup>*Figura 8. Pasos para insertar las fechas copiadas con formato texto.*<sup>
 
 ```tip
-El pegado especial en formato texto es indispensable para que Excel no haga interpretaciones erróneas sobre las fechas ya estandarizadas. Si no se realiza, Excel revertirá las fechas a otro formato y usted perdera su trabajo :sob:
+El pegado especial en formato texto es indispensable para que Excel no haga interpretaciones erróneas sobre las fechas ya estandarizadas, si no se realiza Excel revertirá las fechas a otro formato y usted perdera su trabajo :sob:
 ```
 
 Verá las columnas incorporadas en el Excel (Fig. 9). Sin embargo note que la columna con la fecha del evento original se ha duplicado.
