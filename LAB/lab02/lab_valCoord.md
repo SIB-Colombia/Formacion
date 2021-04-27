@@ -20,9 +20,9 @@ General Public License, soportado como un proyecto de la Open Source Geospatial 
 
 * Instalar QGIS, aquí se detallan las instrucciones básicas de instalación.
 
-* Contar con un programa procesador de archivos de texto como Excel.
+* Contar con un procesador de archivos de texto como Excel.
 
-* Para este ejercicio su computador debe contar con un mínimo de 4GB de memoría RAM, sin embargo para procesos con más de 20.000 registros se recomienda tener por lo menos 8GB. 
+* Contar con un mínimo de 4GB de memoría RAM para el desarollo de esta guía. Sin embargo, para procesos con más de 20.000 registros se recomienda tener por lo menos 8GB. 
 
 * Para un mejor rendimiento,  no habra junto a QGIS otros programas que consuman muchos recursos del computador.
 
@@ -32,21 +32,19 @@ General Public License, soportado como un proyecto de la Open Source Geospatial 
 
 * Descargue la carpeta [```ValidacionGeografica_SiB-QGIS```](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) con el proyecto de QGIS con todas las capas necesarias para realizar el laboratorio.
 
-:warning: Estamos puliendo este laboratorio, la guía puede presentar cambios menores de formato y estilo para una mejor navegación y aprendizaje. 
-
 --------
 
 ## Paso 1 - Instalación de QGIS
 
 1. Diríjase al [enlace de descarga de QGIS](  https://qgis.org/es/site/forusers/download.html), acá encontrará los instaladores para todos los sistemas operativos. 
-2. Descargue preferiblemente la versión disponible con soporte a largo plazo (más estable) de acuerdo al sistema operativo de su ordenador. A la fecha es la versión 3.10.
+2. Descargue preferiblemente la versión disponible con soporte a largo plazo (más estable) de acuerdo al sistema operativo de su ordenador.
 3. Una vez finalice la descarga, ejecute el archivo descargado, haciendo clic sobre el archivo.
 4. Siga los pasos de instalación en su ordenador. Si es usuario de Windows seleccione la opción de descarga (32 bits o 64 bits) según su sistema operativo.
 
 ``` tip
 Puede encontrar instrucciones más específicas de instalación en la [página de descargas](https://qgis.org/es/site/forusers/alldownloads.html). 
 
-:film_projector: También puede consultar este [video tutorial] (https://www.youtube.com/watch?v=4lSee2ewWsY) 
+:film_projector: También puede consultar este [video tutorial](https://www.youtube.com/watch?v=4lSee2ewWsY) 
 ```
 
 ## Paso 2 - Descarga de datos
@@ -58,16 +56,9 @@ Descargue el archivo comprimido [```datos_geografia.zip```](https://raw.githubus
 
 ## Paso 3 - Descarga del proyecto
 
-El EC- SiB ha elaborado un proyecto en QGIS con capas geográficas de referencia que le facilitarán realizar la validación geográfica de los datos. Descargue el [proyecto de validación geográfica](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) de QGIS.
+El Equipo Coiirdinador del SiB Colombia (EC- SiB) ha elaborado un proyecto en QGIS con capas geográficas de referencia que le facilitarán realizar la validación geográfica de los datos. Descargue el [proyecto de validación geográfica](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) de QGIS, y guarde el proyecto de validación en una ubicación corta como ```Mis documentos``` o el ```Disco local (C:)```.
 
-``` tip
-- Guarde el proyecto de validación en una ubicación corta como ```Mis documentos``` o el ```Disco local (C:)```.
-
-- Si usted es un usuario de GitLab puede clonar el repositorio.
-
-```
-
-Cuando finalice la descarga, ubique el archivo desargado en su ordenador, descomprima el archivo usando algun programa como WinZip, WinRar, 7zip o similares. Dentro de la carpeta resultante ubique el archivo ```ValidacionGeoQGIS.qgs``` y haga doble clic sobre este para abrirlo o haga clic derecho sobre el ```archivo > Abrir con> QGIS 3.10```.
+Cuando finalice la descarga, ubique el archivo desargado en su ordenador, descomprima el archivo. Dentro de la carpeta resultante ubique el archivo ```ValidacionGeoQGIS.qgs``` y haga doble clic sobre este para abrirlo o haga clic derecho sobre el ```archivo > Abrir con> QGIS 3.10```.
 
 
 ## Paso 4 - Exploración del proyecto
