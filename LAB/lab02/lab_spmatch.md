@@ -6,14 +6,14 @@ sort: 2
 
 **Objetivo**
 
-Realizar una validación taxonómica de los nombres científicos para detectar posibles errores de formato o taxonomía 
+Realizar una validación taxonómica de los nombres científicos para detectar posibles errores de formato o taxonomía.
 
 **Sobre la herramienta**
 
-La herramienta [Species-matching](https://www.gbif.org/es/tools/species-lookup) es un servicio de [GBIF](https://www.gbif.org) que permite validar de manera automática y masiva hasta 5.000 nombres científicos en un conjunto de datos, la herramienta compara los nombres científicos del conjunto contra el árbol taxonómico de GBIF, a partir del cual obtiene la jerarquía taxonómica de cada taxón (Reino, Filo, Clase, Orden, Familia, Género) y su estatus taxonómico (Sinónimo, Aceptado, Dudoso). 
+La herramienta [_Species-matching_](https://www.gbif.org/es/tools/species-lookup) es un servicio de [GBIF](https://www.gbif.org) que permite validar de manera automática y masiva hasta 5.000 nombres científicos en un conjunto de datos, la herramienta compara los nombres científicos del conjunto contra el árbol taxonómico de GBIF, a partir del cual obtiene la jerarquía taxonómica de cada taxón (```_kingdom_```, ```_phylum_```, ```_class_```, ```_order_```, ```_family_```, ```_genus_```) y su estatus taxonómico (Sinónimo, Aceptado, Dudoso). 
 
 ```tip
-GBIF Backbone Taxonomy. El árbol taxonómico de GBIF está basado en 56 fuentes taxonómicas mundiales, permitiendo la integración de nombres científicos independientemente de la fuente de los datos, registros biológicos, taxa, eventos, fichas de especies doi.org/10.15468/39omei
+[El árbol taxonómico de GBIF](https://doi.org/10.15468/39omei) está basado en 94 fuentes taxonómicas mundiales, permitiendo la integración de nombres científicos independientemente de la fuente de los datos, registros biológicos, listas o eventos.
 ```
 
 **Enlace**
@@ -22,9 +22,9 @@ _Species Matching - GBIF_: [https://www.gbif.org/es/tools/species-lookup](https:
 
 **Requerimientos**
 
-* El conjunto de datos debe tener como mínimo una columna llamada ```scientificName``` (Nombre científico) y debe estar documentada para todos los casos.
+* El conjunto de datos debe tener como mínimo una columna llamada ```_scientificName_``` con un nombre científico documentado para todas las filas.
 
-* La herramienta solo admite archivos en formato CSV. 
+* El conjunto de datos debe estar guardado en formato CSV. 
 
 **Archivo de trabajo**
 
