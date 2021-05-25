@@ -317,6 +317,7 @@ GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de recon
 
 
 <sup>Tabla 1. Principales fuentes a partir de las cuales se consolida el árbol taxonómico de GBIF</sup>
+
 | Proveedor * | Enlace | 
 | -------- | -------- | 
 | CoL | http://www.catalogueoflife.org/ |
