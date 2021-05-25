@@ -135,7 +135,7 @@ Corrija las inconsistencias en los nombres de las clases **Aves** y **Mammalia**
 
 <sup>_Figura 6. Corrección masiva de la columna class usando un Text Facet._</sup>
 
-Realice el mismo proceso con la columna _**basisOfRecord**_ y _**sex**_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
+Realice el mismo proceso con la columna _**`basisOfRecord`**_ y _**`sex`**_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=400>
@@ -152,7 +152,7 @@ Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opció
 
 ### 3.2 Limpieza de espacios en blanco
 
-Diríjase a la columna _```individualCount```_, haga clic en el menú  de la columna y realice un _```Text Facet```_.
+Diríjase a la columna _```individualCount```_, haga clic en el menú de la columna y realice un _```Text Facet```_.
 A su izquierda aparecerá la ventana con el nombre de la columna y el Facet que se realizó (Fig. 9).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_OR_individual.png" width=400>
