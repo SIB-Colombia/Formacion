@@ -121,7 +121,7 @@ Diríjase a la columna _```class```_, haga clic en el menú de la columna y siga
 
 **3.1.2. Organizar el _Text Facet_**
 
-El _```Text Facet```_creado aparecerá a la izquierda de la aplicación, verá una ventana con el nombre de la columna y el _Facet_ que acaba de crear (Fig. 5). Haga clic en _```count```_ para organizar las clases de la más a la menos abundante y en _```name```_ para organizarlas en orden alfabético.
+El _```Text Facet```_ creado aparecerá a la izquierda de la aplicación, verá una ventana con el nombre de la columna y el _Facet_ que acaba de crear (Fig. 5). Haga clic en _```count```_ para organizar las clases de la más a la menos abundante y en _```name```_ para organizarlas en orden alfabético.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_OR_facet2.png" width=400>
 
@@ -135,7 +135,7 @@ Corrija las inconsistencias en los nombres de las clases **Aves** y **Mammalia**
 
 <sup>_Figura 6. Corrección masiva de la columna class usando un Text Facet._</sup>
 
-Realice el mismo proceso con la columna _**`basisOfRecord`**_ y _**`sex`**_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
+Realice el mismo proceso con la columna _**basisOfRecord**_ y _**sex**_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=400>
@@ -160,7 +160,7 @@ A su izquierda aparecerá la ventana con el nombre de la columna y el Facet que 
 <sup>_Figura 9. Vista del Text Facet y las diferentes formas de documentación del elemento individualCount._</sup>
 
 Aunque a simple vista los datos se encuentran sin errores, al realizar este procedimiento vemos que el programa ha detectado espacios extra y por eso nos muestra cuatro opciones diferentes para el valor ```1```.
-Corrija las inconsistencias desde el menú de la columna _```individualCount```_, siguiendo la ruta _```Edit Cells > Common transforms > Trim leading and trailing whitespace```_, verá un mensaje de notificación que le indicará en cuéntas celdas se eliminaron espacios (Fig. 10).
+Corrija las inconsistencias desde el menú de la columna _```individualCount```_, siguiendo la ruta _```Edit Cells > Common transforms > Trim leading and trailing whitespace```_, verá un mensaje de notificación que le indicará en cuantas celdas se eliminaron espacios (Fig. 10).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig10_OR_trimSpaces.png" width=600>
 
@@ -170,7 +170,7 @@ Observe la ventana del _Facet_ de _```individualCount```_, notará que ahora sol
 
 Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
-### 3.2 Detección de duplicados
+### 3.3 Detección de duplicados
 
 Diríjase a la columna _```catalogNumber```_, haga clic en el menú de la columna y siga la ruta _```Facet > Customized facets > Duplicates facet```_, a su izquierda verá la ventana del _Facet_ (Fig. 11).
 
@@ -187,7 +187,7 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 
 ### 4.1 Corrección combinando filtros y funciones
 
-**4.1.1. Corrección elemento _```scientificName```_**
+**4.1.1. Corrección del elemento _```scientificName```_**
 
 Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro.
 Escriba en el campo de texto ```sp.``` y realice un _```Text Facet```_ en _```scientificName```_ para visualizar los registros con este valor (Fig. 12).
