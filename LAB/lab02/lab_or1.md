@@ -309,7 +309,7 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 
 ## Paso 6 - Servicios externos vía API's
 
-En este ejercicio se utiliza el [API](https://www.gbif.org/developer/species) de [GBIF](https://www.gbif.org) para verificar la validez taxonómica de una lista de nombres determinada.
+En este ejercicio se utiliza el [API](https://www.gbif.org/developer/species)([Ver definición en el glosario](/Formacion/LAB/lab02/)) de [GBIF](https://www.gbif.org) para verificar la validez taxonómica de una lista de nombres determinada.
 
 **Árbol taxonómico GBIF**
 
@@ -347,16 +347,16 @@ Para realizar la validación a través del API es necesario que los espacios en 
 
 Para ello vaya a _```Edit column > Add column based on this column```_ e introduzca la expresión (tal y como aparece) _```value.replace(" ","%20")```_ y nombre la columna *NomAPI* (Fig. 21).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.PNG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.PNG" width=600>
 
 <sup>_Figura 21. Creación de la nueva columna NomAPI_</sup>
 
 
 **LLamado al API a partir del nombre científico**
 
-Cree una nueva columna llamada *validTax* a partir de la columna NomAPI, para esto siga la ruta _```Edit column >  Add column by fetching URLs…```_ e introduzca la expresión _```"http://api.gbif.org/v1/species/match?strict=true&name="+value```_. En el campo _```Throttle delay```_ escriba ```5```, haga clic en _```OK```_ y espere a que finalice el proceso (Fig. 22).
+Cree una nueva columna llamada _**validTax**_ a partir de la columna NomAPI, para esto siga la ruta _```Edit column >  Add column by fetching URLs…```_ e introduzca la expresión _```"http://api.gbif.org/v1/species/match?strict=true&name="+value```_. En el campo _```Throttle delay```_ escriba ```5```, haga clic en _```OK```_ y espere a que finalice el proceso (Fig. 22).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava3.PNG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava3.PNG" width=600>
 
 <sup>_Figura 22. Creación de la nueva columna validTax_</sup>
 
@@ -364,15 +364,15 @@ Cree una nueva columna llamada *validTax* a partir de la columna NomAPI, para es
 El tiempo de consulta depende de la cantidad de información, la velocidad de la red, y la memoria RAM del computador - para este caso solo tardará  un par de minutos.
 ```
 
-Podrá observar que en cada celda de la columna _validTax_ aparecen expresiones  a partir del llamado al API de GBIF para cada nombre científico consultado (Fig. 23).
+Podrá observar que en cada celda de la columna _```validTax```_ aparecen expresiones a partir del llamado al API de GBIF para cada nombre científico consultado (Fig. 23).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava4.PNG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava4.PNG" width=700>
 
 <sup>_Figura 23. Visualización de la columna validTax_</sup>
 
 **Extracción de la información obtenida**
 
-Para observar claramente los resultados y obtener la validación del nombre científico agregue una columna basada en *validTax* _```Edit column >  Add column based on this column```_ llamada *Match* a partir de la columna *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("matchType")```_(Fig. 24).
+Para observar claramente los resultados y obtener la validación del nombre científico agregue una columna basada en _```validTax```_ haciendo clic en _```Edit column >  Add column based on this column```_ llamada _**Match**_, e introduzca la expresión _```value.parseJson().get("matchType")```_(Fig. 24).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava5.PNG" width=500>
 
@@ -381,7 +381,7 @@ Para observar claramente los resultados y obtener la validación del nombre cien
 
 **Validación del nombre científico**
 
-Realice un Text facet en la columna *match* y seleccione _Fuzzy_, esta opción denota los nombres científicos con los que no hubo coincidencia exacta entre el conjunto de datos y el árbol taxonómico de GBIF. No se encuentra coincidencia total para este caso con *Dermanura cinereus* ni *Dermanura glaucus* (Fig. 25).
+Realice un _Text facet_ en la columna _```Match```_ y seleccione _Fuzzy_, esta opción denota los nombres científicos con los que no hubo coincidencia exacta entre el conjunto de datos y el árbol taxonómico de GBIF. No se encuentra coincidencia total para este caso con *Dermanura cinereus* ni *Dermanura glaucus* (Fig. 25).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava6.JPG" width=400>
 
@@ -395,7 +395,7 @@ Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*
 
 <sup>_Figura 26. Creación de la nueva columna validName_</sup>
 
-Haciendo un Text Facet en  la columna *validName* verá que GBIF reconoce que la especie que seguramente desea documentar es *Dermanura cinerea* y *Dermanura glauca*, respectivamente (Fig. 27A).
+Haciendo un Text Facet en  la columna _```validName```_ verá que GBIF reconoce que la especie que seguramente desea documentar es *Dermanura cinerea* y *Dermanura glauca*, respectivamente (Fig. 27A).
 Corrija y edite entonces las inconsistencias en la columna _```scientificName```_ de acuerdo al *validName* (Fig. 27B).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava8.jpg" width=800>
