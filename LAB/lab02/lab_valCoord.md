@@ -69,8 +69,8 @@ Se ejecutará QGIS 3.10 y verá un entorno similar al siguiente (Fig. 1).
 
 Contenido del proyecto en QGIS:
 
-* **MGN_DPTO_POlÍTICO**: división departamental de Colombia de acuerdo al Marco Geoestadístico Nacional del DANE.
-* **MGN_MPIO_POLÍTICO**: división municipal de Colombia de acuerdo al Marco Geoestadístico Nacional del DANE.
+* **MGN_DPTO_POlITICO**: división departamental de Colombia de acuerdo al Marco Geoestadístico Nacional del DANE.
+* **MGN_MPIO_POLITICO**: división municipal de Colombia de acuerdo al Marco Geoestadístico Nacional del DANE.
 * **MGN_MPIO_Buffer_530m**: buffer de 530 metros generado al rededor de los límites municipales para identificar registros que se encuentran muy cerca del límite municipal.
 * **Capas de interés**
     * *RUNAP_202007*: capa del Regitro Único Nacional de Áreas Protegidas.
@@ -96,11 +96,11 @@ Para cargar los datos ddescargados en el paso 2 en QGIS, diríjase al menú y se
 
 **5.2. Seleccione el archivo a validar**
 
-En la ventana emergente, haga clic en *```_File Name_```* y ubique el archivo en formato .csv ```datos_geografía.csv``` que guardó en el paso 2. (Fig. 3A)
+En la ventana emergente, haga clic en *```File Name```* y ubique el archivo en formato .csv ```datos_geografía.csv``` que guardó en el paso 2. (Fig. 3A)
 
 **5.3. Seleccione el tipo de archivo y delimitador de texto**
 
-QGIS llenará los campos de la ventana emergente de manera automática, sin embargo verifique que el formato del archivo corresponda con el tipo de archivo y delimitador usado. En este caso es ```CSV```. (Fig. 3B).
+QGIS llenará los campos de la ventana emergente de manera automática, sin embargo verifique que el formato del archivo corresponda con el tipo de archivo y delimitador usado. En este caso es ```CSV``` (Fig. 3B).
 
 **5.4. Revise la codificación.**
 
@@ -120,11 +120,12 @@ En el campo _```Geometry CRS```_ seleccione el sistema de referencia de coordena
 <sup>_Figura 3. Pasos para cargar archivos de texto delimitados en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv. C. Selección de la codificación. D. Selección de campos de coordenadas. E. Selección del sistema de referencia._</sup>
 
 ```tip
-Si realiza este ejercicio con su propio set de datos (Paso 7) es importante que conozca el sistema de referencia o datum de sus datos.
+Si realiza este ejercicio con sus propio conjunto de datos (Paso 7) es importante que conozca el sistema de referencia o datum.
 ```
 
 **5.7. Verifique el resultado**
-Una vez cargado el archivo una nube de puntos se desplegará en la ventana de visualización de QGIS. (Fig. 4) 
+
+Una vez cargado el archivo una nube de puntos se desplegará en la ventana de visualización de QGIS (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_validQGIS_nubepuntos.PNG" width=800>
 
@@ -133,20 +134,20 @@ Una vez cargado el archivo una nube de puntos se desplegará en la ventana de vi
 
 ## Paso 6. Validación geográfica
 
-Con estos pasos podemos validar la coherencia entre la ubicación de las coordenadas y la geografía superior, para ello realizaremos un cruce geográfico entre los datos  y la capa de Municipios de Colombia (```MGN_MPIO_POLITICO```).
+A continuación procedará a validar la coherencia entre la ubicación de las coordenadas y la geografía superior, para ello realizará un cruce geográfico entre los datos  y la capa de Municipios de Colombia ```MGN_MPIO_POLITICO```.
 
 **6.1. Intersección de datos y capas**
 
-Ahora realiazará una intersección de la capa de municipios y los datos. Seleccione de la barra de herramientas superior de QGIS la opción *```Vectorial> Data Management Tools > Join Attributes by Location```* (Fig. 5).
+Realice una intersección entre la capa de municipios y los datos, para ello seleccione de la barra de herramientas superior la opción *```Vector> Data Management Tools > Join Attributes by Location```* (Fig. 5).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_validQGIS_seleccJoin.PNG" width=800>
 
 <sup>*Figura 5. Selección de la función Join Attributes by Location en el menú de herramientas.*</sup>
 
-Dentro del menú emergente configure la intersección de las capas así (Fig. 6):
+En el menú emergente configure la intersección de las capas así (Fig. 6):
 - *```Input Layer ```*: seleccione la capa de puntos que contiene sus coordenadas```datos_geografia```.
-- *```Overlay Layer```*_ seleccione la capa de municipios de Colombia ```MGN_MPIO_POLITICO```.
-- *```Join type```*: seleccione la opción *Take Attributes of the first located Feature* 
+- *```Overlay Layer```*: seleccione la capa de municipios de Colombia ```MGN_MPIO_POLITICO```.
+- *```Join type```*: seleccione la opción *```Take Attributes of the first located Feature```.* 
 
 Haga clic en _```Run```_.
 
@@ -157,13 +158,13 @@ Haga clic en _```Run```_.
 
 **6.2. Exploración de los resultados**
 
-Una vez termine la ejecución obtendrá una nueva capa llamada _```Joined_layer```_ con la intersección de los datos y la capa de municipios, revise que esta se encuentre en el panel de capas _```Layers```_ . Proceda a abrir la tabla de atributos de esta capa haciendo clic derecho sobre la capa y elija la opción _```Open Attribute Table```_ (Fig. 7).
+Obtendrá una nueva capa llamada _```Joined_layer```_ con la intersección de los datos y la capa de municipios, revise que esta se encuentre en el panel de capas _```Layers```_ . Abra la tabla de atributos de esta capa haciendo clic derecho sobre la capa y elija la opción _```Open Attribute Table```_ (Fig. 7).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_validQGIS_AttribT.PNG" width=800>
 
 <sup>*Figura 7. Acceder a la tabla de atributos de la capa resultante.* </sup>
 
-Dentro de la tabla de atributos de esta capa encontrará los datos ingresados y unas nuevas columnas con los nombres y códigos del municipio y departamento de acuerdo a la ubicación de las coordenadas respecto a la capa de municipios (Fig. 8)
+En la tabla de atributos  encontrará los datos ingresados y unas nuevas columnas con los nombres y códigos del municipio y departamento de acuerdo a la ubicación de las coordenadas respecto a la capa de municipios (Fig. 8)
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig8_validQGIS_AttribDetalle.PNG" width=600>
 
@@ -172,11 +173,11 @@ Dentro de la tabla de atributos de esta capa encontrará los datos ingresados y 
 
 **6.3. Validación del municipio.**
 
-Para poder realizar una comparación entre los nombres sugeridos de la capa y los nombres documentados en los datos, abra la calculadora de campos dentro de la tabla de atributos digitando el comando (Ctrl + i) o haciendo clic en el icono en la barra de herramientas dentro de la tabla de atributos (Fig. 9 ).
+Para comparar los nombres sugeridos desde la capa y los nombres documentados en los datos abra la calculadora de campos haciendo clic en el icono de tabla de atributos en la barra de herramientas dentro de la tabla de atributos (Fig. 9 ).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_validQGIS_SelecCalculadora.PNG" width=600>
 
-<sup>*Figura 9. Sellección de la calculadora de campos desde el menú de herramientas de la tabla de atributos.*</sup>
+<sup>*Figura 9. Selección de la calculadora de campos desde el menú de herramientas de la tabla de atributos.*</sup>
 
 
 * Una vez en  _```Field calculator```_, en el campo _```Output field Name```_, nombre el archivo como: ```countyValidation```. (Fig. 10).
