@@ -173,20 +173,18 @@ En la tabla de atributos  encontrará los datos ingresados y unas nuevas columna
 
 **6.3. Validación del municipio.**
 
-Para comparar los nombres sugeridos desde la capa y los nombres documentados en los datos abra la calculadora de campos haciendo clic en el icono de tabla de atributos en la barra de herramientas dentro de la tabla de atributos (Fig. 9 ).
+Para comparar los nombres sugeridos desde la capa y los nombres documentados en los datos abra la calculadora de campos haciendo clic en el icono del ábaco en la barra de herramientas de la tabla de atributos (Fig. 9 ).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_validQGIS_SelecCalculadora.PNG" width=600>
 
 <sup>*Figura 9. Selección de la calculadora de campos desde el menú de herramientas de la tabla de atributos.*</sup>
 
 
-* Una vez en  _```Field calculator```_, en el campo _```Output field Name```_, nombre el archivo como: ```countyValidation```. (Fig. 10).
+* Una vez en la calculadora de campos ( _```Field calculator```_), en  _```Output field Name```_  asigne ```countyValidation``` como el nombre de la columna (Fig. 10).
 
 * En la caja de dialogo _```Expression```_ digite el siguiente comando: 
 
-```
-if( "county"  =  "suggestedC" ,'1',if("county" is null, '','0'))
-```
+   ```if( "county"  =  "suggestedC" ,'1',if("county" is null, '','0'))```
 
 Este comando revisa si el campo _county_ está vacío, si está vacío, el campo _countyValidation_ queda vacío, de no estarlo, revisa que sea igual que el campo _suggestedC_, si ambos campos son iguales lo documenta como ```1``` que significa que la geografía superior coincide con la coordenada, sino se documenta como ```0```. 
 
@@ -196,25 +194,24 @@ Este comando revisa si el campo _county_ está vacío, si está vacío, el campo
 
 <sup>*Figura 10. Documentación de la Calculadora de campos para obtener un campo con la validación geográfica del municipio (county).*</sup>
 
-En la tabla de atributos verá una nueva columna _contyValidation_, con el resultado de la validación geográfica (Fig. 11).
+En la tabla de atributos verá una nueva columna _countyValidation_ con el resultado de la validación geográfica (Fig. 11).
 
-**Interpretación de resultados**
+**Interpretación de los resultados**
 
-* **1**: El departamento o municipio documentados en _stateProvince_ y _county_ **coinciden** con el departamento y municipio donde se ubica la coordenada.
-* **0**: El departamento o municipio documentados en _stateProvince_ y _county_ **NO coinciden** con el departamento y municipio donde se ubica la coordenada.
-* **NULL o vacío**: NO había un _stateProvince_ o _county_ documentados por lo tanto no se realizó la validación.
+* **1**: El departamento o municipio documentados en _stateProvince_ o _county_ **coinciden** con el departamento o municipio donde se ubica la coordenada.
+* **0**: El departamento o municipio documentados en _stateProvince_ o _county_ **NO coinciden** con el departamento o municipio donde se ubica la coordenada.
+* **NULL o vacío**: NO había un _stateProvince_ o _county_ documentados por lo tanto no se realizó la validación, este sresultado también se optiene si las coordenadas caen fuera de los límites de Colombia.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig11_validQGIS_VlidCounty.PNG" width=600>
 
 <sup>*Figura 11. Verificación de resultados de la creación del campo con la validación del municipio (county).*</sup>
 
-**6.4. Validación del Departamento**
+**6.4. Validación del departamento**
 
-Repita el paso 6.3. para la validación del Departamento. Cree un nuevo campo para esta validación denominado _```stateProvinceValidation```_, para la validación del departamento deberá usar el siguiente comando (Fig. 12).
+Repita el paso 6.3. para la validación del departamento. Cree un nuevo campo para esta validación denominado _```stateProvinceValidation```_ y utilice el siguiente comando (Fig. 12).
 
-```
-if( "stateProvince"  =  "suggestedS" ,'1',if("stateProvince" is null, '','0'))
-```
+   ``` if( "stateProvince"  =  "suggestedS" ,'1',if("stateProvince" is null, '','0')) ```
+   
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig12_validQGIS_CalculadoraSP.PNG" width=600>
 
 <sup>*Figura 12. Documentación de la Calculadora de campos para obtener un campo con la validación geográfica del departamento .*</sup>
@@ -222,32 +219,32 @@ if( "stateProvince"  =  "suggestedS" ,'1',if("stateProvince" is null, '','0'))
 
 **6.5. Visualización de la validación.**
 
-A continuación va a generar un filtro para visualizar los datos que no coinciden (```0's```) entre la ubicación y la geografía superior.
+Genere un filtro para visualizar los datos que no coinciden (```0's```) entre la ubicación y la geografía superior:
 
 1. Abra nuevamente la tabla de atributos de la capa _```Joined_layer```_
 2. En la parte inferior de la tabla de atributos haga clic en el botón _```Show all features```>```Field filter```>```countyValidation```_ (Fig. 13).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_validQGIS_SelectError.PNG" width=600>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_validQGIS_SelectError.PNG" width=600>
 
-<sup>*Figura 13. Filtro de campos a partir de la tabla de atributos.*</sup>
+   <sup>*Figura 13. Filtro de campos a partir de la tabla de atributos.*</sup>
 
-3. Se abrirá un cuadro de diálogo en la parte inferior de la tabla de atributos donde digitalizará un cero (```0```) para filtrar los datos inconsistentes (Fig. 14).
+3. Se abrirá un cuadro de diálogo en la parte inferior de la tabla de atributos, digite un cero (```0```) para filtrar los datos con inconsistencias (Fig. 14).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_validQGIS_Escriba0.PNG" width=600>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_validQGIS_Escriba0.PNG" width=600>
 
-<sup>*Figura 14. Filtro de campos a partir de la tabla de atributos.*</sup>
+   <sup>*Figura 14. Filtro de campos a partir de la tabla de atributos.*</sup>
 
-4. Como resultado verá en la parte superior de la tabla de atributos el número de registros filtrados. Seleccione la esquina superior izquierda de los datos como se muestra en la Fig. 15. 
+4. En la parte superior de la tabla de atributos verá el número de registros biológicos filtrados. Seleccione la esquina superior izquierda de los datos como se muestra en la Fig. 15 para seleccionarlos. 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig15_validQGIS_Select0s.PNG" width=800>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig15_validQGIS_Select0s.PNG" width=800>
 
-<sup>*Figura 15. Seleccion y verificación de resultados del filtro a partir de resultados de la validación del campo countyValidation.*</sup>
+  <sup>*Figura 15. Selección y verificación de resultados del filtro a partir de resultados de la validación del campo countyValidation.*</sup>
 
-5. Minimice la tabla de atributos, verá los puntos con inconsistencias (```0's```) seleccionados en la pantalla de visualización del mapa (Fig. 16).
+5. Minimice la tabla de atributos, verá los puntos con inconsistencias (```0's```) seleccionados, en la pantalla de visualización del mapa (Fig. 16).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_validQGIS_VisualizacionPuntosErrores.PNG" width=800>
 
-*<sup>Figura 16. Visualización de registros seleccionados por no coincidir (0's) su ubicación con el municipio documentado en el elemento county (resaltados en amarillo)*</sup>
+<sup>_Figura 16. Visualización de los registros biológicos seleccionados (0's) donde la ubicación de las  coordenadas no coincide con con el municipio documentado en el elemento county (resaltados en amarillo)_</sup>
 
 **6.6. Exporte el resultado de la validación.**
 
