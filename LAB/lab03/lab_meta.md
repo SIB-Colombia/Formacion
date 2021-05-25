@@ -286,7 +286,7 @@ Documente la sección de acuerdo al *Caso de Uso*, en la sección de *Metodolog�
 
 - El campo ```Área de estudio```, puede coincidir con el área de estudio documentada para la sección de ```Datos del Proyecto```.
 
-En el campo de ```Metodología paso a paso``` documente cada paso en un párrafo diferente para que la publicación sea mas ordenada. Para ello haga clic en ```Añadir nuevo(a) paso metodológico```. (Fig. 14)
+En el campo de ```Metodología paso a paso``` documente cada paso en un párrafo diferente para que la publicación sea mas ordenada. Para ello haga clic en ```Añadir nuevo(a) paso metodológico``` (Fig. 14).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab03/_images/Fig14_metadatos_metodpasos.PNG" width=600>
 
@@ -296,7 +296,7 @@ Puede ver más detalles acerca de esta sección en la [Guía de referencia rápi
 
 ### 4.9 Referencias
 
-En el campo ```¿Cómo referenciar este recurso?``` asegurese que esté activada la opción de ```Generación automática```, esta se diligenciará según los datos documentados en las demás secciones de los metadatos. (Fig. 15) 
+En el campo ```¿Cómo referenciar este recurso?``` asegurese que esté activada la opción de ```Generación automática```, esta se diligenciará según lo documentado en ```Creadores del Recurso``` y ```Proveedores de los Metadatos```, de la sección ```Metadatos Básicos```, en (Fig. 15). 
 
 El formato de la referencia utilizado en la generación automática se basa en el formato recomendado: referencia de DataCite y satisface la [_Joint Declaration of Data Citation Principle_](https://www.force11.org/datacitationprinciples). Este formato incluye un número de versión, que es importante especialmente para los conjuntos de datos que se actualizan continuamente.
 
@@ -304,9 +304,9 @@ El formato de la referencia utilizado en la generación automática se basa en e
 Una vez se genere la publicación y se asigne el doi (Digital Object Identifier), si está activada la referencia automática la citación incluirá el doi, lo que facilitará rastrear el uso del conjunto de datos publicado.
 ```
 
-Cuando se genere la citación asegurese que todos los autores involucrados con la publicación sean correctamente mencionados.
+Cuando se genere la citación, asegurese que todos los autores involucrados con la publicación sean correctamente mencionados.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab03/_images/Fig15_metadatos_referencias.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab03/_images/Fig15_metadatos_referencia.PNG" width=600>
 
 <sub>*Figura 15. Sección Referencias.*</sub>
 
@@ -314,11 +314,12 @@ Puede ver más detalles acerca de esta sección en la [Guía de referencia rápi
 
 ### 4.10. Datos de la Colección
 
-Documente esta sección de acuerdo al *Caso de Uso*, en la portada e introducción encontrará la información necesaria para completar la información e la colección.
+Documente esta sección de acuerdo al *Caso de Uso*, en la portada e introducción encontrará la información necesaria para completar la información de la colección.
 
-Esta sección se deble documentar en los siguientes casos:
-1) El conjunto de datos corresponde a una colección biológica.
-2) Una o varias de las observaciones del conjunto de datos esta asociada a un especímen que fue entregado y depositado en una colección biológica.
+Esta sección se debe documentar en los siguientes casos:
+
+1. El conjunto de datos corresponde a una colección biológica.
+2. Una o varias de las observaciones del conjunto de datos esta asociada a un especímen que fue entregado y depositado en una colección biológica.
 
 Es recomendable documentar los campos de manera acorde al [Registro Nacional de Colecciones Biológicas](http://rnc.humboldt.org.co/admin/index.php/registros/colecciones). Puede añadir tantas coleciones como sea necesario (Fig. 16).
 
@@ -334,7 +335,7 @@ Esta es una sección opcional, puede incluir la URL a otro repositorio donde tam
 Puede ver más detalles acerca de esta sección en la [Guía de referencia rápida del IPT - Enlaces Externos.](https://github.com/gbif/ipt/wiki/IPT2ManualNotes_ES.wiki#enlaces-externos)
 
 ### 4.12 Metadatos Adicionales
-Esta es una sección opcional, por lo general el publicador no debe documentar ningún campo. El EC-SiB añadira el logo de la organización publicadora principal (Fig. 17A) y una vez se publique el recurso el IPT completará automáticamente los ```Identificadores Alternativos``` que incluyen la url del recurso en el IPT, el DOI, y el id del recurso en el SiB Colombia y GBIF (Fig. 17B).
+Esta es una sección opcional, por lo general el publicador no debe documentar ningún campo. El EC-SiB añadirá el logo de la organización publicadora principal (Fig. 17A) y una vez se publique el recurso el IPT completará automáticamente los ```Identificadores Alternativos``` que incluyen la url del recurso en el IPT, el DOI, y el id del recurso en el SiB Colombia y GBIF (Fig. 17B).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab03/_images/Fig17_meta_adicionales.png" width=600>
 
@@ -344,7 +345,7 @@ Esta es una sección opcional, por lo general el publicador no debe documentar n
 Puede ver más detalles acerca de esta sección en la [Guía de referencia rápida del IPT - Metadatos Adicionales.](https://github.com/gbif/ipt/wiki/IPT2ManualNotes_ES.wiki#metadatos-adicionales)
 
 ## Paso 5 - Datos propios
-Si realizo este laboratorio con el Caso de Uso, ahora intente crear un nuevo recurso y documentar los metadatos basado en sus propios informes o artículos.
+Si realizó este laboratorio con el *Caso de Uso*, ahora intente crear un nuevo recurso y documentar los metadatos basado en sus propios informes o artículos.
 
 ****
 **¡Felicitaciones!** :raised_hands:
