@@ -135,7 +135,7 @@ Corrija las inconsistencias en los nombres de las clases *Aves* y *Mammalia*. Pa
 
 <sup>_Figura 6. Corrección masiva de la columna class usando un Text Facet._</sup>
 
-Realice el mismo proceso con la columna _*basisOfRecord*_ y _*sex*_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
+Realice el mismo proceso con la columna _**basisOfRecord**_ y _**sex**_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=400>
