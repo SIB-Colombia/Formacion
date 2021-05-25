@@ -13,7 +13,7 @@ Visualizar y validar con la herramienta QGIS la coherencia de la ubicación de l
 :earth_americas:  [QGIS](https://qgis.org/es/site/about/index.html) es un software para manejo de información geográfica que se ejecuta sobre multiples sistemas operativos como Linux, Unix, Mac OSX, Windows y Android y soporta numerosos formatos y funcionalidades de datos vector, datos ráster y bases de datos. QGIS proporciona una creciente gama de capacidades a través de sus funciones básicas y complementos con los que podrá visualizar, gestionar, editar, analizar datos y diseñar mapas imprimibles. 
 
 QGIS es un _software_ libre y de código abierto licenciado bajo _GNU - 
-General Public License_, soportado como un proyecto de la _Open Source Geospatial Foundation (OSGeo_)por lo cual no requiere el pago de licencias. Es impulsado por un grupo de voluntarios que mantienen el software actualizado y las versiones estables, lo que lo mantiene a la par de otros software geográficos mas conocidos.
+General Public License_, soportado como un proyecto de la _Open Source Geospatial Foundation (OSGeo)_ por lo cual no requiere el pago de licencias. Es impulsado por un grupo de voluntarios que mantienen el software actualizado y las versiones estables, lo que lo mantiene a la par de otros software geográficos mas conocidos.
 
 
 **Requerimientos** 
@@ -39,7 +39,7 @@ General Public License_, soportado como un proyecto de la _Open Source Geospatia
 1. Diríjase al [enlace de descarga de QGIS](  https://qgis.org/es/site/forusers/download.html), acá encontrará los instaladores para todos los sistemas operativos. 
 2. Descargue preferiblemente la versión disponible con soporte a largo plazo (más estable) de acuerdo al sistema operativo de su ordenador.
 3. Una vez finalice la descarga, ejecute el archivo descargado, haciendo clic sobre el archivo.
-4. Siga los pasos de instalación en su ordenador. Si es usuario de Windows seleccione la opción de descarga (32 bits o 64 bits) según su sistema operativo.
+4. Siga los pasos de instalación en su ordenador. Si es usuario de Windows seleccione la opción de descarga 32 bits o 64 bits según su sistema operativo.
 
 ``` tip
 Puede encontrar instrucciones más específicas de instalación en la [página de descargas](https://qgis.org/es/site/forusers/alldownloads.html), y en este [video tutorial](https://www.youtube.com/watch?v=4lSee2ewWsY) 
@@ -54,18 +54,18 @@ Descargue el archivo comprimido [```datos_geografia.zip```](https://raw.githubus
 
 ## Paso 3 - Descarga del proyecto
 
-El Equipo Coordinador del SiB Colombia (EC- SiB) ha elaborado un proyecto en QGIS con capas geográficas de referencia para la validación geográfica de los datos. Descargue el [proyecto de validación geográfica](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) de QGIS, y guardelo en una ubicación corta como ```Mis documentos``` o el ```Disco local (C:)```.
+El Equipo Coordinador del SiB Colombia (EC- SiB) ha elaborado un proyecto en QGIS con capas geográficas de referencia para la validación geográfica de los datos. Descargue el [proyecto de validación geográfica](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) de QGIS, y guárdelo en una ubicación corta como ```Mis documentos``` o el ```Disco local (C:)```.
 
-Cuando finalice la descarga ubique el archivo en su ordenador y descomprimalo, dentro de la carpeta resultante ubique el archivo ```ValidacionGeoQGIS.qgs``` y ábralo haciendo doble clic sobre o haciendo clic derecho y siguiendo la ruta ``` Abrir con> QGIS 3.10```.
+Cuando finalice la descarga ubique el archivo en su ordenador y descomprimalo, dentro de la carpeta resultante ubique el archivo ```ValidacionGeoQGIS.qgs``` y ábralo haciendo doble clic o con clic derecho y siguiendo la ruta ``` Abrir con> QGIS 3.10```.
 
 
 ## Paso 4 - Exploración del proyecto
 
-Se ejecutará QGIS 3.10 y verá un entorno similar al siguiente (Fig. 1). 
+Al ejecutar QGIS verá un entorno similar al siguiente (Fig. 1). 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_validQGIS_firstview.PNG" width=800>
 
-<sup>_Figura 1. Entorno de trabajo en el proyecto de QGIS de validación geográfica. A. Menú de herramientas; B. Panel de capas; C. Vista del mapa._</sup>
+<sup>_Figura 1. Entorno de trabajo en el proyecto de QGIS (v.3.10) de validación geográfica. A. Menú de herramientas; B. Panel de capas; C. Vista del mapa._</sup>
 
 Contenido del proyecto en QGIS:
 
@@ -87,7 +87,7 @@ Contenido del proyecto en QGIS:
 
 **5.1. Añadir capa de texto delimitado**
 
-Para cargar los datos ddescargados en el paso 2 en QGIS, diríjase al menú y seleccione  ```_Layer> Add Layer> Add Delimited Text Layer_```. (Fig. 2)
+Para cargar los datos descargados en el paso 2 diríjase al menú de QGIS y seleccione  ```_Layer> Add Layer> Add Delimited Text Layer_``` (Fig. 2).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2_validQGIS_addTextfile.PNG" width=800>
 
@@ -96,11 +96,11 @@ Para cargar los datos ddescargados en el paso 2 en QGIS, diríjase al menú y se
 
 **5.2. Seleccione el archivo a validar**
 
-En la ventana emergente, haga clic en *```File Name```* y ubique el archivo en formato .csv ```datos_geografía.csv``` que guardó en el paso 2. (Fig. 3A)
+En la ventana emergente, haga clic en *```File Name```* y ubique el archivo  ```datos_geografía.csv``` que guardó en el paso 2 (Fig. 3A).
 
 **5.3. Seleccione el tipo de archivo y delimitador de texto**
 
-QGIS llenará los campos de la ventana emergente de manera automática, sin embargo verifique que el formato del archivo corresponda con el tipo de archivo y delimitador usado. En este caso es ```CSV``` (Fig. 3B).
+QGIS llenará los campos de la ventana emergente de manera automática, sin embargo verifique que el formato del archivo corresponda con el tipo de archivo y delimitador usado, en este caso es ```CSV``` (Fig. 3B).
 
 **5.4. Revise la codificación.**
 
@@ -112,24 +112,24 @@ En _```Geometry definitions ```_ seleccione _```Point coordinates```_ y verifiqu
 
 **5.6. Seleccione el sistema de referencia**
 
-En el campo _```Geometry CRS```_ seleccione el sistema de referencia de coordenadas: ```WGS84``` (*World Geodetic System*). Si no  selecciona el sistema, QGIS tomará por defecto el sistema usado en este proyecto (WGS84) (Fig. 3E). Para finalizar la carga del archivo haga clic en _```Add```_.
+En el campo _```Geometry CRS```_ seleccione el sistema de referencia de coordenadas: ```WGS84``` (*World Geodetic System*). Si no selecciona el sistema QGIS tomará por defecto el sistema usado en este proyecto (WGS84) (Fig. 3E). Para finalizar la carga del archivo haga clic en _```Add```_.
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3_validQGIS_addTextfileOptions.PNG" width=800>
 
-<sup>_Figura 3. Pasos para cargar archivos de texto delimitados en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv. C. Selección de la codificación. D. Selección de campos de coordenadas. E. Selección del sistema de referencia._</sup>
+<sup>_Figura 3. Pasos para cargar archivos de texto delimitado en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv. C. Selección de la codificación. D. Selección de campos de coordenadas. E. Selección del sistema de referencia._</sup>
 
 ```tip
 Si realiza este ejercicio con sus propio conjunto de datos (Paso 7) es importante que conozca el sistema de referencia o datum.
 ```
 
-**5.7. Verifique el resultado**
+**5.7. Veisualización de los datos**
 
 Una vez cargado el archivo una nube de puntos se desplegará en la ventana de visualización de QGIS (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_validQGIS_nubepuntos.PNG" width=800>
 
-<sup>_Figura 4. Visualización de los datos de validación en QGIS._</sup>
+<sup>_Figura 4. Visualización de los datos en QGIS._</sup>
 
 
 ## Paso 6. Validación geográfica
@@ -158,22 +158,22 @@ Haga clic en _```Run```_.
 
 **6.2. Exploración de los resultados**
 
-Obtendrá una nueva capa llamada _```Joined_layer```_ con la intersección de los datos y la capa de municipios, revise que esta se encuentre en el panel de capas _```Layers```_ . Abra la tabla de atributos de esta capa haciendo clic derecho sobre la capa y elija la opción _```Open Attribute Table```_ (Fig. 7).
+Obtendrá una nueva capa llamada _```Joined_layer```_ con la intersección de los datos y la capa de municipios, revise que esta se encuentre en el panel de capas _```Layers```_. Abra la tabla de atributos de esta capa haciendo clic derecho sobre la capa y elija la opción _```Open Attribute Table```_ (Fig. 7).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_validQGIS_AttribT.PNG" width=800>
 
 <sup>*Figura 7. Acceder a la tabla de atributos de la capa resultante.* </sup>
 
-En la tabla de atributos  encontrará los datos ingresados y unas nuevas columnas con los nombres y códigos del municipio y departamento de acuerdo a la ubicación de las coordenadas respecto a la capa de municipios (Fig. 8)
+En la tabla de atributos  encontrará los datos ingresados y unas nuevas columnas con los nombres y códigos del municipio y departamento de acuerdo a la ubicación de las coordenadas respecto a la capa de municipios (Fig. 8).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig8_validQGIS_AttribDetalle.PNG" width=600>
 
-<sup>*Figura 8. Detalle de la Tabla de atributos de la capa resultante de la unión.* </sup>
+<sup>*Figura 8. Detalle de la tabla de atributos de la capa resultante de la unión.* </sup>
 
 
-**6.3. Validación del municipio.**
+**6.3. Validación de los municipios**
 
-Para comparar los nombres sugeridos desde la capa y los nombres documentados en los datos abra la calculadora de campos haciendo clic en el icono del ábaco en la barra de herramientas de la tabla de atributos (Fig. 9 ).
+Para comparar los nombres sugeridos desde la capa y los nombres documentados en los datos abra la calculadora de campos haciendo clic en el icono de ábaco en la barra de herramientas de la tabla de atributos (Fig. 9 ).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_validQGIS_SelecCalculadora.PNG" width=600>
 
@@ -184,15 +184,17 @@ Para comparar los nombres sugeridos desde la capa y los nombres documentados en 
 
 * En la caja de dialogo _```Expression```_ digite el siguiente comando: 
 
-   ```if( "county"  =  "suggestedC" ,'1',if("county" is null, '','0'))```
+   ```
+   if( "county"  =  "suggestedC" ,'1',if("county" is null, '','0'))
+   ```
 
-Este comando revisa si el campo _county_ está vacío, si está vacío, el campo _countyValidation_ queda vacío, de no estarlo, revisa que sea igual que el campo _suggestedC_, si ambos campos son iguales lo documenta como ```1``` que significa que la geografía superior coincide con la coordenada, sino se documenta como ```0```. 
+   Este comando condicional evalua si el campo _county_ está vacío, si está vacío el campo _countyValidation_ queda vacío, de no estar vacío revisa que sea igual que el campo _suggestedC_, si ambos campos son iguales lo documenta como ```1``` que significa que la geografía superior coincide con la coordenada, sino se documenta como ```0```. 
 
 * Finalmente, de clic en _```OK```_ (Fig. 10). 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig10_validQGIS_Calculadora.PNG" width=600>
 
-<sup>*Figura 10. Documentación de la Calculadora de campos para obtener un campo con la validación geográfica del municipio (county).*</sup>
+<sup>*Figura 10. Documentación de la calculadora de campos para obtener un campo con la validación geográfica del municipio (county).*</sup>
 
 En la tabla de atributos verá una nueva columna _countyValidation_ con el resultado de la validación geográfica (Fig. 11).
 
@@ -200,29 +202,31 @@ En la tabla de atributos verá una nueva columna _countyValidation_ con el resul
 
 * **1**: El departamento o municipio documentados en _stateProvince_ o _county_ **coinciden** con el departamento o municipio donde se ubica la coordenada.
 * **0**: El departamento o municipio documentados en _stateProvince_ o _county_ **NO coinciden** con el departamento o municipio donde se ubica la coordenada.
-* **NULL o vacío**: NO había un _stateProvince_ o _county_ documentados por lo tanto no se realizó la validación, este sresultado también se optiene si las coordenadas caen fuera de los límites de Colombia.
+* **NULL o vacío**: NO había un _stateProvince_ o _county_ documentados por lo tanto no se realizó la validación, este resultado también se obtiene si las coordenadas caen fuera de los límites de Colombia.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig11_validQGIS_VlidCounty.PNG" width=600>
 
 <sup>*Figura 11. Verificación de resultados de la creación del campo con la validación del municipio (county).*</sup>
 
-**6.4. Validación del departamento**
+**6.4. Validación de los departamentos**
 
 Repita el paso 6.3. para la validación del departamento. Cree un nuevo campo para esta validación denominado _```stateProvinceValidation```_ y utilice el siguiente comando (Fig. 12).
 
-   ``` if( "stateProvince"  =  "suggestedS" ,'1',if("stateProvince" is null, '','0')) ```
+   ``` 
+   if( "stateProvince"  =  "suggestedS" ,'1',if("stateProvince" is null, '','0')) 
+   ```
    
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig12_validQGIS_CalculadoraSP.PNG" width=600>
 
 <sup>*Figura 12. Documentación de la Calculadora de campos para obtener un campo con la validación geográfica del departamento .*</sup>
 
 
-**6.5. Visualización de la validación.**
+**6.5. Visualización de la validación**
 
-Genere un filtro para visualizar los datos que no coinciden (```0's```) entre la ubicación y la geografía superior:
+Genere un filtro para visualizar los datos sonse la ubicación de la coordenada y la geografía superior no coinciden (```0's```):
 
 1. Abra nuevamente la tabla de atributos de la capa _```Joined_layer```_
-2. En la parte inferior de la tabla de atributos haga clic en el botón _```Show all features```>```Field filter```>```countyValidation```_ (Fig. 13).
+2. En la parte inferior de la tabla de atributos haga clic en el botón _```Show all features > Field filter > countyValidation```_ (Fig. 13).
 
    <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_validQGIS_SelectError.PNG" width=600>
 
@@ -238,7 +242,7 @@ Genere un filtro para visualizar los datos que no coinciden (```0's```) entre la
 
    <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig15_validQGIS_Select0s.PNG" width=800>
 
-  <sup>*Figura 15. Selección y verificación de resultados del filtro a partir de resultados de la validación del campo countyValidation.*</sup>
+   <sup>*Figura 15. Selección y verificación de resultados del filtro a partir de resultados de la validación del campo countyValidation.*</sup>
 
 5. Minimice la tabla de atributos, verá los puntos con inconsistencias (```0's```) seleccionados, en la pantalla de visualización del mapa (Fig. 16).
 
@@ -246,9 +250,9 @@ Genere un filtro para visualizar los datos que no coinciden (```0's```) entre la
 
    <sup>_Figura 16. Visualización de los registros biológicos seleccionados (0's) donde la ubicación de las  coordenadas no coincide con con el municipio documentado en el elemento county (resaltados en amarillo)_</sup>
 
-**6.6. Exporte el resultado de la validación.**
+**6.6. Exporte el resultado de la validación**
 
-Por último guarde el archivo de validación en su equipo::
+Por último guarde el archivo de validación en su equipo:
 
 1. Clic derecho sobre la capa resultante y siga la ruta _```Joined_layer > Export > Save feature as```_ (Fig. 17).
 
@@ -256,7 +260,7 @@ Por último guarde el archivo de validación en su equipo::
 
    <sup>*Figura 17. Opciones para exportar el resultado de la validación geográfica en formato Excel.*</sup>
 
-2. En la ventana emergente seleccione el formato _```MS Office Open XML [XLSX]```_ . En _```File name```_ ubique la carpeta donde quiere guardar el resultado y luego haga clic en _```Ok```_ (Fig. 18.)
+2. En la ventana emergente seleccione el formato _```MS Office Open XML [XLSX]```_ . En _```File name```_ ubique la carpeta donde quiere guardar el resultado y luego haga clic en _```Ok```_ (Fig. 18).
 
    <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig18_validQGIS_ExportExcel.PNG" width=600>
 
@@ -266,11 +270,11 @@ Por último guarde el archivo de validación en su equipo::
 3. Abra el archivo excel con el resultado de la validación, aplique filtros en las columnas _```countyValidation```_ y _```stateProvinceValidation```_. 
 
    > :thinking: **¿Puede identificar los errores?** 
-   > Uno de los errores presentes en el cojunto de datos de prueba y que es muy común son los errores de tipeo en los nombres del municipios, por este motivo aunque su municipio coincida con la ubicación de la coordenada puede detectar con esta validación se detectará el error de tipeo en la documentación del elemento *stateProvince* y/o *county*.
-   > Por ejemplo fijese en el municipio como **Abejorrral**.
+   > Uno de los errores presentes en el cojunto de datos de prueba -y que es muy común- son los errores de tipeo en los nombres del los departamentos y municipios, por este motivo aunque su municipio coincida con la ubicación de la coordenada este proceso de validaciónpuede detectar el error de tipeo en la documentación de los elementos *stateProvince* y *county*.
+   > Por ejemplo fijese en el municipio **Abejorrral**.
 
 
-Para los fines de este ejercicio que está enfocado en validación no es necesario corregir los errores identificados en la validación geográfica.
+Para los fines de este ejercicio, que está enfocado en validación, no es necesario corregir los errores identificados en la validación geográfica.
 
 
 ## Paso 7 - Datos propios
@@ -292,7 +296,7 @@ La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usa
 
 **Citación sugerida**
 
-> SiB Colombia (2020). Laboratorios de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
+> Plata C., Ortíz R., Marentes E. (2021). Laboratorio de datos, Ciclo de formación. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
 
 ****
 
