@@ -129,7 +129,7 @@ El _```Text Facet```_creado aparecerá a la izquierda de la aplicación, verá u
 
 **3.1.3. Corrección de los datos**
 
-Corrija las inconsistencias en los nombres de las clases *Aves* y *Mammalia*. Para esto acerque el cursor al valor que desea corregir y haga clic en *```Edit```*, luego en el cuadro de texto que aparece corrija el error y haga clic en _```Apply```_ (Fig. 6). Todos los valores serán corregidos de manera automática y las celdas se transformarán de forma masiva.
+Corrija las inconsistencias en los nombres de las clases **Aves** y **Mammalia**. Para esto acerque el cursor al valor que desea corregir y haga clic en *```Edit```*, luego en el cuadro de texto que aparece corrija el error y haga clic en _```Apply```_ (Fig. 6). Todos los valores serán corregidos de manera automática y las celdas se transformarán de forma masiva.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_OR_classCorrect.png" width=400>
 
