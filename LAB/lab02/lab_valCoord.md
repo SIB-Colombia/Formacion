@@ -83,10 +83,11 @@ Contenido del proyecto en QGIS:
     * OSM Black and white
     * OpenStreetMap
 
-## Paso 5 - Carga de datos de validación en QGIS. 
+## Paso 5 - Carga de los datos 
 
 **5.1. Añadir capa de texto delimitado**
-Para cargar los datos de validación del paso 2 en QGIS, diríjase al menú y seleccione  ```Layer> Add Layer> Add Delimited Text Layer```. (Fig. 2)
+
+Para cargar los datos ddescargados en el paso 2 en QGIS, diríjase al menú y seleccione  ```_Layer> Add Layer> Add Delimited Text Layer_```. (Fig. 2)
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2_validQGIS_addTextfile.PNG" width=800>
 
@@ -94,24 +95,29 @@ Para cargar los datos de validación del paso 2 en QGIS, diríjase al menú y se
 
 
 **5.2. Seleccione el archivo a validar**
-En la ventana emergente, haga clic en *```File Name```* y ubique el archivo en formato .csv ```datos_geografía.csv``` que guardó en el paso 2. (Fig. 3A)
+
+En la ventana emergente, haga clic en *```_File Name_```* y ubique el archivo en formato .csv ```datos_geografía.csv``` que guardó en el paso 2. (Fig. 3A)
 
 **5.3. Seleccione el tipo de archivo y delimitador de texto**
+
 QGIS llenará los campos de la ventana emergente de manera automática, sin embargo verifique que el formato del archivo corresponda con el tipo de archivo y delimitador usado. En este caso es ```CSV```. (Fig. 3B).
 
 **5.4. Revise la codificación.**
-Observe si en la vista previa los nombres de las entidades geográficas muestran problemas de codificación como símbolos de interrogación u otros reemplazando tildes y 'eñes'. Si hay problemas de codificación ajuste en *```Encoding:```*(Fig. 3C), la codificación, use ```UTF-8```.
+
+Observe si en la vista previa los nombres de las entidades geográficas muestran problemas de codificación como símbolos de interrogación u otros reemplazando tildes y 'eñes'. Si hay problemas ajuste en *```Encoding:```* la codificación, use ```UTF-8``` (Fig. 3C).
 
 **5.5. Seleccione las coordenadas decimales**
-En _```Geometry definitions ```_ seleccione _```Point coordinates```_ y verifique que _```X field```_ corresponde a _```decimalLongitude```_ y la _```X field```_ a _```decimalLatitude```_ del archivo.(Fig. 3D).
+
+En _```Geometry definitions ```_ seleccione _```Point coordinates```_ y verifique que _```X field```_ corresponde a _```decimalLongitude```_ y la _```Y field```_ a _```decimalLatitude```_ del archivo (Fig. 3D).
 
 **5.6. Seleccione el sistema de referencia**
-En el campo _```Geometry CRS```_ seleccionar el sistema de referencia de coordenadas: ```WGS84``` (*World Geodetic System*). Si no se selecciona el sistema, QGIS tomará por defecto el sistema usado en este proyecto (WGS84). (Fig. 3E). Para finalizar la carga del archivo haga clic en _```Add```_.
+
+En el campo _```Geometry CRS```_ seleccione el sistema de referencia de coordenadas: ```WGS84``` (*World Geodetic System*). Si no  selecciona el sistema, QGIS tomará por defecto el sistema usado en este proyecto (WGS84) (Fig. 3E). Para finalizar la carga del archivo haga clic en _```Add```_.
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3_validQGIS_addTextfileOptions.PNG" width=800>
 
-<sup>_Figura 3. Pasos para cargar archivos de texto delimitados en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv., C. Selección de la codificación. D. Selección de campos de coordenadas, E. Selección del sistema de referencia._</sup>
+<sup>_Figura 3. Pasos para cargar archivos de texto delimitados en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv. C. Selección de la codificación. D. Selección de campos de coordenadas. E. Selección del sistema de referencia._</sup>
 
 ```tip
 Si realiza este ejercicio con su propio set de datos (Paso 7) es importante que conozca el sistema de referencia o datum de sus datos.
