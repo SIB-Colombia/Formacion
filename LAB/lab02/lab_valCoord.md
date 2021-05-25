@@ -12,8 +12,8 @@ Visualizar y validar con la herramienta QGIS la coherencia de la ubicación de l
 
 :earth_americas:  [QGIS](https://qgis.org/es/site/about/index.html) es un software para manejo de información geográfica que se ejecuta sobre multiples sistemas operativos como Linux, Unix, Mac OSX, Windows y Android y soporta numerosos formatos y funcionalidades de datos vector, datos ráster y bases de datos. QGIS proporciona una creciente gama de capacidades a través de sus funciones básicas y complementos con los que podrá visualizar, gestionar, editar, analizar datos y diseñar mapas imprimibles. 
 
-QGIS es un _software_ libre y de código abierto licenciado bajo GNU - 
-General Public License, soportado como un proyecto de la Open Source Geospatial Foundation (OSGeo)por lo cuual no requiere el pago de licencias. Es impulsado por un grupo de voluntarios que mantienen el software actualizado y las versiones estables, lo que lo mantiene a la par de otros software geográficos mas conocidos.
+QGIS es un _software_ libre y de código abierto licenciado bajo _GNU - 
+General Public License_, soportado como un proyecto de la _Open Source Geospatial Foundation (OSGeo_)por lo cual no requiere el pago de licencias. Es impulsado por un grupo de voluntarios que mantienen el software actualizado y las versiones estables, lo que lo mantiene a la par de otros software geográficos mas conocidos.
 
 
 **Requerimientos** 
@@ -22,9 +22,9 @@ General Public License, soportado como un proyecto de la Open Source Geospatial 
 
 * Contar con un procesador de archivos de texto como Excel.
 
-* Contar con un mínimo de 4GB de memoría RAM para el desarollo de esta guía. Sin embargo, para procesos con más de 20.000 registros se recomienda tener por lo menos 8GB. 
+* Contar con un mínimo de 4GB de memoría RAM para el desarollo de esta guía. Sin embargo, para procesos con más de 20.000 registros biológicos se recomienda tener por lo menos 8GB. 
 
-* Para un mejor rendimiento,  no habra junto a QGIS otros programas que consuman muchos recursos del computador.
+* Para un mejor rendimiento no habra junto a QGIS otros programas que consuman muchos recursos del computador.
 
 **Archivos de trabajo.**
 
@@ -42,9 +42,7 @@ General Public License, soportado como un proyecto de la Open Source Geospatial 
 4. Siga los pasos de instalación en su ordenador. Si es usuario de Windows seleccione la opción de descarga (32 bits o 64 bits) según su sistema operativo.
 
 ``` tip
-Puede encontrar instrucciones más específicas de instalación en la [página de descargas](https://qgis.org/es/site/forusers/alldownloads.html). 
-
-:film_projector: También puede consultar este [video tutorial](https://www.youtube.com/watch?v=4lSee2ewWsY) 
+Puede encontrar instrucciones más específicas de instalación en la [página de descargas](https://qgis.org/es/site/forusers/alldownloads.html), y en este [video tutorial](https://www.youtube.com/watch?v=4lSee2ewWsY) 
 ```
 
 ## Paso 2 - Descarga de datos
@@ -56,9 +54,9 @@ Descargue el archivo comprimido [```datos_geografia.zip```](https://raw.githubus
 
 ## Paso 3 - Descarga del proyecto
 
-El Equipo Coiirdinador del SiB Colombia (EC- SiB) ha elaborado un proyecto en QGIS con capas geográficas de referencia que le facilitarán realizar la validación geográfica de los datos. Descargue el [proyecto de validación geográfica](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) de QGIS, y guarde el proyecto de validación en una ubicación corta como ```Mis documentos``` o el ```Disco local (C:)```.
+El Equipo Coordinador del SiB Colombia (EC- SiB) ha elaborado un proyecto en QGIS con capas geográficas de referencia para la validación geográfica de los datos. Descargue el [proyecto de validación geográfica](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) de QGIS, y guardelo en una ubicación corta como ```Mis documentos``` o el ```Disco local (C:)```.
 
-Cuando finalice la descarga, ubique el archivo desargado en su ordenador, descomprima el archivo. Dentro de la carpeta resultante ubique el archivo ```ValidacionGeoQGIS.qgs``` y haga doble clic sobre este para abrirlo o haga clic derecho sobre el ```archivo > Abrir con> QGIS 3.10```.
+Cuando finalice la descarga ubique el archivo en su ordenador y descomprimalo, dentro de la carpeta resultante ubique el archivo ```ValidacionGeoQGIS.qgs``` y ábralo haciendo doble clic sobre o haciendo clic derecho y siguiendo la ruta ``` Abrir con> QGIS 3.10```.
 
 
 ## Paso 4 - Exploración del proyecto
@@ -67,7 +65,7 @@ Se ejecutará QGIS 3.10 y verá un entorno similar al siguiente (Fig. 1).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_validQGIS_firstview.PNG" width=800>
 
-*Figura 1. Entorno de trabajo en el proyecto de QGIS de validación geográfica. A. Menú de herramientas; B. Panel de capas; C. Vista del mapa.*
+<sup>_Figura 1. Entorno de trabajo en el proyecto de QGIS de validación geográfica. A. Menú de herramientas; B. Panel de capas; C. Vista del mapa._</sup>
 
 Contenido del proyecto en QGIS:
 
@@ -92,7 +90,7 @@ Para cargar los datos de validación del paso 2 en QGIS, diríjase al menú y se
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2_validQGIS_addTextfile.PNG" width=800>
 
-*Figura 2. Pasos para carga de archivos de texto delimitados en QGIS.*
+<sup>_Figura 2. Pasos para carga de archivos de texto delimitados en QGIS._</sup>
 
 
 **5.2. Seleccione el archivo a validar**
@@ -113,7 +111,7 @@ En el campo _```Geometry CRS```_ seleccionar el sistema de referencia de coorden
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3_validQGIS_addTextfileOptions.PNG" width=800>
 
-*Figura 3. Pasos para cargar archivos de texto delimitados en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv., C. Selección de la codificación. D. Selección de campos de coordenadas, E. Selección del sistema de referencia.* 
+<sup>_Figura 3. Pasos para cargar archivos de texto delimitados en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv., C. Selección de la codificación. D. Selección de campos de coordenadas, E. Selección del sistema de referencia._</sup>
 
 ```tip
 Si realiza este ejercicio con su propio set de datos (Paso 7) es importante que conozca el sistema de referencia o datum de sus datos.
@@ -124,7 +122,7 @@ Una vez cargado el archivo una nube de puntos se desplegará en la ventana de vi
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_validQGIS_nubepuntos.PNG" width=800>
 
-*Figura 4. Visualización de los datos de validación en QGIS.* 
+<sup>_Figura 4. Visualización de los datos de validación en QGIS._</sup>
 
 
 ## Paso 6. Validación geográfica
