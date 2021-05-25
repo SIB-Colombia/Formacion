@@ -121,7 +121,7 @@ Diríjase a la columna _```class```_, haga clic en el menú de la columna y siga
 
 **3.1.2. Organizar el _Text Facet_**
 
-El _``Text Facet```_creado aparecerá a la izquierda de la aplicación, verá una ventana con el nombre de la columna y el _Facet_ que acaba de crear (Fig. 5). Haga clic en _```count```_ para organizar las clases de la más a la menos abundante y en _```name```_ para organizarlas en orden alfabético.
+El _```Text Facet```_creado aparecerá a la izquierda de la aplicación, verá una ventana con el nombre de la columna y el _Facet_ que acaba de crear (Fig. 5). Haga clic en _```count```_ para organizar las clases de la más a la menos abundante y en _```name```_ para organizarlas en orden alfabético.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_OR_facet2.png" width=400>
 
