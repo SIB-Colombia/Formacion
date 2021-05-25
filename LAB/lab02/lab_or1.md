@@ -366,15 +366,15 @@ El tiempo de consulta depende de la cantidad de información, la velocidad de la
 
 Podrá observar que en cada celda de la columna _validTax_ aparecen expresiones  a partir del llamado al API de GBIF para cada nombre científico consultado (Fig. 23).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava4.JPG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava4.PNG" width=500>
 
 <sup>_Figura 23. Visualización de la columna validTax_</sup>
 
 **Extracción de la información obtenida**
 
-Para observar claramente los resultados, y obtener la validación delnombre científico agregue una columna basada en *validTax* _```Edit column >  Add column based on this column```_ llamada *Match* a partir de la columna *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("matchType")```_(Fig. 24).
+Para observar claramente los resultados y obtener la validación del nombre científico agregue una columna basada en *validTax* _```Edit column >  Add column based on this column```_ llamada *Match* a partir de la columna *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("matchType")```_(Fig. 24).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava5.JPG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava5.PNG" width=500>
 
 <sup>_Figura 24. Creación de la columna Match a partir de la información obtenida del API_</sup>
 
@@ -391,7 +391,7 @@ GBIF también le retorna a través del API una posible opción de nombres cient�
 
 Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("species")```_(Fig. 27) y haga clic en _```OK```_(Fig. 26).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava7.JPG" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava7.PNG" width=500>
 
 <sup>_Figura 26. Creación de la nueva columna validName_</sup>
 
@@ -412,7 +412,7 @@ Habiendo realizado el proceso de verificación y limpieza de nombres científico
 
 Para hacer una modificación en todas las celdas del archivo, diríjase a la primera columna presente _```All```_ ,seleccione el menu desplegable y la opción _```Transform```_ (Fig. 29).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava10.jpg" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava10.jpg" width=500>
 
 <sup>_Figura 29. Selección del menu para hacer el cambio masivo_</sup>
 
