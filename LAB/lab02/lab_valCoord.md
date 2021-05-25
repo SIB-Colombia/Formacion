@@ -242,38 +242,40 @@ Genere un filtro para visualizar los datos que no coinciden (```0's```) entre la
 
 5. Minimice la tabla de atributos, verá los puntos con inconsistencias (```0's```) seleccionados, en la pantalla de visualización del mapa (Fig. 16).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_validQGIS_VisualizacionPuntosErrores.PNG" width=800>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_validQGIS_VisualizacionPuntosErrores.PNG" width=800>
 
-<sup>_Figura 16. Visualización de los registros biológicos seleccionados (0's) donde la ubicación de las  coordenadas no coincide con con el municipio documentado en el elemento county (resaltados en amarillo)_</sup>
+   <sup>_Figura 16. Visualización de los registros biológicos seleccionados (0's) donde la ubicación de las  coordenadas no coincide con con el municipio documentado en el elemento county (resaltados en amarillo)_</sup>
 
 **6.6. Exporte el resultado de la validación.**
 
-Por último guarde el archivo de validación en formato de texto (Excel) en su equipo. Para ello haga lo siguiente:
+Por último guarde el archivo de validación en su equipo::
 
 1. Clic derecho sobre la capa resultante y siga la ruta _```Joined_layer > Export > Save feature as```_ (Fig. 17).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_validQGIS_ExportExcel.PNG" width=600>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_validQGIS_ExportExcel.PNG" width=600>
 
-<sup>*Figura 17. Opciones para exportar el resultado de la validación geográfica en formato Excel.*</sup>
+   <sup>*Figura 17. Opciones para exportar el resultado de la validación geográfica en formato Excel.*</sup>
 
 2. En la ventana emergente seleccione el formato _```MS Office Open XML [XLSX]```_ . En _```File name```_ ubique la carpeta donde quiere guardar el resultado y luego haga clic en _```Ok```_ (Fig. 18.)
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig18_validQGIS_ExportExcel.PNG" width=600>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig18_validQGIS_ExportExcel.PNG" width=600>
 
-<sup>*Figura 18. Documentación de ventana emergente para exportar resultados de la validación geográfica en formato Excel.*</sup>
+   <sup>*Figura 18. Documentación de ventana emergente para exportar resultados de la validación geográfica en formato Excel.*</sup>
 
 
 3. Abra el archivo excel con el resultado de la validación, aplique filtros en las columnas _```countyValidation```_ y _```stateProvinceValidation```_. 
 
-> :thinking: **¿Puede identificar los errores?** Tenga en cuenta que uno de los errores presentes en el cojunto de datos de prueba, y que es muy común en este tipo de validaciones, son los errores de tipeo en los nombres del municipios  como *Abejorrral*, por este motivo aunque su municipio coincida con la ubicación puede detectar con esta validación, errores en la documentación del elemento *stateProvince* y *county*.
+   > :thinking: **¿Puede identificar los errores?** 
+   > Uno de los errores presentes en el cojunto de datos de prueba y que es muy común son los errores de tipeo en los nombres del municipios, por este motivo aunque su municipio coincida con la ubicación de la coordenada puede detectar con esta validación se detectará el error de tipeo en la documentación del elemento *stateProvince* y/o *county*.
+   > Por ejemplo fijese en el municipio como **Abejorrral**.
 
 
-> Esta guía es de validación, para los fines de este ejercicio no es necesario corregir los errores identificados en la validación geográfica.
+Para los fines de este ejercicio que está enfocado en validación no es necesario corregir los errores identificados en la validación geográfica.
 
 
 ## Paso 7 - Datos propios
 
-Si tiene datos propios, pruebe validarlos siguiendo los pasos de este laboratorio.
+Si tiene datos propios pruebe validarlos siguiendo los pasos de este laboratorio.
 
 
 ****
