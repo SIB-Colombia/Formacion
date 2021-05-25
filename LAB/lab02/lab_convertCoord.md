@@ -29,14 +29,32 @@ Descargue el archivo [```datos_canadensys.xlsx```](https://raw.githubusercontent
 ## Paso 1 - Ingreso
 
 Ingrese a la aplicación en línea [_Coordinate conversion_](https://data.canadensys.net/tools/coordinates). Revise cuidadosamente las opciones disponibles para ingresar las coordenadas.
+Las coordenadas deben estar escritas en pares de coordenadas, un par por línea. Opcionalmente precedidas por un identificador propio seguido por una tabulación o una barra vertical.
 
-Las coordenadas deben estar escritas en pares de coordenadas, un par por línea. Opcionalmente precedidas por un identificador propio seguido por una tabulación o una barra vertical " | ".
 
 Ejemplos de valores de entrada:
 
 45° 32' 25" N, 129° 40' 31" W
+
+1 | 45.5° N, 129.6° W
+
+2 | 40°26′47″N,74° 0' 21.5022"W
+
+
+```
+45° 32' 25" N, 129° 40' 31" W
 1 | 45.5° N, 129.6° W
 2 | 40°26′47″N,74° 0' 21.5022"W
+```
+
+
+- 45° 32' 25" N, 129° 40' 31" W
+- 1 | 45.5° N, 129.6° W
+- 2 | 40°26′47″N,74° 0' 21.5022"W
+
+> 45° 32' 25" N, 129° 40' 31" W
+> 1 | 45.5° N, 129.6° W
+> 2 | 40°26′47″N,74° 0' 21.5022"W
 
 
 ## Paso 2 - Estandarización coordenadas originales
