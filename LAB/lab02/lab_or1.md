@@ -187,7 +187,7 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 
 ### 4.1 Corrección combinando filtros y funciones
 
-**4.1.1. Corrección del elemento _```scientificName```_**
+**4.1.1. Corrección elemento _```scientificName```_**
 
 Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro.
 Escriba en el campo de texto ```sp.``` y realice un _```Text Facet```_ en _```scientificName```_ para visualizar los registros con este valor (Fig. 12).
@@ -212,11 +212,11 @@ Diríjase nuevamente al menú de la columna de _```scientificName```_ y siga la 
 
 <sup>_Figura 14. Transformación masiva de los datos usando comando value.replace() del lenguaje GREL de Open Refine._</sup>
 
-Empleando el comando _```value.replace```_ se puede sustituir cualquier valor de una columna poniendo dentro de un paréntesis el valor a buscar (ej. " sp."), entre comillas [ “ ] y luego separado por una coma [ , ] el valor de reemplazo - en este caso ninguno por lo cual se ponen unas comillas vacías [""].
+Empleando el comando _```value.replace```_ se puede sustituir cualquier valor de una columna poniendo dentro del paréntesis el valor a buscar encerrado entre comillas [ “ ] (ej. " sp.") y luego separado por una coma [ , ] el valor de reemplazo - también entre comillas-, en este caso será ninguno, por lo cual se ponen unas comillas vacías [""].
 
-> :brain: Para conocer más del lenguaje de programación GREL de diríjase a la [documentación de Open Refine](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions).
+> Para conocer más del lenguaje de programación GREL de diríjase a la [documentación de Open Refine](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions).
 
-**2. Corrección elementos _```recordedBy```  ```identifiedBy```_**
+**2. Corrección elementos _```recordedBy``` ```identifiedBy```_**
 
 Corrija las columnas _```recordedBy```_ e _```identifiedBy```_ empleando la función _```value.replace```_ del punto anterior, reemplace en cada una el carácter de separación entre los nombres ```"; "``` por el que acepta el estándar Darwin Core actualmente para este elemento ```" | "``` ( Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)).
 
@@ -227,7 +227,7 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 **4.2.1. Corrección elemento _```family```_** 
 
 Diríjase a la columna _```family```_  y realice un _```Text Facet```_. Haga clic en el menú de la columna y luego en _```Text filter```_. Aparecerá la ventana del Filtro.
-Marque la casilla _regular expression_. Escriba en el campo de texto la expresión regular  ```.*(?:(?!ae).).$``` esta expresión permite excluir todas las palabras de la columna que no terminan en ```ae```, correspondiente a las últimas letras de la declinación en latín para la categoría taxonómica de familia (*idae*, *ceae*) (Fig, 15).
+Marque la casilla _```regular expression```_. Escriba en el campo de texto la expresión regular  ```.*(?:(?!ae).).$``` esta expresión permite excluir todas las palabras de la columna que no terminan en ```ae```, correspondiente a las últimas letras de la declinación en latín para la categoría taxonómica de familia (*idae*, *ceae*) (Fig, 15).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_OR_regulasExp.png" width=400>
 
@@ -235,13 +235,13 @@ Marque la casilla _regular expression_. Escriba en el campo de texto la expresi�
 
 Podrá observar como los registros que no corresponden a la categoría de familia han sido filtrados, usted puede editarlos haciendo uso de las opciones aprendidas en pasos previos. En este caso particular reemplace ```Bolitoglossa```, que corresponde a un género, por ```Plethodontidae```, la familia a la que pertenece el nombre científico (Fig. 15).
 
-> :brain: Para conocer más de las expresiones regulares diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
+> Para conocer más de las expresiones regulares diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
 
 Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los Facets y Filtros que tenga en uso.
 
 **4.2.2. Corrección elmentos _```scientificName```_ _```identificationQualifier```_** 
 
-Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro. Marque la casilla _regular expression_. Escriba en el campo de texto la expresión regular  ```[.]``` y realice un _```Text Facet```_ para visualizar los registros con este  elemento (Fig. 16).
+Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro. Marque la casilla _```regular expression```_. Escriba en el campo de texto la expresión regular  ```[.]``` y realice un _```Text Facet```_ para visualizar los registros con este  elemento (Fig. 16).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_qualifier.png" width=400>
 
@@ -249,13 +249,13 @@ Diríjase a la columna _```scientificName```_, haga clic en el menú de la colum
 
 Podrá observar los registros que cumplen con el criterio de la expresión regular. El elemento _```identificationQualifier```_ está diseñado para almacenar este tipo de información y por su parte el elemento _```scientificName```_ debe encontrarse sin calificadores.
 
-Para hacer el ajuste realice un _```Text Facet```_ en el elemento _```identificationQualifier```_ para editar masivamente, de manera que en los blank se documente “cf. sowelli” y se borre en el _```scientificName```_ (Fig. 16).
+Para hacer el ajuste realice un _```Text Facet```_ en el elemento _```identificationQualifier```_ edite el blank documentando “cf. sowelli” y borre este texto en el _```scientificName```_ (Fig. 16) de esta manera edita masivamente todos los campos.
 
 ```note
 El grado de incertidumbre de la identificación puede indicarse agregando varios términos, como **aff.** y **cf.** al nombre científico. El término calificativo se aplica a la parte del nombre que sigue inmediatamente al calificador y se pueden colocar delante de cualquier elemento del nombre.
 
 - **aff.** Similar o limítrofe, indica que una especie tiene afinidad con la especie mencionada, pero no es idéntica a ella.
-- **cf.** Comparar con, describe que un espécimen que es difícil de identificar e indica diversos grados o tipos de incertidumbre sobre el taxon, y pueden usarse de manera diferente según el autor.
+- **cf.** Comparar con, describe que un espécimen que es difícil de identificar e indica diversos grados o tipos de incertidumbre sobre el taxon y pueden usarse de manera diferente según el autor.
 ````
 
 Finalmente estos registros deben quedar documentados con el género _Carollia_ en _```scientificName```_ y en _```identificationQualifier```_ el valor ```cf. sowelli``` (Fig. 17).
@@ -274,7 +274,7 @@ Diríjase a la columna _```recordedBy```_, haga clic en el menú de la columna y
 <sup>_Figura 18. Facet y opciones del elemento recordedBy._</sup>
 
 
-En la parte superior derecha verá el botón _```Cluster```_ haga clic (Fig. 18), aparecerá la ventana de _Cluster &  Edit_ para la columna _recordedBy_ (Fig. 19).
+En la parte superior derecha verá el botón _```Cluster```_. Al hacer clic en el (Fig. 18) aparecerá la ventana de _Cluster &  Edit_ para la columna _```recordedBy```_ (Fig. 19).
 
 Podrá ver la siguiente información:
 
@@ -291,7 +291,7 @@ Podrá ver la siguiente información:
 
 Vaya a _```Keying Function```_, seleccione _```ngram-fingerprint```_ y en _```Ngram Size```_ escriba ```1``` (Fig. 19).
 
-> :brain: Para conocer más acerca de los algoritmos diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
+> Para conocer más acerca de los algoritmos diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
 
 - Para el primer cluster asigne un valor nuevo, para esto vaya al cuadro de texto de _```New cell value```_ y escriba ```David H | Arango A | Bedoya J``` (dejando espacios sencillos). Luego haga check en el cuadro de _```Merge?```_ para ese _cluster_ (Fig. 19).
 
@@ -304,7 +304,7 @@ Una vez escoja las entradas que desee fusionar vaya a _```Merge Selected & close
 
 Observe que la cantidad de opciones de datos disminuyó y que la primera entrada de nombres ha cambiado, es decir la información se simplificó y organizó correctamente gracias a este proceso.
 
-Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
+Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
 
 ## Paso 6 - Servicios externos vía API's
@@ -317,7 +317,6 @@ GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de recon
 
 
 <sup>Tabla 1. Principales fuentes a partir de las cuales se consolida el árbol taxonómico de GBIF</sup>
-
 | Proveedor * | Enlace | 
 | -------- | -------- | 
 | CoL | http://www.catalogueoflife.org/ |
