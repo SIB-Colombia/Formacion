@@ -347,7 +347,7 @@ Para realizar la validación a través del API es necesario que los espacios en 
 
 Para ello vaya a _```Edit column > Add column based on this column```_ e introduzca la expresión (tal y como aparece) _```value.replace(" ","%20")```_ y nombre la columna *NomAPI* (Fig. 21).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.JPG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.PNG" width=500>
 
 <sup>_Figura 21. Creación de la nueva columna NomAPI_</sup>
 
@@ -356,7 +356,7 @@ Para ello vaya a _```Edit column > Add column based on this column```_ e introdu
 
 Cree una nueva columna llamada *validTax* a partir de la columna NomAPI, para esto siga la ruta _```Edit column >  Add column by fetching URLs…```_ e introduzca la expresión _```"http://api.gbif.org/v1/species/match?strict=true&name="+value```_. En el campo _```Throttle delay```_ escriba ```5```, haga clic en _```OK```_ y espere a que finalice el proceso (Fig. 22).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava3.JPG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava3.PNG" width=500>
 
 <sup>_Figura 22. Creación de la nueva columna validTax_</sup>
 
