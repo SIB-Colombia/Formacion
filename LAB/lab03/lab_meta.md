@@ -161,7 +161,7 @@ En esta sección debe incluir a todas las personas que aportaron significativame
 Puede añadir tantas personas como sea necesario, se recomienda documentar la mayor cantidad de información posible de cada autor (Fig. 9).
 
 ```Nota
-Los creadores del recurso deben ser **personas**, no entidades. Por medio del campo organización de cada autor el EC-SiB se encarga de recopilar las autorías a nivel institucional.
+Los creadores del recurso deben ser personas, no entidades. Por medio del campo organización de cada autor el EC-SiB se encarga de recopilar las autorías a nivel institucional.
 ````
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab03/_images/Fig9_meta_autor.png" width=600>
