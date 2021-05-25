@@ -52,7 +52,7 @@ Una vez se haya autenticado en el IPT podrá ver su información de usuario (Fig
 - **Gestión de recursos**: menú disponible solo para los usuarios registrados que han iniciado sesión.
 - **Acerca de**: menú para todos los usuarios, con la información general del IPT.
 
-El menú activo se mostrará en un color más oscuro (Fig. 2B)
+El menú activo se mostrará en un color más oscuro (Fig. 2B).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab03/_images/Fig2_meta_ingreso2.png" width=800>
 
@@ -363,4 +363,4 @@ La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usa
 
 **Citación sugerida**
 
-> SiB Colombia (2020). Laboratorios de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
+> Plata C., Ortíz R., Marentes E. (2021). Laboratorio de datos, Ciclo de formación. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
