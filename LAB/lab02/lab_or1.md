@@ -121,7 +121,7 @@ Diríjase a la columna _```class```_, haga clic en el menú de la columna y siga
 
 **3.1.2. Organizar el _Text Facet_**
 
-El _Text Facet_ creado aparecerá a la izquierda de la aplicación, verá una ventana con el nombre de la columna y el _Facet_ que acaba de crear (Fig. 5). Haga clic en _count_ para organizar las clases de la más a la menos abundante y en _name_ para organizarlas en orden alfabético.
+El _``Text Facet```_creado aparecerá a la izquierda de la aplicación, verá una ventana con el nombre de la columna y el _Facet_ que acaba de crear (Fig. 5). Haga clic en _```count```_ para organizar las clases de la más a la menos abundante y en _```name```_ para organizarlas en orden alfabético.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_OR_facet2.png" width=400>
 
@@ -129,13 +129,13 @@ El _Text Facet_ creado aparecerá a la izquierda de la aplicación, verá una ve
 
 **3.1.3. Corrección de los datos**
 
-Corrija las inconsistencias en los nombres de las clases ```Aves``` y ```Mammalia```. Para esto acerque el cursor al valor que desea corregir y haga clic en *```Edit```*, luego en el cuadro de texto que aparece corrija el error y haga clic en _```Apply```_ (Fig. 6). Todos los valores serán corregidos de manera automática y las celdas se transformarán de forma masiva.
+Corrija las inconsistencias en los nombres de las clases *Aves* y *Mammalia*. Para esto acerque el cursor al valor que desea corregir y haga clic en *```Edit```*, luego en el cuadro de texto que aparece corrija el error y haga clic en _```Apply```_ (Fig. 6). Todos los valores serán corregidos de manera automática y las celdas se transformarán de forma masiva.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_OR_classCorrect.png" width=400>
 
 <sup>_Figura 6. Corrección masiva de la columna class usando un Text Facet._</sup>
 
-Realice el mismo proceso con la columna _```basisOfRecord```_ y _```sex```_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
+Realice el mismo proceso con la columna _*basisOfRecord*_ y _*sex*_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=400>
