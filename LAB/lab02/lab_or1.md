@@ -347,7 +347,7 @@ Para realizar la validación a través del API es necesario que los espacios en 
 
 Para ello vaya a _```Edit column > Add column based on this column```_ e introduzca la expresión (tal y como aparece) _```value.replace(" ","%20")```_ y nombre la columna *NomAPI* (Fig. 21).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.png" width=700>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.PNG" width=700>
 
 <sup>_Figura 21. Creación de la nueva columna NomAPI_</sup>
 
