@@ -104,7 +104,7 @@ QGIS llenará los campos de la ventana emergente de manera automática, sin emba
 
 **5.4. Revise la codificación.**
 
-Observe si en la vista previa (Fig. 3F)  los nombres de las entidades geográficas muestran problemas de codificación como símbolos de interrogación u otros reemplazando tildes y 'eñes'. Si hay problemas ajuste en *```Encoding:```* la codificación (Fig. 3C), según su sistema operativo pruebe la opciónes *```System ```* (Windows), *```macintosh```* (Mac) o ```UTF-8``` para cualquier sistema, hasta asegurarse que no hay problemas de codificación en la vista previa (Fig. 3F).
+Observe si en la vista previa (Fig. 3F)  los nombres de las entidades geográficas muestran problemas de codificación como símbolos de interrogación u otros reemplazando tildes y 'eñes'. Si hay problemas ajuste en *```Encoding:```* la codificación (Fig. 3C), según su sistema operativo pruebe la opciOnes *```System ```* (Windows), *```macintosh```* (Mac) o ```UTF-8``` para cualquier sistema, hasta asegurarse que no hay problemas de codificación en la vista previa (Fig. 3F).
 
 **5.5. Seleccione las coordenadas decimales**
 
@@ -140,7 +140,7 @@ A continuación procedará a validar la coherencia entre la ubicación de las co
 
 Realice una intersección entre la capa de municipios y los datos, para ello seleccione de la barra de herramientas superior la opción *```Vector> Data Management Tools > Join Attributes by Location```* (Fig. 5).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_validQGIS_seleccJoin.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_validQGIS_seleccJoin.PNG" width=700>
 
 <sup>*Figura 5. Selección de la función Join Attributes by Location en el menú de herramientas.*</sup>
 
@@ -160,7 +160,7 @@ Haga clic en _```Run```_.
 
 Obtendrá una nueva capa llamada _```Joined_layer```_ con la intersección de los datos y la capa de municipios, revise que esta se encuentre en el panel de capas _```Layers```_. Abra la tabla de atributos de esta capa haciendo clic derecho sobre la capa y elija la opción _```Open Attribute Table```_ (Fig. 7).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_validQGIS_AttribT.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_validQGIS_AttribT.PNG" width=400>
 
 <sup>*Figura 7. Acceder a la tabla de atributos de la capa resultante.* </sup>
 
@@ -240,7 +240,7 @@ Genere un filtro para visualizar los datos sonse la ubicación de la coordenada 
 
 4. En la parte superior de la tabla de atributos verá el número de registros biológicos filtrados. Seleccione la esquina superior izquierda de los datos como se muestra en la Fig. 15 para seleccionarlos. 
 
-   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig15_validQGIS_Select0s.PNG" width=800>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig15_validQGIS_Select0s.PNG" width=600>
 
    <sup>*Figura 15. Selección y verificación de resultados del filtro a partir de resultados de la validación del campo countyValidation.*</sup>
 
