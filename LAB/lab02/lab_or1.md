@@ -449,7 +449,7 @@ Vaya a la pestaña _Download_, donde podrá configurar el formano en el cuál se
 
 Para este caso, use *Other formats* y elija la opción ```Excel in XML(.xlsx)```, haga clic en ```Download``` y guarde su archivo (Fig. 32).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_EX2.png" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_EX2.png" width=700>
 
 <sup>_Figura 32. Selección del formato de descarga del conjunto de datos_</sup>
 
