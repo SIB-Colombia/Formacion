@@ -192,7 +192,7 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro.
 Escriba en el campo de texto ```sp.``` y realice un _```Text Facet```_ en _```scientificName```_ para visualizar los registros con este valor (Fig. 12).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_OR_sp.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig12_OR_sp.png" width=500>
 
 <sup>_Figura 12. Aplicación de un filtro de texto a la columna scientificName e identificación de nombres científicos a corregir._</sup>
 
