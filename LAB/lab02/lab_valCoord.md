@@ -262,7 +262,7 @@ Por último guarde el archivo de validación en su equipo:
 
 2. En la ventana emergente seleccione el formato _```MS Office Open XML [XLSX]```_ . En _```File name```_ ubique la carpeta donde quiere guardar el resultado y luego haga clic en _```Ok```_ (Fig. 18).
 
-   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig18_validQGIS_ExportExcel.PNG" width=600>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig18_validQGIS_ExportExcel.PNG" width=400>
 
    <sup>*Figura 18. Documentación de ventana emergente para exportar resultados de la validación geográfica en formato Excel.*</sup>
 
