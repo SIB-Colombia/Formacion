@@ -335,7 +335,7 @@ GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de recon
 
 Elimine los facets o filtros que tenga activos. Para tener una aproximación inicial al funcionamiento del API diríjase a la columna _```recordedBy```_ y realice un _Text Facet_. Haga clic en la opción _```count```_ y seleccione al investigador(es) con mayor número de registros asociados (Vargas I) (Fig. 20).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava1.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava1.png" width=700>
 
 <sup>_Figura 20. Filtro por conteo en ```recordedBy``` y selección de la opción con más registros._</sup>
 
@@ -347,7 +347,7 @@ Para realizar la validación a través del API es necesario que los espacios en 
 
 Para ello vaya a _```Edit column > Add column based on this column```_ e introduzca la expresión (tal y como aparece) _```value.replace(" ","%20")```_ y nombre la columna *NomAPI* (Fig. 21).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.png" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.png" width=700>
 
 <sup>_Figura 21. Creación de la nueva columna NomAPI_</sup>
 
@@ -356,7 +356,7 @@ Para ello vaya a _```Edit column > Add column based on this column```_ e introdu
 
 Cree una nueva columna llamada _**validTax**_ a partir de la columna NomAPI, para esto siga la ruta _```Edit column >  Add column by fetching URLs…```_ e introduzca la expresión _```"http://api.gbif.org/v1/species/match?strict=true&name="+value```_. En el campo _```Throttle delay```_ escriba ```5```, haga clic en _```OK```_ y espere a que finalice el proceso (Fig. 22).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava3.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava3.PNG" width=700>
 
 <sup>_Figura 22. Creación de la nueva columna validTax_</sup>
 
@@ -374,7 +374,7 @@ Podrá observar que en cada celda de la columna _```validTax```_ aparecen expres
 
 Para observar claramente los resultados y obtener la validación del nombre científico agregue una columna basada en _```validTax```_ haciendo clic en _```Edit column >  Add column based on this column```_ llamada _**Match**_, e introduzca la expresión _```value.parseJson().get("matchType")```_(Fig. 24).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava5.PNG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava5.PNG" width=700>
 
 <sup>_Figura 24. Creación de la columna Match a partir de la información obtenida del API_</sup>
 
@@ -391,7 +391,7 @@ GBIF también le retorna a través del API una posible opción de nombres cient�
 
 Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("species")```_ y haga clic en _```OK```_(Fig. 26).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava7.PNG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava7.PNG" width=700>
 
 <sup>_Figura 26. Creación de la nueva columna validName_</sup>
 
