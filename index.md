@@ -10,22 +10,25 @@ Tradicionalmente el Equipo Coordinador del SiB Colombia  facilita talleres prese
 * Aplicar protocolos para la captura de datos con fines de publicación a través del SiB Colombia.
 * Aplicar protocolos y herramientas para la estructuración, validación y limpieza de datos sobre biodiversidad para su publicación a través del SiB Colombia.
 
-Conoce más sobre el [Ciclo de Formación virtual 2020](https://sibcolombia.net/formacion/) llevado a cabo del 20 de agosto al 13 de octubre.
+Conoce más sobre el [Ciclo de Formación de este año](https://sibcolombia.net/formacion/), llevado a cabo desde el 15 de abril al 28 de octubre.
 
 ### Seminarios
 
-El ciclo comprende [8 seminarios](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l) que abarcan desde la generalidades del SiB Colombia hasta los aspectos más detallados de la publicación de datos.
+El ciclo comprende [19 seminarios](https://www.youtube.com/watch?v=ubpHPFPD-zU&list=PL_KzX3Rxxwb3MA55uX9105Y89QWAbMiKu) que abarcan diversos temas, desde algunas herramientas para uso en colecciones biológicas hasta el uso detallado del estándar DarwinCore.
 
-Te recomendamos ver todos los seminarios antes de realizar los laboratorios, esto te permitirá tener un mejor contexto y sacarle el mayor provecho al componente práctico del ciclo.
+Para la realización de estos laboratorios, te recomendamos ver los siguientes seminarios. Estos te permitirán tener un mejor contexto y sacarle el mayor provecho al componente práctico del ciclo.
 
 1. [SiB Colombia: una iniciativa nacional para la publicación, acceso y uso de datos sobre biodiversidad](https://youtu.be/ImptmviMXgI)
 2. [¿Qué datos sobre nuestra biodiversidad se pueden publicar a través del SiB Colombia?](https://youtu.be/_f4gGfIBN3U)
 3. [Aprendiendo un nuevo idioma, Darwin Core: reglas gramaticales y ortográficas para la publicación de datos sobre biodiversidad](https://youtu.be/nYGu8KY_K6U)
 4. [Crear, compartir, transformar: ¿Cómo publicar a través del SiB Colombia?](https://youtu.be/Q83XpNQwyEc)
-5. [Artículos de datos: ¿Cómo obtener un reconocimiento académico cuando mis datos tienen un alto valor científico?](https://youtu.be/z0JhWOdJKpI)
-6. [Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad](https://youtu.be/_JBbEjG1wAU)
-7. [Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?](https://youtu.be/M8AgoWnLkrg)
-8. Datos abiertos sobre biodiversidad: ¿Cómo acceder y usar los datos publicados a través del SiB Colombia?
+5. [Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad](https://youtu.be/_JBbEjG1wAU)
+6. [Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?](https://youtu.be/M8AgoWnLkrg)
+
+Puedes acceder a todos los videos de los seminarios en los siguintes enlaces:
+- [Lista de reproducción completa para los seminarios del año 2020](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l)
+- [Lista de reproducción para los seminarios del año 2021](https://www.youtube.com/watch?v=ubpHPFPD-zU&list=PL_KzX3Rxxwb3MA55uX9105Y89QWAbMiKu)
+
 
 ### Laboratorios
 
@@ -44,15 +47,15 @@ El **libre acceso** y la **cooperación** son dos de los principios orientadores
 
 **Citación sugerida**
 
-> SiB Colombia (2020). Laboratorio de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
+> Plata C., Ortíz R., Marentes E. (2021). Laboratorio de datos, Ciclo de formación. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
 > 
 
 **Nuestro equipo**
 * Los laboratorios en línea fueron construidos por Camila Plata, Ricardo Ortíz y Esteban Marentes.
 
 * Los contenidos de los laboratorios han sido contruidos a lo largo de múltiples talleres dictados por el equipo coordinador del SiB Colombia. 
-  * Miembros actuales: Camila Plata, Ricardo Ortíz y Dairo Escobar.
-  * Miembros históricos: Leonardo Buitrago y Nestor Beltran.
+  * Miembros actuales: Camila Plata, Ricardo Ortíz, Esteban Marentes y Dairo Escobar.
+  * Miembros históricos: Leonardo Buitrago, Marcela Delgado y Nestor Beltran.
 
 ### Sobre el SiB Colombia
 
@@ -60,7 +63,7 @@ El [Sistema de Información sobre Biodiversidad de Colombia (SiB Colombia)](http
 
 Su principal propósito es brindar **acceso abierto** a información sobre la diversidad biológica del país para la construcción de una sociedad sostenible. Además, facilita la **publicación en línea de datos e información** sobre biodiversidad, y promueve su uso por parte de una amplia variedad de audiencias, apoyando de forma oportuna y eficiente la gestión integral de la biodiversidad.
 
-Conoce más sobre esta red nacional en: https://sibcolombia.net/
+Conoce más sobre esta red nacional en: [https://sibcolombia.net/](https://sibcolombia.net/)
 
 ----
 ### Agradecimientos
