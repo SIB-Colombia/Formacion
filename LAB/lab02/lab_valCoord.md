@@ -256,7 +256,7 @@ Por último guarde el archivo de validación en su equipo:
 
 1. Clic derecho sobre la capa resultante y siga la ruta _```Joined_layer > Export > Save feature as```_ (Fig. 17).
 
-   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_validQGIS_ExportExcel.PNG" width=600>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_validQGIS_ExportExcel.PNG" width=400>
 
    <sup>*Figura 17. Opciones para exportar el resultado de la validación geográfica en formato Excel.*</sup>
 
