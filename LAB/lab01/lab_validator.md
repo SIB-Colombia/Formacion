@@ -20,10 +20,10 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 **Requerimientos** 
 * La primera fila del conjunto de datos a validar debe tener el nombre de los elementos *DwC* en inglés.
 
-* El conjunto de datos debe tener la columna del ID de tipo de datos que corresponda, *```occurenceID ```* (registros biológicos), *```eventID```* (eventos de muestreo)o *```taxonID```* (listas de especies). La columna debe estar documentada para todas las filas y los ID's deben ser únicos.
+* El conjunto de datos debe tener la columna del ID de tipo de datos que corresponda, *```occurenceID ```* (registros biológicos), *```eventID```* (eventos de muestreo) o *```taxonID```* (listas de especies). La columna debe estar documentada para todas las filas y los ID's deben ser únicos.
 
 * El validador admite archivos con los siguientes formatos:
-  * Formato Excel (.xls,.xlsx).
+  * Formato Excel (.xls o .xlsx).
   * Formato CSV.
   * Archivos Darwin Core comprimidos (DwC-A).
 
@@ -35,7 +35,7 @@ Descargue el archivo [```datos_Estructurados.xls```](https://raw.githubuserconte
 
 ## Paso 1 - Ingreso a GBIF 
 
-Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está registrado, ingrese con sus credenciales al [validador de datos.](https://www.gbif.org/es/tools/data-validator/) (Fig. 1).
+Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o si ya está registrado ingrese con sus credenciales al [validador de datos](https://www.gbif.org/es/tools/data-validator/) (Fig. 1).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig.1_dataValidator.png" width=800>
@@ -43,26 +43,26 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o, si ya está regist
 <sup>*Figura 1. Ingreso/registro en la página de GBIF.*</sup>
 
 ## Paso 2 - Cargar el archivo
-Cargue el archivo ```datos_Estructurados.xls``` en el validador; (1) haciendo clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastrando el archivo desde una carpeta a el ícono ```SOLTAR AQUÍ```. 
+Cargue el archivo ```datos_Estructurados.xls``` en el validador; (1) haciendo clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastrando el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
 
 ```warning
 Es indispensable que el elemento *occurrenceID* este documentado para que el _DataValidator_ reconozca el archivo.
 ```
 
-El validador le indicará si el conjunto de datos tiene la estructura adecuada para ser publicado a través del SiB Colombia, GBIF y [OBIS](https://obis.org/), o si es necesario realizar ajustes. El informe de validación contiene la siguiente información:
+El validador le indicará si el conjunto de datos tiene la estructura adecuada para ser publicado a través del SiB Colombia, GBIF y [OBIS](https://obis.org/) o si es necesario realizar ajustes. El informe de validación contiene la siguiente información:
 
 **2.1. Resumen**
-* Un indicador semaforizado (rojo y verde) que indica si el conjunto de datos puede ser indexado (Fig. 2 A).
-* Resumen del tipo de conjunto de datos (Fig. 2 B).
-* Alertas de validación que indican **potenciales** problemas en la estructuración y calidad del conjunto de datos (Fig. 2 C).
+* Un indicador semaforizado (rojo y verde) que indica si el conjunto de datos puede ser indexado (Fig. 2A).
+* Resumen del tipo de conjunto de datos (Fig. 2B).
+* Alertas de validación que indican **potenciales** problemas en la estructuración y calidad del conjunto de datos (Fig. 2C).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_datavalid_Informe.PNG" width=800>
 
 <sup>*Figura 2. Componentes del informe - Resumen de validación del conjunto de datos.*</sup>
 
 **2.2. Frecuencia del término**
-* Número de registros (filas) interpretados con éxito (Fig. 3 A).
-* Reporte del porcentaje de documentación de cada uno de los elementos del estándar *DwC* utilizados en el conjunto de datos (Fig. 3 B).
+* Número de registros (filas) interpretados con éxito (Fig. 3A).
+* Reporte del porcentaje de documentación de cada uno de los elementos del estándar *DwC* utilizados en el conjunto de datos (Fig. 3B).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_datavalid_Informe_frecuencia.PNG" width=700>
 
@@ -70,7 +70,7 @@ El validador le indicará si el conjunto de datos tiene la estructura adecuada p
 
 **2.3. Problemas de validación**
 
-* Reporte detallado de los problemas encontrados en el conjunto de datos por elemento DwC.
+* Reporte detallado de los problemas encontrados en el conjunto de datos por elemento DwC (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_datavalid_Informe_problemas.png" width=700>
 
@@ -98,7 +98,7 @@ Los casos más frecuentes por los cuales un archivo no puede ser indexado son:
 
 ### 3.2. Ajuste elementos críticos
 
-Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramienta (Fig. 6). Realice los ajustes necesarios y vuelva a correr la validación. En esta ocasión el validador le debe indicar que el conjunto de datos se puede indexar.
+Si el conjunto no puede ser indexado, revise el mensaje de alerta de la herramienta (Fig. 6). Realice los ajustes necesarios y vuelva a correr la validación. En esta ocasión el validador le debe indicar que el conjunto de datos se puede indexar.
 
 > :rotating_light: En la sección ```Problemas de validación``` encontrará los ID’s que están duplicados.
 
@@ -110,7 +110,7 @@ Si el conjunto no puede ser indexado revise el mensaje de alerta de la herramien
 
 Diríjase a la sección **Problemas de validación**. Allí encontrá varias alertas, para cada una el validador indica el número de registros a revisar. 
 
-Haga clic sobre las flechas de cada una de las alertas para obtener un desglose de los registros que deben ser revisados y/o ajustados. Para interpretar las alertas de validación utilice el botón de ayuda, y obtendrá una breve explicación. (Fig. 7).
+Haga clic sobre las flechas de cada una de las alertas para obtener un desglose de los registros que deben ser revisados y/o ajustados. Para interpretar las alertas de validación utilice el botón de ayuda y obtendrá una breve explicación. (Fig. 7).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig7_datavalid_detalleerror_2.png" width=1000>
 
@@ -138,7 +138,7 @@ Revise todas las alertas de validación y ajuste los datos de acuerdo a estas (F
 
 **Solución 1**: revise que todos los registros (filas) tengan este elemento documentado.
 
-**Solución 2**: documente el elemento siguiendo el vocabulario controlado en inglés. *```HumanObservation, PreservedSpecimen, LivingSpecimen, MachineObservation, MaterialSample FossilSpecimen.```*
+**Solución 2**: documente el elemento siguiendo el vocabulario controlado en inglés. *```HumanObservation, PreservedSpecimen, LivingSpecimen, MachineObservation, MaterialSample, FossilSpecimen```*
 
 
 **:warning: Alerta**: Coordenada inválida
@@ -212,7 +212,7 @@ Si tiene datos propios que desee publicar, pruebe validarlos siguiendo los pasos
 
 Recomendaciones:
 
-Según el origen de sus datos (colecciones biológicas, permisos de recolección, datos marinos, eventos de muestreo) compruebe que los elementos obligatorios, e idealmente los recomendados, esten documentados el 100%. Para ello utilice como referencia la última [plantilla DwC Registros biológicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0) y la sección del [validador de datos](https://www.gbif.org/es/tools/data-validator/) **Frecuencia del término** (Fig. 3 B). 
+Según el origen de sus datos (colecciones biológicas, permisos de recolección, datos marinos, eventos de muestreo) compruebe que los elementos obligatorios, e idealmente los recomendados, esten documentados el 100%. Para ello utilice como referencia la última [plantilla DwC Registros biológicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0) y la sección del [validador de datos](https://www.gbif.org/es/tools/data-validator/) **Frecuencia del término** (Fig. 3B). 
 
 ****
 **¡Felicitaciones!** :raised_hands:
@@ -228,4 +228,4 @@ La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usa
 
 **Citación sugerida**
 
-> Plata C., Ortíz R., Marentes E. (2020). Laboratorios de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
+> Plata C., Ortíz R., Marentes E. (2021). Laboratorios de datos, Ciclo de formación virtual. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
