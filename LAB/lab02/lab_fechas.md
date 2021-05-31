@@ -134,6 +134,15 @@ Si tiene datos propios que desee publicar, intente convertir las fechas al forma
 **¡Felicitaciones!** :raised_hands: 
 Terminó la conversión de las fechas del conjunto de datos a el estándar ISO 8601. 
 
-__________________
+****
 
+**Atribución y uso de los laboratorios**
 
+![](https://licensebuttons.net/l/by/3.0/88x31.png)
+
+La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usar, redistribuir y construir sobre estos contenidos libremente. :open_hands: Queremos que compartas estos laboratorios y que juntos logremos datos sobre biodiversidad de mejor calidad.
+
+**Citación sugerida**
+
+> Plata C., Ortíz R., Marentes E. (2021). Laboratorio de datos, Ciclo de formación. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
+> 
