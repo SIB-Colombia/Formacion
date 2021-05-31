@@ -269,7 +269,7 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 
 Diríjase a la columna _```recordedBy```_, haga clic en el menú de la columna y luego en _```Text facet```_, aparecerá la ventana del Facet con más de 200 opciones  (_choices_) diferentes (Fig. 18).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig19_OR_cluster1.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig19_OR_cluster1.png" width=350>
 
 <sup>_Figura 18. Facet y opciones del elemento recordedBy._</sup>
 
@@ -335,7 +335,7 @@ GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de recon
 
 Elimine los facets o filtros que tenga activos. Para tener una aproximación inicial al funcionamiento del API diríjase a la columna _```recordedBy```_ y realice un _Text Facet_. Haga clic en la opción _```count```_ y seleccione al investigador(es) con mayor número de registros asociados (Vargas I) (Fig. 20).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava1.JPG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava1.png" width=500>
 
 <sup>_Figura 20. Filtro por conteo en ```recordedBy``` y selección de la opción con más registros._</sup>
 
@@ -347,7 +347,7 @@ Para realizar la validación a través del API es necesario que los espacios en 
 
 Para ello vaya a _```Edit column > Add column based on this column```_ e introduzca la expresión (tal y como aparece) _```value.replace(" ","%20")```_ y nombre la columna *NomAPI* (Fig. 21).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.png" width=600>
 
 <sup>_Figura 21. Creación de la nueva columna NomAPI_</sup>
 
