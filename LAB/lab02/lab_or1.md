@@ -260,7 +260,7 @@ El grado de incertidumbre de la identificación puede indicarse agregando varios
 
 Finalmente estos registros deben quedar documentados con el género _Carollia_ en _```scientificName```_ y en _```identificationQualifier```_ el valor ```cf. sowelli``` (Fig. 17).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_qualifier.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_qualifier.png" width=500>
 
 <sup>_Figura 17. Documentación corregida y correcta de los elementos scientificName identificationQualifier._</sup>
 
@@ -269,7 +269,7 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 
 Diríjase a la columna _```recordedBy```_, haga clic en el menú de la columna y luego en _```Text facet```_, aparecerá la ventana del Facet con más de 200 opciones  (_choices_) diferentes (Fig. 18).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig19_OR_cluster1.png" width=350>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig19_OR_cluster1.png" width=320>
 
 <sup>_Figura 18. Facet y opciones del elemento recordedBy._</sup>
 
@@ -335,7 +335,7 @@ GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de recon
 
 Elimine los facets o filtros que tenga activos. Para tener una aproximación inicial al funcionamiento del API diríjase a la columna _```recordedBy```_ y realice un _Text Facet_. Haga clic en la opción _```count```_ y seleccione al investigador(es) con mayor número de registros asociados (Vargas I) (Fig. 20).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava1.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava1.PNG" width=600>
 
 <sup>_Figura 20. Filtro por conteo en ```recordedBy``` y selección de la opción con más registros._</sup>
 
@@ -383,13 +383,13 @@ Para observar claramente los resultados y obtener la validación del nombre cien
 
 Realice un _Text facet_ en la columna _```Match```_ y seleccione _Fuzzy_, esta opción denota los nombres científicos con los que no hubo coincidencia exacta entre el conjunto de datos y el árbol taxonómico de GBIF. No se encuentra coincidencia total para este caso con *Dermanura cinereus* ni *Dermanura glaucus* (Fig. 25).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava6.JPG" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava6.JPG" width=350>
 
 <sup>_Figura 25. Resultado del Facet para Fuzzy_</sup>
 
 GBIF también le retorna a través del API una posible opción de nombres científicos válidos de acuerdo a los que no reconoció totalmente, evalué estos nombres e indentifique si debe hacer una corrección.
 
-Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("species")```_(Fig. 27) y haga clic en _```OK```_(Fig. 26).
+Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("species")```_ y haga clic en _```OK```_(Fig. 26).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava7.PNG" width=500>
 
