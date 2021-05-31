@@ -177,7 +177,7 @@ Diríjase a la columna _```catalogNumber```_, haga clic en el menú de la column
 
 Podemos ver que el programa ha detectado valores únicos _```false```_ y valores duplicados _```true```_ (Fig. 11). Haga clic en true y verá los registros. De esta manera se pueden detectar los duplicados para un análisis posterior. En este caso corrija el registro de ```Feb 2001``` cambiando por ```46-2300MI2008AV0248``` tanto en _```catalogNumber```_ como en _```occurrenceID```_ (Fig. 11).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig12_OR_fixDuplicates.png" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig11_OR_duplicates.png" width=500>
 
 <sup>_Figura 11. Revisión de los registros duplicados y corrección de los identificadores._</sup>
 
