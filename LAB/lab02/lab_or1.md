@@ -366,7 +366,7 @@ El tiempo de consulta depende de la cantidad de información, la velocidad de la
 
 Podrá observar que en cada celda de la columna _```validTax```_ aparecen expresiones a partir del llamado al API de GBIF para cada nombre científico consultado (Fig. 23).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava4.PNG" width=700>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava4.PNG" width=800>
 
 <sup>_Figura 23. Visualización de la columna validTax_</sup>
 
