@@ -246,7 +246,7 @@ Genere un filtro para visualizar los datos sonse la ubicación de la coordenada 
 
 5. Minimice la tabla de atributos, verá los puntos con inconsistencias (```0's```) seleccionados, en la pantalla de visualización del mapa (Fig. 16).
 
-   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_validQGIS_VisualizacionPuntosErrores.PNG" width=800>
+   <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_validQGIS_VisualizacionPuntosErrores.PNG" width=600>
 
    <sup>_Figura 16. Visualización de los registros biológicos seleccionados (0's) donde la ubicación de las  coordenadas no coincide con con el municipio documentado en el elemento county (resaltados en amarillo)_</sup>
 
