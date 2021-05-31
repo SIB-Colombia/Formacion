@@ -418,9 +418,9 @@ Para hacer una modificación en todas las celdas del archivo, diríjase a la pri
 
 En la pestaña emergente introduzca la fórmula _```value.trim().replace(/\u00A0/,' ').replace(/\s+/,' ')```_, esta elimina dobles espacios, saltos de línea y algunos carácteres no reconocibles. Al hacer clic en _```OK```_ le mostrará otra pestaña donde puede elegir las columnas a las que desea aplicarles la modificación. Deje la opción por defecto con todas las columnas y de clic en _```OK```_ (Fig. 30).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava11.png" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava11.png" width=800>
 
-<sup>_Figura 30. Pestaña para introducir la función de transformaciñon, y para seleccionar las columnas a las cuales se aplica la función _</sup>
+<sup>_Figura 30. Pestaña para introducir la función de transformaciñon, y para seleccionar las columnas a las cuales se aplica la función_</sup>
 
 ``` warning
 El proceso puede tardar algunos segundos dependiendo del número de columnas y celdas.
@@ -458,7 +458,7 @@ Para este caso, use *Other formats* y elija la opción ```Excel in XML(.xlsx)```
 _Open Refine_ también le ofrece la posibilidad de exportar el proyeco completo, esto permite descargar un archivo que contiene toda la información que tenia el proyecto (datos e histórico de cambios). Este archivo se puede utilizar para trabajar OpenRefine desde otro equipo. 
 Para hacerlo diríjase a la esquina superior derecha y siga la ruta _```Export > OpenRefine project archive to file```_ y guarde su archivo (Fig. 33)
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex3.jpg" width=350>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex3.jpg" width=400>
 
 <sup>_Figura 33. Exportación del proyecto_</sup>
 
@@ -468,7 +468,7 @@ Los proyectos exportados tienen la extensión".openrefine.tar.gz" y no es necesa
 
 Para importar el proyecto, abra _Open Refine_ y diríjase a la pestaña _```Import Project```_. Haga clic en _```Choose File```_ y seleccione el archivo ```datos_Estructurados.openrefine.tar.gz``` y escoja la opción  _```Import Project```_ (Fig. 34).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex4.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex4.png" width=600>
 
 <sup>_Figura 34. Importación de un proyecto en OpenRefine_</sup>
 
