@@ -160,7 +160,7 @@ Haga clic en _```Run```_.
 
 Obtendrá una nueva capa llamada _```Joined_layer```_ con la intersección de los datos y la capa de municipios, revise que esta se encuentre en el panel de capas _```Layers```_. Abra la tabla de atributos de esta capa haciendo clic derecho sobre la capa y elija la opción _```Open Attribute Table```_ (Fig. 7).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_validQGIS_AttribT.PNG" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_validQGIS_AttribT.PNG" width=300>
 
 <sup>*Figura 7. Acceder a la tabla de atributos de la capa resultante.* </sup>
 
