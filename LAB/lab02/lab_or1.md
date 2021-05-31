@@ -395,16 +395,16 @@ Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*
 
 <sup>_Figura 26. Creación de la nueva columna validName_</sup>
 
-Haciendo un Text Facet en  la columna _```validName```_ verá que GBIF reconoce que la especie que seguramente desea documentar es *Dermanura cinerea* y *Dermanura glauca*, respectivamente (Fig. 27A).
+Haciendo un Text Facet en  la columna _```validName```_ verá que GBIF reconoce que la especie que seguramente desea documentar es *Artibeus cinereus* y *Artibereus glaucus*, respectivamente (Fig. 27A).
 Corrija y edite entonces las inconsistencias en la columna _```scientificName```_ de acuerdo al *validName* (Fig. 27B).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava8.jpg" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava8.png" width=700>
 
 <sup>_Figura 27. Corrección del nombre científico en OpenRefine_</sup>
 
 Habiendo realizado el proceso de verificación y limpieza de nombres científicos elimine las columnas adicionales que se crearon para este fín (```NomAPI```, ```validTax```, ```Match``` y ```validName```). Para ello siga la ruta _```Edit column > Remove this column```_ (Fig. 28).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava9.jpg" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava9.png" width=400>
 
 <sup>_Figura 28. Ruta para eliminar una columna_</sup>
 
@@ -412,13 +412,13 @@ Habiendo realizado el proceso de verificación y limpieza de nombres científico
 
 Para hacer una modificación en todas las celdas del archivo, diríjase a la primera columna presente _```All```_ ,seleccione el menu desplegable y la opción _```Transform```_ (Fig. 29).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava10.jpg" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava10.jpg" width=600>
 
 <sup>_Figura 29. Selección del menu para hacer el cambio masivo_</sup>
 
 En la pestaña emergente introduzca la fórmula _```value.trim().replace(/\u00A0/,' ').replace(/\s+/,' ')```_, esta elimina dobles espacios, saltos de línea y algunos carácteres no reconocibles. Al hacer clic en _```OK```_ le mostrará otra pestaña donde puede elegir las columnas a las que desea aplicarles la modificación. Deje la opción por defecto con todas las columnas y de clic en _```OK```_ (Fig. 30).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava11.jpg" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava11.jpg" width=600>
 
 <sup>_Figura 30. Pestaña para introducir la función de transformaciñon, y para seleccionar las columnas a las cuales se aplica la función _</sup>
 
