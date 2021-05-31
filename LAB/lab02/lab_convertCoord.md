@@ -151,6 +151,15 @@ Una vez identificados el sistema de coordenadas y el datum, utilice un software 
 **¡Felicitaciones!** :raised_hands:
 Terminó la conversión de coordenadas del conjunto de datos al formato frados decimales.
 
+****
+
+**Atribución y uso de los laboratorios**
+
+![](https://licensebuttons.net/l/by/3.0/88x31.png)
+
+La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usar, redistribuir y construir sobre estos contenidos libremente. :open_hands: Queremos que compartas estos laboratorios y que juntos logremos datos sobre biodiversidad de mejor calidad.
+
 **Citación sugerida**
 
 > Plata C., Ortíz R., Marentes E. (2021). Laboratorio de datos, Ciclo de formación. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
+> 
