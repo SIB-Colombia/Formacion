@@ -208,7 +208,7 @@ Realice un _```Text Facet```_ en _```verbatimTaxonRank```_ y edite masivamente r
 
 Diríjase nuevamente al menú de la columna de _```scientificName```_ y siga la ruta _```Edit cells > Transform```_, luego ingrese la fórmula  _```value.replace(" sp.","")```_, note que en la pestaña _```Preview```_ puede ver la vista previa del resultado al aplicar la fórmula, y corroborar si es el cambio deseado (Fig. 14). Haga clic en _```OK```_ y aparecerá un mensaje de confirmación de que los cambios se han realizado.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig15_OR_replace.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_replace.png" width=800>
 
 <sup>_Figura 14. Transformación masiva de los datos usando comando value.replace() del lenguaje GREL de Open Refine._</sup>
 
