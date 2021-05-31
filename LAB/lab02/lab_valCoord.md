@@ -104,7 +104,7 @@ QGIS llenará los campos de la ventana emergente de manera automática, sin emba
 
 **5.4. Revise la codificación.**
 
-Observe si en la vista previa los nombres de las entidades geográficas muestran problemas de codificación como símbolos de interrogación u otros reemplazando tildes y 'eñes'. Si hay problemas ajuste en *```Encoding:```* la codificación, use ```UTF-8``` (Fig. 3C).
+Observe si en la vista previa (Fig. 3F)  los nombres de las entidades geográficas muestran problemas de codificación como símbolos de interrogación u otros reemplazando tildes y 'eñes'. Si hay problemas ajuste en *```Encoding:```* la codificación (Fig. 3C), según su sistema operativo pruebe la opciónes *```System ```* (Windows), *```macintosh```* (Mac) o ```UTF-8``` para cualquier sistema, hasta asegurarse que no hay problemas de codificación en la vista previa (Fig. 3F).
 
 **5.5. Seleccione las coordenadas decimales**
 
@@ -117,7 +117,7 @@ En el campo _```Geometry CRS```_ seleccione el sistema de referencia de coordena
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3_validQGIS_addTextfileOptions.PNG" width=800>
 
-<sup>_Figura 3. Pasos para cargar archivos de texto delimitado en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv. C. Selección de la codificación. D. Selección de campos de coordenadas. E. Selección del sistema de referencia._</sup>
+<sup>_Figura 3. Pasos para cargar archivos de texto delimitado en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv. C. Selección de la codificación. D. Selección de campos de coordenadas. E. Selección del sistema de referencia. F. Vista previa de los datos a cargar._</sup>
 
 ```tip
 Si realiza este ejercicio con sus propio conjunto de datos (Paso 7) es importante que conozca el sistema de referencia o datum.
