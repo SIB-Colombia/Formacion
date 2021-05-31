@@ -201,7 +201,7 @@ Este tipo de identificación parcial (sp.) no debe documentarse en el elemento _
 
 Realice un _```Text Facet```_ en _```verbatimTaxonRank```_ y edite masivamente reemplazando las celdas vacías (_blank_) con ```sp.```, haga clic en _```Apply```_ (Fig. 13).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_sp2.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_sp2.png" width=400>
 
 <sup>_Figura 13. Documentación masiva del elemento verbatimTaxonRank._</sup>
 
