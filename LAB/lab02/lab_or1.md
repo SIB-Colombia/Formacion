@@ -97,7 +97,7 @@ Si sube sus propios datos o utiliza otro formato debe fijarse en la vista previa
 
 Cambie el nombre del proyecto, en la esquina superior derecha verá un cuadro de texto en el que puede cambiar el nombre del proyecto, nómbrelo ```Datos_OR``` y haga clic en el botón ```Create Project``` (Fig. 3). Opcionalmente puede añadir _Tags_ (etiquetas) para poder organizar y filtrar los proyectos en la aplicación.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3_OR_renombrar.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3_OR_renombrar.png" width=700>
 
 <sup>_Figura 3. Configuración del proyecto, ajuste de nombre, adición de etiquetas y creación._</sup>
 
@@ -131,14 +131,14 @@ El _```Text Facet```_ creado aparecerá a la izquierda de la aplicación, verá 
 
 Corrija las inconsistencias en los nombres de las clases **Aves** y **Mammalia**. Para esto acerque el cursor al valor que desea corregir y haga clic en *```Edit```*, luego en el cuadro de texto que aparece corrija el error y haga clic en _```Apply```_ (Fig. 6). Todos los valores serán corregidos de manera automática y las celdas se transformarán de forma masiva.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_OR_classCorrect.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_OR_classCorrect.png" width=500>
 
 <sup>_Figura 6. Corrección masiva de la columna class usando un Text Facet._</sup>
 
 Realice el mismo proceso con la columna _**basisOfRecord**_ y _**sex**_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=500>
 
 <sup>_Figura 7. Corrección masiva de las columnas basisOfRecord y sex usando un Text Facet._</sup>
 
