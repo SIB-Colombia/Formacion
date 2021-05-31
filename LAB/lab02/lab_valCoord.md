@@ -89,7 +89,7 @@ Contenido del proyecto en QGIS:
 
 Para cargar los datos descargados en el paso 2 diríjase al menú de QGIS y seleccione  ```_Layer> Add Layer> Add Delimited Text Layer_``` (Fig. 2).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2_validQGIS_addTextfile.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2_validQGIS_addTextfile.PNG" width=600>
 
 <sup>_Figura 2. Pasos para carga de archivos de texto delimitados en QGIS._</sup>
 
@@ -115,7 +115,7 @@ En _```Geometry definitions ```_ seleccione _```Point coordinates```_ y verifiqu
 En el campo _```Geometry CRS```_ seleccione el sistema de referencia de coordenadas: ```WGS84``` (*World Geodetic System*). Si no selecciona el sistema QGIS tomará por defecto el sistema usado en este proyecto (WGS84) (Fig. 3E). Para finalizar la carga del archivo haga clic en _```Add```_.
 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3_validQGIS_addTextfileOptions.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3_validQGIS_addTextfileOptions.PNG" width=600>
 
 <sup>_Figura 3. Pasos para cargar archivos de texto delimitado en QGIS. A. Ubicar el archivo de validación. B. formato del archivo tipo .csv. C. Selección de la codificación. D. Selección de campos de coordenadas. E. Selección del sistema de referencia. F. Vista previa de los datos a cargar._</sup>
 
@@ -127,7 +127,7 @@ Si realiza este ejercicio con sus propio conjunto de datos (Paso 7) es important
 
 Una vez cargado el archivo una nube de puntos se desplegará en la ventana de visualización de QGIS (Fig. 4).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_validQGIS_nubepuntos.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_validQGIS_nubepuntos.PNG" width=600>
 
 <sup>_Figura 4. Visualización de los datos en QGIS._</sup>
 
@@ -140,7 +140,7 @@ A continuación procedará a validar la coherencia entre la ubicación de las co
 
 Realice una intersección entre la capa de municipios y los datos, para ello seleccione de la barra de herramientas superior la opción *```Vector> Data Management Tools > Join Attributes by Location```* (Fig. 5).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_validQGIS_seleccJoin.PNG" width=700>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_validQGIS_seleccJoin.PNG" width=600>
 
 <sup>*Figura 5. Selección de la función Join Attributes by Location en el menú de herramientas.*</sup>
 
@@ -151,7 +151,7 @@ En el menú emergente configure la intersección de las capas así (Fig. 6):
 
 Haga clic en _```Run```_.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_validQGIS_seleccJoin_options.PNG" width=700>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_validQGIS_seleccJoin_options.PNG" width=600>
 
 <sup>*Figura 6. Configuracuón de la intersección de las capas.* </sup>
 
