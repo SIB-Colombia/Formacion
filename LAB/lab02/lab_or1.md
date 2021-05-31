@@ -115,7 +115,7 @@ Es un método para filtrar los datos en conjuntos más pequeños facilitando la 
 
 Diríjase a la columna _```class```_, haga clic en el menú de la columna y siga la ruta _```Facet >Text Facet```_ (Fig. 4).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_OR_facet.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_OR_facet.png" width=350>
 
 <sup>_Figura 4. Creación de un Text Facet._</sup>
 
@@ -123,7 +123,7 @@ Diríjase a la columna _```class```_, haga clic en el menú de la columna y siga
 
 El _```Text Facet```_ creado aparecerá a la izquierda de la aplicación, verá una ventana con el nombre de la columna y el _Facet_ que acaba de crear (Fig. 5). Haga clic en _```count```_ para organizar las clases de la más a la menos abundante y en _```name```_ para organizarlas en orden alfabético.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_OR_facet2.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_OR_facet2.png" width=350>
 
 <sup>_Figura 5. Vista del Text Facet y las opciones para organizar las opciones de texto de la columna._</sup>
 
@@ -145,7 +145,7 @@ Realice el mismo proceso con la columna _**basisOfRecord**_ y _**sex**_  ajustá
 
 Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _Facets_ y Filtros que tenga en uso.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig8_OR_remover.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig8_OR_remover.png" width=350>
 
 <sup>_Figura 8. Remover todos los facets y filtros activos_.</sup>
 
