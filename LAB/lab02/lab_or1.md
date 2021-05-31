@@ -155,7 +155,7 @@ Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opció
 Diríjase a la columna _```individualCount```_, haga clic en el menú de la columna y realice un _```Text Facet```_.
 A su izquierda aparecerá la ventana con el nombre de la columna y el Facet que se realizó (Fig. 9).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_OR_individual.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_OR_individual.png" width=300>
 
 <sup>_Figura 9. Vista del Text Facet y las diferentes formas de documentación del elemento individualCount._</sup>
 
@@ -192,7 +192,7 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro.
 Escriba en el campo de texto ```sp.``` y realice un _```Text Facet```_ en _```scientificName```_ para visualizar los registros con este valor (Fig. 12).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_OR_sp.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_OR_sp.png" width=500>
 
 <sup>_Figura 12. Aplicación de un filtro de texto a la columna scientificName e identificación de nombres científicos a corregir._</sup>
 
@@ -201,7 +201,7 @@ Este tipo de identificación parcial (sp.) no debe documentarse en el elemento _
 
 Realice un _```Text Facet```_ en _```verbatimTaxonRank```_ y edite masivamente reemplazando las celdas vacías (_blank_) con ```sp.```, haga clic en _```Apply```_ (Fig. 13).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_sp2.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_sp2.png" width=500>
 
 <sup>_Figura 13. Documentación masiva del elemento verbatimTaxonRank._</sup>
 
