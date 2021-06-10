@@ -17,7 +17,7 @@ Este sofware permite visualizar y manipular datos tabulares facilitando mejorar 
 
 _OpenRefine_ es un _software_ de código abierto bajo una [licencia BSD](https://github.com/OpenRefine/OpenRefine/blob/master/LICENSE.txt), se instala localmente por lo cual funciona como una aplicación web personal y de acceso privado, al que se accede desde un navegador web.
 
-Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se explica su funcionamiento en el contexto de datos sobre biodiversidad estandarizados en _Darwin Core_
+Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se explica su funcionamiento en el contexto de datos sobre biodiversidad estandarizados en _Darwin Core_.
 
 **Requerimientos** 
 
@@ -86,7 +86,7 @@ Si sube sus propios datos o utiliza otro formato debe fijarse en la vista previa
 
 <sup>_Figura 2. Opciones para configurar la lectura y carga de los datos para un archivo Excel (.xls y .xlsx)_: A. tipo de archivo, B. hojas a importar, C.selección de filas, D. carga de filas. </sup>
 
- - **A.** Tipo de archivo, permite configurar el tipo de la fuente de datos
+ - **A.** Tipo de archivo, permite configurar el tipo de la fuente de datos.
  - **B.** Hojas a importar, si carga uno o varios archivos con múltiples hojas, puede seleccionar que hojas desea importar y cuáles no.
  - **C.** Selección de filas, permite seleccionar la fila que se convertirá en el encabezado de las columnas, ignorar filas, entre otros.
  - **D.** Carga de filas en blanco, permite especificar si serán cargadas y como se realizará la carga. 
@@ -316,19 +316,19 @@ En este ejercicio se utiliza el [API](https://www.gbif.org/developer/species)([V
 GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de reconciliación de diversos grupos biológicos y proveedores de contenido (Tabla 1), cada uno de las cuales es soportado por una comunidad de científicos. Este árbol permite la integración de múltiples fuentes de datos fácilitando las busquedad y descargas del portal, y esta en constante actualización.
 
 
-<sup>Tabla 1. Principales fuentes a partir de las cuales se consolida el árbol taxonómico de GBIF</sup>
+<sup>Tabla 1. Principales fuentes a partir de las cuales se consolida el árbol taxonómico de GBIF.</sup>
 
 | Proveedor * | Enlace | 
 | -------- | -------- | 
-| CoL | http://www.catalogueoflife.org/ |
-| International Barcode of Life project (iBOL)   | https://ibol.org/  |
-| World Register of Marine Species (WoRMS)   | http://www.marinespecies.org/   |
-| Index Fungorum	   | http://www.indexfungorum.org/   |
-| Integrated Taxonomic Information System (ITIS)  | http://www.itis.gov/  |
-| International Plant Names Index	   | http://www.ipni.org/   |
-| The Paleobiology Database   | http://www.paleodb.org/   |
+| CoL | [http://www.catalogueoflife.org/](http://www.catalogueoflife.org/) |
+| International Barcode of Life project (iBOL)   | [https://ibol.org/](https://ibol.org/)  |
+| World Register of Marine Species (WoRMS)   | [http://www.marinespecies.org/](http://www.marinespecies.org/)   |
+| Index Fungorum	   | [http://www.indexfungorum.org/](http://www.indexfungorum.org/)   |
+| Integrated Taxonomic Information System (ITIS)  | [http://www.itis.gov/](http://www.itis.gov/)  |
+| International Plant Names Index	   | [http://www.ipni.org/](http://www.ipni.org/)   |
+| The Paleobiology Database   | [http://www.paleodb.org/](http://www.paleodb.org/)   |
 
-<sub>*Para una lista completa de los proveedores y descripción de los mismos ingrese al [_GBIF Backbone Taxonomy._](http://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c)</sub>
+<sub>*Para una lista completa de los proveedores y descripción de los mismos ingrese al [_GBIF Backbone Taxonomy_](http://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c).</sub>
 
 
 **Preparación de los datos**
@@ -389,7 +389,7 @@ Realice un _Text facet_ en la columna _```Match```_ y seleccione _Fuzzy_, esta o
 
 GBIF también le retorna a través del API una posible opción de nombres científicos válidos de acuerdo a los que no reconoció totalmente, evalué estos nombres e indentifique si debe hacer una corrección.
 
-Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("species")```_ y haga clic en _```OK```_(Fig. 26).
+Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*, para esto siga la ruta _```Edit column >  Add column based on this column```_ e introduzca la expresión _```value.parseJson().get("species")```_ y haga clic en _```OK```_ (Fig. 26).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava7.PNG" width=700>
 
@@ -474,7 +474,7 @@ Para importar el proyecto, abra _OpenRefine_ y diríjase a la pestaña _```Impor
 
 ****
 **¡Felicitaciones!** :raised_hands: 
-Has aprendido a utilizar _OpenRefine_ para validdar y limpiar tus datos sobre biodiversidad.
+Has aprendido a utilizar _OpenRefine_ para validar y limpiar tus datos sobre biodiversidad.
 
 ****
 
