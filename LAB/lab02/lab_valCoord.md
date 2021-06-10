@@ -10,7 +10,7 @@ Visualizar y validar con la herramienta QGIS la coherencia de la ubicación de l
 
 **Sobre la herramienta**
 
-:earth_americas:  [QGIS](https://qgis.org/es/site/about/index.html) es un software para manejo de información geográfica que se ejecuta sobre multiples sistemas operativos como Linux, Unix, Mac OSX, Windows y Android. Ademas soporta numerosos formatos y funcionalidades de datos vector, datos ráster y bases de datos. QGIS proporciona una creciente gama de capacidades a través de sus funciones básicas y complementos con los que podrá visualizar, gestionar, editar, analizar datos y diseñar mapas imprimibles. 
+:earth_americas:  [QGIS](https://qgis.org/es/site/about/index.html) es un software para manejo de información geográfica que se ejecuta sobre multiples sistemas operativos como Linux, Unix, Mac OSX, Windows y Android. Ademas, soporta numerosos formatos y funcionalidades de datos vector, datos ráster y bases de datos. QGIS proporciona una creciente gama de capacidades a través de sus funciones básicas y complementos con los que podrá visualizar, gestionar, editar, analizar datos y diseñar mapas imprimibles. 
 
 QGIS es un _software_ libre y de código abierto licenciado bajo _GNU - 
 General Public License_, soportado como un proyecto de la _Open Source Geospatial Foundation (OSGeo)_ por lo cual no requiere el pago de licencias. Es impulsado por un grupo de voluntarios que mantienen el software actualizado y las versiones estables, lo que lo mantiene a la par de otros software geográficos mas conocidos.
@@ -22,7 +22,7 @@ General Public License_, soportado como un proyecto de la _Open Source Geospatia
 
 * Contar con un procesador de archivos de texto como Excel.
 
-* Contar con un mínimo de 4GB de memoría RAM para el desarollo de esta guía. Sin embargo, para procesos con más de 20.000 registros biológicos se recomienda tener por lo menos 8GB. 
+* Contar con un mínimo de 4GB de memoria RAM para el desarollo de esta guía. Sin embargo, para procesos con más de 20.000 registros biológicos se recomienda tener por lo menos 8GB. 
 
 * Para un mejor rendimiento no habra junto a QGIS otros programas que consuman muchos recursos del computador.
 
@@ -30,7 +30,7 @@ General Public License_, soportado como un proyecto de la _Open Source Geospatia
 
 * Descargue el archivo [```datos_geografia.zip```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/datos_geografia.zip) para realizar el laboratorio.
 
-* Descargue la carpeta [```ValidacionGeografica_SiB-QGIS```](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) con el proyecto de QGIS con todas las capas necesarias para realizar el laboratorio.
+* Descargue la carpeta [```ValidacionGeografica_SiB-QGIS```](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) con el proyecto de QGIS, que tiene todas las capas necesarias para realizar el laboratorio.
 
 --------
 
@@ -42,7 +42,7 @@ General Public License_, soportado como un proyecto de la _Open Source Geospatia
 4. Siga los pasos de instalación en su ordenador. Si es usuario de Windows seleccione la opción de descarga 32 bits o 64 bits según su sistema operativo.
 
 ``` tip
-Puede encontrar instrucciones más específicas de instalación en la [página de descargas](https://qgis.org/es/site/forusers/alldownloads.html), y en este [video tutorial](https://www.youtube.com/watch?v=4lSee2ewWsY) 
+Puede encontrar instrucciones más específicas de instalación en la [página de descargas](https://qgis.org/es/site/forusers/alldownloads.html), y en este [video tutorial](https://www.youtube.com/watch?v=4lSee2ewWsY). 
 ```
 
 ## Paso 2 - Descarga de datos
@@ -87,7 +87,7 @@ Contenido del proyecto en QGIS:
 
 **5.1. Añadir capa de texto delimitado**
 
-Para cargar los datos descargados en el paso 2 diríjase al menú de QGIS y seleccione  _```Layer > Add Layer > Add Delimited Text Layer```_ (Fig. 2).
+Para cargar los datos descargados en el paso 2, diríjase al menú de QGIS y seleccione  _```Layer > Add Layer > Add Delimited Text Layer```_ (Fig. 2).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2_validQGIS_addTextfile.PNG" width=600>
 
@@ -104,7 +104,7 @@ QGIS llenará los campos de la ventana emergente de manera automática, sin emba
 
 **5.4. Revise la codificación**
 
-Observe si en la vista previa (Fig. 3F)  los nombres de las entidades geográficas muestran problemas de codificación como símbolos de interrogación u otros reemplazando tildes y 'eñes'. Si hay problemas ajuste en *```Encoding:```* la codificación (Fig. 3C), según su sistema operativo pruebe la opciOnes *```System ```* (Windows), *```macintosh```* (Mac) o ```UTF-8``` para cualquier sistema, hasta asegurarse que no hay problemas de codificación en la vista previa (Fig. 3F).
+Observe si en la vista previa (Fig. 3F)  los nombres de las entidades geográficas muestran problemas de codificación como símbolos de interrogación u otros reemplazando tildes y 'eñes'. Si hay problemas ajuste en *```Encoding:```* la codificación (Fig. 3C), según su sistema operativo pruebe la opciones *```System ```* (Windows), *```macintosh```* (Mac) o ```UTF-8``` para cualquier sistema, hasta asegurarse que no hay problemas de codificación en la vista previa (Fig. 3F).
 
 **5.5. Seleccione las coordenadas decimales**
 
@@ -125,7 +125,7 @@ Si realiza este ejercicio con sus propio conjunto de datos (Paso 7) es important
 
 **5.7. Visualización de los datos**
 
-Una vez cargado el archivo una nube de puntos se desplegará en la ventana de visualización de QGIS (Fig. 4).
+Una vez cargado el archivo, una nube de puntos se desplegará en la ventana de visualización de QGIS (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_validQGIS_nubepuntos.PNG" width=600>
 
@@ -218,12 +218,12 @@ Repita el paso 6.3. para la validación del departamento. Cree un nuevo campo pa
    
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig12_validQGIS_CalculadoraSP.PNG" width=600>
 
-<sup>*Figura 12. Documentación de la Calculadora de campos para obtener un campo con la validación geográfica del departamento.*</sup>
+<sup>*Figura 12. Documentación de la calculadora de campos para obtener un campo con la validación geográfica del departamento.*</sup>
 
 
 **6.5. Visualización de la validación**
 
-Genere un filtro para visualizar los datos sonse la ubicación de la coordenada y la geografía superior no coinciden (```0's```):
+Genere un filtro para visualizar los datos donde la ubicación de la coordenada y la geografía superior no coinciden (```0's```):
 
 1. Abra nuevamente la tabla de atributos de la capa _```Joined_layer```_
 2. En la parte inferior de la tabla de atributos haga clic en el botón _```Show all features > Field filter > countyValidation```_ (Fig. 13).
@@ -244,11 +244,11 @@ Genere un filtro para visualizar los datos sonse la ubicación de la coordenada 
 
    <sup>*Figura 15. Selección y verificación de resultados del filtro a partir de resultados de la validación del campo countyValidation.*</sup>
 
-5. Minimice la tabla de atributos, verá los puntos con inconsistencias (```0's```) seleccionados, en la pantalla de visualización del mapa (Fig. 16).
+5. Minimice la tabla de atributos, verá los puntos con inconsistencias (```0's```) seleccionados en la pantalla de visualización del mapa (Fig. 16).
 
    <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_validQGIS_VisualizacionPuntosErrores.PNG" width=600>
 
-   <sup>_Figura 16. Visualización de los registros biológicos seleccionados (0's) donde la ubicación de las  coordenadas no coincide con con el municipio documentado en el elemento county (resaltados en amarillo)._</sup>
+   <sup>_Figura 16. Visualización de los registros biológicos seleccionados (0's) donde la ubicación de las  coordenadas no coincide con con el municipio documentado en el elemento county (blancos tachados con una "x")._</sup>
 
 **6.6. Exporte el resultado de la validación**
 
