@@ -2,20 +2,20 @@
 sort: 1
 ---
 
-# Open Refine :gem:
+# OpenRefine :gem:
 
 
 **Objetivo**
 
-Utilizar _Open Refine_ para manejar, validar y limpiar de manera eficiente datos sobre biodiversidad, asegurando una mejor calidad para su publicación.
+Utilizar _OpenRefine_ para manejar, validar y limpiar de manera eficiente datos sobre biodiversidad, asegurando una mejor calidad para su publicación.
 
 **Sobre la Herramienta**
 
-[_Open Refine_](https://openrefine.org/) es un software creado con el objetivo de pulir datos crudos hasta convertirlos en diamantes :gem:, activos valiosos en la era del _BigData_.
+[_OpenRefine_](https://openrefine.org/) es un software creado con el objetivo de pulir datos crudos hasta convertirlos en diamantes :gem:, activos valiosos en la era del _BigData_.
 
 Este sofware permite visualizar y manipular datos tabulares facilitando mejorar la calidad general de un conjunto de datos. Tiene la apariencia de un software tradicional de hoja de cálculo -similar a Excel, pero funciona como una base de datos. Esto significa que _OpenRefine_ no es adecuado para adicionar nuevas filas de datos, pero **es extremadamente poderoso cuando se trata de explorar, limpiar y vincular datos**. 
 
-_Open Refine_ es un _software_ de código abierto bajo una [licencia BSD](https://github.com/OpenRefine/OpenRefine/blob/master/LICENSE.txt), se instala localmente por lo cual funciona como una aplicación web personal y de acceso privado, al que se accede desde un navegador web.
+_OpenRefine_ es un _software_ de código abierto bajo una [licencia BSD](https://github.com/OpenRefine/OpenRefine/blob/master/LICENSE.txt), se instala localmente por lo cual funciona como una aplicación web personal y de acceso privado, al que se accede desde un navegador web.
 
 Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se explica su funcionamiento en el contexto de datos sobre biodiversidad estandarizados en _Darwin Core_
 
@@ -24,7 +24,7 @@ Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se expli
 - Navegador Chrome o Mozilla Firefox instalado, y configurado como navegador predeterminado.
 
 ``` warning
-No utilice Internet Explorer para este laboratorio ya que Open Refine no funciona bien con este navegador web.
+No utilice Internet Explorer para este laboratorio ya que OpenRefine no funciona bien con este navegador web.
 ```
 
 **Archivo de trabajo**
@@ -36,17 +36,17 @@ No utilice Internet Explorer para este laboratorio ya que Open Refine no funcion
 ## Paso 1 - Instalación 
 
 ### Instalación en Windows
-1. Descargue [Open Refine versión 3.4.1 + Java para Windows](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip).
+1. Descargue [OpenRefine versión 3.4.1 + Java para Windows](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip).
 2. Descomprima el archivo descargado y copie la carpeta resultante en el disco local (C:/).
 3. Abra la carpeta y haga doble clic en ```openrefine.exe.```
 4. Aparecerá una ventana de comando (que no debe cerrar) e inmediatamente después su navegador web mostrará una nueva ventana con la aplicación.
 
 
 ### Instalación en Mac
-1. Descargue [Open Refine versión 3.4.1 + Java para Mac](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg).
+1. Descargue [OpenRefine versión 3.4.1 + Java para Mac](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg).
 2. Haga doble clic sobre el archivo de descarga y arrastre el icono en la carpeta Aplicaciones.
 4. Haga doble clic en el icono y su navegador web mostrará una nueva ventana con la aplicación.
-5. Si al dar doble clic no abre _Open Refine_ en el navegador,  escriba la siguiente dirección en el buscador: [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
+5. Si al dar doble clic no abre _OpenRefine_ en el navegador,  escriba la siguiente dirección en el buscador: [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
 
 > Asegúrese de que su navegador predeterminado sea Chrome o Mozilla
 
@@ -57,11 +57,11 @@ Puede cargar datos con diferentes formatos y extensiones: TSV, CSV, SV, Excel (.
 
 **2.1. Abrir un nuevo proyecto**
 
-Abra _Open Refine_ y diríjase a la pestaña _```Create Project```_. Para cargar el archivo siga la ruta _```Get data from > This Computer```_, y haga clic en _```Choose Files```_ (Fig. 1).
+Abra _OpenRefine_ y diríjase a la pestaña _```Create Project```_. Para cargar el archivo siga la ruta _```Get data from > This Computer```_, y haga clic en _```Choose Files```_ (Fig. 1).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_OR_cargar.png" width=800>
 
-<sup>_Figura 1. Creación de un proyecto en Open Refine._</sup>
+<sup>_Figura 1. Creación de un proyecto en OpenRefine._</sup>
 
 **2.2. Selección del archivo**
 
@@ -75,7 +75,7 @@ Seleccione el archivo ```Datos_Estructurado.xlsx``` que descargó al incio del l
 
 Tras seleccionar el archivo aparecerá un panel de configuración, este le permite especificar el tipo de archivo que cargó y configurar la manera en la que los datos son leídos (Fig. 2). 
 
-_Open Refine_ hace una interpretación automática del tipo de archivo, codificación del texto y filas de encabezado, entre otros. El conjunto de datos de ejemplo de este laboratorio es interpretado de manera correcta y no necesita ajustes adicionales. 
+_OpenRefine_ hace una interpretación automática del tipo de archivo, codificación del texto y filas de encabezado, entre otros. El conjunto de datos de ejemplo de este laboratorio es interpretado de manera correcta y no necesita ajustes adicionales. 
 
 ```warning
 Si sube sus propios datos o utiliza otro formato debe fijarse en la vista previa del archivo y ajustar la configuración de lectura detenidamente (Fig. 2).
@@ -113,7 +113,7 @@ Es un método para filtrar los datos en conjuntos más pequeños facilitando la 
 
 **3.1.1. Crear un _Text Facet_**
 
-Diríjase a la columna _```class```_, haga clic en el menú de la columna y siga la ruta _```Facet >Text Facet```_ (Fig. 4).
+Diríjase a la columna _```class```_, haga clic en el menú de la columna y siga la ruta _```Facet > Text Facet```_ (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_OR_facet.png" width=350>
 
@@ -210,11 +210,11 @@ Diríjase nuevamente al menú de la columna de _```scientificName```_ y siga la 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_replace.png" width=800>
 
-<sup>_Figura 14. Transformación masiva de los datos usando comando value.replace() del lenguaje GREL de Open Refine._</sup>
+<sup>_Figura 14. Transformación masiva de los datos usando comando value.replace() del lenguaje GREL de OpenRefine._</sup>
 
 Empleando el comando _```value.replace```_ se puede sustituir cualquier valor de una columna poniendo dentro del paréntesis el valor a buscar encerrado entre comillas [ “ ] (ej. " sp.") y luego separado por una coma [ , ] el valor de reemplazo - también entre comillas-, en este caso será ninguno, por lo cual se ponen unas comillas vacías [""].
 
-> Para conocer más del lenguaje de programación GREL de diríjase a la [documentación de Open Refine](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions).
+> Para conocer más del lenguaje de programación GREL de diríjase a la [documentación de OpenRefine](https://docs.openrefine.org/manual/grelfunctions).
 
 **2. Corrección elementos _```recordedBy``` ```identifiedBy```_**
 
@@ -235,7 +235,7 @@ Marque la casilla _```regular expression```_. Escriba en el campo de texto la ex
 
 Podrá observar como los registros que no corresponden a la categoría de familia han sido filtrados, usted puede editarlos haciendo uso de las opciones aprendidas en pasos previos. En este caso particular reemplace ```Bolitoglossa```, que corresponde a un género, por ```Plethodontidae```, la familia a la que pertenece el nombre científico (Fig. 15).
 
-> Para conocer más de las expresiones regulares diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
+> Para conocer más de las expresiones regulares diríjase a la [documentación de OpenRefine_](https://docs.openrefine.org/manual/expressions#regular-expressions).
 
 Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los Facets y Filtros que tenga en uso.
 
@@ -260,7 +260,7 @@ El grado de incertidumbre de la identificación puede indicarse agregando varios
 
 Finalmente estos registros deben quedar documentados con el género _Carollia_ en _```scientificName```_ y en _```identificationQualifier```_ el valor ```cf. sowelli``` (Fig. 17).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_qualifier.png" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_Resulqualifier.png" width=500>
 
 <sup>_Figura 17. Documentación corregida y correcta de los elementos scientificName identificationQualifier._</sup>
 
@@ -291,7 +291,7 @@ Podrá ver la siguiente información:
 
 Vaya a _```Keying Function```_, seleccione _```ngram-fingerprint```_ y en _```Ngram Size```_ escriba ```1``` (Fig. 19).
 
-> Para conocer más acerca de los algoritmos diríjase a la [documentación de _Open Refine_](https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions).
+> Para conocer más acerca de los algoritmos diríjase a la [documentación de OpenRefine_](https://docs.openrefine.org/manual/cellediting#clustering-methods).
 
 - Para el primer cluster asigne un valor nuevo, para esto vaya al cuadro de texto de _```New cell value```_ y escriba ```David H | Arango A | Bedoya J``` (dejando espacios sencillos). Luego haga check en el cuadro de _```Merge?```_ para ese _cluster_ (Fig. 19).
 
@@ -309,7 +309,7 @@ Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _
 
 ## Paso 6 - Servicios externos vía API's
 
-En este ejercicio se utiliza el [API](https://www.gbif.org/developer/species)([Ver definición en el glosario](/Formacion/LAB/lab02/)) de [GBIF](https://www.gbif.org) para verificar la validez taxonómica de una lista de nombres determinada.
+En este ejercicio se utiliza el [API](https://www.gbif.org/developer/species)([Ver definición en el glosario](/Formacion/LAB/lab02/#glosario)) de [GBIF](https://www.gbif.org) para verificar la validez taxonómica de una lista de nombres determinada.
 
 **Árbol taxonómico GBIF**
 
@@ -328,7 +328,7 @@ GBIF fácilita un árbol taxonómico robusto a partir de la agrupación de recon
 | International Plant Names Index	   | http://www.ipni.org/   |
 | The Paleobiology Database   | http://www.paleodb.org/   |
 
-<sub>*Para una lista completa de los proveedores y descripción de los mismos ingrese al [_GBIF Backbone Taxonomy_](http://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c)</sub>
+<sub>*Para una lista completa de los proveedores y descripción de los mismos ingrese al [_GBIF Backbone Taxonomy._](http://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c)</sub>
 
 
 **Preparación de los datos**
@@ -349,7 +349,7 @@ Para ello vaya a _```Edit column > Add column based on this column```_ e introdu
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava2.PNG" width=700>
 
-<sup>_Figura 21. Creación de la nueva columna NomAPI_</sup>
+<sup>_Figura 21. Creación de la nueva columna NomAPI._</sup>
 
 
 **LLamado al API a partir del nombre científico**
@@ -358,7 +358,7 @@ Cree una nueva columna llamada _**validTax**_ a partir de la columna NomAPI, par
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava3.PNG" width=700>
 
-<sup>_Figura 22. Creación de la nueva columna validTax_</sup>
+<sup>_Figura 22. Creación de la nueva columna validTax._</sup>
 
 ``` warning
 El tiempo de consulta depende de la cantidad de información, la velocidad de la red, y la memoria RAM del computador - para este caso solo tardará  un par de minutos.
@@ -368,7 +368,7 @@ Podrá observar que en cada celda de la columna _```validTax```_ aparecen expres
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava4.PNG" width=800>
 
-<sup>_Figura 23. Visualización de la columna validTax_</sup>
+<sup>_Figura 23. Visualización de la columna validTax._</sup>
 
 **Extracción de la información obtenida**
 
@@ -376,7 +376,7 @@ Para observar claramente los resultados y obtener la validación del nombre cien
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava5.PNG" width=700>
 
-<sup>_Figura 24. Creación de la columna Match a partir de la información obtenida del API_</sup>
+<sup>_Figura 24. Creación de la columna Match a partir de la información obtenida del API._</sup>
 
 
 **Validación del nombre científico**
@@ -385,7 +385,7 @@ Realice un _Text facet_ en la columna _```Match```_ y seleccione _Fuzzy_, esta o
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava6.JPG" width=350>
 
-<sup>_Figura 25. Resultado del Facet para Fuzzy_</sup>
+<sup>_Figura 25. Resultado del Facet para Fuzzy._</sup>
 
 GBIF también le retorna a través del API una posible opción de nombres científicos válidos de acuerdo a los que no reconoció totalmente, evalué estos nombres e indentifique si debe hacer una corrección.
 
@@ -393,20 +393,20 @@ Agregue una nueva columna llamada *validName* a partir de la columna  *validTax*
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava7.PNG" width=700>
 
-<sup>_Figura 26. Creación de la nueva columna validName_</sup>
+<sup>_Figura 26. Creación de la nueva columna validName._</sup>
 
 Haciendo un Text Facet en  la columna _```validName```_ verá que GBIF reconoce que la especie que seguramente desea documentar es *Artibeus cinereus* y *Artibereus glaucus*, respectivamente (Fig. 27A).
 Corrija y edite entonces las inconsistencias en la columna _```scientificName```_ de acuerdo al *validName* (Fig. 27B).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava8.png" width=700>
 
-<sup>_Figura 27. Corrección del nombre científico en OpenRefine_</sup>
+<sup>_Figura 27. Corrección del nombre científico en OpenRefine._</sup>
 
 Habiendo realizado el proceso de verificación y limpieza de nombres científicos elimine las columnas adicionales que se crearon para este fín (```NomAPI```, ```validTax```, ```Match``` y ```validName```). Para ello siga la ruta _```Edit column > Remove this column```_ (Fig. 28).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava9.png" width=400>
 
-<sup>_Figura 28. Ruta para eliminar una columna_</sup>
+<sup>_Figura 28. Ruta para eliminar una columna._</sup>
 
 ## Paso 7 - Modificación masiva de celdas
 
@@ -414,13 +414,13 @@ Para hacer una modificación en todas las celdas del archivo, diríjase a la pri
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava10.jpg" width=600>
 
-<sup>_Figura 29. Selección del menu para hacer el cambio masivo_</sup>
+<sup>_Figura 29. Selección del menu para hacer el cambio masivo._</sup>
 
 En la pestaña emergente introduzca la fórmula _```value.trim().replace(/\u00A0/,' ').replace(/\s+/,' ')```_, esta elimina dobles espacios, saltos de línea y algunos carácteres no reconocibles. Al hacer clic en _```OK```_ le mostrará otra pestaña donde puede elegir las columnas a las que desea aplicarles la modificación. Deje la opción por defecto con todas las columnas y de clic en _```OK```_ (Fig. 30).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava11.png" width=800>
 
-<sup>_Figura 30. Pestaña para introducir la función de transformaciñon, y para seleccionar las columnas a las cuales se aplica la función_</sup>
+<sup>_Figura 30. Pestaña para introducir la función de transformaciñon, y para seleccionar las columnas a las cuales se aplica la función._</sup>
 
 ``` warning
 El proceso puede tardar algunos segundos dependiendo del número de columnas y celdas.
@@ -430,7 +430,7 @@ El proceso puede tardar algunos segundos dependiendo del número de columnas y c
 
 ### 8.1 Exportar un archivo
 
-Existen múltiples maneras de exportar los archivos en _Open Refine_, la siguiente es la más confiable y con la mayor cantidad de opciones. Dirijase a la esquina superior derecha y siga la ruta _```Export >   Custom tabular exporter…```_ y le mostrara la ventada de exportación (Fig. 31).
+Existen múltiples maneras de exportar los archivos en _OpenRefine_, la siguiente es la más confiable y con la mayor cantidad de opciones. Dirijase a la esquina superior derecha y siga la ruta _```Export >   Custom tabular exporter…```_ y le mostrara la ventada de exportación (Fig. 31).
 
 En la pestaña _Content_ de la ventana emergente tiene encontrará varias opciones para personalizar la exportación, entre estas:
 
@@ -439,7 +439,7 @@ En la pestaña _Content_ de la ventana emergente tiene encontrará varias opcion
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex1.png" width=800>
 
-<sup>_Figura 31. Ruta para expotar el archivo y ventana content_</sup>
+<sup>_Figura 31. Ruta para expotar el archivo y ventana content._</sup>
 
 Vaya a la pestaña _Download_, donde podrá configurar el formano en el cuál se descargan los datos:
 
@@ -451,30 +451,30 @@ Para este caso, use *Other formats* y elija la opción ```Excel in XML(.xlsx)```
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_EX2.png" width=700>
 
-<sup>_Figura 32. Selección del formato de descarga del conjunto de datos_</sup>
+<sup>_Figura 32. Selección del formato de descarga del conjunto de datos._</sup>
 
 ### 8.2 Exportar e importar un proyecto
 
-_Open Refine_ también le ofrece la posibilidad de exportar el proyeco completo, esto permite descargar un archivo que contiene toda la información del proyecto (datos e histórico de cambios). Este archivo se puede utilizar para trabajar OpenRefine desde otro equipo. 
+_OpenRefine_ también le ofrece la posibilidad de exportar el proyeco completo, esto permite descargar un archivo que contiene toda la información del proyecto (datos e histórico de cambios). Este archivo se puede utilizar para trabajar OpenRefine desde otro equipo. 
 Para hacerlo diríjase a la esquina superior derecha y siga la ruta _```Export > OpenRefine project archive to file```_ y guarde su archivo (Fig. 33)
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex3.png" width=350>
 
-<sup>_Figura 33. Exportación del proyecto_</sup>
+<sup>_Figura 33. Exportación del proyecto._</sup>
 
 ```tip
 Los proyectos exportados tienen la extensión".openrefine.tar.gz" y no es necesario descomprimirlos para usarlos. Solamente abralos con el siguiente procedimiento.
 ```
 
-Para importar el proyecto, abra _Open Refine_ y diríjase a la pestaña _```Import Project```_. Haga clic en _```Choose File```_ y seleccione el archivo ```datos_Estructurados.openrefine.tar.gz``` y escoja la opción  _```Import Project```_ (Fig. 34).
+Para importar el proyecto, abra _OpenRefine_ y diríjase a la pestaña _```Import Project```_. Haga clic en _```Choose File```_ y seleccione el archivo ```datos_Estructurados.openrefine.tar.gz``` y escoja la opción  _```Import Project```_ (Fig. 34).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex4.png" width=600>
 
-<sup>_Figura 34. Importación de un proyecto en OpenRefine_</sup>
+<sup>_Figura 34. Importación de un proyecto en OpenRefine._</sup>
 
 ****
 **¡Felicitaciones!** :raised_hands: 
-Has aprendido a utilizar _Open Refine_ para validdar y limpiar tus datos sobte biodiversidad.
+Has aprendido a utilizar _OpenRefine_ para validdar y limpiar tus datos sobte biodiversidad.
 
 ****
 
