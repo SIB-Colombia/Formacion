@@ -235,7 +235,7 @@ Marque la casilla _```regular expression```_. Escriba en el campo de texto la ex
 
 Podrá observar como los registros que no corresponden a la categoría de familia han sido filtrados, usted puede editarlos haciendo uso de las opciones aprendidas en pasos previos. En este caso particular reemplace ```Bolitoglossa```, que corresponde a un género, por ```Plethodontidae```, la familia a la que pertenece el nombre científico (Fig. 15).
 
-> Para conocer más de las expresiones regulares diríjase a la [documentación de OpenRefine_](https://docs.openrefine.org/manual/expressions#regular-expressions).
+> Para conocer más de las expresiones regulares diríjase a la [documentación de OpenRefine](https://docs.openrefine.org/manual/expressions#regular-expressions).
 
 Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los Facets y Filtros que tenga en uso.
 
@@ -291,7 +291,7 @@ Podrá ver la siguiente información:
 
 Vaya a _```Keying Function```_, seleccione _```ngram-fingerprint```_ y en _```Ngram Size```_ escriba ```1``` (Fig. 19).
 
-> Para conocer más acerca de los algoritmos diríjase a la [documentación de OpenRefine_](https://docs.openrefine.org/manual/cellediting#clustering-methods).
+> Para conocer más acerca de los algoritmos diríjase a la [documentación de OpenRefine](https://docs.openrefine.org/manual/cellediting#clustering-methods).
 
 - Para el primer cluster asigne un valor nuevo, para esto vaya al cuadro de texto de _```New cell value```_ y escriba ```David H | Arango A | Bedoya J``` (dejando espacios sencillos). Luego haga check en el cuadro de _```Merge?```_ para ese _cluster_ (Fig. 19).
 
@@ -420,7 +420,7 @@ En la pestaña emergente introduzca la fórmula _```value.trim().replace(/\u00A0
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ava11.png" width=800>
 
-<sup>_Figura 30. Pestaña para introducir la función de transformaciñon, y para seleccionar las columnas a las cuales se aplica la función._</sup>
+<sup>_Figura 30. Pestaña para introducir la función de transformación, y para seleccionar las columnas a las cuales se aplica la función._</sup>
 
 ``` warning
 El proceso puede tardar algunos segundos dependiendo del número de columnas y celdas.
@@ -444,8 +444,8 @@ En la pestaña _Content_ de la ventana emergente tiene encontrará varias opcion
 Vaya a la pestaña _Download_, donde podrá configurar el formano en el cuál se descargan los datos:
 
 - **_Line-based text formats/Other formats_**: si va a descargar los datos en formato de texto plano le permite selecionar el separado de las olumnas.
-- **_Line separator**_:si va a descargar los datos en formato de texto plano le permite seleccionar el separador de las filas.
-- **_Character encoding_**: le permite seleccionar la codificación de los datos. Se recomienda siempre utilizar [**UTF-8**](https://es.wikipedia.org/wiki/UTF-8)
+- **_Line separator_**:si va a descargar los datos en formato de texto plano le permite seleccionar el separador de las filas.
+- **_Character encoding_**: le permite seleccionar la codificación de los datos. Se recomienda siempre utilizar [**UTF-8**](https://es.wikipedia.org/wiki/UTF-8).
 
 Para este caso, use *Other formats* y elija la opción ```Excel in XML(.xlsx)```, haga clic en ```Download``` y guarde su archivo (Fig. 32).
 
@@ -456,7 +456,7 @@ Para este caso, use *Other formats* y elija la opción ```Excel in XML(.xlsx)```
 ### 8.2 Exportar e importar un proyecto
 
 _OpenRefine_ también le ofrece la posibilidad de exportar el proyeco completo, esto permite descargar un archivo que contiene toda la información del proyecto (datos e histórico de cambios). Este archivo se puede utilizar para trabajar OpenRefine desde otro equipo. 
-Para hacerlo diríjase a la esquina superior derecha y siga la ruta _```Export > OpenRefine project archive to file```_ y guarde su archivo (Fig. 33)
+Para hacerlo diríjase a la esquina superior derecha y siga la ruta _```Export > OpenRefine project archive to file```_ y guarde su archivo (Fig. 33).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex3.png" width=350>
 
@@ -474,7 +474,7 @@ Para importar el proyecto, abra _OpenRefine_ y diríjase a la pestaña _```Impor
 
 ****
 **¡Felicitaciones!** :raised_hands: 
-Has aprendido a utilizar _OpenRefine_ para validdar y limpiar tus datos sobte biodiversidad.
+Has aprendido a utilizar _OpenRefine_ para validdar y limpiar tus datos sobre biodiversidad.
 
 ****
 
