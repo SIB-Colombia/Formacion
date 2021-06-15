@@ -10,13 +10,6 @@ Tradicionalmente el Equipo Coordinador del SiB Colombia  facilita talleres prese
 * Aplicar protocolos para la captura de datos con fines de publicación a través del SiB Colombia.
 * Aplicar protocolos y herramientas para la estructuración, validación y limpieza de datos sobre biodiversidad para su publicación a través del SiB Colombia.
 
-### Introducción
-
-<img src="https://github.com/SIB-Colombia/Formacion/blob/master/_images/IntroLaboratorios2021.png" width=400 href="https://youtu.be/eNQh6YJlhBk">
-<img src="https://youtu.be/eNQh6YJlhBk" width=400 href="https://youtu.be/eNQh6YJlhBk">
-
-[![IMAGE ALT TEXT HERE](https://github.com/SIB-Colombia/Formacion/blob/master/_images/IntroLaboratorios2021.png)](https://youtu.be/eNQh6YJlhBk)
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eNQh6YJlhBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Seminarios
