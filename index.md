@@ -21,13 +21,14 @@ Para la realización de estos laboratorios, te recomendamos ver los siguientes s
 1. [SiB Colombia: una iniciativa nacional para la publicación, acceso y uso de datos sobre biodiversidad](https://youtu.be/ImptmviMXgI)
 2. [¿Qué datos sobre nuestra biodiversidad se pueden publicar a través del SiB Colombia?](https://youtu.be/_f4gGfIBN3U)
 3. [Aprendiendo un nuevo idioma, Darwin Core: reglas gramaticales y ortográficas para la publicación de datos sobre biodiversidad](https://youtu.be/nYGu8KY_K6U)
-4. [Crear, compartir, transformar: ¿Cómo publicar a través del SiB Colombia?](https://youtu.be/Q83XpNQwyEc)
-5. [Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad](https://youtu.be/_JBbEjG1wAU)
-6. [Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?](https://youtu.be/M8AgoWnLkrg)
+4. [Extensiones Darwin Core: ¿qué son y cómo funcionan?](https://youtu.be/Gu7Z8irxW7k)
+5. [Crear, compartir, transformar: ¿Cómo publicar a través del SiB Colombia?](https://youtu.be/Q83XpNQwyEc)
+6. [Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad](https://youtu.be/_JBbEjG1wAU)
+7. [Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?](https://youtu.be/M8AgoWnLkrg)
 
-Puedes acceder a todos los videos de los seminarios en los siguintes enlaces:
-- [Lista de reproducción completa para los seminarios del año 2020](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l)
+Puedes acceder a todos los videos de los seminarios en los siguientes enlaces:
 - [Lista de reproducción para los seminarios del año 2021](https://www.youtube.com/watch?v=ubpHPFPD-zU&list=PL_KzX3Rxxwb3MA55uX9105Y89QWAbMiKu)
+- [Lista de reproducción completa para los seminarios del año 2020](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l)
 
 
 ### Laboratorios
