@@ -12,7 +12,7 @@ Tradicionalmente el Equipo Coordinador del SiB Colombia  facilita talleres prese
 
 ### Introducción
 
-[![](Formacion/_images/Imagen 1.png)](https://youtu.be/eNQh6YJlhBk)]
+[![](Formacion/_images/Imagen 1.png)](https://youtu.be/eNQh6YJlhBk)
 
 ### Seminarios
 
