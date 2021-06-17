@@ -59,8 +59,8 @@ Definiciones: Contiene las definiciones para cada uno de los elementos del está
 
 Lea las instrucciones de esta primera pestaña para familiarizarse con el contenido y alcance de la misma. Encontrará una sección titulada Elementos obligatorios según el tipo de los datos (Fig. 1). De acuerdo a la lectura del Paso 1 y los datos de ejemplo (**Ejercicio1_MedidasyHechos_porEstructurar.xls**) identifique cuales son los elementos obligatorios para el uso de la extensión y téngalos en cuenta para el paso 3 . 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig1_Extensiones_Elementosobligatorios.png" width=750>
-Figura 1. Elementos obligatorios de la extensión para Registros Biológicos como Core de la publicación.
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig1_Extensiones_Elementosobligatorios.png" width=800>
+<sup>_Figura 1. Elementos obligatorios de la extensión para Registros Biológicos como Core de la publicación._</sup>
 
 
 #### 2.2 Plantilla
@@ -90,42 +90,44 @@ _Ejemplo_:
 #### 3.2 Mapeo de elementos 
 De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de la extensión. Para esta extensión puede duplicar  los elementos  tantas veces como lo necesite. Por ejemplo, puede duplicar los elementos _measurementType_, _measurementValue_, _measurementUnit_ y _measurementDeterminatedBy_  para documentar las medidas de la Altura de percha y la Longitud rostro cloacal (Fig 2). Haga lo mismo para las medidas faltantes.
 
-
-Figura 2. Mapeo de la Medida 1 (Altura de la percha) y la Medida 2 (Longitud Rostro Cloacal) duplicando los elementos de la plantilla.
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Extensiones_mapeo.png" width=800>
+<sup>_Figura 2. Mapeo de la Medida 1 (Altura de la percha) y la Medida 2 (Longitud Rostro Cloacal) duplicando los elementos de la plantilla._</sup>
 
 
 #### 3.3. Estructurar el elemento occurrenceID
 Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un occurrenceID ya que los datos corresponden a  registros biológicos (**Ejercicio1_Registrosbiologicos_Estructurado.xls**). Por lo tanto debe asegurarse que el _occurrenceID_ de la extensión de Medidas o hechos coincida exactamente con el del conjunto de datos estructurado, haga los ajustes necesarios en el _occurrenceID_ para que coincida. (Fig  3)
 
-
-Figura 3. Diferencia entre el occurrenceID del conjunto de datos de registros biológicos y el elemento mapeado a occurrenceID en la extensión.
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_Extensiones_occurrenceID.png" width=700>
+<sup>_Figura 3. Diferencia entre el occurrenceID del conjunto de datos de registros biológicos y el elemento mapeado a occurrenceID en la extensión._</sup>
  
-#### 3.4 Eliminar filas de ejemplo
-Una vez finalice el mapeo debe eliminar los ejemplos (**resaltados en gris**). Recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
 
-
-### Paso 4 - Ajustar formato de los datos
+### Paso 4 - Ajustar los datos
 
 #### 4.1. Ajustar según definiciones y ejemplos
 Una vez estén todos los datos del archivo **Ejercicio1_MedidasyHechos_porEstructurar.xls**  en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones del estándar para cada elemento mapeado (Fig. 4).
 
-Figura 4. Datos ajustados según las definiciones y los vocabularios controlados sugeridos.
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Extensiones_ajustados.png" width=800>
+<sup>_Figura 4. Datos ajustados según las definiciones y los vocabularios controlados sugeridos._</sup>
 
 #### 4.2. Eliminar los elementos vacíos
-Elimine en la plantilla de Medidas o hechos (_Measurement or Facts_)  los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados. (figura 5).
+4.2. Eliminar los elementos vacíos y filas de ejemplo
+Elimine en la plantilla de Medidas o hechos (Measurement or Facts)  las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados (Figura 5). En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
 
-Figura 5. Detalle de como eliminar los elementos vacíos. Clic derecho en la columna > Eliminar.
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_Extensiones_eliminar.png" width=800>
+<sup>_Figura 5. Detalle de como eliminar los elementos vacíos. Clic derecho en la columna > Eliminar.</sup>
 
 ### Paso 5 - Verificación del resultado
 Compare el siguiente archivo estandarizado con el archivo que trabajó en el laboratorio y verifique en qué acertó y que puede mejorar. ¿Logró completar más información en la plantilla?
 
 Tenga en cuenta que existen dos (2) formas válidas de documentar esta extensión. Una es agregar los elementos DwC tantas veces como sea necesario - como se hizo en el ejercicio anterior. Otra forma es agregar una fila para cada medida, esto es posible ya que cada fila se puede relacionar al espécimen por medio del identificador, en este caso occurrenceID (Figura 6). 
 
-Figura 6. Segundo mecanismo de documentación de la extensión de medidas y hechos en forma de filas, sin duplicar elementos DwC.
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_Extensiones_tiposmapeo.png" width=800>
+<sup>_Figura 6. Segundo mecanismo de documentación de la extensión de medidas y hechos en forma de filas, sin duplicar elementos DwC.</sup>
 
 En el archivo descargado verá las dos formas de estructurar la extensión.
 
 **[Descargue el archivo estandarizado](https://drive.google.com/uc?id=1E6_oUh53Du3wTIGilKeyvwQZWbwjR_Wv&authuser=0&export=download)**
+
 
 
 
