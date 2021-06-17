@@ -80,16 +80,16 @@ Identifique el tipo medidas teniendo en cuenta que se pueden dividir en dos cate
 
  _Ejemplo_:
  
-    - *```measurementType```*: Largo del pico
-    - *```measurementeValue```*: 20
-    - *```measurementUnit```*: mm
+    - ```measurementType```: Largo del pico
+    - ```measurementeValue```: 20
+    - ```measurementUnit```: mm
 
 * **Cualitativas** (hechos): son variables categóricas que guardan algún tipo de lógica, pero que no están asociadas directamente a una unidad de medida, por lo que se asociará como mínimo a los elementos measurementeType y measurementValue. 
 
 _Ejemplo_:
 
-    - *```measurementType```*: Color pico
-    - *```measurementeValue```*: Amarillo 
+    - ```measurementType```: Color pico
+    - ```measurementeValue```: Amarillo 
 
 #### 3.2. Mapeo de elementos 
 De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de la extensión. Para esta extensión puede duplicar  los elementos  tantas veces como lo necesite. Por ejemplo, puede duplicar los elementos _```measurementType```_, _```measurementValue```_, _```measurementUnit```_ y _```measurementDeterminatedBy```_  para documentar las medidas de la Altura de percha y la Longitud rostro cloacal (Fig 2). Haga lo mismo para las medidas faltantes.
