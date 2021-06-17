@@ -9,10 +9,12 @@ sort: 1
 Al finalizar este laboratorio habrás aprendido a:
 
 1. Estructurar un conjunto de datos bajo el estándar internacional de publicación de datos sobre biodiversidad *Darwin Core (DwC)*
-2. Utilizar la última versión de la plantilla de publicación de registros biológicos del SiB Colombia.
-3. Identificar y documentar los elementos obligatorios para la publicación a través del SiB Colombia según el origen de los datos.
-4. Entender las definiciones y vocabularios controlados de los elementos más utilizados del estándar *DwC*
-6. Aprender a identificar rápidamente errores de calidad críticos con el *Validador de datos de GBIF*.
+2. Conocer y utilizar las extensiones del estándar DwC.
+3. Utilizar la plantilla de publicación de registros biológicos del SiB Colombia.
+4. Utilizar algunas de las plantillas de las extensiones del estándar DwC.
+5. Identificar y documentar los elementos obligatorios para la publicación a través del SiB Colombia según el origen de los datos.
+6. Entender las definiciones y vocabularios controlados de los elementos más utilizados del estándar *DwC* y sus extensiones.
+7. Aprender a identificar rápidamente errores de calidad críticos con el *Validador de datos de GBIF*.
  
 
 ### Guías
@@ -27,6 +29,8 @@ Al finalizar este laboratorio habrás aprendido a:
 - **Estándar sobre biodiversidad**: Un conjunto de términos que especifica la forma en que deben ser estructurados los datos sobre biodiversidad que faciliten el acceso, disponibilidad e intercambio de información sobre la biodiversidad.
 
 - **Estandarizar**: Estructurar y organizar un conjunto de datos bajo los términos y definiciones en un estándar sobre biodiversidad.
+
+- **Extensión**: Conjunto de elementos que permiten extender el uso del estándar Darwin Core para documentar con mayor precisión datos sobre biodiversidad.
 
 - **Mapeo**: Identificación de la coincidencia entre los elementos de un conjunto de datos dentro de los términos y definiciones de un estándar.
 
