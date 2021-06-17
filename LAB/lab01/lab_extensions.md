@@ -137,11 +137,12 @@ Está participando en un proyecto cuyo objeto es realizar una lista de especies 
 
 
 ### Paso 2 - Exploración de la plantilla
-Descargue y abra la plantilla de la extensión de Distribución de especies (Species Distribution). Encontrará 4 pestañas:
-* Instrucciones: Contiene la guía de uso y los puntos a tener en cuenta antes de iniciar la documentación de la extensión.
-* Plantilla: Contiene la tabla con los elementos DwC para documentar la extensión.
-* Definiciones: Contiene las definiciones para cada uno de los elementos del estándar DwC, recomendaciones de documentación y ejemplos.
-* Vocabulario: Contiene los vocabularios controlados para algunos de los elementos DwC.
+Descargue y abra la plantilla de la extensión de Distribución de especies (Species Distribution), encontrará 4 pestañas:
+
+* **Instrucciones**: Contiene la guía de uso y los puntos a tener en cuenta antes de iniciar la documentación de la extensión.
+* **Plantilla**: Contiene la tabla con los elementos DwC para documentar la extensión.
+* **Definiciones**: Contiene las definiciones para cada uno de los elementos del estándar DwC, recomendaciones de documentación y ejemplos.
+* **Vocabulario**: Contiene los vocabularios controlados para algunos de los elementos DwC.
 
 En la pestaña de instrucciones encontrará adicionalmente una sección titulada _Elementos obligatorios_ según el tipo de los datos. Para esta extensión el único elemento obligatorio es el _taxonID_ el cual tendrá que obtenerse a partir del archivo ```Ejercicio2_ListadeEspecies_Estructurado.xls``` como se indica en el siguiente paso. 
 
@@ -149,15 +150,15 @@ Explore los elementos de la extensión en la pestaña de plantilla haciendo clic
 
 ### Paso 3 - Mapeo de los datos
 
-Revise detenidamente el nombre y contenido de cada columna del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xls``` e identifique a cuál elemento de la extensión corresponde.  Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo. (Fig 7)
+Revise detenidamente el nombre y contenido de cada columna del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xls``` e identifique a cuál elemento de la extensión corresponde.  Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo (Fig 7).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig7_Extensiones_sd_mapeo.png" width=800>
 
-<sup>_Figura 7. Mapeo de datos de distribución en la plantilla de Distribución de especies (_Species Distribution_)._</sup>
+<sup>_Figura 7. Mapeo de datos de distribución en la plantilla de Distribución de especies (*Species Distribution*)._</sup>
 
 Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _taxonID_ ya que los datos corresponden a una lista de especies. Para ello, a partir del nombre científico en ```Ejercicio2_DistribucionEspecies_porEstructurar.xls```identifique el taxonID en el archivo ```Ejercicio2_ListadeEspecies_Estructurado.xls``` y complételo en el elemento taxonID de la plantilla de la extensión (Fig 8).  
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig8_Extensiones_sd_taxonID.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig8_Extensiones_sd_taxonID.png" width=600>
 
 <sup>_Figura 8. Documentación del taxonID  en la plantilla de Distribución de especies a partir de la lista de especies._</sup>
 
@@ -168,16 +169,16 @@ Para cualquier extensión es necesario contar con un identificador (ID) para pod
 Una vez estén todos los datos del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xls``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones y vocabularios controlados del estándar para cada elemento mapeado. 
 
 #### 4.2 Completar la información geográfica
-En el caso de uso se le proporcionó el ID de la geografía superior según Divipola. Documente los elementos countryCode y locationID de acuerdo a esta información y la definición del elemento. (Fig 9).
+En el caso de uso se le proporcionó el ID de la geografía superior según Divipola. Documente los elementos countryCode y locationID de acuerdo a esta información y la definición del elemento (Fig 9).
 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig9_Extensiones_sd_ajustados.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig9_Extensiones_sd_ajustados.png" width=600>
 
 <sup>_Figura 9. Estandarización de elementos de acuerdo a las definiciones del estándar Darwin Core._</sup>
 
 
 ####  4.3. Eliminar los elementos vacíos y filas de ejemplo
-Elimine en la plantilla de Distribución de especies (Species Distribution)   las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados (Figura 5). En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
+Elimine en la plantilla de Distribución de especies (_Species Distribution_) las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados. En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
 
 ### Paso 5 - Verificación del resultado
 Compare el siguiente archivo estandarizado según las definiciones del estándar con el archivo que trabajó en el laboratorio y verifique en qué acertó y que puede mejorar. ¿Logró completar más información en la plantilla?
