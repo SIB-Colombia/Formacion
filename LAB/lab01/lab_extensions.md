@@ -23,21 +23,21 @@ Contar con un programa para procesar archivos de texto como Excel.
 
 - *Ejercicio de Rasgos funcionales* 
 
-    - [Ejercicio1_Registrosbiologicos_Estructurado.xls](https://drive.google.com/uc?id=1KslrtjZAwFbOWsQJ9NdBi2BLBbxNoVJo&authuser=0&export=download)
-    - [Ejercicio1_MedidasyHechos_porEstructurar.xls](https://drive.google.com/uc?id=1fHWfwjQ8s_4j12uHHleUw4JFyIRoeq0V&authuser=0&export=download)
+    - [Ejercicio1_Registrosbiologicos_Estructurado.xlsx](https://drive.google.com/uc?id=1KslrtjZAwFbOWsQJ9NdBi2BLBbxNoVJo&authuser=0&export=download)
+    - [Ejercicio1_MedidasyHechos_porEstructurar.xlsx](https://drive.google.com/uc?id=1fHWfwjQ8s_4j12uHHleUw4JFyIRoeq0V&authuser=0&export=download)
     - [Plantilla Medidas o hechos (_Measurement or Facts_)](https://drive.google.com/uc?export=download&id=1s05MAYDixYt6wPp9V8de8qrCHxuOOw-o) 
 
 
 - *Ejercicio de Distribución de especies*
 
-    - [Ejercicio2_ListadeEspecies_Estructurado.xls](https://drive.google.com/uc?id=1YoBeJIxmH5LdVNWglcyeFcuxJT83MryO&authuser=0&export=download)
-    - [Ejercicio2_DistribucionEspecies_porEstructurar.xls](https://drive.google.com/uc?id=1FRUsnhRglZ11eRQnn2mL0XCQp1W3WicZ&authuser=0&export=download)
+    - [Ejercicio2_ListadeEspecies_Estructurado.xlsx](https://drive.google.com/uc?id=1YoBeJIxmH5LdVNWglcyeFcuxJT83MryO&authuser=0&export=download)
+    - [Ejercicio2_DistribucionEspecies_porEstructurar.xlsx](https://drive.google.com/uc?id=1FRUsnhRglZ11eRQnn2mL0XCQp1W3WicZ&authuser=0&export=download)
     - [Plantilla Distribución de especies (_Species Distribution_)](https://drive.google.com/uc?export=download&id=1kqyGIkeP6KdR0-hz7CbGvriQuSitWqwp)
 
 - *Ejercicio de Multimedia*
 
-    - [Ejercicio3_Registrosbiologicos_Estructurado.xls](https://drive.google.com/uc?id=1wm7ZvwBqywuROZ-xqTmx00dsAZUY_oQO&authuser=0&export=download)
-    - [Ejercicio3_Multimedia_porEstructurar.xls](https://drive.google.com/uc?id=1ghJuuEc9TDBvwu0vaWAuuu1d113nNpa7&authuser=0&export=download)
+    - [Ejercicio3_Registrosbiologicos_Estructurado.xlsx](https://drive.google.com/uc?id=1wm7ZvwBqywuROZ-xqTmx00dsAZUY_oQO&authuser=0&export=download)
+    - [Ejercicio3_Multimedia_porEstructurar.xlsx](https://drive.google.com/uc?id=1ghJuuEc9TDBvwu0vaWAuuu1d113nNpa7&authuser=0&export=download)
     - [Plantilla Multimedia Simple (_Simple Multimedia_)](https://drive.google.com/uc?export=download&id=1Bfdgnl-KXwvLHs8H-bSe8yBXVyD8qrx8)
 
 ## Ejercicio 1 - Rasgos funcionales
@@ -56,7 +56,7 @@ Descargue y abra la plantilla de la extensión de Medidas o Hechos (_Measurement
 
 #### 2.1. Pestaña Instrucciones
 
-Lea las instrucciones de esta primera pestaña para familiarizarse con el contenido y alcance de la misma. Encontrará una sección titulada Elementos obligatorios según el tipo de los datos (Fig. 1). De acuerdo a la lectura del Paso 1 y los datos de ejemplo ```Ejercicio1_MedidasyHechos_porEstructurar.xls``` identifique cuales son los elementos obligatorios para el uso de la extensión y téngalos en cuenta para el paso 3 . 
+Lea las instrucciones de esta primera pestaña para familiarizarse con el contenido y alcance de la misma. Encontrará una sección titulada Elementos obligatorios según el tipo de los datos (Fig. 1). De acuerdo a la lectura del Paso 1 y los datos de ejemplo ```Ejercicio1_MedidasyHechos_porEstructurar.xlsx``` identifique cuales son los elementos obligatorios para el uso de la extensión y téngalos en cuenta para el paso 3 . 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig1_Extensiones_Elementosobligatorios.png" width=800>
 
@@ -71,7 +71,7 @@ Explore la definición de los elementos de la extensión. Puede hacer clic en lo
 
 ### Paso 3 - Mapeo de los datos
 
-Una vez haya explorado los elementos de la extensión e identificado los elementos obligatorios, revise detenidamente el archivo ```Ejercicio1_MedidasyHechos_porEstructurar.xls```e identifique los elementos de la extensión que le permitirán estructurar las medidas para su publicación. A esta actividad la llamamos mapeo de datos. Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo. 
+Una vez haya explorado los elementos de la extensión e identificado los elementos obligatorios, revise detenidamente el archivo ```Ejercicio1_MedidasyHechos_porEstructurar.xlsx```e identifique los elementos de la extensión que le permitirán estructurar las medidas para su publicación. A esta actividad la llamamos mapeo de datos. Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo. 
 
 #### 3.1. Identificar el tipo de medidas o hechos
 Identifique el tipo medidas teniendo en cuenta que se pueden dividir en dos categorías:
@@ -80,9 +80,9 @@ Identifique el tipo medidas teniendo en cuenta que se pueden dividir en dos cate
 
  _Ejemplo_:
  
-    - ```measurementType```: Largo del pico
-    - ```measurementeValue```: 20
-    - ```measurementUnit```: mm
+    * ```measurementType```: Largo del pico
+    * ```measurementeValue```: 20
+    * ```measurementUnit```: mm
 
 * **Cualitativas** (hechos): son variables categóricas que guardan algún tipo de lógica, pero que no están asociadas directamente a una unidad de medida, por lo que se asociará como mínimo a los elementos measurementeType y measurementValue. 
 
@@ -100,7 +100,7 @@ De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de
 
 
 #### 3.3. Estructurar el elemento occurrenceID
-Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _```occurrenceID```_ ya que los datos corresponden a  registros biológicos (```Ejercicio1_Registrosbiologicos_Estructurado.xls```). Por lo tanto debe asegurarse que el _```occurrenceID```_ de la extensión de Medidas o hechos coincida exactamente con el del conjunto de datos estructurado, haga los ajustes necesarios en el _```occurrenceID```_ para que coincida (Fig  3).
+Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _```occurrenceID```_ ya que los datos corresponden a  registros biológicos (```Ejercicio1_Registrosbiologicos_Estructurado.xlsx```). Por lo tanto debe asegurarse que el _```occurrenceID```_ de la extensión de Medidas o hechos coincida exactamente con el del conjunto de datos estructurado, haga los ajustes necesarios en el _```occurrenceID```_ para que coincida (Fig  3).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_Extensiones_occurrenceID.png" width=400>
 
@@ -110,7 +110,7 @@ Para cualquier extensión es necesario contar con un identificador (ID) para pod
 ### Paso 4 - Ajustar los datos
 
 #### 4.1. Ajustar según definiciones y ejemplos
-Una vez estén todos los datos del archivo ```Ejercicio1_MedidasyHechos_porEstructurar.xls``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones del estándar para cada elemento mapeado (Fig. 4).
+Una vez estén todos los datos del archivo ```Ejercicio1_MedidasyHechos_porEstructurar.xlsx``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones del estándar para cada elemento mapeado (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Extensiones_ajustados.png" width=800>
 
@@ -154,13 +154,13 @@ Explore los elementos de la extensión en la pestaña de plantilla haciendo clic
 
 ### Paso 3 - Mapeo de los datos
 
-Revise detenidamente el nombre y contenido de cada columna del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xls``` e identifique a cuál elemento de la extensión corresponde.  Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo (Fig 7).
+Revise detenidamente el nombre y contenido de cada columna del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xlsx``` e identifique a cuál elemento de la extensión corresponde.  Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo (Fig 7).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig7_Extensiones_sd_mapeo.png" width=800>
 
 <sup>_Figura 7. Mapeo de datos de distribución en la plantilla de Distribución de especies (*Species Distribution*)._</sup>
 
-Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _```taxonID```_ ya que los datos corresponden a una lista de especies. Para ello, a partir del nombre científico en ```Ejercicio2_DistribucionEspecies_porEstructurar.xls``` identifique el _```taxonID```_ en el archivo ```Ejercicio2_ListadeEspecies_Estructurado.xls``` y complételo en el elemento _```taxonID```_ de la plantilla de la extensión (Fig 8).  
+Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _```taxonID```_ ya que los datos corresponden a una lista de especies. Para ello, a partir del nombre científico en ```Ejercicio2_DistribucionEspecies_porEstructurar.xlsx``` identifique el _```taxonID```_ en el archivo ```Ejercicio2_ListadeEspecies_Estructurado.xlsx``` y complételo en el elemento _```taxonID```_ de la plantilla de la extensión (Fig 8).  
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig8_Extensiones_sd_taxonID.png" width=500>
 
@@ -170,7 +170,7 @@ Para cualquier extensión es necesario contar con un identificador (ID) para pod
 ### Paso 4 - Ajustar los datos
 
 #### 4.1. Ajustar según definiciones y ejemplos
-Una vez estén todos los datos del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xls``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones y vocabularios controlados del estándar para cada elemento mapeado. 
+Una vez estén todos los datos del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xlsx``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones y vocabularios controlados del estándar para cada elemento mapeado. 
 
 #### 4.2 Completar la información geográfica
 En el caso de uso se le proporcionó el ID de la geografía superior según Divipola. Documente los elementos countryCode y locationID de acuerdo a esta información y la definición del elemento (Fig 9).
@@ -195,7 +195,7 @@ Compare el siguiente archivo estandarizado según las definiciones del estándar
 ### Paso 1 - Aplicar lo aprendido
 A partir de los anteriores ejercicios habrá notado que las extensiones funcionan de forma similar. En este ejercicio deberá realizar la estructuración de la extensión Multimedia Simple (_Simple Multimedia_) a partir de los aprendido en los ejercicios anteriores. 
 
-Para este ejercicio se le proporciona el archivo ```Ejercicio3_Registrosbiologicos_Estructurado.xls``` estructurado en DwC con los datos de una colección de microorganismos a cuyas cepas se le desea asociar imágenes de referencia. En el archivo ```Ejercicio3_Multimedia_porEstructurar.xls``` encontrarla los enlaces de dichas imágenes y deberá estructurarlas usando la extensión Simple Multimedia (_Multimedia Simple_).
+Para este ejercicio se le proporciona el archivo ```Ejercicio3_Registrosbiologicos_Estructurado.xlsx``` estructurado en DwC con los datos de una colección de microorganismos a cuyas cepas se le desea asociar imágenes de referencia. En el archivo ```Ejercicio3_Multimedia_porEstructurar.xlsx``` encontrarla los enlaces de dichas imágenes y deberá estructurarlas usando la extensión Simple Multimedia (_Multimedia Simple_).
 
  
 ### Paso 2 - Verificación del resultado
