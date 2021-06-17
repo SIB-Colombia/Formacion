@@ -98,6 +98,7 @@ De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de
 Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un occurrenceID ya que los datos corresponden a  registros biológicos (**Ejercicio1_Registrosbiologicos_Estructurado.xls**). Por lo tanto debe asegurarse que el _occurrenceID_ de la extensión de Medidas o hechos coincida exactamente con el del conjunto de datos estructurado, haga los ajustes necesarios en el _occurrenceID_ para que coincida. (Fig  3)
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_Extensiones_occurrenceID.png" width=700>
+
 <sup>_Figura 3. Diferencia entre el occurrenceID del conjunto de datos de registros biológicos y el elemento mapeado a occurrenceID en la extensión._</sup>
  
 
@@ -107,6 +108,7 @@ Para cualquier extensión es necesario contar con un identificador (ID) para pod
 Una vez estén todos los datos del archivo **Ejercicio1_MedidasyHechos_porEstructurar.xls**  en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones del estándar para cada elemento mapeado (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Extensiones_ajustados.png" width=800>
+
 <sup>_Figura 4. Datos ajustados según las definiciones y los vocabularios controlados sugeridos._</sup>
 
 #### 4.2. Eliminar los elementos vacíos
@@ -114,7 +116,8 @@ Una vez estén todos los datos del archivo **Ejercicio1_MedidasyHechos_porEstruc
 Elimine en la plantilla de Medidas o hechos (Measurement or Facts)  las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados (Figura 5). En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_Extensiones_eliminar.png" width=800>
-<sup>_Figura 5. Detalle de como eliminar los elementos vacíos. Clic derecho en la columna > Eliminar.</sup>
+
+<sup>_Figura 5. Detalle de como eliminar los elementos vacíos. Clic derecho en la columna > Eliminar._</sup>
 
 ### Paso 5 - Verificación del resultado
 Compare el siguiente archivo estandarizado con el archivo que trabajó en el laboratorio y verifique en qué acertó y que puede mejorar. ¿Logró completar más información en la plantilla?
@@ -122,7 +125,8 @@ Compare el siguiente archivo estandarizado con el archivo que trabajó en el lab
 Tenga en cuenta que existen dos (2) formas válidas de documentar esta extensión. Una es agregar los elementos DwC tantas veces como sea necesario - como se hizo en el ejercicio anterior. Otra forma es agregar una fila para cada medida, esto es posible ya que cada fila se puede relacionar al espécimen por medio del identificador, en este caso occurrenceID (Figura 6). 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_Extensiones_tiposmapeo.png" width=800>
-<sup>_Figura 6. Segundo mecanismo de documentación de la extensión de medidas y hechos en forma de filas, sin duplicar elementos DwC.</sup>
+
+<sup>_Figura 6. Segundo mecanismo de documentación de la extensión de medidas y hechos en forma de filas, sin duplicar elementos DwC._</sup>
 
 En el archivo descargado verá las dos formas de estructurar la extensión.
 
