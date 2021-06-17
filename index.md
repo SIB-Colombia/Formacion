@@ -1,4 +1,4 @@
-## Ciclo de formación virtual
+## Laboratorio del ciclo de formación SiB Colombia
 
 Tradicionalmente el Equipo Coordinador del SiB Colombia  facilita talleres presenciales para la **publicación y gestión de los datos sobre biodiversdidad**, la gran demanda de estos talleres y el alto interés de la **comunidad** nos ha motivado a generar un ciclo de formación virtual para llegar a una mayor cantidad de personas y regiones del país.  
 
