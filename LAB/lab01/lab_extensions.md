@@ -59,7 +59,7 @@ Definiciones: Contiene las definiciones para cada uno de los elementos del está
 
 Lea las instrucciones de esta primera pestaña para familiarizarse con el contenido y alcance de la misma. Encontrará una sección titulada Elementos obligatorios según el tipo de los datos (Fig. 1). De acuerdo a la lectura del Paso 1 y los datos de ejemplo (**Ejercicio1_MedidasyHechos_porEstructurar.xls**) identifique cuales son los elementos obligatorios para el uso de la extensión y téngalos en cuenta para el paso 3 . 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/LAB/lab01/_images/Fig1_Extensiones_Elementosobligatorios.png" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig1_Extensiones_Elementosobligatorios.png" width=750>
 Figura 1. Elementos obligatorios de la extensión para Registros Biológicos como Core de la publicación.
 
 
