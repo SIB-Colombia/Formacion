@@ -146,7 +146,7 @@ Descargue y abra la plantilla de la extensión de Distribución de especies (Spe
 * **Definiciones**: Contiene las definiciones para cada uno de los elementos del estándar DwC, recomendaciones de documentación y ejemplos.
 * **Vocabulario**: Contiene los vocabularios controlados para algunos de los elementos DwC.
 
-En la pestaña de instrucciones encontrará adicionalmente una sección titulada _Elementos obligatorios_ según el tipo de los datos. Para esta extensión el único elemento obligatorio es el _```taxonID```_ el cual tendrá que obtenerse a partir del archivo ```Ejercicio2_ListadeEspecies_Estructurado.xls``` como se indica en el siguiente paso. 
+En la pestaña de instrucciones encontrará adicionalmente una sección titulada _Elementos obligatorios_ según el tipo de los datos. Para esta extensión el único elemento obligatorio es el _```taxonID```_ el cual tendrá que obtenerse a partir del archivo ```Ejercicio2_ListadeEspecies_Estructurado.xlsx``` como se indica en el siguiente paso. 
 
 Explore los elementos de la extensión en la pestaña de plantilla haciendo clic en en los elementos para acceder a las definiciones y vocabularios controlados (cuando corresponda). En la plantilla encontrará algunos ejemplos pre-documentados en gris para facilitar la interpretación y alcance de los elementos. Puede mantener estos ejemplos durante el ejercicio como referencia o eliminarlos antes de usar la plantilla, estos marcan un punto de partida pero no representan todas las posibilidades de la extensión ya que dependerá del alcance temático y geográfico de cada lista de especies.
 
