@@ -77,18 +77,20 @@ Una vez haya explorado los elementos de la extensión e identificado los element
 Identifique el tipo medidas teniendo en cuenta que se pueden dividir en dos categorías:
 
 * **Cuantitativas**: Una medida cuantificable que cuenta con una unidad de medida, por lo que se asocia como mínimo a los elementos measurementType, measurementeValue y measurementeUnit.
+
  _Ejemplo_:
-    - _measurementType_: Largo del pico
-    - _measurementeValue_: 20
-    - _measurementUnit_: mm
+    - _```measurementType```_: Largo del pico
+    - _```measurementeValue```_: 20
+    - _```measurementUnit```_: mm
 
 * **Cualitativas** (hechos): son variables categóricas que guardan algún tipo de lógica, pero que no están asociadas directamente a una unidad de medida, por lo que se asociará como mínimo a los elementos measurementeType y measurementValue. 
+
 _Ejemplo_:
-    - _measurementType_: Color pico
-    - _measurementeValue_: Amarillo 
+    - _```measurementType```_: Color pico
+    - _```measurementeValue```_: Amarillo 
 
 #### 3.2. Mapeo de elementos 
-De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de la extensión. Para esta extensión puede duplicar  los elementos  tantas veces como lo necesite. Por ejemplo, puede duplicar los elementos _measurementType_, _measurementValue_, _measurementUnit_ y _measurementDeterminatedBy_  para documentar las medidas de la Altura de percha y la Longitud rostro cloacal (Fig 2). Haga lo mismo para las medidas faltantes.
+De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de la extensión. Para esta extensión puede duplicar  los elementos  tantas veces como lo necesite. Por ejemplo, puede duplicar los elementos _```measurementType```_, _```measurementValue```_, _```measurementUnit```_ y _```measurementDeterminatedBy```_  para documentar las medidas de la Altura de percha y la Longitud rostro cloacal (Fig 2). Haga lo mismo para las medidas faltantes.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Extensiones_mapeo.png" width=700>
 
@@ -96,7 +98,7 @@ De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de
 
 
 #### 3.3. Estructurar el elemento occurrenceID
-Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un occurrenceID ya que los datos corresponden a  registros biológicos (```Ejercicio1_Registrosbiologicos_Estructurado.xls```). Por lo tanto debe asegurarse que el _occurrenceID_ de la extensión de Medidas o hechos coincida exactamente con el del conjunto de datos estructurado, haga los ajustes necesarios en el _occurrenceID_ para que coincida (Fig  3).
+Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _```occurrenceID```_ ya que los datos corresponden a  registros biológicos (```Ejercicio1_Registrosbiologicos_Estructurado.xls```). Por lo tanto debe asegurarse que el _```occurrenceID```_ de la extensión de Medidas o hechos coincida exactamente con el del conjunto de datos estructurado, haga los ajustes necesarios en el _```occurrenceID```_ para que coincida (Fig  3).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_Extensiones_occurrenceID.png" width=400>
 
@@ -106,14 +108,14 @@ Para cualquier extensión es necesario contar con un identificador (ID) para pod
 ### Paso 4 - Ajustar los datos
 
 #### 4.1. Ajustar según definiciones y ejemplos
-Una vez estén todos los datos del archivo ```Ejercicio1_MedidasyHechos_porEstructurar.xls```  en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones del estándar para cada elemento mapeado (Fig. 4).
+Una vez estén todos los datos del archivo ```Ejercicio1_MedidasyHechos_porEstructurar.xls``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones del estándar para cada elemento mapeado (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Extensiones_ajustados.png" width=800>
 
 <sup>_Figura 4. Datos ajustados según las definiciones y los vocabularios controlados sugeridos._</sup>
 
 #### 4.2. Eliminar los elementos vacíos y filas de ejemplo
-Elimine en la plantilla de Medidas o hechos (Measurement or Facts)  las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados (Figura 5). En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
+Elimine en la plantilla de Medidas o hechos (_Measurement or Facts_)  las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados (Figura 5). En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_Extensiones_eliminar.png" width=500>
 
@@ -122,7 +124,7 @@ Elimine en la plantilla de Medidas o hechos (Measurement or Facts)  las columnas
 ### Paso 5 - Verificación del resultado
 Compare el siguiente [archivo estandarizado](https://drive.google.com/uc?id=1E6_oUh53Du3wTIGilKeyvwQZWbwjR_Wv&authuser=0&export=download) con el archivo que trabajó en el ejercicio y verifique en qué acertó y que puede mejorar. ¿Logró completar más información en la plantilla?
 
-Tenga en cuenta que existen **dos** (2) formas válidas de documentar esta extensión. Una es agregar los elementos DwC tantas veces como sea necesario - como se hizo en el ejercicio anterior. Otra forma es agregar una fila para cada medida, esto es posible ya que cada fila se puede relacionar al espécimen por medio del identificador, en este caso el occurrenceID (Figura 6). 
+Tenga en cuenta que existen **dos** (2) formas válidas de documentar esta extensión. Una es agregar los elementos DwC tantas veces como sea necesario - como se hizo en el ejercicio anterior. Otra forma es agregar una fila para cada medida, esto es posible ya que cada fila se puede relacionar al espécimen por medio del identificador, en este caso el _```occurrenceID```_ (Figura 6). 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_Extensiones_tiposmapeo.png" width=800>
 
@@ -144,7 +146,7 @@ Descargue y abra la plantilla de la extensión de Distribución de especies (Spe
 * **Definiciones**: Contiene las definiciones para cada uno de los elementos del estándar DwC, recomendaciones de documentación y ejemplos.
 * **Vocabulario**: Contiene los vocabularios controlados para algunos de los elementos DwC.
 
-En la pestaña de instrucciones encontrará adicionalmente una sección titulada _Elementos obligatorios_ según el tipo de los datos. Para esta extensión el único elemento obligatorio es el _taxonID_ el cual tendrá que obtenerse a partir del archivo ```Ejercicio2_ListadeEspecies_Estructurado.xls``` como se indica en el siguiente paso. 
+En la pestaña de instrucciones encontrará adicionalmente una sección titulada _Elementos obligatorios_ según el tipo de los datos. Para esta extensión el único elemento obligatorio es el _```taxonID```_ el cual tendrá que obtenerse a partir del archivo ```Ejercicio2_ListadeEspecies_Estructurado.xls``` como se indica en el siguiente paso. 
 
 Explore los elementos de la extensión en la pestaña de plantilla haciendo clic en en los elementos para acceder a las definiciones y vocabularios controlados (cuando corresponda). En la plantilla encontrará algunos ejemplos pre-documentados en gris para facilitar la interpretación y alcance de los elementos. Puede mantener estos ejemplos durante el ejercicio como referencia o eliminarlos antes de usar la plantilla, estos marcan un punto de partida pero no representan todas las posibilidades de la extensión ya que dependerá del alcance temático y geográfico de cada lista de especies.
 
@@ -156,11 +158,11 @@ Revise detenidamente el nombre y contenido de cada columna del archivo ```Ejerci
 
 <sup>_Figura 7. Mapeo de datos de distribución en la plantilla de Distribución de especies (*Species Distribution*)._</sup>
 
-Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _taxonID_ ya que los datos corresponden a una lista de especies. Para ello, a partir del nombre científico en ```Ejercicio2_DistribucionEspecies_porEstructurar.xls```identifique el taxonID en el archivo ```Ejercicio2_ListadeEspecies_Estructurado.xls``` y complételo en el elemento taxonID de la plantilla de la extensión (Fig 8).  
+Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _```taxonID```_ ya que los datos corresponden a una lista de especies. Para ello, a partir del nombre científico en ```Ejercicio2_DistribucionEspecies_porEstructurar.xls``` identifique el _```taxonID```_ en el archivo ```Ejercicio2_ListadeEspecies_Estructurado.xls``` y complételo en el elemento _```taxonID```_ de la plantilla de la extensión (Fig 8).  
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig8_Extensiones_sd_taxonID.png" width=500>
 
-<sup>_Figura 8. Documentación del taxonID  en la plantilla de Distribución de especies a partir de la lista de especies._</sup>
+<sup>_Figura 8. Documentación del _taxonID_ en la plantilla de Distribución de especies a partir de la lista de especies._</sup>
 
 
 ### Paso 4 - Ajustar los datos
@@ -205,7 +207,7 @@ Compare el siguiente archivo estandarizado según las definiciones del estándar
 
 Si tiene datos propios que desee publicar, estandarícelos siguiendo los pasos de esta guía. Recuerde usar la plantilla de acuerdo al tipo y origen de los datos.
 
-En este ejercicio notará que las imágenes se encuentran en un repositorio. Si a futuro  desea  publicar imágenes asociadas a un registro biológico le recomendamos algunos de los siguientes repositorios según se adapte a sus necesidades:
+En este ejercicio notará que las imágenes se encuentran en un repositorio. Si a futuro desea publicar imágenes asociadas a un registro biológico le recomendamos algunos de los siguientes repositorios según se adapte a sus necesidades:
 
 * [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
     * fotografías ilimitadas
