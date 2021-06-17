@@ -33,8 +33,8 @@ Contar con un programa para procesar archivos de texto como Excel.
 
 - *Ejercicio de Multimedia*
 
-    - Ejercicio3_Registrosbiologicos_Estructurado.xls
-    - Ejercicio3_Multimedia_porEstructurar.xls
+    - [Ejercicio3_Registrosbiologicos_Estructurado.xls](https://drive.google.com/uc?id=1wm7ZvwBqywuROZ-xqTmx00dsAZUY_oQO&authuser=0&export=download)
+    - [Ejercicio3_Multimedia_porEstructurar.xls](https://drive.google.com/uc?id=1ghJuuEc9TDBvwu0vaWAuuu1d113nNpa7&authuser=0&export=download)
 
 - *Plantillas*
 
@@ -60,6 +60,7 @@ Definiciones: Contiene las definiciones para cada uno de los elementos del está
 Lea las instrucciones de esta primera pestaña para familiarizarse con el contenido y alcance de la misma. Encontrará una sección titulada Elementos obligatorios según el tipo de los datos (Fig. 1). De acuerdo a la lectura del Paso 1 y los datos de ejemplo (**Ejercicio1_MedidasyHechos_porEstructurar.xls**) identifique cuales son los elementos obligatorios para el uso de la extensión y téngalos en cuenta para el paso 3 . 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig1_Extensiones_Elementosobligatorios.png" width=800>
+
 <sup>_Figura 1. Elementos obligatorios de la extensión para Registros Biológicos como Core de la publicación._</sup>
 
 
@@ -91,6 +92,7 @@ _Ejemplo_:
 De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de la extensión. Para esta extensión puede duplicar  los elementos  tantas veces como lo necesite. Por ejemplo, puede duplicar los elementos _measurementType_, _measurementValue_, _measurementUnit_ y _measurementDeterminatedBy_  para documentar las medidas de la Altura de percha y la Longitud rostro cloacal (Fig 2). Haga lo mismo para las medidas faltantes.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Extensiones_mapeo.png" width=800>
+
 <sup>_Figura 2. Mapeo de la Medida 1 (Altura de la percha) y la Medida 2 (Longitud Rostro Cloacal) duplicando los elementos de la plantilla._</sup>
 
 
@@ -112,7 +114,6 @@ Una vez estén todos los datos del archivo **Ejercicio1_MedidasyHechos_porEstruc
 <sup>_Figura 4. Datos ajustados según las definiciones y los vocabularios controlados sugeridos._</sup>
 
 #### 4.2. Eliminar los elementos vacíos
-4.2. Eliminar los elementos vacíos y filas de ejemplo
 Elimine en la plantilla de Medidas o hechos (Measurement or Facts)  las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados (Figura 5). En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_Extensiones_eliminar.png" width=800>
@@ -200,7 +201,7 @@ Para este ejercicio se le proporciona un archivo estructurado en DwC (**Ejercici
 Compare el siguiente archivo estandarizado según las definiciones del estándar con el archivo que trabajó en el laboratorio y verifique en qué acertó y que puede mejorar. ¿Logró completar más información en la plantilla?
 
 
-**Descargue el archivo estandarizado**
+**[Descargue el archivo estandarizado](https://drive.google.com/uc?id=1pODwB1jELAvpTa9CvujyOd6vcFyA0Nld&authuser=0&export=download)**
 
 
 ## Ejercicio 4 - Datos propios
