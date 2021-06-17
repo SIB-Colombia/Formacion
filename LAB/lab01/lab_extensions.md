@@ -90,7 +90,7 @@ _Ejemplo_:
 #### 3.2. Mapeo de elementos 
 De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de la extensión. Para esta extensión puede duplicar  los elementos  tantas veces como lo necesite. Por ejemplo, puede duplicar los elementos _measurementType_, _measurementValue_, _measurementUnit_ y _measurementDeterminatedBy_  para documentar las medidas de la Altura de percha y la Longitud rostro cloacal (Fig 2). Haga lo mismo para las medidas faltantes.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Extensiones_mapeo.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Extensiones_mapeo.png" width=700>
 
 <sup>_Figura 2. Mapeo de la Medida 1 (Altura de la percha) y la Medida 2 (Longitud Rostro Cloacal) duplicando los elementos de la plantilla._</sup>
 
@@ -115,7 +115,7 @@ Una vez estén todos los datos del archivo ```Ejercicio1_MedidasyHechos_porEstru
 #### 4.2. Eliminar los elementos vacíos y filas de ejemplo
 Elimine en la plantilla de Medidas o hechos (Measurement or Facts)  las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados (Figura 5). En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_Extensiones_eliminar.png" width=400>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_Extensiones_eliminar.png" width=500>
 
 <sup>_Figura 5. Detalle de como eliminar los elementos vacíos. Clic derecho en la columna > Eliminar._</sup>
 
@@ -158,7 +158,7 @@ Revise detenidamente el nombre y contenido de cada columna del archivo ```Ejerci
 
 Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _taxonID_ ya que los datos corresponden a una lista de especies. Para ello, a partir del nombre científico en ```Ejercicio2_DistribucionEspecies_porEstructurar.xls```identifique el taxonID en el archivo ```Ejercicio2_ListadeEspecies_Estructurado.xls``` y complételo en el elemento taxonID de la plantilla de la extensión (Fig 8).  
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig8_Extensiones_sd_taxonID.png" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig8_Extensiones_sd_taxonID.png" width=500>
 
 <sup>_Figura 8. Documentación del taxonID  en la plantilla de Distribución de especies a partir de la lista de especies._</sup>
 
