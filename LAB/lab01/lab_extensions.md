@@ -191,7 +191,7 @@ Compare el siguiente archivo estandarizado según las definiciones del estándar
 ### Paso 1 - Aplicar lo aprendido
 A partir de los anteriores ejercicios habrá notado que las extensiones funcionan de forma similar. En este ejercicio deberá realizar la estructuración de la extensión Multimedia Simple (_Simple Multimedia_) a partir de los aprendido en los ejercicios anteriores. 
 
-Para este ejercicio se le proporciona un archivo estructurado en DwC (```Ejercicio3_Registrosbiologicos_Estructurado.xls```) con los datos de una colección de microorganismos a cuyas cepas se le desea asociar imágenes de referencia. En el archivo **Ejercicio3_Multimedia_porEstructurar.xls** encontrarla los enlaces de dichas imágenes y deberá estructurarlas usando la extensión Simple Multimedia (_Multimedia Simple_).
+Para este ejercicio se le proporciona el archivo ```Ejercicio3_Registrosbiologicos_Estructurado.xls``` estructurado en DwC con los datos de una colección de microorganismos a cuyas cepas se le desea asociar imágenes de referencia. En el archivo ```Ejercicio3_Multimedia_porEstructurar.xls``` encontrarla los enlaces de dichas imágenes y deberá estructurarlas usando la extensión Simple Multimedia (_Multimedia Simple_).
 
  
 ### Paso 2 - Verificación del resultado
@@ -207,23 +207,24 @@ Si tiene datos propios que desee publicar, estandarícelos siguiendo los pasos d
 
 En este ejercicio notará que las imágenes se encuentran en un repositorio. Si a futuro  desea  publicar imágenes asociadas a un registro biológico le recomendamos algunos de los siguientes repositorios según se adapte a sus necesidades:
 
-* Wikimedia Commons
+* [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
     * fotografías ilimitadas
-    * Sobre las galerías: https://commons.wikimedia.org/wiki/Commons:Galleries
-    * Ejemplo galería: https://commons.wikimedia.org/wiki/London
-* Internet Archive
+    * Sobre las galerías: [https://commons.wikimedia.org/wiki/Commons:Galleries](https://commons.wikimedia.org/wiki/Commons:Galleries)
+    * Ejemplo galería: [https://commons.wikimedia.org/wiki/London](https://commons.wikimedia.org/wiki/London)
+    
+* [Internet Archive](https://archive.org/index.php)
     * fotografías ilimitadas
-    * Sobre las colecciones: https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-
-    * Ejemplo colecciones: https://archive.org/details/brooklynmuseum
-* flickr
+    * Sobre las colecciones: [https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-](https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-)
+    * Ejemplo colecciones: [https://archive.org/details/brooklynmuseum](https://archive.org/details/brooklynmuseum)
+    
+* [flickr](https://www.flickr.com/)
     * Opción de almacenamiento gratuito
     * Limitado a 1000 fotografías
-    * Ejemplo: https://www.flickr.com/photos/98788120@N02/
-* SmugMug
+    * Ejemplo: [https://www.flickr.com/photos/98788120@N02/](https://www.flickr.com/photos/98788120@N02/)
+    
+* [SmugMug](https://www.smugmug.com/)
     * El almacenamiento está sujeto a pago, puede consultar aquí los planes disponibles
     * Almacenamiento ilimitado en cualquier plan.
-
-
 
 
 ****
