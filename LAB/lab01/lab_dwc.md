@@ -30,7 +30,7 @@ Lea detenidamente el Caso de estudio, acá encontrará información relevante pa
 *Tenga presente que este es un caso de uso basado en una historia ficticia construido solo para propósitos educativos.*
 
 
->La ‘Universidad de Ciencias Naturales’ (UCN) es reconocida en el país como una institución de referencia para la investigación sobre biodiversidad. El  Departamento de Biología Animal mantiene el Museo de Historia Natural (Registro Nacional de Colecciones Biologicas: 123), en donde la Colección Zoológica se encuentra bien representada con cerca de 700 especímenes recolectados a lo largo de todo el territorio nacional, desde mediados del siglo 20 hasta la fecha.
+>La ‘Universidad de Ciencias Naturales’ (UCN) es reconocida en el país como una institución de referencia para la investigación sobre biodiversidad. El  Departamento de Biología Animal mantiene el Museo de Historia Natural (Registro Nacional de Colecciones Biológicas: 123), en donde la Colección Zoológica se encuentra bien representada con cerca de 700 especímenes recolectados a lo largo de todo el territorio nacional, desde mediados del siglo 20 hasta la fecha.
 
 >En la actualidad, su cuidado se encuentra a cargo del profesor de Sistemática Animal, Juan Travolta; quien realiza tareas curatoriales, investigativas y de docencia. Profesores del departamento y algunos estudiantes colaboran ocasionalmente con la identificación de las muestras y toma de datos. El Coordinador del Departamento de Biología Animal (convencido de los beneficios y bondades que brinda la publicación de los datos a través del SiB Colombia) desea que se publiquen en línea los datos sobre Aves de la **colección  ornitológica (MH-ORNIT)**, Anfibios y Reptiles de la **colección de herpetología (MH-HERP)**, además de algunos **Mamíferos (MH-MAM)**. Esto permitirá ampliar la visibilidad de las colecciones biológicas de la Universidad y disponer estos datos de manera abierta para que sean consultados o usados en diferentes campos de investigación y lleguen incluso a ser empleados por tomadores de decisiones a nivel regional o nacional.
 
@@ -52,10 +52,10 @@ En la pestaña de instrucciones encontrará adicionalmente una sección titulada
 <sup>*Figura 1. Instrucciones de la plantilla DwC. Elementos obligatorios según el origen de los datos.*</sup>
 
 ## Paso 3 - Crear los elementos obligatorios 
-Abra el archivo de trabajo [```Datos_Caso1_20reg.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx)  y cree los elementos obligatorios faltantes a partir de la información que encuenta en el caso de estudio y en los mismos datos.
+Abra el archivo de trabajo [```Datos_Caso1_20reg.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx)  y cree los elementos obligatorios faltantes a partir de la información que encuentra en el caso de estudio y en los mismos datos.
 
  
-> **Pista**: Debe crear un identificador único del registro biológico (*occurenceID*) a partir del código de la institucion (*institutionCode*), código de la colección (*collectionCode*) y número de catálogo (*catalogNumber*). Revise la definición del elemento occurrenceID en la pestaña plantilla para saber como construirlo.
+> **Pista**: Debe crear un identificador único del registro biológico (*occurenceID*) a partir del código de la institución (*institutionCode*), código de la colección (*collectionCode*) y número de catálogo (*catalogNumber*). Revise la definición del elemento occurrenceID en la pestaña plantilla para saber como construirlo.
 
 Ejemplo de *occurrenceID*: UCN:MH-ORNIT:46-2300MI2008AV0954
 
@@ -69,7 +69,7 @@ Una vez haya creado los elementos obligatorios, revise detenidamente el nombre y
 
 ## Paso 5 - Ajustar los datos  
 
-Una vez esten todos los datos del archivo [```Datos_Caso1_20reg.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx) en la plantilla de publicación, ajuste los datos de acuerdo a las definiciones y vocabularios controlados del estándar para cada elemento mapeado (Fig. 3).
+Una vez estén todos los datos del archivo [```Datos_Caso1_20reg.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx) en la plantilla de publicación, ajuste los datos de acuerdo a las definiciones y vocabularios controlados del estándar para cada elemento mapeado (Fig. 3).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Estandarizacion_EstructuraPlantilla.png" width=800>
 
@@ -87,13 +87,14 @@ Al finalizar, su plantilla se debe ver similar a la siguiente imagen (Fig. 4):
 
 ## Paso 7 - Verificación del resultado
 
-Compare el siguiente archivo estandarizado según las definiciones del estándar con el archivo que trabajó en el laboratorio y verifique en que acertó y que puede mejorar. ¿Logró completar mas información en la plantilla?
+Compare el siguiente archivo estandarizado según las definiciones del estándar con el archivo que trabajó en el laboratorio y verifique en qué acertó y que puede mejorar. ¿Logró completar más información en la plantilla?
+
 
 * [Descargue el archivo estandarizado](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg_estandarizado.xlsx)
 
 ## Paso 8 - Datos propios
 
-Si tiene datos propios que desee publicar, estandarízelos siguiendo los pasos de esta guía. Recuerde usar la plantilla de acuerdo al tipo y origen de los datos.
+Si tiene datos propios que desee publicar, estandarícelos siguiendo los pasos de esta guía. Recuerde usar la plantilla de acuerdo al tipo y origen de los datos.
 
 ****
 
