@@ -14,7 +14,7 @@ Tradicionalmente el Equipo Coordinador del SiB Colombia  facilita talleres prese
 
 ### Seminarios
 
-El ciclo comprende [19 seminarios](https://www.youtube.com/watch?v=ubpHPFPD-zU&list=PL_KzX3Rxxwb3MA55uX9105Y89QWAbMiKu) que abarcan diversos temas, desde algunas herramientas para uso en colecciones biológicas hasta el uso detallado del estándar DarwinCore.
+El ciclo entre 2020-2021 comprende  más de 20 seminarios que abarcan diversos temas, desde algunas herramientas para uso en colecciones biológicas hasta el uso detallado del estándar DarwinCore.
 
 Para la realización de estos laboratorios, te recomendamos ver los siguientes seminarios. Estos te permitirán tener un mejor contexto y sacarle el mayor provecho al componente práctico del ciclo.
 
@@ -26,9 +26,9 @@ Para la realización de estos laboratorios, te recomendamos ver los siguientes s
 6. [Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad](https://youtu.be/_JBbEjG1wAU)
 7. [Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?](https://youtu.be/M8AgoWnLkrg)
 
-Puedes acceder a todos los videos de los seminarios en los siguientes enlaces:
-- [Lista de reproducción para los seminarios del año 2021](https://www.youtube.com/watch?v=ubpHPFPD-zU&list=PL_KzX3Rxxwb3MA55uX9105Y89QWAbMiKu)
-- [Lista de reproducción completa para los seminarios del año 2020](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l)
+Puedes acceder a  los videos de los seminarios en los siguientes enlaces:
+- [Lista de reproducción seminarios 2021](https://www.youtube.com/watch?v=ubpHPFPD-zU&list=PL_KzX3Rxxwb3MA55uX9105Y89QWAbMiKu)
+- [Lista de reproducción seminarios 2020](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l)
 
 
 ### Laboratorios
