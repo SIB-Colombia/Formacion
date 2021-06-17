@@ -24,7 +24,7 @@ Contar con un programa para procesar archivos de texto como Excel.
 - *Ejercicio de Rasgos funcionales* 
 
     - [Ejercicio1_Registrosbiologicos_Estructurado.xlsx](https://drive.google.com/uc?id=1KslrtjZAwFbOWsQJ9NdBi2BLBbxNoVJo&authuser=0&export=download)
-    - [Ejercicio1_MedidasyHechos_porEstructurar.xlsx](https://drive.google.com/uc?id=1fHWfwjQ8s_4j12uHHleUw4JFyIRoeq0V&authuser=0&export=download)
+    - [Ejercicio1_MedidasoHechos_porEstructurar.xlsx](https://drive.google.com/uc?id=1fHWfwjQ8s_4j12uHHleUw4JFyIRoeq0V&authuser=0&export=download)
     - [Plantilla Medidas o hechos (_Measurement or Facts_)](https://drive.google.com/uc?export=download&id=1s05MAYDixYt6wPp9V8de8qrCHxuOOw-o) 
 
 
@@ -56,7 +56,7 @@ Descargue y abra la plantilla de la extensión de Medidas o Hechos (_Measurement
 
 #### 2.1. Pestaña Instrucciones
 
-Lea las instrucciones de esta primera pestaña para familiarizarse con el contenido y alcance de la misma. Encontrará una sección titulada Elementos obligatorios según el tipo de los datos (Fig. 1). De acuerdo a la lectura del Paso 1 y los datos de ejemplo ```Ejercicio1_MedidasyHechos_porEstructurar.xlsx``` identifique cuales son los elementos obligatorios para el uso de la extensión y téngalos en cuenta para el paso 3 . 
+Lea las instrucciones de esta primera pestaña para familiarizarse con el contenido y alcance de la misma. Encontrará una sección titulada Elementos obligatorios según el tipo de los datos (Fig. 1). De acuerdo a la lectura del Paso 1 y los datos de ejemplo ```Ejercicio1_MedidasoHechos_porEstructurar.xlsx``` identifique cuales son los elementos obligatorios para el uso de la extensión y téngalos en cuenta para el paso 3 . 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig1_Extensiones_Elementosobligatorios.png" width=800>
 
@@ -71,7 +71,7 @@ Explore la definición de los elementos de la extensión. Puede hacer clic en lo
 
 ### Paso 3 - Mapeo de los datos
 
-Una vez haya explorado los elementos de la extensión e identificado los elementos obligatorios, revise detenidamente el archivo ```Ejercicio1_MedidasyHechos_porEstructurar.xlsx```e identifique los elementos de la extensión que le permitirán estructurar las medidas para su publicación. A esta actividad la llamamos mapeo de datos. Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo. 
+Una vez haya explorado los elementos de la extensión e identificado los elementos obligatorios, revise detenidamente el archivo ```Ejercicio1_MedidasoHechos_porEstructurar.xlsx```e identifique los elementos de la extensión que le permitirán estructurar las medidas para su publicación. A esta actividad la llamamos mapeo de datos. Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo. 
 
 #### 3.1. Identificar el tipo de medidas o hechos
 Identifique el tipo medidas teniendo en cuenta que se pueden dividir en dos categorías:
@@ -108,7 +108,7 @@ Para cualquier extensión es necesario contar con un identificador (ID) para pod
 ### Paso 4 - Ajustar los datos
 
 #### 4.1. Ajustar según definiciones y ejemplos
-Una vez estén todos los datos del archivo ```Ejercicio1_MedidasyHechos_porEstructurar.xlsx``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones del estándar para cada elemento mapeado (Fig. 4).
+Una vez estén todos los datos del archivo ```Ejercicio1_MedidasoHechos_porEstructurar.xlsx``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones del estándar para cada elemento mapeado (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Extensiones_ajustados.png" width=800>
 
@@ -254,4 +254,4 @@ Asociación Bogotana de Ornitología (2011). Aves del Pantano de Martos, Guatavi
 
 * _Datos y caso de uso del Ejercicio 3 basado en_:
 Alvarado Fernández A M, Rodríguez Gómez E R, Palacios Calderón L M, Trespalacios Rangel A A, Ballesteros Ballesteros J A (2021): Colección de Microorganismos-Pontificia Universidad Javeriana. v1.7. Pontificia Universidad Javeriana. Dataset/Occurrence. https://doi.org/10.15472/ppbz1y
-****
+
