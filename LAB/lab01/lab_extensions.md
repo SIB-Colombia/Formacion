@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# Practica de estructuración de extensiones Darwin Core
+# Estructuración de extensiones Darwin Core
 
 
 **Objetivo**
