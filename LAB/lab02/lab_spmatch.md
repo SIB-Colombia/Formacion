@@ -6,7 +6,7 @@ sort: 2
 
 **Objetivo**
 
-Realizar una validación taxonómica de los nombres científicos para detectar posibles errores de formato o taxonomía.
+Realizar una validación taxonómica de nombres científicos de manera automática para detectar posibles errores de formato o taxonomía, usando el servicio [_Species-matching_](https://www.gbif.org/es/tools/species-lookup).
 
 **Sobre la herramienta**
 
