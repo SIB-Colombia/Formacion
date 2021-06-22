@@ -16,6 +16,9 @@ Al finalizar este laboratorio habrás aprendido a:
 6. Entender las definiciones y vocabularios controlados de los elementos más utilizados del estándar *DwC* y sus extensiones.
 7. Aprender a identificar rápidamente errores de calidad críticos con el *Validador de datos de GBIF*.
  
+### Introducción
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VgkbC9wviaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Guías
 
