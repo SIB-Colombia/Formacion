@@ -2,7 +2,7 @@
 sort: 4
 ---
 
-# Taxonomic Name Resolution Service (TNRS)
+# Validación taxonómica - TNRS (plantas)
 
 
 **Objetivo**
