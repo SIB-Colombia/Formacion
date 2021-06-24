@@ -21,7 +21,7 @@ Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se expli
 
 **Requerimientos** 
 
-- Navegador Chrome o Mozilla Firefox instalado, y configurado como navegador predeterminado.
+- Navegador Chrome instalado, y configurado como navegador predeterminado.
 
 ``` warning
 No utilice Internet Explorer para este laboratorio ya que OpenRefine no funciona bien con este navegador web.
