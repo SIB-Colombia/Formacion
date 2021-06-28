@@ -31,6 +31,10 @@ No utilice Internet Explorer para este laboratorio ya que OpenRefine no funciona
 
 - Descargue el archivo [```datos_Estructurados.xlsx```](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
 
+## Introducción
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qsqihcrgtc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 --------
 
 ## Paso 1 - Instalación 
