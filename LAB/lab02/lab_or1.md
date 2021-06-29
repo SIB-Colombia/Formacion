@@ -471,11 +471,20 @@ Para hacerlo diríjase a la esquina superior derecha y siga la ruta _```Export >
 Los proyectos exportados tienen la extensión".openrefine.tar.gz" y no es necesario descomprimirlos para usarlos. Solamente abralos con el siguiente procedimiento.
 ```
 
-Para importar el proyecto, abra _OpenRefine_ y diríjase a la pestaña _```Import Project```_. Haga clic en _```Choose File```_ y seleccione el archivo ```datos_Estructurados.openrefine.tar.gz``` y escoja la opción  _```Import Project```_ (Fig. 34).
+Para importar el proyecto, abra _OpenRefine_ y diríjase a la pestaña _```Import Project```_. Haga clic en _```Choose File```_ y seleccione el archivo ```Datos_OR.openrefine.tar.gz``` y escoja la opción  _```Import Project```_ (Fig. 34).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig_OR_Ex4.png" width=600>
 
 <sup>_Figura 34. Importación de un proyecto en OpenRefine._</sup>
+
+## Paso 9 - Verificación del resultado
+
+Compare sus resultados con el siguiente archivo validado según las definiciones del estándar, verifique en que acertó y que puede mejorar. Recuerde importarlo como un proyecto en OpenRefine. (Paso 8.2).
+
+**¿Qué diferencias encontró con sus resultados?**
+
+* [Descargue el archivo validado](https://raw.githubusercontent.com/SIB-Colombia/Formacion/blob/master/LAB/lab02/_docs/Datos_OR_Solucion.openrefine.tar.gz)
+
 
 ****
 **¡Felicitaciones!** :raised_hands: 
