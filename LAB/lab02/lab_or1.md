@@ -483,7 +483,7 @@ Compare sus resultados con el siguiente archivo validado según las definiciones
 
 **¿Qué diferencias encontró con sus resultados?**
 
-* [Descargue el archivo validado](https://raw.githubusercontent.com/SIB-Colombia/Formacion/blob/master/LAB/lab02/_docs/Datos_OR_Solucion.openrefine.tar.gz)
+* [Descargue el archivo validado](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/Datos_OR_Solucion.openrefine.tar.gz)
 
 
 ****
