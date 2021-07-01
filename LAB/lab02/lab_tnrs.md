@@ -12,7 +12,7 @@ Realizar una validación taxonómica de los nombres científicos de plantas de m
 
 La herramienta TNRS por sus siglas en inglés (Taxonomic Name Resolution Service) es una aplicación originalmente desarrollada por iPlant, que permite estandarizar los nombres científicos botánicos a partir de fuentes taxonómicas como [Tropicos](https://www.tropicos.org/home), [USDA](https://plants.sc.egov.usda.gov/home/) y [TPL](http://www.theplantlist.org/). La validación taxonómica con TNRS permite:
 - Identificar errores ortográficos o de tipeo.
-- Separar el nombre científico en otros elementos Darwin Core (Genus, especificEpitht, scientificNameAuthorship).
+- Separar el nombre científico en otros elementos Darwin Core (```genus```, ```specificEpithet```, ```scientificNameAuthorship```).
 - Evaluar la coincidencia del nombre científico, familia, género, epiteto específico e infraespecífico y autoría contra las fuentes taxonómicas de referencia.
 - Listar otras posibles coincidencias de un nombre científico con su respectivo enlace a la fuente.
 - Identificar sinonimias y nombres actualmente aceptados.
@@ -113,7 +113,7 @@ Para este ejercicio va a dejar el valor por defecto (_```SET DEFAULT```_) que co
 
 <sup>_Figura 4. Cambio en el valor de MATCH._</sup>
 
-_```DOWNLOAD DATA```_: Descarga de los resultados. Al hacer clic en esta opción una ventana emergenten mostrará las opciones de descarga. (Se abordará a detalle en el paso 5.)
+_```DOWNLOAD DATA```_: Descarga de los resultados. Al hacer clic en esta opción una ventana emergenten mostrará las opciones de descarga (se abordará a detalle en el paso 5).
 
 _```DOWNLOAD SETTINGS```_: Descargas un archivo de texto plano con todas las configuraciones de la validación.
 
@@ -179,7 +179,7 @@ Configure las descargas como se muestra en la Figura 7 y haga clic en _```DOWNLO
 
 ## Paso 6 - Visualización de resultados
 
-Los resultados se descargarán en un archivo de texto plano, ábralos en un editor de texto como Excel. Si necesita una guía de como abrir este tipo de archivo en Excel, lo invitamos a consultar la siguiente [Guía de importación de resultados en Excel]()
+Los resultados se descargarán en un archivo de texto plano, ábralos en un editor de texto como Excel o en OpenRefine.
 
 ## Paso 7 - Revisión de resultados y modificación de datos
 
@@ -207,7 +207,7 @@ A continuación se describen algunas columnas adicionales que encontrará en la 
 
 Luego de familiarizarse con los resultados de la tabla realice los siguiente ajustes en el archivo ```Datos_TNRS.xlsx```:
 
-* Identifique el nombre científico validado como una sinonimía y realice los respectivos ajustes. Tenga en cuenta revisar también los elementos ```genus``` y ```specificEpithet``` si realizó cambios en ```scientificName```.
+* Identifique el nombre científico validado como una sinonimía y realice los respectivos ajustes. Tenga en cuenta revisar también los elementos _```genus```_ y _```specificEpithet```_ si realizó cambios en _```scientificName```_.
 
 * En los géneros hay 3 errores de tipeo. Identifiquelos y ajústelos en el elemento _```genus```_. 
 
