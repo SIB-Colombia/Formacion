@@ -143,7 +143,7 @@ Revise  los nombres de la columna _```WoRMS match```_ y haga los ajustes necesar
 Usando la barra de búsqueda general de WoRMS ([https://www.marinespecies.org/index.php](https://www.marinespecies.org/index.php)) busque los dos nombres que aparecen en la lista desplegable (Fig. 6). 
 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.6_WoRMS.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.6_WoRMS.png" width=600>
 
 <sup>_Figura 6. Búsqueda general en WoRMS_.</sup>
 
@@ -196,9 +196,9 @@ Abra el archivo de resultados usando Excel u OpenRefine, y explore las columnas 
 - ```Clasification```:Elementos de la taxonomía superior del taxón según WoRMS,: _```kingdom```,```phylum```, ```class```,```order```, ```family```, ```genus```_, ```subgenus```,	```Species```,	```Subspecies```; puede utilizarla estos elementos para completar el conjunto de datos o hacer correcciones respecto al archivo original.
 - Columnas ```Environment```:Elementos DwC que describen el tipo de ambiente donde habita el taxón: _```isMarine```_ (habitat marino),	_```isBrackish```_(habitat salobre), _```isFresh```_(habitat de agua dulce),	_```isTerrestrial```_(habitat terrestre). Donde ```1``` indica que el taxon habita en dicho ambiente y ```0``` que no habita.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.7_WoRMS.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.8_WoRMS.png" width=800>
 
-<sup>_Figura 8. Configuración y descarga_.</sup>
+<sup>_Figura 8. Vista del archivo de resultados descargado_.</sup>
 
 ### 6.1. Identificar errores y nombres a revisar
 
