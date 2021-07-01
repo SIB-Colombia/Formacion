@@ -4,7 +4,6 @@ sort: 4
 
 # Validación taxonómica - TNRS (plantas)
 
-
 **Objetivo**
 
 Realizar una validación taxonómica de los nombres científicos de plantas de manera automática con el uso de TNRS.
@@ -38,11 +37,26 @@ Ingrese a la aplicación [TNRS](https://tnrs.biendata.org/) y familiarícese con
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.1_TNRS_Aplicacion.png" width=800>
 
+<sup>_Figura 1. Descripción de las opciones de la herramienta. A. Lista de nombres científicos a validar. B. Configuraciones de la herramienta._</sup>
 
 
-<sup>_Figura 1. Descripción de las opciones de la herramienta. A. Lista de nombres científicos. B. Configuraciones de la herramienta._</sup>
+## Paso 2 - Carga de los datos
 
-## Paso 2- Selección de configuraciones
+Ingrese al archivo [```Datos_TNRS.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Datos_TNRS.xlsx) y seleccione la columna _```scientificName```_, copie la totalidad de la columna sin incluir el encabezado.
+
+Diríjase a la herramienta de TNRS y pegue los datos previamente copiados en la sección ```Scientific names to check``` (Fig. 1A). Asegurese que haya un solo nombre por línea. A continuación haga clic en _```SUBMIT```_(Fig. 2).
+
+```tip
+La herramienta evalua hasta 5.000 nombres científicos por ejecución, si intenta un mayor número obtendrá un mensaje de error.
+```
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.2_TNRS_Submit.png" width=800>
+
+<sup>_Figura 2. Carga de datos en la herramienta._</sup>
+
+
+
+## Paso 3- Selección de configuraciones
 
 ### 2.1. Modo de procesamiento 
 
@@ -68,22 +82,8 @@ En la configuración de _```Source```_ puede escoger las fuentes sobre las cuale
 * [USDA](https://plants.sc.egov.usda.gov/home/) 
 * [TPL](http://www.theplantlist.org/)
 
-Mantenga todas las fuentes seleccionadas.
+Mantenga todas las fuentes seleccionadas. Por último haga clic en el botón _```submit```_ para iniciar la validación y espere a que se generen los resultados.
 
-
-## Paso 3 - Carga de los datos
-
-Ingrese al archivo [```Datos_TNRS.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Datos_TNRS.xlsx) y seleccione la columna _```scientificName```_, copie la totalidad de la columna sin incluir el encabezado.
-
-Diríjase a la herramienta de TNRS y pegue los datos previamente copiados en la sección ```Scientific names to check``` (Fig. 1A). Asegurese que haya un solo nombre por línea. A continuación haga clic en _```SUBMIT```_(Fig. 2).
-
-```tip
-La herramienta evalua hasta 5.000 nombres científicos por ejecución, si intenta un mayor número obtendrá un mensaje de error.
-```
-
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.2_TNRS_Submit.png" width=800>
-
-<sup>_Figura 2. Carga de datos en la herramienta._</sup>
 
 ## Paso 4 - Revisión preliminar de resultados
 
@@ -106,9 +106,8 @@ Esta opción está temporalmente fuera de servicio por lo que no verá ningún c
   
 * _```MATCH```_: Permite cambiar el puntaje de coincidencia (_Match_) de la validación. Entre mas alto sea (cercano o igual a 1) la coincidencia tendrá que ser más exacta respecto a la fuente. Entre más cercano a 0 la coincidencia será menos precisa y le mostrará más resultados posibles de coincidencia (Fig 4).
 
-```note
-Para este ejercicio va a dejar el valor por defecto que corresponde a 0.53.
-```
+Para este ejercicio va a dejar el valor por defecto (_```SET DEFAULT```_) que corresponde a 0.53.
+
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.4_TNRS_Threshold.png" width=800>
 
 
@@ -121,9 +120,9 @@ _```DOWNLOAD SETTINGS```_: Descargas un archivo de texto plano con todas las con
 
 ### 4.2. Tabla de resultados
 
-Los resultados se desppliegan en 8 columnas en las que puede organizar la información de forma ascendente o descendente haciendo clic en el nombre de la columna (Fig. 3B). Estas columnas son:
+Los resultados se muestran en 8 columnas en las que puede organizar la información de forma ascendente o descendente haciendo clic en el nombre de la columna (Fig. 3B). Estas columnas son:
 
-* **Warnings**: Señala las inconsistencias con la coincidencia del nombre a partir de un ícono de alerta (Fig 5). Haga clic en el símbolo de warning para obtener una explicación adicional del problema. Las alertas más comunes son:
+* **Warnings**: Señala las inconsistencias del nombre validado a partir de un ícono de alerta (Fig 5). Haga clic en el símbolo para obtener una explicación adicional del problema. Las alertas más comunes son:
 
     - _```Ambiguos match```_: Hay más de un nombre sugerido con el mismo puntaje de coincidencia y estado taxonómico.
     - _```Partial match```_: El nombre sugerido pertenece a una catageoría taxonómica superior que el nombre original.
@@ -134,7 +133,7 @@ Los resultados se desppliegan en 8 columnas en las que puede organizar la inform
 <sup>_Figura 5. Ejemplos de problemas._</sup>
 
 * **Name submitted**: El nombre científico original ingresado en la herramienta.
-* **Name Matched**: Nombre científico con el mejor puntaje de coincidencia. En esta columna puede encontrar un mensaje ```+n more``` que indica que fueron encontradas varias coincidencias para ese nombre. De clic al botón ```+n more```. Se mostrará una pestaña adicional en donde puede seleccionar que taxonomía quiere utilizar.
+* **Name Matched**: Nombre científico con el mejor puntaje de coincidencia. En esta columna puede encontrar un mensaje ```+n more```, siendo ```+n``` el número de posibles coincidencias, lo que indica que fueron encontradas varias coincidencias para ese nombre. De clic al botón ```+n more```. Se mostrará una pestaña adicional en donde puede seleccionar que taxonomía quiere utilizar.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.6_TNRS_changeselected.png" width=800>
 
@@ -186,7 +185,7 @@ Los resultados se descargarán en un archivo de texto plano, ábralos en un edit
 
 El archivo resultado tiene un total de 47 columnas, entre las que se encuentran las 7 columnas que se vieron en la previsualización de resultados y varias columnas adicionales indicando el resultado de la taxonomía.
 
-```note
+```tip
 La herramienta descarga el resultado por nombre científico único. Es decir. en este ejercicio se cargaron en la herramienta 34 nombres científicos pero solo se descargan 31 filas con nombres científicos únicos.
 ```
 
@@ -210,9 +209,11 @@ Luego de familiarizarse con los resultados de la tabla realice los siguiente aju
 
 * Identifique el nombre científico validado como una sinonimía y realice los respectivos ajustes. Tenga en cuenta revisar también los elementos ```genus``` y ```specificEpithet``` si realizó cambios en ```scientificName```.
 
-* En los géneros hay errores de tipeo para 3 géneros. Identifiquelos y ajústelos. 
+* En los géneros hay 3 errores de tipeo. Identifiquelos y ajústelos en el elemento _```genus```_. 
 
-* En los epítetos específicos hay errores de tipeo. Identifiquelos y ajústelos. 
+* En los epítetos específicos hay 3 errores de tipeo. Identifiquelos y ajústelos en el elemento _```specificEpithet```_.
+
+* Ajuste los nombres científicos (_```scienficName```_) de acuerdo a los anteriores ajustes.
 
 * Complete las autorias de los nombres cientítificos en el elemento _```scienficNameAuthorship```_.
 
@@ -221,7 +222,7 @@ Luego de familiarizarse con los resultados de la tabla realice los siguiente aju
 ¿Identificó otros ajustes a realizar en el conjunto de datos a partir de la validación?.
 
 ```note
-La herramienta no provee la taxonomía superior más allá del nivel de familia, lo cual es una desventaja ya que hace necesario utilizar otras herramientas para completar la información taxonómica.
+La herramienta no provee una validación de la taxonomía superior más allá de la familia, por lo cuál es necesario utilizar otras herramientas para completar la información taxonómica superior si es requerido.
 ```
 
 
@@ -231,7 +232,7 @@ Compare sus resultados con el siguiente archivo validado según las definiciones
 
 **¿Qué diferencias encontró con sus resultados?**
 
-* [Descargue el archivo validado](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/Datos_OR_Solucion.openrefine.tar.gz)
+* [Descargue el archivo validado](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/Solucion_Datos_TNRS.xlsx)
 
 
 ****
