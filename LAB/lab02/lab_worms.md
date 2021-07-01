@@ -34,7 +34,7 @@ Esta herramienta le permite al usuario obtener el nombre válido con sus fuentes
 
 **Archivo de trabajo**
 
-Descargue el archivo [datos_CasoMarinoCosteros.xls](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/datos_CasoMarinoCosteros.xls) para realizar el laboratorio.
+Descargue el archivo [datos_CasoMarinoCosteros.xls](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/datos_casomarinocosteros.xls) para realizar el laboratorio.
 
 ```warning
 Esta guía se encuentra en construcción peden haber algunas modificaciones de forma y contenidos en los próximos días
