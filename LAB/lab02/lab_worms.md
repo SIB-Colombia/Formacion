@@ -200,14 +200,33 @@ Abra el archivo de resultados usando Excel u OpenRefine, y explore las columnas 
 
 <sup>_Figura 8. Vista del archivo de resultados descargado_.</sup>
 
-### 6.1. Identificar errores y nombres a revisar
+### 6.1. Identificar y resolver inconsistencias
 
- - Explore la columna ```Match type``` y revise los nombres que tuvieron un ```Match type``` distinto a ```exact```.
- - Explore la columna ```Taxon status``` y revise los nombres que tuvieron un ```Taxon status``` distinto a ```accepted```.
- - Explore las columnas _```isMarine```_ (habitat marino),	_```isBrackish```_(habitat salobre), _```isFresh```_(habitat de agua dulce),	_```isTerrestrial```_ e identifiqué....
+ - Explore la columna ```Match type``` y revise los nombres que tuvieron un valor distinto a ```exact``` o vacíos. Ajuste los nombres científicos y la taxonomía superior de acuerdo a los elementos _```ScientificName```_ y _```ScientificName_accepted```_ si aplican. 
+
+```tip
+Los nombres sugeridos por WoRMS corresponden a especies marinas. Revise con cuidado la taxonomía sugerida para el género Carollia, respecto a la información y Clase original de los datos. 
+```
+
+ - Nuevamente en la columna ```Match type``` revise los nombres que están vacíos y no tuvieron ninguna coincidencia con WoRMS. ¿Podría explicar por que no hubo coindicencia?.
+
+> Es posible que algunos nombres de taxones marinos no esten aún en WoRMS. Para que se sean incluidos deben ser agregados siguiendo las recomendaciones de la documentación de WoRMS en las secciones [_Add a new accepted taxon_](https://www.marinespecies.org/aphia.php?p=manual#topic2). y [_Add a new unaccepted taxon_](https://www.marinespecies.org/aphia.php?p=manual#topic3).
+
+ - Explore la columna ```Taxon status``` y revise los nombres que tuvieron un ```Taxon status``` distinto a ```accepted``` o vacíos. Revise contra la columna _```ScientificName_accepted```_ y realice los respectivos ajustes.
+
+ - Explore las columnas _```isMarine```_ (habitat marino),	_```isBrackish```_(habitat salobre), _```isFresh```_(habitat de agua dulce),	_```isTerrestrial```_(habitat terrestre) e identifiqué si hay registros que solo correspondan a habitats terrestres. Si los hay verifique la especie relacionada posiblemente deba ajustar la taxonomía superior.
+
 
 ¿Identificó otros ajustes a realizar en el conjunto de datos a partir de la validación?.
 
+
+## Paso 7 - Verificación del resultado
+
+Compare sus resultados con el siguiente archivo validado según las definiciones del estándar, verifique en que acertó y que puede mejorar. En la hoja 1. encontrará el archivo descargado de la herramienta con los ajustes mencionados en el paso 6 y en la hoja 2. Los datos estructurados en DwC.
+
+**¿Qué diferencias encontró con sus resultados?**
+
+* [Descargue el archivo validado](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/Solucion_datos_casomarinocosteros.xlsx)
 
 
 ****
