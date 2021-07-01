@@ -52,7 +52,7 @@ Abra el archivo [datos_CasoMarinoCosteros.xls](https://raw.githubusercontent.com
 
 En [WoRMS](https://www.marinespecies.org/index.php) vaya al módulo _```Tools```_ > _```MatchTaxa```_ o ingrese directamente al vínculo [https://www.marinespecies.org/aphia.php?p=match](https://www.marinespecies.org/aphia.php?p=match).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.1_WoRMS.png" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.1_WoRMS.png" width=800>
 
 
 <sup>_Figura 1. Vista de la herramienta WoRMS TaxonMatch y las diferentes opciones  de carga y configuración; A.Sección de carga; B. Configuración de la lectura del archivo; C.Configuración de la validación taxonómica; D. Configuración de la descarga._</sup>
@@ -110,7 +110,7 @@ Una vez haya realizado la configuración como se muestra en la Figura 1 de clic 
 Luego de cargar los datos se abrira una vista previa de las primeras 20 filas (Fig. 2). Si el conjunto de datos selecionado tienes las columnas nombradas bajo el estándar DwC, estas seran reconocidas y mapeadas de manera automática; sin embargo siempre se debe comprobar que el nombre de la columna desplegable coincida con el nombre de la columna de los datos cargados (Fig. 2).
 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.2_WoRMS.png" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.2_WoRMS.png" width=800>
 
 <sup>_Figura 2. Vista previa de los datos y verificación del mapeo de las columnas._</sup>
 
@@ -118,7 +118,7 @@ Una vez haya verificado que la herramienta realizó una lectura correcta de los 
 
 Dependiendo del volumen de los datos la validación puede tardar de segundos a minutos, sea paciente y no cierre o cambie la ventana de navegación (Fig. 3).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.3_WoRMS.png" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.3_WoRMS.png" width=800>
 
 <sup>_Figura 3. Mensaje de procesamiento del archivo, debe permanecer abierta mientras el proceso finaliza._</sup>
 
