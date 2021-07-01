@@ -214,7 +214,7 @@ Los nombres sugeridos por WoRMS corresponden a especies marinas. Revise con cuid
 
  - Explore la columna ```Taxon status``` y revise los nombres que tuvieron un ```Taxon status``` distinto a ```accepted``` o vacíos. Revise contra la columna _```ScientificName_accepted```_ y realice los respectivos ajustes.
 
- - Explore las columnas _```isMarine```_ (habitat marino),	_```isBrackish```_(habitat salobre), _```isFresh```_(habitat de agua dulce),	_```isTerrestrial```_(habitat terrestre) e identifiqué si hay registros que solo correspondan a habitats terrestres. Si los hay verifique la especie relacionada posiblemente deba ajustar la taxonomía superior.
+ - Explore las columnas _```isMarine```_ (habitat marino),	_```isBrackish```_(habitat salobre), _```isFresh```_(habitat de agua dulce),	_```isTerrestrial```_(habitat terrestre) e identifiqué si hay registros que solo correspondan a habitats terrestres. Si los hay verifique la especie y ajuste la taxonomía superior de ser necesario.
 
 
 ¿Identificó otros ajustes a realizar en el conjunto de datos a partir de la validación?.
