@@ -44,7 +44,7 @@ Esta guía se encuentra en construcción peden haber algunas modificaciones de f
 
 ## Paso 1 - Exploración del archivo
 
-Abra el archivo [datos_CasoMarinoCosteros.xls](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/datos_CasoMarinoCosteros.xls) del ejercicio y explore su contenido. Encontrará una columna con el elemento _```occurrenceID```_, y tres columnas con información taxonómica _```class```, ```family```,y ```scientificName```_. Podrá observar que este archivo no tiene la taxonomía superior completa y puede que algunos taxones no correspondan a grupos marino-costeros, el servicio de WoRMS TaxonMatch le facilitará la tarea de compeltar la taxonOmía y de identificar los taxones no marinos.
+Abra el archivo [datos_CasoMarinoCosteros.xls](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/datos_casomarinocosteros.xls) del ejercicio y explore su contenido. Encontrará una columna con el elemento _```occurrenceID```_, y tres columnas con información taxonómica _```class```, ```family```,y ```scientificName```_. Podrá observar que este archivo no tiene la taxonomía superior completa y puede que algunos taxones no correspondan a grupos marino-costeros, el servicio de WoRMS TaxonMatch le facilitará la tarea de compeltar la taxonOmía y de identificar los taxones no marinos.
 
 >**Nota**: Revise que los nombres en la columna del elemento _```scientificName```_ no tengan calificadores como sp., morfotipo, cf., indet. larva, etc. Si los hay elimínelos, estos no forman parte del nombre científico.
 
