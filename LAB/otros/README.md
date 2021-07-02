@@ -2,7 +2,7 @@
 sort: 4
 ---
 
-# Laboratorio de estructuración y calidad
+# Otras guías
 
 ### Metas de aprendizaje
 
