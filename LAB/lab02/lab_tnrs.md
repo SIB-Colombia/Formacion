@@ -179,7 +179,7 @@ Configure las descargas como se muestra en la Figura 7 y haga clic en _```DOWNLO
 
 ## Paso 6 - Visualización de resultados
 
-Los resultados se descargarán en un archivo de texto plano, ábralos en un editor de texto como Excel o en OpenRefine.
+Los resultados se descargarán en un archivo de texto plano, ábralos en un editor de texto como Excel o en OpenRefine. Si necesita una guía de como abrir este tipo de archivo en Excel, lo invitamos a consultar la siguiente [Guía de importación de resultados en Excel](https://sib-colombia.github.io/Formacion/LAB/otros/txt_to_excel.html)
 
 ## Paso 7 - Revisión de resultados y modificación de datos
 
