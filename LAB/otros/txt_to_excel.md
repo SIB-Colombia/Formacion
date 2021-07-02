@@ -23,7 +23,7 @@ En este laboratorio vamos la forma que [Microsoft Office Excel®](https://www.mi
 
 **Archivo de trabajo**
 
-Descargue el archivo [```Datos.zip```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Datos.zip). Deberá descomprimir el archivo para poder acceder a los contenidos que necesitará para realizar la guía: ```Datos.txt``` y ```Datos.csv```.
+Descargue el archivo [```Datos.zip```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/otros/_docs/Datos.zip). Deberá descomprimir el archivo para poder acceder a los contenidos que necesitará para realizar la guía: ```Datos.txt``` y ```Datos.csv```.
 
 --------
 
@@ -32,7 +32,7 @@ Descargue el archivo [```Datos.zip```](https://raw.githubusercontent.com/SIB-Col
 
 En el menu superior, seleccione la pestaña *Datos* > *Obtener datos externos* > *Desde texto* (Fig. 1).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.1_Datos-Importartexto.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/otros/_images/Fig.1_Datos-Importartexto.PNG" width=600>
 
 
 <sup>_Figura 1. Selección de la fuente de datos._</sup>.
@@ -43,7 +43,7 @@ En el desplegable inferior seleccione la opción: Todos los archivos (*.*). Esto
 
 Y seleccione su archivo ```Datos.txt``` con terminación .txt y de clic en *Importar*(Fig. 2). 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.2_SeleccionArchivo.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/otros/_images/Fig.2_SeleccionArchivo.PNG" width=600>
 
 <sup>_Figura 2. Selección del archivo._</sup>.
 
@@ -63,7 +63,7 @@ Si no ve ningún tipo de carácter extraño en la vista previa, puede dejar sele
 
 Si ve algun caracter extraño donde deben ir tíldes o ñ's principalmente, haga clic en la sección ```Origen del archivo:``` y en el desplegable seleccione la codificación correcta de los datos. La codificación más común es ```Unicode (UTF-8)```, luego de seleccionada debe revisar la Vista previa de los datos para revisar que no hayan más carácteres extraños (Fig. 3). 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.3_SeleccionCodificacion.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/otros/_images/Fig.3_SeleccionCodificacion.PNG" width=600>
 
 <sup>_Figura 3. Configuración del asistente para importar texto._</sup>.
 
@@ -82,7 +82,7 @@ Adicionalmente, debe revisar la opción Calificador de texto, para este ejercici
 Normalmente para los archivos .CSV el separador es una Coma, pero tambien pueden estar separados por Punto y coma si tiene los datos en español. Para archivos .TXT puede ser cualquier valor.
 ```
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.4_SeleccionSeparador.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/otros/_images/Fig.4_SeleccionSeparador.PNG" width=600>
 
 <sup>_Figura 4. Configuración del asistente para importar texto paso 2._</sup>.
 
@@ -92,7 +92,7 @@ En el tercer paso del ```Asistente para importar texto```, en la Vista previa de
 
 Finalmente seleccione ```Texto``` en la opción ```Formato de los datos en columnas``` y haga clic en ```Finalizar``` (Fig. 5). 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.5_SeleccionSitio.PNG" width=300>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/otros/_images/Fig.5_SeleccionSitio.PNG" width=300>
 
 <sup>_Figura 5. Configuración del asistente para importar texto paso 3._</sup>.
 
@@ -103,7 +103,7 @@ Se abrira una nueva ventana que le solicita indicar el lugar donde va a importar
 De clic en ```Aceptar``` para terminar el proceso de importación.
 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.6_SeleccionTexto.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/otros/_images/Fig.6_SeleccionTexto.PNG" width=600>
 
 <sup>_Figura 6. Configuración del asistente para importar texto paso 3._</sup>.
 
@@ -111,7 +111,7 @@ De clic en ```Aceptar``` para terminar el proceso de importación.
 
 Repita este laboratorio usando los datos ```.csv```, la única diferencia es en el paso 5 donde debe seleccionar como separador la opción ```,``` (Fig. 8).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.7_SeleccionSeparadorCSV.PNG" width=600>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/otros/_images/Fig.7_SeleccionSeparadorCSV.PNG" width=600>
 
 <sup>_Figura 8. Selección de separador por Coma para los archivos de .csv._</sup>
 
