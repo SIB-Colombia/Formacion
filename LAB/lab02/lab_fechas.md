@@ -145,8 +145,6 @@ Compare sus resultados con el siguiente archivo validado según las definiciones
 * [Descargue el archivo validado](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/Solución_datos_canadensys.xlsx)
 
  
- 
- Ajuste 
 ## Paso 6 - Datos propios
 Si tiene datos propios que desee publicar, intente convertir las fechas al formato ISO 8601 siguiendo los pasos de este laboratorio.
 
