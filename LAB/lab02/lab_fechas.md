@@ -135,7 +135,19 @@ Para finalizar la estandarización debe renombrar y eliminar algunas columnas.
 
 > Recuerde que puede aplicar este procedimiento a todos los elementos asociados a fechas en el estándar DwC como _```dateIdentified```_ (Fecha de identificación), _```georeferencedDate```_ (Fecha de georreferenciación), etc.
 
-## Paso 5 - Datos propios
+ 
+ ## Paso 5 - Verificación del resultado
+
+Compare sus resultados con el siguiente archivo validado según las definiciones del estándar, verifique en que acertó y que puede mejorar. 
+
+**¿Qué diferencias encontró con sus resultados?**
+
+* [Descargue el archivo validado](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/Solución_datos_canadensys.xlsx)
+
+ 
+ 
+ 
+## Paso 6 - Datos propios
 Si tiene datos propios que desee publicar, intente convertir las fechas al formato ISO 8601 siguiendo los pasos de este laboratorio.
 
 ****
