@@ -130,7 +130,16 @@ Como resultado verá las columnas de las coordenadas decimales en **formato text
 
 <sub>*Figura 9. Conjunto de datos final con coordenadas decimales.*</sub>
 
-## Paso 6 - Datos propios
+## Paso 6 - Verificación del resultado
+
+Compare sus resultados con el siguiente archivo validado según los pasos de la guía, verifique en que acertó y que puede mejorar. 
+
+¿Qué diferencias encontró con sus resultados?
+
+[Descargue el archivo validado](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/solucion_datos_canadensys_coordenadas.xlsx)
+
+
+## Paso 7 - Datos propios
 
 Si tiene datos propios que desee publicar, intente transformar las coordenadas a grados decimales siguiendo los pasos de este laboratorio.
 
