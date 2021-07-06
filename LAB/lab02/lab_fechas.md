@@ -87,7 +87,7 @@ En el archivo de Excel ```datos_canadensys.xlsx```, agregue 5 columnas a la izqu
 
 <sup>*Figura 5. Proceso para insertar nuevas columnas en Excel.*<sup>
 
-configure las columnas que creo en el documento de Excel en formato texto (Fig. 6)
+Configure las columnas que creo en el documento de Excel en formato texto (Fig. 6)
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.8_DateParsing.png" width=800>
 
