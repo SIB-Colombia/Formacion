@@ -10,11 +10,11 @@ Realizar la transformación y estandarización de fechas en distintos formatos, 
 
 **Sobre la herramienta**
 
-La herramienta [_Date parsing_](https://data.canadensys.net/tools/dates), desarrollada por [Canadensys](http://www.canadensys.net/) (nodo GBIF Canadá), permite transformar y estandarizar fechas de forma masiva, de acuerdo al estándar ISO 8601: AAAA-MM-DD, que es el requerido en el estándar _Darwin Core_.
+La herramienta [_Date parsing_](https://data.canadensys.net/tools/dates), desarrollada por [Canadensys](http://www.canadensys.net/) (nodo GBIF Canadá), permite transformar y estandarizar fechas de forma masiva, de acuerdo al estándar ISO 8601: AAAA-MM-DD, requerido para la documentación de fecha en el estándar _Darwin Core_.
 
 **Enlace**
 
-_Date parsing -Canadensys_ [http://data.canadensys.net/tools/dates](http://data.canadensys.net/tools/dates)
+_Date parsing -Canadensys_ [http://data.canadensys.net/tools/dates](http://data.canadensys.net/tools/dates){:target="_blank"}
 
 **Requerimientos** 
 * Para realizar este ejercicio debe contar con un procesador de archivos de texto como Excel.
