@@ -10,7 +10,7 @@ Convertir coordenadas geográficas en sistema de Grados, minutos, segundos (GMS)
 
 **Sobre la herramienta**
 
-La herramienta [_Coordinate conversion_](https://data.canadensys.net/tools/coordinates), desarrollada por [Canadensys](http://www.canadensys.net/) (nodo GBIF Canadá), permite convertir coordenadas geográficas (grados minutos segundos) de manera masiva y automática a grados decimales.
+La herramienta [_Coordinate conversion_](https://data.canadensys.net/tools/coordinates), desarrollada por [Canadensys](http://www.canadensys.net/) (nodo GBIF Canadá), es una aplicación sencilla con una interfaz amigable que permite convertir coordenadas geográficas en sistema de grados minutos a grados decimales.
 
 **Enlace**
 
@@ -26,9 +26,9 @@ Descargue el archivo [```datos_canadensys.xlsx```](https://raw.githubusercontent
 
 --------
 
-## Paso 1 - Ingreso
+## Paso 1 - Exploración de la herramienta
 
-Ingrese a la aplicación en línea [_Coordinate conversion_](https://data.canadensys.net/tools/coordinates). Revise cuidadosamente las opciones disponibles para ingresar las coordenadas.
+Ingrese a la aplicación en línea [_Coordinate conversion_](https://data.canadensys.net/tools/coordinates) y revise cuidadosamente las opciones disponibles para ingresar las coordenadas.
 
 Las coordenadas deben estar escritas en pares de coordenadas, un par por línea. Opcionalmente pueden estar precedidas por un identificador propio seguido por una tabulación o una barra vertical.
 
@@ -52,10 +52,10 @@ Para cambiar el separador decimal en Excel, seleccione las columnas de ```verbat
 
 Adicionalmente asegurese de usar la notación adecuada de las coordenadas en *Grados, minutos y segundos*.
 
-- **Grados**: usar símbolo de grado (°)
-- **Minutos**: usar apostrofe sencillo (')
-- **Segundos**: usar apostrofe doble (''). Si los segundos tiene decimales, recuerde que el separador decimal debe ser un punto (.) y no una (,)
-- **Hemisferio**: Para la longitud usar Oeste (W) y Este (E), para la latitud usar Norte (N) y Sur (S)
+- **Grados**: usar símbolo de grado (°).
+- **Minutos**: usar apostrofe sencillo (').
+- **Segundos**: usar apostrofe doble (''). Si los segundos tiene decimales, recuerde que el separador decimal debe ser un punto (.) y no una (,).
+- **Hemisferio**: Para la longitud usar Oeste (W) y Este (E), para la latitud usar Norte (N) y Sur (S).
 
 ## Paso 3 - Carga de las coordenadas
 
@@ -89,7 +89,7 @@ Las coordenadas originales ingresadas apreceran  en la columna _```original```_ 
 Añada una nueva Hoja de cálculo en el archivo Excel ```datos_canadensys.xlsx``` y nombrela **Coordenadas Canadensys**. Seleccione las 3 primeras columnas (A, B, C) y asígneles formato de texto (Fig. 4).
 
 ```tip
-El cambio de formato a texto es necesario para que Excel no haga interpretaciones sobre las nuevas coordenadas afectando así la calidad de los datos. 
+El cambio de formato a texto es necesario para que Excel no haga interpretaciones sobre las nuevas coordenadas que puedan afectar la calidad de los datos. 
 ```
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.4_coordinateConversion.jpg" width=600>
@@ -124,7 +124,7 @@ Pegue los valores copiados en la Hoja de excel con el conjunto de datos completo
 
 <sub>*Figura 8. Pasos para insertar las columnas copiadas.*</sub>
 
-Como resultado verá las columnas de las coordenadas decimales en formato texto incorporadas en la Hoja del conjunto de datos (Fig. 9).
+Como resultado verá las columnas de las coordenadas decimales en **formato texto** incorporadas en la Hoja del conjunto de datos (Fig. 9).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.9_coordinateConversion.JPG" width=500>
 
