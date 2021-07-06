@@ -143,18 +143,43 @@ Compare sus resultados con el siguiente archivo validado según los pasos de la 
 
 Si tiene datos propios que desee publicar, intente transformar las coordenadas a grados decimales siguiendo los pasos de este laboratorio.
 
+## Preguntas frecuentes sobre la conversión de coordenadas.
+
 ### ¿Qué hago si mis coordenadas no son geográficas?
 
-**1. Verificar sistema de coordenadas y el datum**
+ * 1. Verificar sistema de coordenadas y el datum**
 
 Identifique en que sistema están las coordenadas (UTM, cartesiano) y si es un sistema de coordenadas planas, identifique el Datum y su origen (Bogotá, MAGNA-SIRGAS origen Bogotá, Este central, Oeste, etc). 
 
 Si no conoce el sistema de coordenadas ni el Datum, se requiere hacer **pruebas de ensayo y error** hasta determinar estos parámetros que finalmente permitirán transformar las coordenadas. Para hacer estas pruebas, utilice una calculadora geodésica como [Sumapa](http://www.sumapa.com/).
 
 
-**2. Transformación de coordenadas**
+ * 2. Transformación de coordenadas**
 
 Una vez identificados el sistema de coordenadas y el datum, utilice un software GIS como [Quantum GIS](https://www.qgis.org/es/site/) o [ArcGIS](https://esri.co/arcgis/) para transformarlas todas de manera simultánea.
+
+
+### ¿Cómo transformar el nuevo origen CTM12 a WGS84?
+
+Las versiones de software SIG actuales no cuentan aún con el nuevo sistema de referencia espacial CTM 12 incorporado, por lo cuál es necesario crearlo antes de poder convertir nuestras coordenadas originales en el nuevo origen al Sistema de referencia WGS84. A continuación se comparten algunos recursos que explican como incorporar este sistema de referencia espacial para que puedan visualizar las coordenadas en este nuevo sistema. 
+
+**QGIS**
+[Configurando la proyección CTM12 en QGIS](https://qgisusers.co/es/blog/configurando-la-proyeccion-ctm12-en-qgis/) 
+
+**ArcGIS (ArcMap)**
+[Tutorial ARCGIS Cap.27-01 - Crear Sistema de Coordenadas Proyectadas en ARCGIS](https://www.youtube.com/watch?v=jteR27jFlYg)
+
+**ArcGIS Pro**
+[Crear Origen Nacional, CTM12, en ArcGis Pro](https://www.youtube.com/watch?v=ozg_DHkBXzE)
+
+Una vez hayan incorporado el nuevo sistema de coordenadas y hayan cargado sus datos, pueden convertirlos usando las respectivas herramientas de proyección o exportación en QGIS o ArcGIS.
+
+
+### Tome las coordenadas en otro sistema de referencia y necesito proyectarlas al nuevo sistema CTM12
+
+Para ello puede hacer una conversión a CTM12 haciendo uso de una herramienta SIG o usar el [Servicio de conversión de coordenadas](https://origen.igac.gov.co/herramientas.html) con el cuál puede realizar la conversión de una sola coordenada o conversiones masivas.
+
+
 
 ****
 **¡Felicitaciones!** :raised_hands:
