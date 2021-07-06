@@ -70,7 +70,7 @@ Cuando las fechas son ambiguas la herramienta no puede reconocer el formato de l
 Esto ocurre cuando no es posible identificar los componentes (año, mes, día) con claridad por ejemplo con la fecha 02/05/07 ¿El año es 2002 o 2007?. 
 Si se presenta este tipo de ambiguedad, es necesario hacer una corrección manual basado en el contexto de los datos.
 
-También se pueden generar inconvenientes cuando hay combinaciones de texto y número ya que la herramienta esta construida en inglés.
+También se pueden generar inconvenientes cuando hay combinaciones de texto y número (e.g. Abr-2009) ya que el idioma original de la herramienta es el inglés y puede que no reconozca algunos meses en español.
 ```
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.4_dateParsing.JPG" width=500>
 
