@@ -222,7 +222,7 @@ Los nombres sugeridos por WoRMS corresponden a especies marinas. Revise con cuid
 
 ## Paso 7 - Verificación del resultado
 
-Compare sus resultados con el siguiente archivo validado según las definiciones del estándar, verifique en que acertó y que puede mejorar. En la hoja 1. encontrará el archivo descargado de la herramienta con los ajustes mencionados en el paso 6 y en la hoja 2. Los datos estructurados en DwC.
+Compare sus resultados con el siguiente archivo validado según las definiciones del estándar, verifique en que acertó y que puede mejorar. En la hoja 1 encontrará el archivo descargado de la herramienta con los ajustes mencionados en el paso 6, y en la hoja 2 los datos estructurados en DwC.
 
 **¿Qué diferencias encontró con sus resultados?**
 
