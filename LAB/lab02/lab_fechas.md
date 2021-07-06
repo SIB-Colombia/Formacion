@@ -62,7 +62,7 @@ Las fechas originales ingresadas apareceran en la columna _```original```_ (que 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.3_dateParsing.JPG" width=800>
 
-<sup>*Figura 3. Elementos resultado del uso de la herramienta.*<sup>
+<sup>*Figura 3. Resultado de la transformación de las fechas al formato ISO 8601 con Date Parsing de Candensys.*<sup>
 
 ```warning
 Cuando las fechas son ambiguas la herramienta no puede reconocer el formato de la fecha y muesta la fila de la fecha en rojo (Fig. 4).
@@ -74,7 +74,7 @@ También se pueden generar inconvenientes cuando hay combinaciones de texto y n�
 ```
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.4_dateParsing.JPG" width=500>
 
-<sup>*Figura 4. Ejemplo de fechas ambiguas donde la herramienta no reconoce el formato y no puede hacer la transformación.*<sup>
+<sup>*Figura 4. Ejemplo de fechas ambiguas donde la herramienta no reconoce el formato y no puede hacer la transformación (En rojo).*<sup>
 
 
 ## Paso 4 - Incorporar resultados en tabla DwC.
