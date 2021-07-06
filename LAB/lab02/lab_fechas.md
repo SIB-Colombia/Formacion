@@ -10,7 +10,7 @@ Realizar la transformación y estandarización de fechas en distintos formatos, 
 
 **Sobre la herramienta**
 
-La herramienta [_Date parsing_](https://data.canadensys.net/tools/dates), desarrollada por [Canadensys](http://www.canadensys.net/) (nodo GBIF Canadá), permite transformar y estandarizar fechas de forma masiva, de acuerdo al estándar ISO 8601: AAAA-MM-DD, requerido para la documentación de fecha en el estándar _Darwin Core_.
+La herramienta [_Date parsing_](https://data.canadensys.net/tools/dates), desarrollada por [Canadensys](http://www.canadensys.net/) (nodo GBIF Canadá), permite transformar y estandarizar fechas de forma masiva, de acuerdo al estándar ISO 8601: AAAA-MM-DD, requerido para la documentación de fechas en el estándar _Darwin Core_.
 
 **Enlace**
 
@@ -26,10 +26,10 @@ Descargue el archivo [```datos_canadensys.xlsx```](https://raw.githubusercontent
 --------
 
 ## Paso 1 - Ingreso
-Ingrese a la aplicación en línea [_Date parsing_](https://data.canadensys.net/tools/dates). Revise cuidadosamente las opciones disponibles para ingresar las fechas.
+Ingrese a la aplicación en línea [_Date parsing_](https://data.canadensys.net/tools/dates){:target="_blank"}. Revise cuidadosamente las opciones disponibles para ingresar las fechas.
 
 ```tip
-Las fechas pueden estar escritas en múltiples formatos siempre y cuando **no hayan ambiguedades**, por ejemplo que el año sea imposible de distinguir del mes y el día. Opcionalmente las fechas pueden ir precedidas por un identificador propio seguido por una tabulación o una barra vertical.
+Las fechas pueden estar escritas en múltiples formatos siempre y cuando **no haya ambiguedades**, por ejemplo, que el año sea imposible de distinguir del mes y el día. Opcionalmente las fechas pueden cargarse a la herramienta incluyendo el identificador del reegistro seguido por una tabulación o una barra vertical, como se muestra en los siguientes ejemplos.
 
 Ejemplos de valores de entrada:
 
@@ -37,8 +37,8 @@ Ejemplos de valores de entrada:
 * 15 Jan 2011
 * 2009 IV 02
 * VII 1986
-* 1 | 1999/02/24
-* 2 | 02/17/1921
+* 1 | 1999/02/24 (Incluyendo un identificador del registro)
+* 2 | 02/17/1921 (Incluyendo un identificador del registro)
 ```
 
 ## Paso 2 - Carga de las fechas
@@ -50,7 +50,7 @@ Seleccione la columna  _```verbatimEventDate```_ que corresponde a la fecha del 
 
 <sup>_Figura 1. Seleccion y copia de las fechas originales ```verbatimEventDate```._<sup>
 
-Ingrese a la aplicación [Date parsing](https://data.canadensys.net/tools/dates) y pegue los datos previamente copiados. Luego de clic en _```Submit```_ para iniciar la conversión de fechas (Fig. 2).
+En la aplicación Date parsing pegue los datos previamente copiados. Luego haga clic en _```Submit```_ para iniciar la conversión de fechas (Fig. 2).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.2_dateParsing.JPG" width=800>
 
@@ -65,7 +65,7 @@ Las fechas originales ingresadas apareceran en la columna _```original```_ (que 
 <sup>*Figura 3. Elementos resultado del uso de la herramienta.*<sup>
 
 ```warning
-Cuando las fechas son ambiguas la herramienta no puede reconocer el formato de la fecha y muesta en rojo la fecha (Fig. 4).
+Cuando las fechas son ambiguas la herramienta no puede reconocer el formato de la fecha y muesta la fila de la fecha en rojo (Fig. 4).
 
 Esto ocurre cuando no es posible identificar los componentes (año, mes, día) con claridad por ejemplo con la fecha 02/05/07 ¿El año es 2002 o 2007?. 
 Si se presenta este tipo de ambiguedad, es necesario hacer una corrección manual basado en el contexto de los datos.
@@ -77,31 +77,39 @@ También se pueden generar inconvenientes cuando hay combinaciones de texto y n�
 <sup>*Figura 4. Ejemplo de fechas ambiguas donde la herramienta no reconoce el formato y no puede hacer la transformación.*<sup>
 
 
-## Paso 4 - Copiar resultados
+## Paso 4 - Incorporar resultados en tabla DwC.
 
+### 4.1. Preparar el archivo para incorporar los resultados
+ 
 En el archivo de Excel ```datos_canadensys.xlsx```, agregue 5 columnas a la izquierda de la columna con las fechas originales. Para esto haga clic en el encabezado de la columna _```verbatimEventDate```_ > *clic derecho* > *Insertar*. Repita este paso 4 veces más (Fig. 5).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.5_dateParsing.jpg" width=600>
 
 <sup>*Figura 5. Proceso para insertar nuevas columnas en Excel.*<sup>
 
-Desde la herramienta _Date Parsisng_ seleccione y copie con le _mouse_ toda la tabla arrojada como resultado incluyendo el encabezado (Fig. 6).
-
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.6_dateParsing.jpg" width=800>
-
-<sup>*Figura 6. Selección y copia de los resultados.*<sup>
-
-Antes de pegar los datos, configure las columnas que creo en el documento de Excel en formato texto (Fig. 7)
+configure las columnas que creo en el documento de Excel en formato texto (Fig. 6)
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.8_DateParsing.png" width=800>
 
-<sup>*Figura 7. Configuración del formato de las columnas a tipo texto.*<sup>
+<sup>*Figura 6. Configuración del formato de las columnas a tipo texto.*<sup>
 
-Pegue la tabla copiada en el archivo Excel con los siguientes pasos:
+ 
+### 4.2. Copiar resultados
+ 
+En la herramienta _Date Parsisng_ seleccione y copie toda la tabla con el resultado de la conversión incluyendo el encabezado. Para el copiado pude ayudarse del _mouse_ de su equipo, desplazandose desde el inicio hasta el final de la tabla manteniendo el clic izquierdo obturado. (Fig. 7).
+
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.6_dateParsing.jpg" width=800>
+
+<sup>*Figura 7. Selección y copia de los resultados.*<sup>
+
+ 
+### 4.3. Pegar resultados
+ 
+ Pegue la tabla copiada en el archivo Excel siguiendo estos pasos:
 
  1. Ubíquese sobre las celdas insertadas en el paso 5 (Fig. 8A).
- 2. De clic en *Inicio* en el menú superior y seleccione *Pegar* > *Pegado especial* (Fig. 8B).
- 3. En el menú de pegado especial seleccione *Texto* y luego *Aceptar* (Fig. 8C).
+ 2. Haga clic en ```Inicio``` en el menú superior y seleccione ```Pegar``` > ```Pegado especial``` (Fig. 8B).
+ 3. En el menú de ```Pegado Especial``` seleccione ```Texto``` y luego ```Aceptar``` (Fig. 8C).
 
 ```tip
 El pegado especial en formato texto es indispensable para que Excel no haga interpretaciones erróneas sobre las fechas ya estandarizadas. Si no se realiza, Excel revertirá las fechas a otro formato y usted perdera su trabajo :sob:
@@ -109,7 +117,7 @@ El pegado especial en formato texto es indispensable para que Excel no haga inte
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.7_dateParsing.jpg" width=800>
 
-<sup>*Figura 8. Pasos para insertar las fechas copiadas con formato texto.*<sup>
+<sup>*Figura 8. Pasos para insertar las fechas copiadas con formato texto. A. Ubicarse en el sitio donde pegará los resultados; B. Selección de opciones de pegado especial; C. Selección de texto como opción de pegado especial.*</sup>
 
 ```tip
 El pegado especial en formato texto es indispensable para que Excel no haga interpretaciones erróneas sobre las fechas ya estandarizadas, si no se realiza Excel revertirá las fechas a otro formato y usted perdera su trabajo :sob:
