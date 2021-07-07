@@ -8,6 +8,11 @@ sort: 3
 
 Realizar una validación taxonómica de los nombres científicos de especies marino-costeras de manera automática para detectar posibles errores de formato o taxonomía, usando el servicio[_WoRMS TaxonMatch_](http://www.marinespecies.org/aphia.php?p=match).
 
+**Introducción**
+
+Video introductorio de las 3 guías de validación taxonómia, da un contexto general sobre las herramientas y su uso. Si lo prefiere pude realizar la guía siguiento el paso a paso sin necesidad de ver el video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ve7CgZlZhj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Sobre la Herramienta**
 
