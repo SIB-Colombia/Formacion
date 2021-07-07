@@ -8,6 +8,12 @@ sort: 4
 
 Realizar una validación taxonómica de los nombres científicos de plantas de manera automática con el uso de TNRS.
 
+**Introducción**
+
+Video introductorio de las 3 guías de validación taxonómica, da un contexto general sobre las herramientas y su uso. Si lo prefiere pude realizar la guía siguiento el paso a paso sin necesidad de ver el video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ve7CgZlZhj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Sobre la herramienta**
 
 La herramienta TNRS por sus siglas en inglés (Taxonomic Name Resolution Service) es una aplicación originalmente desarrollada por iPlant, que permite estandarizar los nombres científicos botánicos a partir de fuentes taxonómicas como [Tropicos](https://www.tropicos.org/home), [USDA](https://plants.sc.egov.usda.gov/home/) y [TPL](http://www.theplantlist.org/). La validación taxonómica con TNRS permite:
