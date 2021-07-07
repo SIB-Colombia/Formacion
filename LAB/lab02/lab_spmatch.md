@@ -8,6 +8,12 @@ sort: 2
 
 Realizar una validación taxonómica de nombres científicos de manera automática para detectar posibles errores de formato o taxonomía, usando el servicio [_Species-matching_](https://www.gbif.org/es/tools/species-lookup).
 
+**Introducción**
+
+Video introductorio de las 3 guías de validación taxonómia, da un contexto general sobre las herramientas y su uso. Si lo prefiere pude realizar la guía siguiento el paso a paso sin necesidad de ver el video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ve7CgZlZhj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Sobre la herramienta**
 
 La herramienta [_Species-matching_](https://www.gbif.org/es/tools/species-lookup) es un servicio de [GBIF](https://www.gbif.org) que permite validar de manera automática y masiva hasta 5.000 nombres científicos en un conjunto de datos, la herramienta compara los nombres científicos del conjunto contra el árbol taxonómico de GBIF, a partir del cual obtiene la jerarquía taxonómica de cada taxón (_```kingdom```_, _```phylum```_, _```class```_, _```order```_, _```family```_, _```genus```_) y su estatus taxonómico (Sinónimo, Aceptado, Dudoso). 
