@@ -8,6 +8,12 @@ sort: 6
 
 Convertir coordenadas geográficas en sistema de Grados, minutos, segundos (GMS) a grados decimales, de manera automática y masiva.
 
+**Introducción**
+
+Video tutorial de la herramienta, si lo prefieres pudes realizar la guía siguiendo el paso a paso sin necesidad de ver el video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ngOPiIOpwU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Sobre la herramienta**
 
 La herramienta [_Coordinate conversion_](https://data.canadensys.net/tools/coordinates), desarrollada por [Canadensys](http://www.canadensys.net/) (nodo GBIF Canadá), es una aplicación sencilla con una interfaz amigable que permite convertir coordenadas geográficas en sistema de grados minutos a grados decimales.
