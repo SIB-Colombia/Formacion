@@ -16,7 +16,7 @@ En este ejercicio usted deberá convertir las coordenadas al formato grados deci
 
 **Enlace**
 
-_OBIS Plotter_: [iobis.github.io/plotter/](http://iobis.github.io/plotter/)
+_OBIS Plotter_: [iobis.github.io/plotter/](http://iobis.github.io/plotter/){:target="_blank"}
 
 **Requerimientos** 
 
@@ -31,7 +31,7 @@ Descargue el archivo [```datos_geografia.xlsx```](https://raw.githubusercontent.
 --------
 
 ## Paso 1 - Ingreso a OBIS Plotter
-Ingrese a la herramienta en línea [OBIS Plotter](http://iobis.github.io/plotter/). Encontrará unos datos precargados de prueba. Puede dar clic al botón *```PLOT```* y explorar el resultado (Fig. 1).
+Ingrese a la herramienta en línea [OBIS Plotter](http://iobis.github.io/plotter/){:target="_blank"}. Encontrará unos datos precargados de prueba. Puede dar clic al botón *```PLOT```* y explorar el resultado (Fig. 1).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig.1_valCoordenadas.JPG" width=500>
 
@@ -65,7 +65,7 @@ Seleccione el elemento *stateProvince* en la sección ```Field of interest```. V
 
 Identifique los errores presenten en este conjunto de datos, para ello puede guiarse por los resultados del mapa. Como verá hay puntos que coincidieron con Perú y otros con el área marítima. Los datos que coinciden con Perú tienen un error en las coordenadas. **¿Sabe cuál es?** 
 
->Nota
+>Nota:
 Los registros en áreas marítimas corresponden a registros sin coordenadas a los cuales la herramienta asigna la coordenada 0,0.
 
 ## Paso 4 - Corrección de errores
@@ -88,7 +88,16 @@ Luego dirijase al elemento *```decimalLatitude```* y después de aplicar el filt
 
 :vertical_traffic_light: Pista: Con el elemento *```stateProvince```* seleccionado en *```Field of interest```* revise detalladamente los registros presentes al sur de Antioquia. 
 
-## Paso 5 - Datos propios
+## Paso 6 - Verificación del resultado
+
+Compare sus resultados con el siguiente archivo validado según las definiciones del estándar, verifique en que acertó y que puede mejorar. 
+
+**¿Qué diferencias encontró con sus resultados?**
+
+* [Descargue el archivo validado](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/Solucion_datos_geografia_OP.xlsx)
+
+
+## Paso 6 - Datos propios
 Si tiene datos propios que desee publicar utilice la herramienta para validar las coordenadas e identificar errores siguiendo los pasos de este laboratorio.
 
 ****
