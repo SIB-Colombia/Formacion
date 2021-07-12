@@ -37,12 +37,12 @@ General Public License_, soportado como un proyecto de la _Open Source Geospatia
 ## Paso 1 - Instalación de QGIS
 
 1. Diríjase al [enlace de descarga de QGIS](  https://qgis.org/es/site/forusers/download.html), acá encontrará los instaladores para todos los sistemas operativos. 
-2. Descargue preferiblemente la versión disponible con soporte a largo plazo (más estable) de acuerdo al sistema operativo de su ordenador.
+2. Descargue preferiblemente la versión disponible con **soporte a largo plazo (más estable)** de acuerdo al sistema operativo de su ordenador. Si es usuario de Windows seleccione la opción de descarga 32 bits o 64 bits según su sistema operativo. Para estar seguro de la versión de su sistema, en el explorador de archivos, diríjase a ```Este equipo```, haga clic derecho y seleccione la opción ```Propiedades``` y revise la sección ```tipo de sistema```.
 3. Una vez finalice la descarga, ejecute el archivo descargado, haciendo clic sobre el archivo.
-4. Siga los pasos de instalación en su ordenador. Si es usuario de Windows seleccione la opción de descarga 32 bits o 64 bits según su sistema operativo.
+4. Siga los pasos de instalación en su ordenador.
 
 ``` tip
-Puede encontrar instrucciones más específicas de instalación en la [página de descargas](https://qgis.org/es/site/forusers/alldownloads.html), y en este [video tutorial](https://www.youtube.com/watch?v=4lSee2ewWsY). 
+Puede encontrar instrucciones más específicas de instalación en la [página de descargas](https://qgis.org/es/site/forusers/alldownloads.html), y en este [video tutorial](https://www.youtube.com/watch?v=8dPRGiRUAV0). 
 ```
 
 ## Paso 2 - Descarga de datos
@@ -56,7 +56,7 @@ Descargue el archivo comprimido [```datos_geografia.zip```](https://raw.githubus
 
 El Equipo Coordinador del SiB Colombia (EC- SiB) ha elaborado un proyecto en QGIS con capas geográficas de referencia para la validación geográfica de los datos. Descargue el [proyecto de validación geográfica](https://gitlab.com/sib-colombia/data-quality/-/raw/master/ValidacionGeografica_SiB-QGIS.zip?inline=false) de QGIS, y guárdelo en una ubicación corta como ```Mis documentos``` o el ```Disco local (C:)```.
 
-Cuando finalice la descarga ubique el archivo en su ordenador y descomprimalo, dentro de la carpeta resultante ubique el archivo ```ValidacionGeoQGIS.qgs``` y ábralo haciendo doble clic o con clic derecho y siguiendo la ruta ``` Abrir con > QGIS 3.10```.
+Cuando finalice la descarga ubique el archivo en su ordenador y descomprimalo. Dentro de la carpeta resultante ubique el archivo ```ValidacionGeoQGIS.qgs``` y ábralo haciendo doble clic o con clic derecho y siguiendo la ruta ``` Abrir con > QGIS 3.10```.
 
 
 ## Paso 4 - Exploración del proyecto
@@ -173,7 +173,7 @@ En la tabla de atributos  encontrará los datos ingresados y unas nuevas columna
 
 **6.3. Validación de los municipios**
 
-Para comparar los nombres sugeridos desde la capa y los nombres documentados en los datos, abra la calculadora de campos haciendo clic en el icono del ábaco en la barra de herramientas de la tabla de atributos (Fig. 9 ).
+Para comparar los nombres sugeridos desde la capa y los nombres documentados en los datos, abra la calculadora de campos (_```Field Calculator```_) haciendo clic en el icono del ábaco en la barra de herramientas de la tabla de atributos (Fig. 9 ).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_validQGIS_SelecCalculadora.PNG" width=600>
 
@@ -277,7 +277,16 @@ Por último guarde el archivo de validación en su equipo:
 Para los fines de este ejercicio, que está enfocado en validación, no es necesario corregir los errores identificados en la validación geográfica.
 
 
-## Paso 7 - Datos propios
+## Paso 7 - Verificación del resultado
+
+Compare sus resultados con el siguiente archivo validado según las definiciones del estándar, verifique en que acertó y que puede mejorar.
+
+**¿Qué diferencias encontró con sus resultados?**
+
+* [Descargue el archivo validado](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/Solución_ValidacionQGIS.xlsx)
+
+
+## Paso 8 - Datos propios
 
 Si tiene datos propios pruebe validarlos siguiendo los pasos de este laboratorio.
 
