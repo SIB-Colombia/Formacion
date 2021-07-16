@@ -221,7 +221,7 @@ Empleando el comando _```value.replace```_ se puede sustituir cualquier valor de
 
 > Para conocer más del lenguaje de programación GREL de diríjase a la [documentación de OpenRefine](https://docs.openrefine.org/manual/grelfunctions).
 
-**2. Corrección elementos _```recordedBy``` ```identifiedBy```_**
+**4.1.2. Corrección elementos _```recordedBy``` ```identifiedBy```_**
 
 Corrija las columnas _```recordedBy```_ e _```identifiedBy```_ empleando la función _```value.replace```_ del punto anterior, reemplace en cada una el carácter de separación entre los nombres ```"; "``` por el que acepta el estándar Darwin Core actualmente para este elemento ```" | "``` ( Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)).
 
@@ -244,7 +244,7 @@ Podrá observar como los registros que no corresponden a la categoría de famili
 
 Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los Facets y Filtros que tenga en uso.
 
-**4.2.2. Corrección elmentos _```scientificName```_ _```identificationQualifier```_** 
+**4.2.2. Corrección elementos _```scientificName```_ _```identificationQualifier```_** 
 
 Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro. Marque la casilla _```regular expression```_. Escriba en el campo de texto la expresión regular  ```[.]``` y realice un _```Text Facet```_ para visualizar los registros con este  elemento (Fig. 16).
 
