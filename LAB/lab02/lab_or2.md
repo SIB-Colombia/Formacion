@@ -345,7 +345,7 @@ Ha finalizado la validación taxonómica con GBIF (Datos continentales) y WoRMS 
 ## Parte 2 - Validación geográfica
 
 
-## Validación de nombres geográficos
+## Parte 2.1 Validación de nombres geográficos
 
 Desarrollada para estandarizar los contenidos de los elementos de la geografía superior, especialmente stateProvince, county y municipality, de acuerdo a una fuente de referencia nacional. La rutina contrasta los valores documentados con la información oficial para el país, a partir de un archivo de referencia previamente cargado en OpenRefine, y genera indicadores de validación. Los indicadores permiten identificar dos tipos de errores en la geografía superior; 1) errores de tipeo y gramática y 2) errores de consistencia relacionados con la correspondencia entre entidades geográficas, como municipios (county), o centros poblados (municipality) que no pertenecen al departamento (stateProvince).
 
@@ -462,7 +462,7 @@ Terminó la conversión de las fechas del conjunto de datos a el estándar ISO 8
 ****
 
 
-## Validación de elevaciones
+## Parte 2.2 Validación de elevaciones
 
 
 Realiza un llamado al API de GeoNames (servicio SRTM-1) a partir de los elementos Darwin Core de latitud (‘decimalLatitude’) y longitud (‘decimalLongitude’) en grados decimales y retorna la elevación con una resolución de 30 metros por pixel y la compara con los elementos documentados en el archivo base, generando los indicadores de validación.
