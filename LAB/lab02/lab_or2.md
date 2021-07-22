@@ -74,9 +74,8 @@ Las rutinas que usan como fuente archivos de texto plano, hacen una consulta sob
 
 Todas las rutinas se ejecutan de manera similar, los detalles específicos para cada una se explican más adelante. Esta guía se enfoca en 4 rutinas, 2 taxonómicas y dos geográficas por lo cual la guía se divide en dos partes.
 
-## Parte 1 - Validación taxonómica
 
-## Validación taxonómica con GBIF y WoRMS en OpenRefine
+## Parte 1 - Validación taxonómica con GBIF y WoRMS en OpenRefine
 
 La primera aprte de la guía aborda la validación taxonómica utilizanda el API de GBIF y WoRMS, permitiendole consultar estos árboles taxonómicos de manera directa sin utilizar las aplicaciones en línea [SpeciesMatch](https://sib-colombia.github.io/Formacion/LAB/lab02/lab_spmatch.html) o [WoRMS taxonMatch](https://sib-colombia.github.io/Formacion/LAB/lab02/lab_worms.html). Esta ruta directa también le permitrá hacer consultas para más datos y más elementos sin los limitantes de las aplicaciones en línea.
 
