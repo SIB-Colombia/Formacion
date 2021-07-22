@@ -12,7 +12,9 @@ Profundizar en el uso de _OpenRefine_ para validar de datos sobre biodiversidad 
 
 **Introducción**
 
-> video
+``` warning
+Próximamente video introductorio
+```
 
 **Sobre la Herramienta**
 
@@ -57,7 +59,7 @@ Las rutinas utilizan como fuentes de validación API’s (Interfaces de Programa
 Se encuentran disponibles seis (6) rutinas (Tabla 1), en esta guía se profundizará en 4 de ellas.
 
 
-<sup>_Tabla 1. Lista de rutinas para la validación de datos primarios sobre biodiversidad_</sup>
+<sup>_Tabla 1. Lista de rutinas para la validación de datos primarios sobre biodiversidad_.</sup>
 
 | Nombre | Uso | Requerimientos 
 | -------- | -------- | -------- |
@@ -108,14 +110,14 @@ Haga un  ```Text facet``` sobre los elementos ```kingdom``` y ```class``` (Fig. 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig 2. Filtro reino.png" width=800>
 
 
-<sup>_Figura 2. Text facet sobre los elementos kingdom y class_</sup>
+<sup>_Figura 2. Text facet sobre los elementos kingdom y class._</sup>
 
 Observe que el conjunto de datos no tiene documentado el elemento ```kingdom``` para ningún registro, sin embargo a partir del filtro sobre el elemento ```class```  se puede inferir que todos los datos corresponden a animales. Complete el reino para todos los registros (Fig. 3).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig 3. OR_avanzado.png" width=800>
 
 
-<sup>_Figura 3. Ajuste en el elemento kingdom previo a correr la rutina_</sup>
+<sup>_Figura 3. Ajuste en el elemento kingdom previo a correr la rutina._</sup>
 
 
 Haga una limpieza previa del elemento _```scientificName```_ para obtener mejores resultados:
@@ -142,19 +144,19 @@ Seleccione la rutina de interés según la validación que desee realizar:
 
 Haga clic en el enlace a la rutina y será redirigido a GitHub donde encontrará un archivo de texto plano con la rutina, copie el texto de la rutina de validación (Fig. 4). Asegúrese de seleccionar solo la rutina -sin las instrucciones- y copiar todos los corchetes iniciales { y finales }.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/es.figure-59.jpg" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/es.figure-59.jpg" width=600>
 
 <sup>_Figura 4. Selección de la rutina a ejecutar._</sup>
 
 Ubíquese en el conjunto de datos a validar en OpenRefine, diríjase al menú arriba a la izquierda, seleccione la pestaña “Deshacer/Rehacer” y haga clic en el botón “Aplicar…​”. A continuación se abrirá una ventana de texto vacía, pegue en el cuadro de texto la rutina a ejecutar y haga clic en “Ejecutar Operaciones” (Fig. 5). Si tiene dudas sobre este proceso revise la sección 2.5.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/es.figure-58.jpg" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/es.figure-58.jpg" width=600>
 
 <sup>_Figura 5. Ejecución de la rutina en OpenRefine._</sup>
 
 El avance de la ejecución de la rutina se observa en la parte superior de la pantalla (Fig. 6).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/es.figure-60.jpg" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/es.figure-60.jpg" width=400>
 
 <sup>_Figura 6. Avance de la ejecución de la rutina en OpenRefine._</sup>
 
@@ -199,13 +201,13 @@ A continuación se listan las columnas que encontrará después de ejecutar la r
 
 _```taxonMatchType```_: Indica el resultado del cruce de los datos originales con el árbol taxonómico de GBIF a partir de los elementos "scientificName" y "kingdom". Los valores que encontrará en esta columna son:
 
-    _```EXACT```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa.
+   - _EXACT_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa.
 
-    _```FUZZY```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es parcial, el nombre difiere en su escritura. Comúnmente indica errores de tipeo o diferencias por correcciones nomenclaturales (ejem: la terminación i vs. ii cuando la especie se dedica a una persona).
+   -_FUZZY_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es parcial, el nombre difiere en su escritura. Comúnmente indica errores de tipeo o diferencias por correcciones nomenclaturales (ejem: la terminación i vs. ii cuando la especie se dedica a una persona).
 
-    _```HIGHERRANK```_: La correspondencia entre el nombre científico del conjunto de datos y el árbol taxonómico fue parcial. No se identificó el taxon a nivel taxonómico de "scientificName" si no a un nivel superior. Por ejemplo si el "scientificName" corresponde a una especie, la correspondencia con el árbol taxonómico de GBIF fue a nivel de género. Esto sucede porque el taxon aún no está en el árbol taxonómico de GBIF o por errores de tipeo mayores.
+   - _HIGHERRANK_: La correspondencia entre el nombre científico del conjunto de datos y el árbol taxonómico fue parcial. No se identificó el taxon a nivel taxonómico de "scientificName" si no a un nivel superior. Por ejemplo si el "scientificName" corresponde a una especie, la correspondencia con el árbol taxonómico de GBIF fue a nivel de género. Esto sucede porque el taxon aún no está en el árbol taxonómico de GBIF o por errores de tipeo mayores.
 
-    _```NONE```_ y _```BLANK```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico fue nula o hubo varias coincidencias con muy poca información para determinar un resultado, esto sucede comunmente cuando hay homónimos o si el taxon aún no se encuentra en el árbol taxonómico de GBIF, como es el caso de especies recientemente descritas o algunas endémicas.
+   _NONE_ y _BLANK_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico fue nula o hubo varias coincidencias con muy poca información para determinar un resultado, esto sucede comunmente cuando hay homónimos o si el taxon aún no se encuentra en el árbol taxonómico de GBIF, como es el caso de especies recientemente descritas o algunas endémicas.
 
 _```scientificName```_: Columna original del conjunto de datos.
 
@@ -217,13 +219,7 @@ _```taxonRankSuggested```_: Categoría del taxon sugerido según el árbol taxon
 
 _```taxonomicStatusSuggested```_: Estado del taxon sugerido según el árbol taxonómico de GBIF (e.g.: ACCEPTED, SYNONYM).
 
-
-Tripleta de elementos validados:  Encontrará la columna original del conjunto de datos, la columna de validación y la columna con la sugerencia según el árbol taxonómico de GBIF, por ejemplo: _```class```_, _```classValidation```_, _```classSuggested```_. 
-
-```tip
-Los siguientes elementos de estar documentados en el conjunto de datos original tendrán dicha tripleta: _"scientificNameAuthorship", "kingdom", "phylum", "class", "order", "family", "genus", "specificEpithet"
-```
-
+_Tripleta de elementos validados_:  Encontrará la columna original del conjunto de datos, la columna de validación y la columna con la sugerencia según el árbol taxonómico de GBIF, por ejemplo: _```class```_, _```classValidation```_, _```classSuggested```_. Los siguientes elementos de estar documentados en el conjunto de datos original tendrán dicha tripleta: _```scientificNameAuthorship```, ```kingdom```, ```phylum```, ```class```, ```order```, ```family```, ```genus```, ```specificEpithet```.
 
 _```callAPI```_: Respuesta del API a la rutina, contiene todos los resultados en formato JSON.
 
@@ -258,15 +254,15 @@ A continuación se listan las columnas que encontrará despues de ejecutar la ru
 
 _```matchType```_: Indica el resultado del cruce de los datos originales con el árbol taxonómico de WoRMS a partir del elemento "scientificName". Los valores que encontrará en esta columna son:
 
-    - _```exact```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa.
+    - _exact_: La correspondencia entre el _```scientificName```_ del conjunto de datos y el árbol taxonómico es completa.
 
-    - _```phonetic```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa a nivel fonético a pesar de algunas diferencias menores en la escritura.
+    - _phonetic_: La correspondencia entre el _```scientificName```_ del conjunto de datos y el árbol taxonómico es completa a nivel fonético a pesar de algunas diferencias menores en la escritura.
 
-    - _```near_1```_: Hay una diferencia de un carácter entre el "scientificName" del conjunto de datos y el árbol taxonómico. Es una correspondencia bastante confiable.
+    - _near_1 _: Hay una diferencia de un carácter entre el _```scientificName```_ del conjunto de datos y el árbol taxonómico. Es una correspondencia bastante confiable.
 
-    - _```near_2```_: Hay una diferencia de dos caracteres entre el "scientificName" del conjunto de datos y el árbol taxonómico. Se sugiere una revisión del nombre.
+    - _near_2 _: Hay una diferencia de dos caracteres entre el _```scientificName```_ del conjunto de datos y el árbol taxonómico. Se sugiere una revisión del nombre.
 
-    - _```near_3```_: Hay una diferencia de tres caracteres entre el "scientificName" del conjunto de datos y el árbol taxonómico. Se requiere una revisión del nombre.
+    - _near_3 _: Hay una diferencia de tres caracteres entre el _```scientificName```_ del conjunto de datos y el árbol taxonómico. Se requiere una revisión del nombre.
 
     - Otras posibilidades poco frecuentes como _```match_quarantine```_ y _```match_deleted```_, WoRMS recomienda contactarlos directamente.
 
@@ -302,7 +298,7 @@ _```callAPIworms```_: Respuesta del API a la rutina, contiene todos los resultad
 5. Complete el elemento _```taxonRank```_ a partir del _```suggestedTaxonRank```_ de acuerdo al vocabulario controlado para este elemento.
 
 ```tip
-En OpenRefine puede ir a la columna que quiere completar (ej. phylum), ir a edit cells>transform y en el recuadro de edición usar la siguiente expresión cells['phylumSuggested'].value. De esta forma remplazará el contenido vacío por el sugerido en phylumSuggested. Haga lo mismo para los demás elementos cambiando la expresión según correspnda
+En OpenRefine puede ir a la columna que quiere completar (ej. phylum), ir a edit cells>transform y en el recuadro de edición usar la siguiente expresión cells['phylumSuggested'].value. De esta forma remplazará el contenido vacío por el sugerido en phylumSuggested. Haga lo mismo para los demás elementos cambiando la expresión según corresponda.
 ```
 
 
@@ -312,11 +308,8 @@ En OpenRefine puede ir a la columna que quiere completar (ej. phylum), ir a edit
 
 2. Revise las columnas adicionales que trae el script, revise las tripletas de validación haciendo _facets_ en los elementos de validación en OpenRefine y seleccione la opción ```0```. Idenfique donde debe realizar ajustes.
 
-3. **Reto**: ¿Hay registros que sean completamente terrestres y no del medio marino según la validación?. Identifique el error en la validación.
+3. **Reto**: ¿Hay registros que sean completamente terrestres y no del medio marino según la validación?. Identifique el error en la validación usando los elementos _```isMarine```_, _```isBrackish```_, _```isFresh```_, _```isTerrestrial```_.
 
-```tip
-Use los elementos "isMarine", "isBrackish", "isFresh", "isTerrestrial".
-```
 
 
 ## Paso 6 - Verificación del resultado
@@ -372,9 +365,9 @@ No es necesario que cuente con los 3 campos de stateProvince, county y municipal
 
 Antes de ejecutar esta rutina se requiere que cargue el archivo ```DIVIPOLA_20210416.xls``` en OpenRefine. Si tiene dudas sobre cómo hacerlo revise el [paso 2 de la guía general de OpenRefine](https://sib-colombia.github.io/Formacion/LAB/lab02/lab_or1.html#paso-2---crear-un-proyecto){:target="_blank"}. Asegurese que el nombre del proyecto en OpenRefine sea ```DIVIPOLA_20210416``` (Fig. 9). 
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_OR_A_Divipola_DivipolaenOR.png" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_OR_A_Divipola_DivipolaenOR.png" width=600>
 
-<sup>_Figura 9. Carga de archivo _DIVIPOLA_20210416_ en OpenRefine._</sup>
+<sup>_Figura 9. Carga de archivo DIVIPOLA 20210416 en OpenRefine._</sup>
 
 
 ## Paso 4 - Ejecutar la rutina
@@ -382,7 +375,7 @@ Antes de ejecutar esta rutina se requiere que cargue el archivo ```DIVIPOLA_2021
 ### 4.1. Copie la rutina
 Diríjase a la rutina de [Validación de nombres geográficos con DIVIPOLA](https://github.com/SIB-Colombia/data-quality-open-refine/blob/master/ValNamesGeo_ValNombresGeo.txt){:target="_blank"}. Será redirigido a GitHub donde encontrará un archivo de texto plano. Copie el texto de la rutina de validación (Fig. 10). Asegúrese de seleccionar solo la rutina -sin las instrucciones- y copiar todos los corchetes iniciales ```{``` y finales ```}```.
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2_OR_A_CopiaRutinaGeoNames.PNG" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2_OR_A_CopiaRutinaGeoNames.PNG" width=600>
 
 <sup>_Figura 10. Copia de la rutina en GitHub._</sup>
 
@@ -448,16 +441,6 @@ Compare sus resultados con el siguiente archivo validado según las definiciones
 ¿Qué diferencias encontró con sus resultados?
 
 [Descargue el archivo validado](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/solución_datos_ValidacionGeografia.xlsx)
-
-
-## Paso 7 - Datos propios
-Si tiene datos propios que desee publicar, intente convertir las fechas al formato ISO 8601 siguiendo los pasos de este laboratorio.
-
-****
-**¡Felicitaciones!** :raised_hands: 
-Terminó la conversión de las fechas del conjunto de datos a el estándar ISO 8601. 
-
-****
 
 
 ## Parte 2.2 Validación de elevaciones
@@ -616,14 +599,13 @@ Compare sus resultados con el siguiente archivo validado según las definiciones
 
 [Descargue el archivo validado](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/solución_ValidacionElevaciones.xlsx)
 
-
-## Paso 7 - Datos propios
-Si tiene datos propios que desee publicar, intente completar o validar las elevaciones siguiendo los pasos de este laboratorio.
+## Datos propios
+Si tiene datos propios que desee publicar, intente identificar las rutinas que le serán útiles e intente incorporarlas a su flujo de trabajo.
 
 
 ****
 **¡Felicitaciones!** :raised_hands: 
-Terminó la conversión de las fechas del conjunto de datos a el estándar ISO 8601. 
+Terminó el laboratorio de uso avanzado de OpenRefine.
 
 ****
 
