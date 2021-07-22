@@ -88,7 +88,7 @@ Dependiendo de su interés particular realice esta guía con alguna de las sugui
 - Utilice la rutina [Validación taxonómica con el API de GBIF](https://github.com/SIB-Colombia/data-quality-open-refine/blob/master/ValTaxonomicAPIGBIF_ValTaxonomicaAPIGBIF.txt)
 
 **Datos de grupos biológicos marino-costeros**
-- Descargue el archivo [```datos_CasoMarinoCosteros.xls```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/datos_casomarinocosteros.xls) para realizar el laboratorio.
+- Descargue el archivo [```datos_CasoMarinoCosteros.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/datos_casomarinocosteros.xls) para realizar el laboratorio.
 - Utilice la rutina [Validación taxonómica con el API de WoRMS](https://github.com/SIB-Colombia/data-quality-open-refine/blob/master/ValTaxonomicAPIWoRMS_ValTaxonomicaAPIWoRMS.txt)
 
 ## Paso 1 - Cargar el archivo
