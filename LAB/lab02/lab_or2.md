@@ -74,7 +74,7 @@ Las rutinas que usan como fuente archivos de texto plano, hacen una consulta sob
 
 Todas las rutinas se ejecutan de manera similar, los detalles específicos para cada una se explican más adelante. Esta guía se enfoca en 4 rutinas, 2 taxonómicas y dos geográficas por lo cual la guía se divide en dos partes.
 
-# Parte 1 - Validación taxonómica
+## Parte 1 - Validación taxonómica
 
 ## Validación taxonómica con GBIF y WoRMS en OpenRefine
 
@@ -343,7 +343,7 @@ Ha finalizado la validación taxonómica con GBIF (Datos continentales) y WoRMS 
 ****
 
 
-# Parte 2 - Validación geográfica
+## Parte 2 - Validación geográfica
 
 
 ## Validación de nombres geográficos
