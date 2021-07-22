@@ -76,6 +76,8 @@ Todas las rutinas se ejecutan de manera similar, los detalles específicos para 
 
 # Parte 1 - Validación taxonómica
 
+## Validación taxonómica con GBIF y WoRMS en OpenRefine
+
 La primera aprte de la guía aborda la validación taxonómica utilizanda el API de GBIF y WoRMS, permitiendole consultar estos árboles taxonómicos de manera directa sin utilizar las aplicaciones en línea [SpeciesMatch](https://sib-colombia.github.io/Formacion/LAB/lab02/lab_spmatch.html) o [WoRMS taxonMatch](https://sib-colombia.github.io/Formacion/LAB/lab02/lab_worms.html). Esta ruta directa también le permitrá hacer consultas para más datos y más elementos sin los limitantes de las aplicaciones en línea.
 
 Dependiendo de su interés particular realice esta guía con alguna de las suguientes opciones:
@@ -638,11 +640,6 @@ La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usa
 
 > Plata C., Ortíz R., Marentes E. (2021). Laboratorio de datos, Ciclo de formación. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
 > 
-
-
-
-
-
 
 
 
