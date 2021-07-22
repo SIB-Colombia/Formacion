@@ -154,7 +154,7 @@ Ubíquese en el conjunto de datos a validar en OpenRefine, diríjase al menú ar
 
 El avance de la ejecución de la rutina se observa en la parte superior de la pantalla (Fig. 6).
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/es.figure-60.jpg" width=800>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/es.figure-60.jpg" width=500>
 
 <sup>_Figura 6. Avance de la ejecución de la rutina en OpenRefine._</sup>
 
@@ -175,7 +175,7 @@ En la Figura 7 se muestra un ejemplo de cómo se ven los identificadores de la v
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/es.figure-61.jpg" width=800>
 
-<sup>_Figura 7. Avance de la ejecución de la rutina en OpenRefine_</sup>
+<sup>_Figura 7. Identificadores de validación y columnas resultantes de la rutina_.</sup>
 
 
 ### 4.1 Datos de grupos biológicos principalmente continentales
@@ -199,13 +199,13 @@ A continuación se listan las columnas que encontrará después de ejecutar la r
 
 _```taxonMatchType```_: Indica el resultado del cruce de los datos originales con el árbol taxonómico de GBIF a partir de los elementos "scientificName" y "kingdom". Los valores que encontrará en esta columna son:
 
-_```EXACT```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa.
+    _```EXACT```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa.
 
-_```FUZZY```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es parcial, el nombre difiere en su escritura. Comúnmente indica errores de tipeo o diferencias por correcciones nomenclaturales (ejem: la terminación i vs. ii cuando la especie se dedica a una persona).
+    _```FUZZY```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es parcial, el nombre difiere en su escritura. Comúnmente indica errores de tipeo o diferencias por correcciones nomenclaturales (ejem: la terminación i vs. ii cuando la especie se dedica a una persona).
 
-_```HIGHERRANK```_: La correspondencia entre el nombre científico del conjunto de datos y el árbol taxonómico fue parcial. No se identificó el taxon a nivel taxonómico de "scientificName" si no a un nivel superior. Por ejemplo si el "scientificName" corresponde a una especie, la correspondencia con el árbol taxonómico de GBIF fue a nivel de género. Esto sucede porque el taxon aún no está en el árbol taxonómico de GBIF o por errores de tipeo mayores.
+    _```HIGHERRANK```_: La correspondencia entre el nombre científico del conjunto de datos y el árbol taxonómico fue parcial. No se identificó el taxon a nivel taxonómico de "scientificName" si no a un nivel superior. Por ejemplo si el "scientificName" corresponde a una especie, la correspondencia con el árbol taxonómico de GBIF fue a nivel de género. Esto sucede porque el taxon aún no está en el árbol taxonómico de GBIF o por errores de tipeo mayores.
 
-_```NONE```_ y _```BLANK```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico fue nula o hubo varias coincidencias con muy poca información para determinar un resultado, esto sucede comunmente cuando hay homónimos o si el taxon aún no se encuentra en el árbol taxonómico de GBIF, como es el caso de especies recientemente descritas o algunas endémicas.
+    _```NONE```_ y _```BLANK```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico fue nula o hubo varias coincidencias con muy poca información para determinar un resultado, esto sucede comunmente cuando hay homónimos o si el taxon aún no se encuentra en el árbol taxonómico de GBIF, como es el caso de especies recientemente descritas o algunas endémicas.
 
 _```scientificName```_: Columna original del conjunto de datos.
 
@@ -218,12 +218,10 @@ _```taxonRankSuggested```_: Categoría del taxon sugerido según el árbol taxon
 _```taxonomicStatusSuggested```_: Estado del taxon sugerido según el árbol taxonómico de GBIF (e.g.: ACCEPTED, SYNONYM).
 
 
-Tripleta de elementos validados:  Encontrará la columna original del conjunto de datos, la columna de validación y la columna con la sugerencia según el árbol taxonómico de GBIF, por ejemplo:
-
-_```class```_, _```classValidation```_, _```classSuggested```_. 
+Tripleta de elementos validados:  Encontrará la columna original del conjunto de datos, la columna de validación y la columna con la sugerencia según el árbol taxonómico de GBIF, por ejemplo: _```class```_, _```classValidation```_, _```classSuggested```_. 
 
 ```tip
-Los siguientes elementos de estar documentados en el conjunto de datos original tendrán dicha tripleta: "scientificNameAuthorship", "kingdom", "phylum", "class", "order", "family", "genus", "specificEpithet"
+Los siguientes elementos de estar documentados en el conjunto de datos original tendrán dicha tripleta: _"scientificNameAuthorship", "kingdom", "phylum", "class", "order", "family", "genus", "specificEpithet"
 ```
 
 
@@ -249,7 +247,7 @@ Si también desea validar la taxonomía superior de su conjunto de datos se requ
 
 **Resultados:**
 
-En las primeras columnas del proyecto encontrará de manera intercalada una columna con el valor taxonómico original, un valor sugerido de acuerdo al árbol taxonómico y el indicador de validación indicando si los valores son iguales (1) o si difieren (0) como se muestra en la las rutinas previas (Fig. 8).
+En las primeras columnas del proyecto encontrará de manera intercalada una columna con el valor taxonómico original, un valor sugerido de acuerdo al árbol taxonómico y el indicador de validación indicando si los valores son iguales (```1```) o si difieren (```0```) como se muestra en la las rutinas previas (Fig. 7).
 
 
 A continuación se listan las columnas que encontrará despues de ejecutar la rutina, adicionales a las ya mencionadas en las rutinas previas de validación taxonómica (Fig. 8):
@@ -260,17 +258,17 @@ A continuación se listan las columnas que encontrará despues de ejecutar la ru
 
 _```matchType```_: Indica el resultado del cruce de los datos originales con el árbol taxonómico de WoRMS a partir del elemento "scientificName". Los valores que encontrará en esta columna son:
 
-- _```exact```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa.
+    - _```exact```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa.
 
-- _```phonetic```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa a nivel fonético a pesar de algunas diferencias menores en la escritura.
+    - _```phonetic```_: La correspondencia entre el "scientificName" del conjunto de datos y el árbol taxonómico es completa a nivel fonético a pesar de algunas diferencias menores en la escritura.
 
-- _```near_1```_: Hay una diferencia de un carácter entre el "scientificName" del conjunto de datos y el árbol taxonómico. Es una correspondencia bastante confiable.
+    - _```near_1```_: Hay una diferencia de un carácter entre el "scientificName" del conjunto de datos y el árbol taxonómico. Es una correspondencia bastante confiable.
 
-- _```near_2```_: Hay una diferencia de dos caracteres entre el "scientificName" del conjunto de datos y el árbol taxonómico. Se sugiere una revisión del nombre.
+    - _```near_2```_: Hay una diferencia de dos caracteres entre el "scientificName" del conjunto de datos y el árbol taxonómico. Se sugiere una revisión del nombre.
 
-- _```near_3```_: Hay una diferencia de tres caracteres entre el "scientificName" del conjunto de datos y el árbol taxonómico. Se requiere una revisión del nombre.
+    - _```near_3```_: Hay una diferencia de tres caracteres entre el "scientificName" del conjunto de datos y el árbol taxonómico. Se requiere una revisión del nombre.
 
-- Otras posibilidades poco frecuentes como _```match_quarantine```_ y _```match_deleted```_, WoRMS recomienda contactarlos directamente.
+    - Otras posibilidades poco frecuentes como _```match_quarantine```_ y _```match_deleted```_, WoRMS recomienda contactarlos directamente.
 
 _```scientificNameID```_: Identificador del taxón construido a partir del AphiaID proveniente del árbol taxonómico de WoRMS.
 
