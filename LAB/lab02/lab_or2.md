@@ -330,7 +330,7 @@ Compare sus resultados con los siguientes archivos validados según las definici
 
 [Descargue el archivo validado ](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Solución_datos_Estructurados_GBIF.xlsx) para datos continentales.
 
-[Descargue el archivo validado](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/solución_datos_ValidacionGeografia.xlsx) para datos marino costeros.
+[Descargue el archivo validado](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_docs/Solución_datos_casomarinocosteros.xlsx) para datos marino costeros.
 
 
 ## Paso 7 - Datos propios
