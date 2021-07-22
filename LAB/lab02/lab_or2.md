@@ -2,7 +2,8 @@
 sort: 9
 ---
 
-#OpenRefine - uso avanzado
+
+# OpenRefine - uso avanzado
 
 
 **Objetivo**
@@ -39,7 +40,7 @@ No utilice Internet Explorer para este laboratorio ya que OpenRefine no funciona
 
 
 
-## Paso 1 - Sobre las rutinas
+## Sobre las rutinas
 
 Las rutinas comparan la información documentada en el conjunto de datos contra diferentes fuentes de referencia, y a partir de dicha comparación crean columnas de validación donde se puede identificar la correspondencia entre el archivo original y la fuente de referencia a través de operadores lógicos, unos (1) y ceros (0), que funcionan como indicadores de validación.
 
@@ -637,6 +638,9 @@ La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usa
 
 > Plata C., Ortíz R., Marentes E. (2021). Laboratorio de datos, Ciclo de formación. Consultado a través del SiB Colombia. Disponible en https://sib-colombia.github.io/Formacion/
 > 
+
+
+
 
 
 
