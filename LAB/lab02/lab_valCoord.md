@@ -8,6 +8,12 @@ sort: 8
 
 Visualizar y validar con la herramienta QGIS la coherencia de la ubicación de las coordenadas respecto a la geografía superior documentada en los datos.
 
+**Introducción**
+
+Video introductorio de la 3 guía, da un contexto general sobre las herramienta y el desarrollo de la guía. Si lo prefiere pude realizar la guía siguiendo el paso a paso sin necesidad de ver el video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2Fy6aa7pR9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Sobre la herramienta**
 
 :earth_americas:  [QGIS](https://qgis.org/es/site/about/index.html) es un software para manejo de información geográfica que se ejecuta sobre multiples sistemas operativos como Linux, Unix, Mac OSX, Windows y Android. Ademas, soporta numerosos formatos y funcionalidades de datos vector, datos ráster y bases de datos. QGIS proporciona una creciente gama de capacidades a través de sus funciones básicas y complementos con los que podrá visualizar, gestionar, editar, analizar datos y diseñar mapas imprimibles. 
