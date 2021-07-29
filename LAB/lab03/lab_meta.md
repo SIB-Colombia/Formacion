@@ -20,7 +20,7 @@ IPT Test: [https://ipt.biodiversidad.co/sib-test/](https://ipt.biodiversidad.co/
 **Requerimientos** 
 
 Creceniales de ingreso al [IPT test](https://ipt.biodiversidad.co/sib-test/)
-- Usuario:talleresCFV@gmail.com
+- Usuario:LaboratoriosCFV2021@gmail.com
 - Contraseña:FxKVSjOg
 
 ``` warning
