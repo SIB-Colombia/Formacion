@@ -23,9 +23,6 @@ Creceniales de ingreso al [IPT test](https://ipt.biodiversidad.co/sib-test/)
 - Usuario:LaboratoriosCFV2021@gmail.com
 - Contraseña:FxKVSjOg
 
-``` warning
-Estas credenciales estarán habilitadas del **8 al 16 de Octubre del 2020**. Si usted realiza el laboratorio por fuera de estas fechas solicite las credenciales a _sib@humboldt.org.co_
-```
 
 **Archivo de trabajo**
 
