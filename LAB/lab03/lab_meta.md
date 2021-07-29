@@ -184,7 +184,7 @@ Ingrese la ```Descripción``` de la cobertura geográfica de acuerdo al área de
 Si está haciendo el ejercicio con sus propios datos y cuenta con coordenadas, puede realizar un filtro en los elementos de latitud y longitud decimales para identificar la latitud y longitud, mínima y máxima, para que el recuadro se ajuste con mayor exactitud a su cobertura geográfica. 
 ```
 
-<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab03/_images/Fig10_metadatos_cgeografica.PNG" width=500>
+<img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab03/_images/Fig10_metadatos_cgeografica.png" width=500>
 
 <sub>*Figura 10. Sección cobertura geográfica. A. Selección de cobertura en mapa, B. Descripción.*</sub>
 
