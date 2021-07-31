@@ -8,6 +8,12 @@ sort: 1
 
 Aprender a documentar los metadatos en la herramienta de publicación IPT.
 
+**Introducción**
+
+Si es la primere vez que va a docimentar metadatos utilizando la herramienta de publicación IPT le recomendamos ver detenidamente el sigueinte video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9WkH9hoHc8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Sobre la herramienta**
 
 El [IPT](https://www.gbif.org/es/ipt) (del inglés Integrated Publishing Toolkit), es un software gratuito y de código abierto que se utiliza para publicar y compartir conjuntos de datos de biodiversidad a través del [SiB Colombia](https://sibcolombia.net/), [GBIF](https://www.gbif.org/) y [OBIS](https://obis.org/). Permite integrar datos y metadatos en un mismo archivo conocido como _DwC-A_. Una de las ventajas de esta herramienta frente a otros mecanismos de publicación, es que provee una interfaz que permite documentar fácilmente los metadatos, además contempla la documentación de los autores del recurso, promoviendo así el adecuado reconocimeinto a quienes publican datos sobre biodiversidad.
