@@ -145,7 +145,7 @@ Seleccione la organización principal que respalda la publicación de los datos 
 <sub>*Figura 7. Sección metadatos básicos. A. Título, B. Selección de la organización publicadora, C. Selección de la licencia de los datos.*</sub>
 
 **Licencia de los datos**
-Para asegurar que sus datos sean abiertos estos deben contar de manera explícita con una licencia que permita su reutilización. Escoja la licencia [_creative commons_](https://co.creativecommons.net/) que refleje hasta donde quiere que lleguen sus datos (Fig. 7C), para ello puede usas la guía interactiva de [Acceso abierto](ttps://sibcolombia.net/acceso-abierto/) (Fig. 8).
+Para asegurar que sus datos sean abiertos estos deben contar de manera explícita con una licencia que permita su reutilización. Escoja la licencia [_creative commons_](https://co.creativecommons.net/) que refleje hasta donde quiere que lleguen sus datos (Fig. 7C), para ello puede usas la guía interactiva de [Acceso abierto](https://sibcolombia.net/acceso-abierto/) (Fig. 8).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab03/_images/Fig8_meta_licencias.png" width=600>
@@ -204,7 +204,7 @@ Tenga en cuenta que la información mínima a documentar es:
 
 
 >Ejemplo: 
->Los [Número de registros], pertenecen a [x] ordenes, [x] familias y [x] generos. Un [x%] está identificado a nivel de especie, un [x%] género y [x%] a familia.
+>Los [Número de registros], pertenecen a [x] ordenes, [x] familias y [x] géneros. Un [x%] está identificado a nivel de especie, un [x%] género y [x%] a familia.
 
 Para agregar varios taxones en la cobertura, haga clic en ```Añadir varios taxa```. Pegue ahí la lista de taxones, puden ser una listas de géneros, ordenes, clases que describan la cobertura taxonómica del recurso. No es recomendable que agregue listas de taxa a nivel de especies si son muchas especies, intente agruparlas según su taxonomía superior. 
 
