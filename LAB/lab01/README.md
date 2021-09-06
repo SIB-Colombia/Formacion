@@ -37,7 +37,7 @@ Al finalizar este laboratorio habrás aprendido a:
 
 - **Mapeo**: Identificación de la coincidencia entre los elementos de un conjunto de datos dentro de los términos y definiciones de un estándar.
 
-- **GBIF**: Infraestructura Mundial de Información en Biodiversidad— es una organización internacional y una red de investigación financiada por gobiernos de todo el mundo, destinada a proporcionar a cualquier persona, en cualquier lugar, acceso abierto y gratuito a datos sobre cualquier tipo de forma de vida que hay en la Tierra. *El SiB Colombia es el nodo nacional de GBIF.*
+- **GBIF**: Infraestructura Mundial de Información en Biodiversidad— es una organización internacional y una red de investigación financiada por gobiernos de todo el mundo, destinada a proporcionar a cualquier persona, en cualquier lugar, acceso abierto y gratuito a datos sobre cualquier tipo de forma de vida que hay en la Tierra. El SiB Colombia es el nodo nacional de GBIF.
 
 
 ### Lecturas y recursos externos
