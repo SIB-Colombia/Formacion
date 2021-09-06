@@ -38,7 +38,7 @@ Puedes acceder a  los videos de los seminarios en los siguientes enlaces:
 *¡Manos a la obra!* Esta página está diseñada para que aprendas con la práctica los conceptos expuestos durante los seminarios, nada mejor que trabajar directamente con los datos para afianzar tu conocimiento. Los laboratorios los puedes realizar con los conjuntos de ejemplo y/o con datos propios.
 
 ```note
-:point_left: dirígete al menú lateral  para navegar los laboratorios.
+:point_left: Diríjase al menú lateral  para navegar los laboratorios.
 ```
 ### Atribución y uso de los laboratorios
 
@@ -73,10 +73,10 @@ Conoce más sobre esta red nacional en: [https://sibcolombia.net/](https://sibco
 
 Los contenidos de este ciclo de formación no serían posibles sin los aportes significativos de otras iniciativas que trabajan colaborativamente con el SiB Colombia en diferentes niveles.
 
-* [GBIF](https://www.gbif.org/es/) - Global Biodiversity Information Facility
-* [OBIS](https://obis.org/) - Ocean Biodiversity Information System
+* [GBIF](https://www.gbif.org/es/) - *Global Biodiversity Information Facility*
+* [OBIS](https://obis.org/) - *Ocean Biodiversity Information System*
 * [GBIF España](https://www.gbif.es/) - Nodo Español de GBIF 
-* [CANADENSYS](https://www.canadensys.net/) - Nodo GBIF Canada
+* [CANADENSYS](https://www.canadensys.net/) - Nodo GBIF Canadá
 * [VerNet](http://vertnet.org/) - Nodo GBIF
 * [SiBM](https://siam.invemar.org.co/sibm) - Sistema de Información sobre Biodiversidad Marina de Colombia
-* [WoRMS](http://marinespecies.org/) - World Register of Marine Species  
+* [WoRMS](http://marinespecies.org/) - *World Register of Marine Species*  
