@@ -29,7 +29,7 @@ Antes de realizar los laboratorios, es recomendable ver los siguientes seminario
 6. [Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad](https://youtu.be/_JBbEjG1wAU)
 7. [Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?](https://youtu.be/M8AgoWnLkrg)
 
-Puedes acceder a  los videos de los seminarios en los siguientes enlaces:
+Puede acceder a  los videos de los seminarios en estos enlaces:
 - [Lista de reproducción seminarios 2021](https://www.youtube.com/watch?v=ubpHPFPD-zU&list=PL_KzX3Rxxwb3MA55uX9105Y89QWAbMiKu)
 - [Lista de reproducción seminarios 2020](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l)
 
