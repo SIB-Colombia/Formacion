@@ -47,7 +47,7 @@ Puede acceder a la compilación de los videos de los seminarios en estos enlaces
 
 El **libre acceso** y la **cooperación** son dos de los principios orientadores del SiB Colombia. Por tal motivo, todos los contenidos del ciclo de formación se encuentran bajo una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) que permite usar, redistribuir y construir sobre estos contenidos libremente.
 
-¡La difusión de estos laboratorios contribuirá a la publicación de más y mejores conjuntos de datos sobre biodiversidad! :open_hands:
+¡La difusión de estos laboratorios contribuirá a la publicación de más y mejores conjuntos de datos sobre biodiversidad!:open_hands:
 
 **Citación sugerida**
 
