@@ -29,14 +29,14 @@ Antes de realizar los laboratorios, es recomendable ver los siguientes seminario
 6. [Mejores datos mejores decisiones: la importancia de la calidad en los datos sobre biodiversidad](https://youtu.be/_JBbEjG1wAU)
 7. [Validación y limpieza de datos sobre biodiversidad: ¿Cuáles son los retos más comunes y cómo solucionarlos?](https://youtu.be/M8AgoWnLkrg)
 
-Puede acceder a  los videos de los seminarios en estos enlaces:
+Puede acceder a la compilación de los videos de los seminarios en estos enlaces:
 - [Lista de reproducción seminarios 2021](https://www.youtube.com/watch?v=ubpHPFPD-zU&list=PL_KzX3Rxxwb3MA55uX9105Y89QWAbMiKu)
 - [Lista de reproducción seminarios 2020](https://www.youtube.com/watch?v=_f4gGfIBN3U&list=PL_KzX3Rxxwb0ON-iZSZMI2fOF_xaSir8l)
 
 
 ### Laboratorios
 
-¡Manos a la obra! Esta página se encuentra diseñada para enseñar los conceptos expuestos en los seminarios por medio de la práctica. No hay nada mejor que trabajar directamente con datos para afianzar los conocimiento adquiridos. Por consiguiente, los laboratorios se pueden realizar con los conjuntos de prueba y también con datos propios.
+¡Manos a la obra! Esta página se encuentra diseñada para reforzar los conceptos expuestos en los seminarios por medio de la práctica. No hay nada mejor que trabajar directamente con datos para afianzar los conocimiento adquiridos. Por consiguiente, los laboratorios se pueden realizar con los conjuntos de prueba y también con datos propios.
 
 ```note
 :point_left: Diríjase al menú lateral para navegar en los laboratorios.
@@ -47,7 +47,7 @@ Puede acceder a  los videos de los seminarios en estos enlaces:
 
 El **libre acceso** y la **cooperación** son dos de los principios orientadores del SiB Colombia. Por tal motivo, todos los contenidos del ciclo de formación se encuentran bajo una licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) que permite usar, redistribuir y construir sobre estos contenidos libremente.
 
-¡La difusión de estos laboratorios contribuirá a la publicación de más y mejores conjuntos datos sobre biodiversidad! :open_hands:
+¡La difusión de estos laboratorios contribuirá a la publicación de más y mejores conjuntos de datos sobre biodiversidad! :open_hands:
 
 **Citación sugerida**
 
@@ -55,9 +55,9 @@ El **libre acceso** y la **cooperación** son dos de los principios orientadores
 >
 
 **Nuestro equipo**
-* Los laboratorios en línea fueron construidos por Camila Plata, Ricardo Ortíz y Esteban Marentes.
+* Los laboratorios en línea fueron realizados por Camila Plata, Ricardo Ortíz y Esteban Marentes.
 
-* Los contenidos de los laboratorios han sido contruidos a lo largo de múltiples talleres dictados por el equipo coordinador del SiB Colombia. 
+* Los contenidos de los laboratorios han sido contruidos con base en múltiples talleres dictados por el equipo coordinador del SiB Colombia. 
   * Miembros actuales: Camila Plata, Ricardo Ortíz, Esteban Marentes y Dairo Escobar.
   * Miembros históricos: Leonardo Buitrago, Marcela Delgado y Nestor Beltrán.
 
