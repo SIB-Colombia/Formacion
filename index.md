@@ -1,6 +1,6 @@
 ## Laboratorio del ciclo de formación SiB Colombia
 
-Tradicionalmente, el Equipo Coordinador del SiB Colombia lidera talleres presenciales para la **publicación y gestión de los datos sobre biodiversidad**. El gran interés de la **comunidad** por estos temas y la alta demanda de los talleres ha motivado la creación de un ciclo de formación virtual, el cual tiene como objetivo llegar a una mayor cantidad de personas y regiones del país.  
+Tradicionalmente, el Equipo Coordinador del SiB Colombia ha liderado talleres presenciales para la **publicación y gestión de los datos sobre biodiversidad**. El gran interés de la **comunidad** por estos temas y la alta demanda de los talleres ha motivado la creación de un ciclo de formación virtual, el cual tiene como objetivo llegar a una mayor cantidad de personas y regiones del país.  
 
 **Objetivos específicos**
 
