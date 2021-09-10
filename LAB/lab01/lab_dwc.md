@@ -13,7 +13,7 @@ Estructurar un conjunto de datos bajo el estándar [*Darwin Core* (DwC)](https:/
 
 Estructurar un conjunto de datos de prueba en el estándar DwC, usando la plantilla de publicación de registros biológicos del [SiB Colombia](https://sibcolombia.net/). El conjunto de datos tiene problemas de completitud y formato, los cuales deben ser resueltos para que el conjunto se ajuste a las definiciones y contenga los elementos mínimos requeridos por el estándar.
 
-**Requerimientos** 
+**Requisitos** 
 * Para realizar este ejercicio es necesario contar con un programa que procese archivos de texto como Excel.
 
 
