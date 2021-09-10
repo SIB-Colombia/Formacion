@@ -14,7 +14,7 @@ Estructurar un conjunto de datos bajo el estándar [*Darwin Core* (DwC)](https:/
 Estructurar un conjunto de datos de prueba en el estándar DwC, usando la plantilla de publicación de registros biológicos del [SiB Colombia](https://sibcolombia.net/). El conjunto de datos tiene problemas de completitud y formato, los cuales deben ser resueltos para que el conjunto se ajuste a las definiciones y contenga los elementos mínimos requeridos por el estándar.
 
 **Requerimientos** 
-* Para realizar este ejercicio es necesario contar con un programa para procesar archivos de texto como Excel.
+* Para realizar este ejercicio es necesario contar con un programa que procese archivos de texto como Excel.
 
 
 **Archivo de trabajo**
@@ -30,7 +30,7 @@ Lea detenidamente el caso de estudio, allí encontrará información relevante p
 (Tenga presente que este caso está basado en una historia ficticia y fue creado solo para propósitos educativos).
 
 
->La «Universidad de Ciencias Naturales» (UCN) es reconocida en el país como una institución de referencia para la investigación sobre biodiversidad. El  Departamento de Biología Animal mantiene el Museo de Historia Natural (Registro Nacional de Colecciones Biológicas: 123), en donde la Colección Zoológica se encuentra bien representada con cerca de 700 especímenes recolectados a lo largo de todo el territorio nacional, desde mediados del siglo 20 hasta la fecha.
+>La «Universidad de Ciencias Naturales» (UCN) es reconocida en el país como una institución de referencia para la investigación sobre biodiversidad. El  Departamento de Biología Animal mantiene el Museo de Historia Natural (Registro Nacional de Colecciones Biológicas: 123), en donde la Colección Zoológica se encuentra bien representada con cerca de 700 especímenes recolectados a lo largo del territorio nacional, desde mediados del siglo 20 hasta la fecha.
 
 >En la actualidad, su cuidado se encuentra a cargo del profesor de Sistemática Animal, Juan Travolta, quien realiza tareas curatoriales, investigativas y de docencia. Además, otros profesores del departamento y algunos estudiantes colaboran ocasionalmente con la identificación de muestras y la toma de datos. El Coordinador del Departamento de Biología Animal, convencido de los beneficios y bondades que brinda la publicación de información a través del SiB Colombia, desea que se publiquen en línea los datos sobre aves de la **colección  ornitológica (MH-ORNIT)**, anfibios y reptiles de la **colección de herpetología (MH-HERP)** y algunos **mamíferos (MH-MAM)**. Esto permitirá ampliar la visibilidad de las colecciones biológicas de la universidad y dar acceso abierto a dichos datos para que sean consultados o usados en diferentes campos de investigación, llegando incluso a ser utilizados por tomadores de decisiones a nivel regional o nacional.
 
