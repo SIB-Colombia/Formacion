@@ -7,52 +7,52 @@ sort: 2
 
 **Objetivo**
 
-Conocer y utilizar las extensiones del estándar Darwin Core (DwC) siguiendo unas buenas prácticas de documentación. 
+Conocer y utilizar las extensiones del estándar *Darwin Core* (DwC), siguiendo las buenas prácticas de documentación. 
 
 
 **Sobre la actividad**
 
-Utilizar 3 de las extensiones más comunes del estándar DwC para la incorporación de información sobre rasgos funcionales, recursos multimedia, y datos sobre distribución de especies. Para esto se proporcionarán conjuntos de datos de prueba y planillas de publicación enfocadas en el uso de las extensiones DwC.
+Utilizar tres de las extensiones más comunes del estándar DwC para incorporar información sobre rasgos funcionales, recursos multimedia y datos de la distribución de especies. Para esto se proporcionarán conjuntos de prueba y plantillas de publicación enfocadas en el uso de las extensiones DwC.
 
 
-**Requerimientos**
+**Requisitos**
 
-Contar con un programa para procesar archivos de texto como Excel.
+* Para realizar este ejercicio, es necesario contar con un programa que procese archivos de texto. Por ejemplo, Excel.
 
 **Archivo de trabajo**
 
 - *Ejercicio de Rasgos funcionales* 
 
-    - [Ejercicio1_Registrosbiologicos_Estructurado.xlsx](https://drive.google.com/uc?id=1KslrtjZAwFbOWsQJ9NdBi2BLBbxNoVJo&authuser=0&export=download)
+    - [Ejercicio1_Registrosbiológicos_Estructurado.xlsx](https://drive.google.com/uc?id=1KslrtjZAwFbOWsQJ9NdBi2BLBbxNoVJo&authuser=0&export=download)
     - [Ejercicio1_MedidasoHechos_porEstructurar.xlsx](https://drive.google.com/uc?id=1fHWfwjQ8s_4j12uHHleUw4JFyIRoeq0V&authuser=0&export=download)
-    - [Plantilla Medidas o hechos (_Measurement or Facts_)](https://drive.google.com/uc?export=download&id=1s05MAYDixYt6wPp9V8de8qrCHxuOOw-o) 
+    - [Plantilla Medidas o hechos (*Measurement or Facts*)](https://drive.google.com/uc?export=download&id=1s05MAYDixYt6wPp9V8de8qrCHxuOOw-o) 
 
 
 - *Ejercicio de Distribución de especies*
 
     - [Ejercicio2_ListadeEspecies_Estructurado.xlsx](https://drive.google.com/uc?id=1YoBeJIxmH5LdVNWglcyeFcuxJT83MryO&authuser=0&export=download)
-    - [Ejercicio2_DistribucionEspecies_porEstructurar.xlsx](https://drive.google.com/uc?id=1FRUsnhRglZ11eRQnn2mL0XCQp1W3WicZ&authuser=0&export=download)
-    - [Plantilla Distribución de especies (_Species Distribution_)](https://drive.google.com/uc?export=download&id=1kqyGIkeP6KdR0-hz7CbGvriQuSitWqwp)
+    - [Ejercicio2_DistribuciónEspecies_porEstructurar.xlsx](https://drive.google.com/uc?id=1FRUsnhRglZ11eRQnn2mL0XCQp1W3WicZ&authuser=0&export=download)
+    - [Plantilla Distribución de especies (*Species Distribution*)](https://drive.google.com/uc?export=download&id=1kqyGIkeP6KdR0-hz7CbGvriQuSitWqwp)
 
 - *Ejercicio de Multimedia*
 
-    - [Ejercicio3_Registrosbiologicos_Estructurado.xlsx](https://drive.google.com/uc?id=1wm7ZvwBqywuROZ-xqTmx00dsAZUY_oQO&authuser=0&export=download)
+    - [Ejercicio3_Registrosbiológicos_Estructurado.xlsx](https://drive.google.com/uc?id=1wm7ZvwBqywuROZ-xqTmx00dsAZUY_oQO&authuser=0&export=download)
     - [Ejercicio3_Multimedia_porEstructurar.xlsx](https://drive.google.com/uc?id=1ghJuuEc9TDBvwu0vaWAuuu1d113nNpa7&authuser=0&export=download)
-    - [Plantilla Multimedia Simple (_Simple Multimedia_)](https://drive.google.com/uc?export=download&id=1Bfdgnl-KXwvLHs8H-bSe8yBXVyD8qrx8)
+    - [Plantilla Multimedia Simple (*Simple Multimedia*)](https://drive.google.com/uc?export=download&id=1Bfdgnl-KXwvLHs8H-bSe8yBXVyD8qrx8)
 
 ## Ejercicio 1 - Rasgos funcionales
 
 
 ### Paso 1 - Caso de estudio
-A partir de las notas de campo de algunos especímenes depositados de la colección de la Universidad de Ciencias Naturales, que se encuentra publicada a través del SiB Colombia como un conjunto de datos de Registros Biológicos, se decide incorporar información sobre los rasgos funcionales de los especímenes. Usted cuenta con los datos de la colección debidamente estructurados en DwC y  una tabla -sin estructurar- relacionando a partir del número de catálogo rasgos funcionales para Aves y Reptiles. Su misión es estructurar los datos de los rasgos funcionales utilizando  la extensión  Medidas o hechos (_Measurement or Facts_)  para que estos puedan incluirse en la publicación de la colección.
+A partir de las notas de campo de algunos especímenes de la colección de la Universidad de Ciencias Naturales, la cual se encuentra publicada a través del SiB Colombia como un conjunto de datos de **registros biológicos**, se decide incorporar información sobre los rasgos funcionales de los especímenes. Usted cuenta con los datos de la colección, debidamente estructurados en DwC, y una tabla (sin estructurar) que relaciona rasgos funcionales de aves y reptiles a partir del número de catálogo. Su misión es estructurar los datos de los rasgos funcionales, utilizando la extensión **Medidas o hechos** (*Measurement or Facts*), para que estos puedan incluirse en la publicación de la colección.
 
 ### Paso 2 - Exploración de la plantilla
  
-Descargue y abra la plantilla de la extensión de Medidas o Hechos (_Measurement or Facts_), encontrará 4 pestañas:
+Descargue y abra la plantilla de la extensión **Medidas o hechos**, allí encontrará 4 pestañas:
 
-- **Instrucciones**: Contiene la guía de uso y los puntos a tener en cuenta antes de iniciar la documentación de la extensión.
-- **Plantilla**: Contiene la tabla con los elementos DwC para documentar la extensión.
-- **Definiciones**: Contiene las definiciones para cada uno de los elementos del estándar DwC, recomendaciones de documentación y ejemplos.
+- **Instrucciones**: contiene la guía de uso y los puntos a tener en cuenta antes de iniciar la documentación de la extensión.
+- **Plantilla**: contiene la tabla con los elementos DwC para documentar la extensión.
+- **Definiciones**: contiene las descripciones de cada uno de los elementos del estándar DwC, recomendaciones de documentación y ejemplos.
 
 #### 2.1. Pestaña Instrucciones
 
@@ -60,118 +60,119 @@ Lea las instrucciones de esta primera pestaña para familiarizarse con el conten
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig1_Extensiones_Elementosobligatorios.png" width=800>
 
-<sup>_Figura 1. Elementos obligatorios de la extensión para Registros Biológicos como Core de la publicación._</sup>
+<sup>*Figura 1. Elementos obligatorios de la extensión para publicar registros biológicos.*</sup>
 
 
 #### 2.2. Plantilla
-Explore los elementos de la extensión en la pestaña de plantilla, encontrará algunos ejemplos pre-documentados en gris para facilitar la interpretación y alcance de los elementos. Puede mantener estos ejemplos durante el ejercicio como referencia o eliminarlos antes de usar la plantilla, estos marcan un punto de partida pero no representan todas las posibilidades de la extensión ya que las medidas pueden ser tan variadas como fuentes de datos.
+Explore los elementos de la extensión en la pestaña de plantilla. Allí encontrará algunos ejemplos pre-documentados en gris para facilitar la interpretación y el alcance de los elementos. Puede mantener estos ejemplos como referencia o eliminarlos antes de usar la plantilla. Estos marcan un punto de partida, pero no representan todas las posibilidades de la extensión, ya que las medidas pueden variar según las fuentes de datos.
 
 #### 2.3. Definiciones 
-Explore la definición de los elementos de la extensión. Puede hacer clic en los elementos de la plantilla, esto lo llevará a la definición del elemento junto a algunos ejemplos de documentación, o puede revisarlas 
+Revise la definición de los elementos de la extensión, haciendo clic en los elementos de la plantilla. Esto le permitirá ver la definición del elemento y algunos ejemplos de documentación.
 
 ### Paso 3 - Mapeo de los datos
 
-Una vez haya explorado los elementos de la extensión e identificado los elementos obligatorios, revise detenidamente el archivo ```Ejercicio1_MedidasoHechos_porEstructurar.xlsx```e identifique los elementos de la extensión que le permitirán estructurar las medidas para su publicación. A esta actividad la llamamos mapeo de datos. Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo. 
+Una vez que haya explorado la extensión e identificado los elementos obligatorios, revise detenidamente el archivo ```Ejercicio1_MedidasoHechos_porEstructurar.xlsx```y ubique los elementos de la extensión que le permitirán estructurar las medidas. Esta actividad recibe el nombre de **mapeo de datos**. Revise la definición de los elementos y sus ejemplos para corroborar la correspondencia del mapeo. 
 
 #### 3.1. Identificar el tipo de medidas o hechos
-Identifique el tipo medidas teniendo en cuenta que se pueden dividir en dos categorías:
 
-* **Cuantitativas**: Una medida cuantificable que cuenta con una unidad de medida, por lo que se asocia como mínimo a los elementos measurementType, measurementeValue y measurementeUnit.
+Teniendo en cuenta que las medidas se pueden dividir en dos categorías, identifique el tipo de cada una.
+
+* **Cuantitativas** (medidas): son variables cuantificables que cuenta con una unidad de medida. Por lo tanto, se asocian a los elementos *measurementType*, *measurementeValue* y *measurementeUnit*.
 
  _Ejemplo_:
-    * _measurementType_: Largo del pico
-    * _measurementeValue_: 20
-    * _measurementUnit_: mm
+    * _measurementType_: largo del pico.
+    * _measurementeValue_: 20.
+    * _measurementUnit_: mm (milímetros).
 
-* **Cualitativas** (hechos): son variables categóricas que guardan algún tipo de lógica, pero que no están asociadas directamente a una unidad de medida, por lo que se asociará como mínimo a los elementos measurementeType y measurementValue. 
+* **Cualitativas** (hechos): son variables categóricas que guardan algún tipo de lógica, pero no están asociadas directamente a una unidad de medida. Por consiguiente, se asocian a los elementos _measurementeType_ y _measurementValue_. 
 
 _Ejemplo_:
-    * _measurementType_: Color pico
-    * _measurementeValue_: Amarillo 
+    * _measurementType_: color del pico
+    * _measurementeValue_: amarillo.
 
 #### 3.2. Mapeo de elementos 
-De acuerdo al paso anterior ahora deberá mapear las medidas en los elementos de la extensión. Para esta extensión puede duplicar  los elementos  tantas veces como lo necesite. Por ejemplo, puede duplicar los elementos _```measurementType```_, _```measurementValue```_, _```measurementUnit```_ y _```measurementDeterminatedBy```_  para documentar las medidas de la Altura de percha y la Longitud rostro cloacal (Fig 2). Haga lo mismo para las medidas faltantes.
+De acuerdo al paso anterior, ahora deberá mapear las medidas en los elementos de la extensión. Puede duplicar los elementos tantas veces como se requiera. Por ejemplo, puede duplicar los elementos _measurementType_, _measurementValue_, _measurementUnit_ y _measurementDeterminatedBy_ para documentar las medidas de «Altura de percha» y «Longitud rostro cloacal» (Fig 2). Haga lo mismo para las medidas faltantes.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Extensiones_mapeo.png" width=700>
 
-<sup>_Figura 2. Mapeo de la Medida 1 (Altura de la percha) y la Medida 2 (Longitud Rostro Cloacal) duplicando los elementos de la plantilla._</sup>
+<sup>_Figura 2. Mapeo de la medida 1 «Altura de la percha» y la medida 2 «Longitud rostro cloacal» con duplicación de los elementos de la plantilla._</sup>
 
 
 #### 3.3. Estructurar el elemento occurrenceID
-Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _```occurrenceID```_ ya que los datos corresponden a  registros biológicos (```Ejercicio1_Registrosbiologicos_Estructurado.xlsx```). Por lo tanto debe asegurarse que el _```occurrenceID```_ de la extensión de Medidas o hechos coincida exactamente con el del conjunto de datos estructurado, haga los ajustes necesarios en el _```occurrenceID```_ para que coincida (Fig  3).
+Para usar cualquier extensión, es necesario contar con un identificador (ID). Este permite enlazar la extensión con los datos. En este ejercicio, el _occurrenceID_ cumple el rol de identificador, ya que los datos corresponden a registros biológicos (```Ejercicio1_Registrosbiologicos_Estructurado.xlsx```). Por lo tanto, debe asegurarse de que el _occurrenceID_ de la extensión **Medidas o hechos** coincida exactamente con el del conjunto de datos estructurado. Haga los ajustes necesarios para que coincidan (Fig. 3).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_Extensiones_occurrenceID.png" width=400>
 
-<sup>_Figura 3. Diferencia entre el occurrenceID del conjunto de datos de registros biológicos y el elemento mapeado a occurrenceID en la extensión._</sup>
+<sup>_Figura 3. Diferencia entre el _occurrenceID_ del conjunto de datos de registros biológicos y el del elemento mapeado en la extensión._</sup>
  
 
 ### Paso 4 - Ajustar los datos
 
 #### 4.1. Ajustar según definiciones y ejemplos
-Una vez estén todos los datos del archivo ```Ejercicio1_MedidasoHechos_porEstructurar.xlsx``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones del estándar para cada elemento mapeado (Fig. 4).
+Una vez mapeados los datos del archivo ```Ejercicio1_MedidasoHechos_porEstructurar.xlsx``` en la plantilla de la extensión, ajuste las columnas de acuerdo a las definiciones del estándar DwC para cada elemento (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Extensiones_ajustados.png" width=800>
 
-<sup>_Figura 4. Datos ajustados según las definiciones y los vocabularios controlados sugeridos._</sup>
+<sup>_Figura 4. Datos ajustados según las definiciones y los vocabularios controlados._</sup>
 
 #### 4.2. Eliminar los elementos vacíos y filas de ejemplo
-Elimine en la plantilla de Medidas o hechos (_Measurement or Facts_)  las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados (Figura 5). En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
+Elimine las columnas de los elementos DwC que quedaron vacías en la plantilla de **Medidas o hechos**. Recuerde que para la publicación solo debe mantener los elementos que hayan sido documentados (Fig. 5). También puede eliminar los ejemplos resaltados en gris, ya que que estos solo son una ayuda para el mapeo de los elementos en la plantilla.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_Extensiones_eliminar.png" width=600>
 
-<sup>_Figura 5. Detalle de como eliminar los elementos vacíos. Clic derecho en la columna > Eliminar._</sup>
+<sup>_Figura 5. Cómo eliminar los elementos vacíos. Clic derecho en la columna > Eliminar._</sup>
 
 ### Paso 5 - Verificación del resultado
-Compare el siguiente [archivo estandarizado](https://drive.google.com/uc?id=1E6_oUh53Du3wTIGilKeyvwQZWbwjR_Wv&authuser=0&export=download) con el archivo que trabajó en el ejercicio y verifique en qué acertó y que puede mejorar. ¿Logró completar más información en la plantilla?
+Compare el siguiente [archivo estandarizado](https://drive.google.com/uc?id=1E6_oUh53Du3wTIGilKeyvwQZWbwjR_Wv&authuser=0&export=download) con el archivo que trabajó en el ejercicio para identificar aciertos y posibilidades de mejora. ¿Logró construir correctamente las extensiones?
 
-Tenga en cuenta que existen **dos** (2) formas válidas de documentar esta extensión. Una es agregar los elementos DwC tantas veces como sea necesario - como se hizo en el ejercicio anterior. Otra forma es agregar una fila para cada medida, esto es posible ya que cada fila se puede relacionar al espécimen por medio del identificador, en este caso el _```occurrenceID```_ (Figura 6). 
+Tenga en cuenta que existen dos formas válidas de documentar esta extensión. La primera es añadir los elementos DwC tantas veces como sea necesario, al igual que en el ejercicio anterior. La segunda es insertar una fila para cada medida. Esto es posible porque cada fila se puede relacionar al espécimen por medio del identificador, en este caso, el _occurrenceID_ (Fig. 6). 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_Extensiones_tiposmapeo.png" width=800>
 
 <sup>_Figura 6. Segundo mecanismo de documentación de la extensión de medidas y hechos en forma de filas, sin duplicar elementos DwC._</sup>
 
-En el archivo descargado verá las dos formas de estructurar la extensión.
+En el archivo descargado, podrá ver las dos formas de estructurar la extensión.
 
-## Ejercicio 2.  - Distribución de especies
+## Ejercicio 2 - Distribución de especies
 
 ### Paso 1 - Caso de estudio
-Está participando en un proyecto cuyo objeto es realizar una lista de especies de las aves en la reserva del Pantano de Martos en el municipio de Guatavita (Código Divipola: 25326) para definir su estrategia de conservación. El investigador principal ha revisado los datos publicados a través del SiB Colombia y la literatura histórica con información del municipio para consolidar una lista de especies estructurada en el estándar DwC. Adicionalmente usted consolidó los datos de la distribución de las especies con sus estados de amenaza, estos nuevos datos deben ser incorporados dentro de la publicación de la lista haciendo uso de la extensión Distribución de Especies (_Species Distribution_). Su misión es estructurar los datos de  distribución de especies utilizando  la extensión.
+Está participando en un proyecto para realizar una lista de especies de las aves en la reserva del Pantano de Martos, en el municipio de Guatavita (Código Divipola: 25326), y definir su estrategia de conservación. El investigador principal ha revisado los datos publicados a través del SiB Colombia y la literatura del municipio para crear y estructurar la lista de especies según el estándar DwC. Adicionalmente, usted quiere añadir los datos de la distribución de las especies y sus estados de amenaza. Estos datos deben ser incorporados en la publicación de la lista por medio de la extensión **Distribución de especies** (_Species Distribution_). Su misión es usar la extensión para estructurar los datos de distribución de especies.
 
 
 ### Paso 2 - Exploración de la plantilla
-Descargue y abra la plantilla de la extensión de Distribución de especies (Species Distribution), encontrará 4 pestañas:
+Descargue y abra la plantilla de la extensión **Distribución de especies** (Species Distribution), allí encontrará 4 pestañas:
 
-* **Instrucciones**: Contiene la guía de uso y los puntos a tener en cuenta antes de iniciar la documentación de la extensión.
-* **Plantilla**: Contiene la tabla con los elementos DwC para documentar la extensión.
-* **Definiciones**: Contiene las definiciones para cada uno de los elementos del estándar DwC, recomendaciones de documentación y ejemplos.
-* **Vocabulario**: Contiene los vocabularios controlados para algunos de los elementos DwC.
+* **Instrucciones**: contiene la guía de uso y los puntos a tener en cuenta antes de iniciar la documentación de la extensión.
+* **Plantilla**: contiene la tabla con los elementos DwC para documentar la extensión.
+* **Definiciones**: contiene las descripciones de cada uno de los elementos del estándar DwC, recomendaciones de documentación y ejemplos.
+* **Vocabulario**: contiene los vocabularios controlados para algunos elementos del *Darwin Core*.
 
-En la pestaña de instrucciones encontrará adicionalmente una sección titulada _Elementos obligatorios_ según el tipo de los datos. Para esta extensión el único elemento obligatorio es el _```taxonID```_ el cual tendrá que obtenerse a partir del archivo ```Ejercicio2_ListadeEspecies_Estructurado.xlsx``` como se indica en el siguiente paso. 
+En la pestaña de instrucciones, encontrará una sección adicional titulada «Elementos obligatorios según el tipo de los datos». El único elemento obligatorio para esta extensión es el _taxonID_, el cual se construye a partir del archivo ```Ejercicio2_ListadeEspecies_Estructurado.xlsx```, como se indica en el siguiente paso. 
 
-Explore los elementos de la extensión en la pestaña de plantilla haciendo clic en en los elementos para acceder a las definiciones y vocabularios controlados (cuando corresponda). En la plantilla encontrará algunos ejemplos pre-documentados en gris para facilitar la interpretación y alcance de los elementos. Puede mantener estos ejemplos durante el ejercicio como referencia o eliminarlos antes de usar la plantilla, estos marcan un punto de partida pero no representan todas las posibilidades de la extensión ya que dependerá del alcance temático y geográfico de cada lista de especies.
+Explore los elementos de la extensión en la plantilla, haciendo clic en los elementos para acceder a las definiciones y vocabularios controlados (cuando corresponda). Allí encontrará algunos ejemplos pre-documentados en gris para facilitar la interpretación y el alcance de los elementos. Puede mantener estos ejemplos como referencia o eliminarlos antes de usar la plantilla. Estos marcan un punto de partida, pero no representan todas las posibilidades de la extensión, ya que el alcance temático y geográfico de cada lista de especies es diferente.
 
 ### Paso 3 - Mapeo de los datos
 
-Revise detenidamente el nombre y contenido de cada columna del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xlsx``` e identifique a cuál elemento de la extensión corresponde.  Revise la definición de los elementos y sus ejemplos para estar seguro sobre la correspondencia del mapeo (Fig 7).
+Revise detenidamente el nombre y contenido de cada columna del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xlsx```, identificando a cuál elemento de la extensión corresponde. Revise la definición de los elementos y sus ejemplos para corroborar la correspondencia del mapeo (Fig. 7).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig7_Extensiones_sd_mapeo.png" width=800>
 
-<sup>_Figura 7. Mapeo de datos de distribución en la plantilla de Distribución de especies (*Species Distribution*)._</sup>
+<sup>_Figura 7. Mapeo de datos en la plantilla **Distribución de especies** (*Species Distribution*)._</sup>
 
-Para cualquier extensión es necesario contar con un identificador (ID) para poder enlazar la extensión con los datos, en este caso un _```taxonID```_ ya que los datos corresponden a una lista de especies. Para ello, a partir del nombre científico en ```Ejercicio2_DistribucionEspecies_porEstructurar.xlsx``` identifique el _```taxonID```_ en el archivo ```Ejercicio2_ListadeEspecies_Estructurado.xlsx``` y complételo en el elemento _```taxonID```_ de la plantilla de la extensión (Fig 8).  
+Para usar cualquier extensión, es necesario contar con un identificador (ID). Este permite enlazar la extensión con los datos. En este ejercicio, el _taxonID_ cumple el rol de identificador, ya que los datos corresponden a una lista de especies. Por consiguiente, a partir del nombre científico en ```Ejercicio2_DistribucionEspecies_porEstructurar.xlsx```, identifique el _taxonID_ en el archivo ```Ejercicio2_ListadeEspecies_Estructurado.xlsx``` y cópielo en el elemento _taxonID_ de la plantilla de la extensión (Fig. 8).  
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig8_Extensiones_sd_taxonID.png" width=500>
 
-<sup>_Figura 8. Documentación del _taxonID_ en la plantilla de Distribución de especies a partir de la lista de especies._</sup>
+<sup>_Figura 8. Documentación del _taxonID_ en la plantilla **Distribución de especies** a partir de la lista de especies._</sup>
 
 
 ### Paso 4 - Ajustar los datos
 
 #### 4.1. Ajustar según definiciones y ejemplos
-Una vez estén todos los datos del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xlsx``` en la plantilla de la extensión, ajuste los datos de acuerdo a las definiciones y vocabularios controlados del estándar para cada elemento mapeado. 
+Una vez mapeados todos los datos del archivo ```Ejercicio2_DistribucionEspecies_porEstructurar.xlsx``` en la plantilla de la extensión, ajuste las columnas de acuerdo a las definiciones y vocabularios controlados del estándar para cada elemento. 
 
 #### 4.2 Completar la información geográfica
-En el caso de uso se le proporcionó el ID de la geografía superior según Divipola. Documente los elementos countryCode y locationID de acuerdo a esta información y la definición del elemento (Fig 9).
+En el caso de estudio se le proporcionó el ID de la geografía superior según Divipola. Documente los elementos _countryCode_ y _locationID_ según esta información y la definición del elemento (Fig. 9).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig9_Extensiones_sd_ajustados.png" width=600>
@@ -180,10 +181,10 @@ En el caso de uso se le proporcionó el ID de la geografía superior según Divi
 
 
 ####  4.3. Eliminar los elementos vacíos y filas de ejemplo
-Elimine en la plantilla de Distribución de especies (_Species Distribution_) las columnas de los elementos DwC que quedaron vacíos, para la publicación solo debe mantener los elementos que hayan sido documentados. En este punto también puede eliminar  los ejemplos -resaltados en gris-, recuerde que estos ejemplos son una ayuda para el mapeo de los elementos en la plantilla pero no son necesarios para el resultado final en la publicación. 
+Elimine las columnas de los elementos DwC que quedaron vacías en la plantilla **Distribución de especies** (_Species Distribution_) Recuerde que para la publicación solo debe mantener los elementos que hayan sido documentados. También puede eliminar los ejemplos resaltados en gris, ya que que estos solo son una ayuda para el mapeo de los elementos en la plantilla. 
 
 ### Paso 5 - Verificación del resultado
-Compare el siguiente archivo estandarizado según las definiciones del estándar con el archivo que trabajó en el laboratorio y verifique en qué acertó y que puede mejorar. ¿Logró completar más información en la plantilla?
+Compare el siguiente archivo, estandarizado según las definiciones del Darwin Core, con el archivo que trabajó en el laboratorio para identificar aciertos y posibilidades de mejora. ¿Logró construir correctamente las extensiones?
 
 [**Descargue el archivo estandarizado**](https://drive.google.com/uc?id=1Kk5UjFbWbLM-12W8L1cmNd58mrDXK-Jz&authuser=0&export=download)
 
@@ -191,47 +192,47 @@ Compare el siguiente archivo estandarizado según las definiciones del estándar
 ## Ejercicio 3. - Recursos multimedia
 
 ### Paso 1 - Aplicar lo aprendido
-A partir de los anteriores ejercicios habrá notado que las extensiones funcionan de forma similar. En este ejercicio deberá realizar la estructuración de la extensión Multimedia Simple (_Simple Multimedia_) a partir de los aprendido en los ejercicios anteriores. 
+A partir de los ejercicios previos, se puede deducir que las extensiones funcionan de forma similar. Por lo tanto, este ejercicio consiste en estructurar la extensión **Multimedia simple** (_Simple Multimedia_) a partir de lo aprendido anteriormente. 
 
-Para este ejercicio se le proporciona el archivo ```Ejercicio3_Registrosbiologicos_Estructurado.xlsx``` estructurado en DwC con los datos de una colección de microorganismos a cuyas cepas se le desea asociar imágenes de referencia. En el archivo ```Ejercicio3_Multimedia_porEstructurar.xlsx``` encontrarla los enlaces de dichas imágenes y deberá estructurarlas usando la extensión Simple Multimedia (_Multimedia Simple_).
+El archivo ```Ejercicio3_Registrosbiologicos_Estructurado.xlsx``` se encuentra estructurado en DwC y contiene los datos de una colección de microorganismos. Se desea asociar las cepas de dichos microorganismos a imágenes de referencia, las cuales se encuentran enlazadas en el archivo ```Ejercicio3_Multimedia_porEstructurar.xlsx```. El primer paso consiste en estructurar las imágenes, usando la extensión **Multimedia simple** (_Simple multimedia_).
 
  
 ### Paso 2 - Verificación del resultado
-Compare el siguiente archivo estandarizado según las definiciones del estándar con el archivo que trabajó en el laboratorio y verifique en qué acertó y que puede mejorar. ¿Logró completar más información en la plantilla?
+Compare el siguiente archivo, estandarizado según las definiciones del Darwin Core, con el archivo que trabajó en el laboratorio para identificar aciertos y posibilidades de mejora. ¿Logró construir correctamente las extensiones?
 
 
-**[Descargue el archivo estandarizado](https://drive.google.com/uc?id=1pODwB1jELAvpTa9CvujyOd6vcFyA0Nld&authuser=0&export=download)**
+**[Archivo estandarizado](https://drive.google.com/uc?id=1pODwB1jELAvpTa9CvujyOd6vcFyA0Nld&authuser=0&export=download)**
 
 
 ## Ejercicio 4 - Datos propios
 
 Si tiene datos propios que desee publicar, estandarícelos siguiendo los pasos de esta guía. Recuerde usar la plantilla de acuerdo al tipo y origen de los datos.
 
-En este ejercicio notará que las imágenes se encuentran en un repositorio. Si a futuro desea publicar imágenes asociadas a un registro biológico le recomendamos algunos de los siguientes repositorios según se adapte a sus necesidades:
+En este ejercicio, notará que las imágenes se encuentran en un repositorio. Si a futuro desea publicar imágenes asociadas a un registro biológico, es recomendable usar el recurso que mejor se adapte a sus necesidades. Algunos de los repositorios disponibles son:
 
-* [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
-    * fotografías ilimitadas
-    * Sobre las galerías: [https://commons.wikimedia.org/wiki/Commons:Galleries](https://commons.wikimedia.org/wiki/Commons:Galleries)
-    * Ejemplo galería: [https://commons.wikimedia.org/wiki/London](https://commons.wikimedia.org/wiki/London)
+* [*Wikimedia Commons*](https://commons.wikimedia.org/wiki/Main_Page)
+    * Fotografías ilimitadas.
+    * Sobre las galerías: [https://commons.wikimedia.org/wiki/Commons:Galleries](https://commons.wikimedia.org/wiki/Commons:Galleries).
+    * Ejemplo galería: [https://commons.wikimedia.org/wiki/London](https://commons.wikimedia.org/wiki/London).
     
 * [Internet Archive](https://archive.org/index.php)
-    * fotografías ilimitadas
-    * Sobre las colecciones: [https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-](https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-)
-    * Ejemplo colecciones: [https://archive.org/details/brooklynmuseum](https://archive.org/details/brooklynmuseum)
+    * Fotografías ilimitadas.
+    * Sobre las colecciones: [https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-](https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-).
+    * Ejemplo colecciones: [https://archive.org/details/brooklynmuseum](https://archive.org/details/brooklynmuseum).
     
 * [flickr](https://www.flickr.com/)
-    * Opción de almacenamiento gratuito
-    * Limitado a 1000 fotografías
-    * Ejemplo: [https://www.flickr.com/photos/98788120@N02/](https://www.flickr.com/photos/98788120@N02/)
+    * Opción de almacenamiento gratuito.
+    * Limitado a 1000 fotografías.
+    * Ejemplo: [https://www.flickr.com/photos/98788120@N02/](https://www.flickr.com/photos/98788120@N02/).
     
 * [SmugMug](https://www.smugmug.com/)
-    * El almacenamiento está sujeto a pago, puede consultar aquí los planes disponibles
+    * El almacenamiento está sujeto a pago, puede consultar aquí los planes disponibles.
     * Almacenamiento ilimitado en cualquier plan.
 
 
 ****
 **¡Felicitaciones!** :raised_hands:
-Ha aprendido a estructurar datos haciendo uso de las extensiones estándar Darwin Core.
+Ha aprendido a estructurar datos adicionales con las extensiones del estándar *Darwin Core*.
 
 ****
 
@@ -239,7 +240,9 @@ Ha aprendido a estructurar datos haciendo uso de las extensiones estándar Darwi
 
 ![](https://licensebuttons.net/l/by/3.0/88x31.png)
 
-La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) te permite usar, redistribuir y construir sobre estos contenidos libremente. :open_hands: Queremos que compartas estos laboratorios y que juntos logremos datos sobre biodiversidad de mejor calidad.
+La licencia [CC-BY](https://creativecommons.org/licenses/by/4.0/) permite usar, redistribuir y construir sobre estos contenidos libremente.
+
+¡La difusión de estos laboratorios contribuirá a la publicación de más y mejores conjuntos de datos sobre biodiversidad!
 
 **Citación sugerida**
 
