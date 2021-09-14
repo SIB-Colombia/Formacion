@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# Estandarización usando las extensiones Darwin Core
+# Estandarización usando las extensiones *Darwin Core*
 
 
 **Objetivo**
@@ -184,7 +184,7 @@ En el caso de estudio se le proporcionó el ID de la geografía superior según 
 Elimine las columnas de los elementos DwC que quedaron vacías en la plantilla **Distribución de especies** (_Species Distribution_) Recuerde que para la publicación solo debe mantener los elementos que hayan sido documentados. También puede eliminar los ejemplos resaltados en gris, ya que que estos solo son una ayuda para el mapeo de los elementos en la plantilla. 
 
 ### Paso 5 - Verificación del resultado
-Compare el siguiente archivo, estandarizado según las definiciones del Darwin Core, con el archivo que trabajó en el laboratorio para identificar aciertos y posibilidades de mejora. ¿Logró construir correctamente las extensiones?
+Compare el siguiente archivo, estandarizado según las definiciones del *Darwin Core*, con el archivo que trabajó en el laboratorio para identificar aciertos y posibilidades de mejora. ¿Logró construir correctamente las extensiones?
 
 [**Descargue el archivo estandarizado**](https://drive.google.com/uc?id=1Kk5UjFbWbLM-12W8L1cmNd58mrDXK-Jz&authuser=0&export=download)
 
@@ -198,7 +198,7 @@ El archivo ```Ejercicio3_Registrosbiologicos_Estructurado.xlsx``` se encuentra e
 
  
 ### Paso 2 - Verificación del resultado
-Compare el siguiente archivo, estandarizado según las definiciones del Darwin Core, con el archivo que trabajó en el laboratorio para identificar aciertos y posibilidades de mejora. ¿Logró construir correctamente las extensiones?
+Compare el siguiente archivo, estandarizado según las definiciones del *Darwin Core*, con el archivo que trabajó en el laboratorio para identificar aciertos y posibilidades de mejora. ¿Logró construir correctamente las extensiones?
 
 
 **[Archivo estandarizado](https://drive.google.com/uc?id=1pODwB1jELAvpTa9CvujyOd6vcFyA0Nld&authuser=0&export=download)**
