@@ -7,7 +7,7 @@ sort: 3
 
 **Objetivo**
 
-Detectar posibles problemas en  la estructura y contenido de los conjuntos de datos, mejorando la calidad de estos para ser publicados a través del SiB Colombia, GBIF y OBIS.
+Detectar posibles problemas en la estructura y contenido de los conjuntos de datos, mejorando la calidad de estos para ser publicados a través del SiB Colombia, GBIF y OBIS.
 
 **Sobre la Herramienta**
 
@@ -81,7 +81,7 @@ El validador le indicará si el conjunto de datos tiene la estructura adecuada p
 
 ### 3.1. Resultado general de la validación 
 
-Revise el encabezado del reporte. Si aparece en rojo significa que no puede ser indexado (Fig. 5A). Si aparece en verde, significa que se puede indexar a GBIF (Fig. 5B).
+Revise el encabezado del reporte. Si aparece en rojo, significa que no puede ser indexado (Fig. 5A). Si aparece en verde, significa que se puede indexar a GBIF (Fig. 5B).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig5_datavalid_semaforo.PNG" width=600>
@@ -152,7 +152,7 @@ Revise todas las alertas de validación y ajuste los datos de acuerdo a estas (F
 
 **Problema**: posible error en la latitud. Aunque se documentó como latitud sur, posiblemente corresponda a latitud norte (en coordenadas decimales, el norte se indica con un signo menos antes de la latitud).
 
-**Solución**:asegúrese de que los elementos _Darwin Core_ *decimalLatitude* y *decimalLongitude* estén documentados con las coordenadas en formato decimal. Además, corrobore que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud* y *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
+**Solución**: asegúrese de que los elementos _Darwin Core_ *decimalLatitude* y *decimalLongitude* estén documentados con las coordenadas en formato decimal. Además, corrobore que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud* y *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
 
 También puede obtener el mensaje «Se presume longitud negativa», pero es menos común para los datos de Colombia y probablemente corresponda a un problema de digitalización.
 
