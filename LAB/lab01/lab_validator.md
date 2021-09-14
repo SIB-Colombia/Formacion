@@ -25,7 +25,7 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 * El validador admite archivos con los siguientes formatos:
   * Formato Excel (.xls o .xlsx).
   * Formato CSV.
-  * Archivos Darwin Core comprimidos (DwC-A).
+  * Archivos *Darwin Core* comprimidos (DwC-A).
 
 **Archivo de trabajo**
 Descargue el archivo [```datos_Estructurados.xls```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
