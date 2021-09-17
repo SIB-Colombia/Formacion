@@ -33,6 +33,7 @@ Para más información, consulte los siguientes videos:
 
 - **GBIF**: corresponde a la sigla de Infraestructura Mundial de Información en Biodiversidad, una organización internacional y red de investigación financiada por gobiernos de todo el mundo, la cual se encarga de proporcionar acceso abierto y gratuito a datos sobre todas las formas de vida que hay en la Tierra. Esta información puede ser consultada por cualquier persona en cualquier lugar. Por consiguiente, el SiB Colombia es el nodo nacional de GBIF.
 
+
 ### Lecturas y recursos externos
 
 :wrench: **Recursos**
