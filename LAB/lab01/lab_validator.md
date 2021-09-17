@@ -11,7 +11,7 @@ Detectar posibles problemas en la estructura y contenido de los conjuntos de dat
 
 **Sobre la Herramienta**
 
-El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un servicio de [GBIF](https://www.gbif.org) que permite evaluar de manera automática la completitud y otros aspectos de la calidad de los conjuntos de datos estructurados bajo el estándar [*Darwin Core* (DwC)](https://dwc.tdwg.org/terms/). El validador genera un informe sobre la sintaxis y la calidad de los datos. Esto permite detectar posibles problemas en la información antes de publicarla. Por consiguiente, si se somete un [DwC-A](https://www.gbif.org/darwin-core), el validador también evalúa la completitud y estructura de los metadatos en el estándar [EML](https://www.gbif.org/sites/default/files/gbif_resource/resource-80640/gbif_metadata_profile_guide_en_v1.pdf).
+El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un servicio de [GBIF](https://www.gbif.org) que permite evaluar de manera automática la completitud y otros aspectos de la calidad en los conjuntos de datos estructurados bajo el estándar [*Darwin Core* (DwC)](https://dwc.tdwg.org/terms/). El validador genera un informe sobre la sintaxis y la calidad de los datos. Esto permite detectar posibles problemas en la información antes de publicarla. Por consiguiente, si se somete un [DwC-A](https://www.gbif.org/darwin-core), el validador también evalúa la completitud y estructura de los metadatos en el estándar [EML](https://www.gbif.org/sites/default/files/gbif_resource/resource-80640/gbif_metadata_profile_guide_en_v1.pdf).
 
 **Enlace**
 
@@ -20,7 +20,7 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 **Requerimientos** 
 * La primera fila del conjunto de datos a validar debe tener el nombre de los elementos DwC en inglés.
 
-* El conjunto de datos debe tener la columna del ID según el tipo de datos que corresponda: *occurenceID* (registros biológicos), *eventID* (eventos de muestreo) o *taxonID* (listas de especies). La columna debe estar documentada para todas las filas y cada ID debe ser único.
+* El conjunto de datos debe tener la columna del ID según el tipo de datos que corresponda: <body><p style="color:#335BFF";>*occurenceID*</p></body> (registros biológicos), *eventID* (eventos de muestreo) o *taxonID* (listas de especies). La columna debe estar documentada para todas las filas y cada ID debe ser único.
 
 * El validador admite archivos con los siguientes formatos:
   * Formato Excel (.xls o .xlsx).
@@ -160,9 +160,9 @@ También puede obtener el mensaje «Se presume longitud negativa», pero es meno
 
 **Problema**: el nombre científico fue validado a un nivel taxonómico superior al documentado. Por ejemplo, si el nombre científico corresponde a una especie (género + epíteto específico), significa que el validador solo pudo interpretar el género mas no el epíteto específico.
 
-**Solución 1.**: revise que el nombre científico no contenga calificadores de identificación (*cf.*, *aff.*) u otros calificadores como *sp*.
+**Solución 1**: revise que el nombre científico no contenga calificadores de identificación (*cf.*, *aff.*) u otros calificadores como *sp*.
 
-**Solución 2.**: revise que el nombre científico esté escrito correctamente.
+**Solución 2**: revise que el nombre científico esté escrito correctamente.
 
 
 > Es posible que algunos nombres válidos y correctamente escritos sean marcados con esta alerta si no se encuentran en el árbol taxonómico de GBIF. Esto es común en el caso de especíes endémicas o recientemente descritas. En tal caso, ignore la alerta.
