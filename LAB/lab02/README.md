@@ -28,8 +28,10 @@ Las metas de aprendizaje de este laboratorio son:
 - **API**: funciona como un mensajero que hace solicitudes a un programa o base de datos, generando una respuesta apropiada a dichas solicitudes. Técnicamente, son un conjunto de comandos, funciones y protocolos informáticos que las aplicaciones siguen para comunicarse entre ellas, asegurando la conectividad entre distintas páginas y portales. De esta manera, las APIs permiten hacer uso de funciones preexistentes en otras plataformas sin necesidad de crearlas desde cero.
 
 Para más información, consulte los siguientes videos:
--- [Video en inglés](https://youtu.be/s7wmiS2mSXY)
--- [Video en español](https://youtu.be/rq6gdwEbowU)
+- [Video en inglés](https://youtu.be/s7wmiS2mSXY)
+- [Video en español](https://youtu.be/rq6gdwEbowU)
+
+
 
 - **GBIF**: corresponde a la sigla de Infraestructura Mundial de Información en Biodiversidad, una organización internacional y red de investigación financiada por gobiernos de todo el mundo, la cual se encarga de proporcionar acceso abierto y gratuito a datos sobre todas las formas de vida que hay en la Tierra. Esta información puede ser consultada por cualquier persona en cualquier lugar. Por consiguiente, el SiB Colombia es el nodo nacional de GBIF.
 
