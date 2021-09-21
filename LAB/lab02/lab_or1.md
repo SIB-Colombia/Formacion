@@ -62,7 +62,7 @@ Puede cargar datos con diferentes formatos y extensiones: TSV, CSV, SV, Excel (.
 
 **2.1. Abrir un nuevo proyecto**
 
-Abra _OpenRefine_ y diríjase a la pestaña _```Create Project```_. Para cargar el archivo siga la ruta _```Get data from > This Computer```_, y haga clic en _```Choose Files```_ (Fig. 1).
+Abra _OpenRefine_ y seleccione la pestaña ```Create Project```. Para cargar el archivo siga la ruta **_```Get data from > This Computer```_**, y haga clic en ```Choose Files``` (Fig. 1).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_OR_cargar.png" width=800>
 
@@ -211,7 +211,7 @@ Realice un _```Text Facet```_ en _```verbatimTaxonRank```_ y edite masivamente r
 <sup>_Figura 13. Documentación masiva del elemento verbatimTaxonRank._</sup>
 
 
-Diríjase nuevamente al menú de la columna de _```scientificName```_ y siga la ruta _```Edit cells > Transform```_, luego ingrese la fórmula  _```value.replace(" sp.","")```_, note que en la pestaña _```Preview```_ puede ver la vista previa del resultado al aplicar la fórmula, y corroborar si es el cambio deseado (Fig. 14). Haga clic en _```OK```_ y aparecerá un mensaje de confirmación de que los cambios se han realizado.
+Diríjase nuevamente al menú de la columna de _```scientificName```_ y siga la ruta _```Edit cells > Transform```_, luego ingrese la fórmula  <code>value.replace(" sp.","")</code>, note que en la pestaña _```Preview```_ puede ver la vista previa del resultado al aplicar la fórmula, y corroborar si es el cambio deseado (Fig. 14). Haga clic en _```OK```_ y aparecerá un mensaje de confirmación de que los cambios se han realizado.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_replace.png" width=800>
 
