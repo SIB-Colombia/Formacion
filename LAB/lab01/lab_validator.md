@@ -20,7 +20,7 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 **Requerimientos** 
 * La primera fila del conjunto de datos a validar debe tener el nombre de los elementos DwC en inglés.
 
-* El conjunto de datos debe tener la columna del ID según el tipo de datos que corresponda: <span style="color:GoldenRod">**_occurrenceID_**</span> (registros biológicos), <span style="color:GoldenRod">**_eventID_**</span> (eventos de muestreo) o <span style="color:GoldenRod">**_taxonID_**</span> (listas de especies). La columna debe estar documentada para todas las filas y cada ID debe ser único.
+* El conjunto de datos debe tener la columna del ID según el tipo de datos que corresponda: <span style="color:Blue">**_occurrenceID_**</span> (registros biológicos), <span style="color:blue">**_eventID_**</span> (eventos de muestreo) o <span style="color:Blue">**_taxonID_**</span> (listas de especies). La columna debe estar documentada para todas las filas y cada ID debe ser único.
 
 * El validador admite archivos con los siguientes formatos:
   * Formato Excel (.xls o .xlsx).
