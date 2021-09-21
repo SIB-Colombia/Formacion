@@ -29,7 +29,7 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 
 **Archivo de trabajo**
 
-Descargue el archivo [<span style="color:Green">**«datos_Estructurados.xls»**</span>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
+Descargue el archivo [<span style="color:LimeGreen"><u>**«datos_Estructurados.xls»**</u></span>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
 
 ----
 
@@ -44,7 +44,7 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o ingrese con sus cre
 <sup>*Figura 1. Ingreso/registro en la página de GBIF.*</sup>
 
 ## Paso 2 - Cargar el archivo
-Cargue el archivo <span style="color:Green">**«datos_Estructurados.xls»**</span> en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
+Cargue el archivo <span style="color:LimeGreen">**«datos_Estructurados.xls»**</span> en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
 
 ```warning
 Es indispensable que el elemento *occurrenceID* esté documentado para que el _DataValidator_ reconozca el archivo.
