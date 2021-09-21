@@ -29,7 +29,7 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 
 **Archivo de trabajo**
 
-Descargue el archivo [<span style="color:MediumSeaGreen"><u><b>**«datos_Estructurados.xls»**</b></u></span>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
+Descargue el archivo [<span style="color:MediumSeaGreen"><u><b>«datos_Estructurados.xls»</b></u></span>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
 
 ----
 
