@@ -28,7 +28,7 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
   * Archivos *Darwin Core* comprimidos (DwC-A).
 
 **Archivo de trabajo**
-Descargue el archivo <mark>[datos_Estructurados.xls]</mark>(https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
+Descargue el archivo [«**datos_Estructurados.xls**»](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
 
 ----
 
