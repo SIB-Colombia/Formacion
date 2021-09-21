@@ -29,7 +29,7 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 
 **Archivo de trabajo**
 
-Descargue el archivo [**«datos_Estructurados.xls»**](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
+Descargue el archivo [<span style="color:Green">**«datos_Estructurados.xls»**</span>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
 
 ----
 
@@ -44,7 +44,7 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o ingrese con sus cre
 <sup>*Figura 1. Ingreso/registro en la página de GBIF.*</sup>
 
 ## Paso 2 - Cargar el archivo
-Cargue el archivo **«datos_Estructurados.xls»** en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
+Cargue el archivo <span style="color:Green">**«datos_Estructurados.xls»**</span> en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
 
 ```warning
 Es indispensable que el elemento *occurrenceID* esté documentado para que el _DataValidator_ reconozca el archivo.
@@ -95,7 +95,7 @@ Las razones más frecuentes por las que un archivo no puede ser indexado son:
 
 **Mensaje:** «Registro no identificado de forma única» indica que los ID documentados en el elemento DwC *occurrenceID* (*taxonID* o *eventID* según el tipo de datos) no son únicos.
 
-**Mensaje:** «No se encontró ni determinó un **_"rowType"_**». Eso indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos. Por ejemplo, *occurrenceID*, *taxonID* o *eventID*, dependiendo del tipo de datos que se esté indexando. 
+**Mensaje:** «No se encontró ni determinó un _rowType_». Eso indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos. Por ejemplo, *occurrenceID*, *taxonID* o *eventID*, dependiendo del tipo de datos que se esté indexando. 
 
 ### 3.2. Ajuste elementos críticos
 
