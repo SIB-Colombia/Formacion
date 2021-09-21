@@ -44,7 +44,7 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o ingrese con sus cre
 <sup>*Figura 1. Ingreso/registro en la página de GBIF.*</sup>
 
 ## Paso 2 - Cargar el archivo
-Cargue el archivo **«datos_Estructurados.xls»** en el validador. Para esto, (1) haga clic en <code>SELECCIONAR UN ARCHIVO</code> o (2) arrastre el archivo desde una carpeta al ícono <code>SOLTAR AQUÍ</code>. 
+Cargue el archivo **«datos_Estructurados.xls»** en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
 
 ```warning
 Es indispensable que el elemento *occurrenceID* esté documentado para que el _DataValidator_ reconozca el archivo.
@@ -95,13 +95,13 @@ Las razones más frecuentes por las que un archivo no puede ser indexado son:
 
 **Mensaje:** «Registro no identificado de forma única» indica que los ID documentados en el elemento DwC *occurrenceID* (*taxonID* o *eventID* según el tipo de datos) no son únicos.
 
-**Mensaje:** «No se encontró o determinó un *rowType*» indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos. Por ejemplo, *occurrenceID*, *taxonID* o *eventID*, dependiendo del tipo de datos que se esté indexando. 
+**Mensaje:** «No se encontró o determinó un **_"rowType"_**» indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos. Por ejemplo, *occurrenceID*, *taxonID* o *eventID*, dependiendo del tipo de datos que se esté indexando. 
 
 ### 3.2. Ajuste elementos críticos
 
 Si el conjunto no puede ser indexado, revise el mensaje de alerta de la herramienta (Fig. 6), realice los ajustes necesarios y vuelva a correr la validación. Posteriormente, el validador le debe indicar que el conjunto de datos se puede indexar.
 
-> :rotating_light: En la sección **Problemas de validación** encontrará los ID que están duplicados.
+> :rotating_light: En la sección **"Problemas de validación"** encontrará los ID que están duplicados.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_datavalid_detalleerror.PNG" width=800>
 
@@ -109,7 +109,7 @@ Si el conjunto no puede ser indexado, revise el mensaje de alerta de la herramie
 
 ### 3.3. Problemas de validación
 
-Diríjase a la sección **Problemas de validación**, allí encontrá varias alertas. El validador indicará el número de registros a revisar para cada una. 
+Diríjase a la sección **"Problemas de validación"**, allí encontrará varias alertas. El validador indicará el número de registros a revisar para cada una. 
 
 Haga clic sobre las flechas de cada una de las alertas para desglosar de los registros que deben ser revisados y ajustados. Utilice el botón de ayuda para obtener una breve explicación sobre las alertas de validación. (Fig. 7).
 
