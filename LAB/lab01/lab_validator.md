@@ -29,7 +29,7 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 
 **Archivo de trabajo**
 
-Descargue el archivo [«**datos_Estructurados.xls**»](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
+Descargue el archivo [**«datos_Estructurados.xls»**](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
 
 ----
 
@@ -95,13 +95,13 @@ Las razones más frecuentes por las que un archivo no puede ser indexado son:
 
 **Mensaje:** «Registro no identificado de forma única» indica que los ID documentados en el elemento DwC *occurrenceID* (*taxonID* o *eventID* según el tipo de datos) no son únicos.
 
-**Mensaje:** «No se encontró o determinó un **_"rowType"_**» indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos. Por ejemplo, *occurrenceID*, *taxonID* o *eventID*, dependiendo del tipo de datos que se esté indexando. 
+**Mensaje:** «No se encontró ni determinó un **_"rowType"_**». Eso indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos. Por ejemplo, *occurrenceID*, *taxonID* o *eventID*, dependiendo del tipo de datos que se esté indexando. 
 
 ### 3.2. Ajuste elementos críticos
 
 Si el conjunto no puede ser indexado, revise el mensaje de alerta de la herramienta (Fig. 6), realice los ajustes necesarios y vuelva a correr la validación. Posteriormente, el validador le debe indicar que el conjunto de datos se puede indexar.
 
-> :rotating_light: En la sección **"Problemas de validación"** encontrará los ID que están duplicados.
+> :rotating_light: En la sección **"Problemas de validación"**, encontrará los ID que están duplicados.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_datavalid_detalleerror.PNG" width=800>
 
@@ -109,7 +109,7 @@ Si el conjunto no puede ser indexado, revise el mensaje de alerta de la herramie
 
 ### 3.3. Problemas de validación
 
-Diríjase a la sección **"Problemas de validación"**, allí encontrará varias alertas. El validador indicará el número de registros a revisar para cada una. 
+Diríjase a la sección **"Problemas de validación"**, donde encontrará varias alertas. El validador indicará el número de registros a revisar para cada una. 
 
 Haga clic sobre las flechas de cada una de las alertas para desglosar de los registros que deben ser revisados y ajustados. Utilice el botón de ayuda para obtener una breve explicación sobre las alertas de validación. (Fig. 7).
 
