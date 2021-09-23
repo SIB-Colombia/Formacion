@@ -20,7 +20,7 @@ El [validador de datos](https://www.gbif.org/es/tools/data-validator/) es un ser
 **Requerimientos** 
 * La primera fila del conjunto de datos a validar debe tener el nombre de los elementos DwC en inglés.
 
-* El conjunto de datos debe tener la columna del ID según el tipo de datos que corresponda: <span style="MediumSeaGreen">**_occurrenceID_**</span> (registros biológicos), <span style="MediumSeaGreen">**_eventID_**</span> (eventos de muestreo) o <span style="color:Purple">**_taxonID_**</span> (listas de especies). La columna debe estar documentada para todas las filas y cada ID debe ser único.
+* El conjunto de datos debe tener la columna del ID según el tipo de datos que corresponda: <span style="color:MediumSeaGreen">**_occurrenceID_**</span> (registros biológicos), <span style="color:MediumSeaGreen">**_eventID_**</span> (eventos de muestreo) o <span style="color:MediumSeaGreen">**_taxonID_**</span> (listas de especies). La columna debe estar documentada para todas las filas y cada ID debe ser único.
 
 * El validador admite archivos con los siguientes formatos:
   * Formato Excel (.xls o .xlsx).
@@ -44,7 +44,7 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o ingrese con sus cre
 <sup>*Figura 1. Ingreso/registro en la página de GBIF.*</sup>
 
 ## Paso 2 - Cargar el archivo
-Cargue el archivo <FONT FACE="monospace">**«datos_Estructurados.xls»**</span></FONT> en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
+Cargue el archivo <FONT FACE="monospace"><b>«datos_Estructurados.xls»**</span></b></FONT> en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
 
 ```warning
 Es indispensable que el elemento *occurrenceID* esté documentado para que el _DataValidator_ reconozca el archivo.
