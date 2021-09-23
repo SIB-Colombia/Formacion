@@ -44,7 +44,7 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o ingrese con sus cre
 <sup>*Figura 1. Ingreso/registro en la página de GBIF.*</sup>
 
 ## Paso 2 - Cargar el archivo
-Cargue el archivo <FONT FACE="monospace"><b>«datos_Estructurados.xls»**</span></b></FONT> en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
+Cargue el archivo <FONT FACE="monospace"><b>«datos_Estructurados.xls»**</b></FONT> en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
 
 ```warning
 Es indispensable que el elemento *occurrenceID* esté documentado para que el _DataValidator_ reconozca el archivo.
