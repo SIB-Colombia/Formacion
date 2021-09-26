@@ -31,19 +31,19 @@ Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se expli
 - Las secciones, ventanas y componentes de las herramientas utilizadas se muestran entre comillas inglesas y en negrita. Por ejemplo: **"Create Project"**.
 - Las opciones de las herramientas que se asocian a instrucciones (dar clic, seleccionar, etc.) aparecen en formato de código, con una tipografía distinta de color naranja. Por ejemplo: ```Choose Files```.
 - Las secuencias de instrucciones y pasos se muestran en formato de código y negrita, con una tipografía distinta de color naranja. Por ejemplo: **_```Paso 1 > Paso 2```_**.
-- Las líneas que se escriben directamente en las herramientas, para programar o realizar algún proceso en específico, aparecen en formato de código, con una tipografía distinta de color negro. Por ejemplo: "<code>linea_de_prueba</code>.
+- Las líneas que se escriben directamente en las herramientas, para programar o realizar algún proceso en específico, aparecen en formato de código, con una tipografía distinta de color negro. Por ejemplo: <code>línea_de_prueba</code>.
 
 **Requerimientos** 
 
 - Navegador Chrome instalado, y configurado como navegador predeterminado.
 
 ``` warning
-No utilice Internet Explorer para este laboratorio ya que OpenRefine no funciona bien con este navegador web.
+No utilice _Internet Explorer_ para este laboratorio, ya que _OpenRefine_ no funciona bien en este navegador.
 ```
 
 **Archivo de trabajo**
 
-- Descargue el archivo [```datos_Estructurados.xlsx```](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
+- Descargue el archivo [<FONT FACE="monospace"><b>«datos_Estructurados.xlsx»</b></FONT>](https://github.com/SIB-Colombia/Formacion/raw/master/LAB/lab02/_docs/datos_Estructurados.xlsx) para realizar el laboratorio.
 
 --------
 
