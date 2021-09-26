@@ -24,6 +24,15 @@ _OpenRefine_ es un _software_ de código abierto bajo una [licencia BSD](https:/
 
 Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se explica su funcionamiento en el contexto de datos sobre biodiversidad estandarizados en _Darwin Core_. Puede consultar mayor información de la herramienta en el [manual de usuario](https://docs.openrefine.org/) (en inglés).
 
+**Convenciones**
+
+- Los elementos del estándar *Darwin Core* aparecen en color verde y cursiva. Por ejemplo:  <span style="color:MediumSeaGreen">**_occurrenceID_**</span>.
+- Los archivos a utilizar en los ejercicios se muestran entre comillas angulares, negrita, y tienen una tipografía diferente. Por ejemplo: <FONT FACE="monospace"><b>«archivo_Ejemplo.xls»</b></FONT>.
+- Las secciones, ventanas y componentes de las herramientas utilizadas se muestran entre comillas inglesas y en negrita. Por ejemplo: **"Create Project"**.
+- Las opciones de las herramientas que se asocian a instrucciones (dar clic, seleccionar, etc.) aparecen en formato de código, con una tipografía distinta de color naranja. Por ejemplo: ```Choose Files```.
+- Las secuencias de instrucciones y pasos se muestran en formato de código y negrita, con una tipografía distinta de color naranja. Por ejemplo: **_```Paso 1 > Paso 2```_**.
+- Las líneas que se escriben directamente en las herramientas, para programar o realizar algún proceso en específico, aparecen en formato de código, con una tipografía distinta de color negro. Por ejemplo: "<code>linea_de_prueba</code>.
+
 **Requerimientos** 
 
 - Navegador Chrome instalado, y configurado como navegador predeterminado.
