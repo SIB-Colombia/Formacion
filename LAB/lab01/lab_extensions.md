@@ -77,15 +77,12 @@ Una vez que haya explorado la extensión e identificado los elementos obligatori
 
 Teniendo en cuenta que las medidas se pueden dividir en dos categorías, identifique el tipo de cada una.
 
-* **Cuantitativas** (medidas): son variables cuantificables que cuenta con una unidad de medida. Por lo tanto, se asocian a los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span>, <span style="color:MediumSeaGreen">**_measurementeValue_**</span> y <span style="color:MediumSeaGreen">**_measurementeUnit_**</span>.
- _Ejemplo_:
+* **Cuantitativas** (medidas): son variables cuantificables que cuenta con una unidad de medida. Por lo tanto, se asocian a los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span>, <span style="color:MediumSeaGreen">**_measurementeValue_**</span> y <span style="color:MediumSeaGreen">**_measurementeUnit_**</span>. Por ejemplo:
     - <span style="color:MediumSeaGreen">**_measurementType_**</span>: largo del pico.
     - <span style="color:MediumSeaGreen">**_measurementeValue_**</span>: 20.
     - <span style="color:MediumSeaGreen">**_measurementeUnit_**</span>: mm (milímetros).
 
-* **Cualitativas** (hechos): son variables categóricas que guardan algún tipo de lógica, pero no están asociadas directamente a una unidad de medida. Por consiguiente, se asocian a los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span> y <span style="color:MediumSeaGreen">**_measurementeValue_**</span>. 
-
-_Ejemplo_:
+* **Cualitativas** (hechos): son variables categóricas que guardan algún tipo de lógica, pero no están asociadas directamente a una unidad de medida. Por consiguiente, se asocian a los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span> y <span style="color:MediumSeaGreen">**_measurementeValue_**</span>. Por ejemplo:
     - <span style="color:MediumSeaGreen">**_measurementType_**</span>: color del pico
     - <span style="color:MediumSeaGreen">**_measurementeValue_**</span>: amarillo.
 
