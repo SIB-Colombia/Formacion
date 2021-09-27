@@ -47,7 +47,7 @@ Cree una cuenta de usuario en [GBIF](https://www.gbif.org) o ingrese con sus cre
 Cargue el archivo <FONT FACE="monospace"><b>«datos_Estructurados.xls»</b></FONT> en el validador. Para esto, (1) haga clic en ```SELECCIONAR UN ARCHIVO``` o (2) arrastre el archivo desde una carpeta al ícono ```SOLTAR AQUÍ```. 
 
 ```warning
-Es indispensable que el elemento *occurrenceID* esté documentado para que el _DataValidator_ reconozca el archivo.
+Es indispensable que el elemento <span style="color:MediumSeaGreen">**_occurrenceID_**</span> esté documentado para que el _DataValidator_ reconozca el archivo.
 ```
 
 El validador le indicará si el conjunto de datos tiene la estructura adecuada para ser publicado a través del SiB Colombia, GBIF y [OBIS](https://obis.org/) o si es necesario realizar ajustes. El informe de validación contiene la siguiente información:
@@ -93,9 +93,9 @@ Revise el encabezado del reporte. Si aparece en rojo, significa que no puede ser
 
 Las razones más frecuentes por las que un archivo no puede ser indexado son:
 
-**Mensaje:** «Registro no identificado de forma única» indica que los ID documentados en el elemento DwC *occurrenceID* (*taxonID* o *eventID* según el tipo de datos) no son únicos.
+**Mensaje:** «Registro no identificado de forma única» indica que los ID documentados en el elemento DwC <span style="color:MediumSeaGreen">**_occurrenceID_**</span> (<span style="color:MediumSeaGreen">**_taxonID_**</span> o <span style="color:MediumSeaGreen">**_eventID_**</span> según el tipo de datos) no son únicos.
 
-**Mensaje:** «No se encontró ni determinó un _rowType_». Eso indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos. Por ejemplo, *occurrenceID*, *taxonID* o *eventID*, dependiendo del tipo de datos que se esté indexando. 
+**Mensaje:** «No se encontró ni determinó un _rowType_». Esto indica que algunas de las columnas obligatorias para realizar la validación no se encuentran en el conjunto de datos. Por ejemplo, <span style="color:MediumSeaGreen">**_occurrenceID_**</span>, <span style="color:MediumSeaGreen">**_taxonID_**</span> o <span style="color:MediumSeaGreen">**_eventID_**</span>, dependiendo del tipo de datos que se esté indexando. 
 
 ### 3.2. Ajuste elementos críticos
 
@@ -121,11 +121,11 @@ Haga clic sobre las flechas de cada una de las alertas para desglosar de los reg
 **:vertical_traffic_light: Las alertas se agrupan en 3 categorías según su color:**
 
 
-* Alertas de color **ROJO**: indican un error estructural que no permite la indexación del recurso y debe ser corregido.
+* Alertas de color <span style="color:Red">**ROJO**</span>: indican un error estructural que no permite la indexación del recurso y debe ser corregido.
 
-* Alertas de color **AMARILLO**: indican potenciales errores que deben ser revisados en detalle para determinar si se debe o no corregir los datos.
+* Alertas de color <span style="color:Gold">**AMARILLO**</span>: indican potenciales errores que deben ser revisados en detalle para determinar si se debe o no corregir los datos.
 
-* Alertas de color **GRIS**: indican el proceso de interpretación realizado por el validador. En la mayoría de los casos, no requieren ajustes importantes en los datos.
+* Alertas de color <span style="color:Grey">**GRIS**</span>: indican el proceso de interpretación realizado por el validador. En la mayoría de los casos, no requieren ajustes importantes en los datos.
 
 ### 3.4. Revisión de alertas
 
@@ -135,25 +135,25 @@ Revise todas las alertas de validación y ajuste los datos de acuerdo a estas (F
 
 **:warning: Alerta**: Base del registro inválida.
 
-**Problema**: la base del registro (*basisOfRecord*) no cumple con los requerimientos del estándar.
+**Problema**: la base del registro (<span style="color:MediumSeaGreen">**_basisOfRecord_**</span>) no cumple con los requerimientos del estándar.
 
 **Solución 1**: revise que todos los registros (filas) tengan este elemento documentado.
 
-**Solución 2**: documente el elemento con base en el vocabulario controlado en inglés (_HumanObservation, PreservedSpecimen, LivingSpecimen, MachineObservation, MaterialSample, FossilSpecimen_).
+**Solución 2**: documente el elemento con base en el vocabulario controlado en inglés (<span style="color:MediumSeaGreen">**_HumanObservation_**</span>, <span style="color:MediumSeaGreen">**_PreservedSpecimen_**</span>, <span style="color:MediumSeaGreen">**_LivingSpecimen_**</span>, <span style="color:MediumSeaGreen">**_MachineObservation_**</span>, <span style="color:MediumSeaGreen">**_MaterialSample_**</span>, <span style="color:MediumSeaGreen">**_FossilSpecimen_**</span>).
 
 
 **:warning: Alerta**: Coordenada inválida.
 
 **Problema**: las coordenadas documentadas no se encuentran estandarizadas en coordenadas decimales o las coordenadas originales no se pueden interpretar.
 
-**Solución**: asegúrese de que los elementos _Darwin Core_ *decimalLatitude* y *decimalLongitude* estén documentados con las coordenadas en formato decimal. Además, corrobore que las coordenadas originales *verbatimCoordinates* hayan sido digitalizadas adecuadamente. 
+**Solución**: asegúrese de que los elementos _Darwin Core_ <span style="color:MediumSeaGreen">**_decimalLatitude_**</span> y <span style="color:MediumSeaGreen">**_decimalLongitude_**</span> estén documentados con las coordenadas en formato decimal. Además, corrobore que las coordenadas originales *verbatimCoordinates* hayan sido digitalizadas adecuadamente. 
 
 
 **:warning: Alerta**: Se presume latitud negativa.
 
 **Problema**: posible error en la latitud. Aunque se documentó como latitud sur, posiblemente corresponda a latitud norte (en coordenadas decimales, el norte se indica con un signo menos antes de la latitud).
 
-**Solución**: asegúrese de que los elementos _Darwin Core_ *decimalLatitude* y *decimalLongitude* estén documentados con las coordenadas en formato decimal. Además, corrobore que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud* y *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
+**Solución**: asegúrese de que los elementos _Darwin Core_ <span style="color:MediumSeaGreen">**_decimalLatitude_**</span> y <span style="color:MediumSeaGreen">**_decimalLongitude_**</span> estén documentados con las coordenadas en formato decimal. Además, corrobore que las coordenadas originales *verbatimCoordinates*, *verbatimLatitud* y *verbatimLongitude* hayan sido digitalizadas adecuadamente. 
 
 También puede obtener el mensaje «Se presume longitud negativa», pero es menos común para los datos de Colombia y probablemente corresponda a un problema de digitalización.
 
@@ -178,7 +178,7 @@ También puede obtener el mensaje «Se presume longitud negativa», pero es meno
 
 **:warning: Alerta**: Fecha registrada inválida.
 
-**Problema**: las fechas proporcionadas no cumplem con el formato ISO 8601: *AAAA-MM-DD; AAAA-MM; AAAA; AAAA-MM-DD/AAAA-MM-DD*.
+**Problema**: las fechas proporcionadas no cumplen con el formato ISO 8601: *AAAA-MM-DD; AAAA-MM; AAAA; AAAA-MM-DD/AAAA-MM-DD*.
 
 **Solución**: convierta las fechas al formato ISO 8601.
 
@@ -187,7 +187,7 @@ También puede obtener el mensaje «Se presume longitud negativa», pero es meno
 
 **Problema**: el datum geodésico no fue documentado, pero el validador lo identificó como WGS84.
 
-**Solución 1**: documentar el elemento DwC  *geodeticDatum* como WGS84.
+**Solución 1**: documentar el elemento DwC <span style="color:MediumSeaGreen">**_geodeticDatum_**</span> como WGS84.
 
 **Solución 2**: si las coordenadas tienen un datum diferente a WGS84, documéntelo para evitar que el validador lo asuma.
 
@@ -212,7 +212,7 @@ Si tiene datos propios que desee publicar, pruebe validarlos siguiendo los pasos
 
 Recomendaciones:
 
-Según el origen de sus datos (colecciones biológicas, permisos de recolección, datos marinos, eventos de muestreo), compruebe que los elementos obligatorios estén documentados al 100%. Para ello, utilice como referencia la última [plantilla DwC Registros biológicos](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0) y la sección del [validador de datos](https://www.gbif.org/es/tools/data-validator/) **Frecuencia del término** (Fig. 3B). 
+Según el origen de sus datos (colecciones biológicas, permisos de recolección, datos marinos, eventos de muestreo), compruebe que los elementos obligatorios estén documentados al 100%. Para ello, utilice como referencia la última [<FONT FACE="monospace"><b>«plantilla DwC Registros biológicos»</b></FONT>] (https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0) y la sección del [validador de datos](https://www.gbif.org/es/tools/data-validator/) **Frecuencia del término** (Fig. 3B). 
 
 ****
 **¡Felicitaciones!** :raised_hands: Ha mejorado la calidad de su conjunto de datos.
