@@ -59,7 +59,7 @@ Ejemplo de (<span style="color:MediumSeaGreen">**_occurrenceID_**</span>): UCN:M
 
 
 ## Paso 4 - Mapeo de los datos 
-Una vez que haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo <FONT FACE="monospace"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>(https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/docs/Datos_Caso1_20reg.xlsx) e identifique a cuál elemento DwC de la plantilla de publicación corresponde. Este proceso recibe el nombre de **mapeo de datos**. Cuando identifique el elemento correspondiente, copie y pegue el contenido de esa columna en la plantilla, como se muestra en la siguiente imagen (Fig. 2):
+Una vez que haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo [<FONT FACE="monospace"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/docs/Datos_Caso1_20reg.xlsx) e identifique a cuál elemento DwC de la plantilla de publicación corresponde. Este proceso recibe el nombre de **mapeo de datos**. Cuando identifique el elemento correspondiente, copie y pegue el contenido de esa columna en la plantilla, como se muestra en la siguiente imagen (Fig. 2):
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Estandarizacion_mapeo.png" width=1000>
 
@@ -67,7 +67,7 @@ Una vez que haya creado los elementos obligatorios, revise detenidamente el nomb
 
 ## Paso 5 - Ajustar los datos  
 
-Una vez que haya trasladado todos los datos del archivo <FONT FACE="monospace"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>(https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/docs/Datos_Caso1_20reg.xlsx) a la plantilla de publicación, ajuste las columnas de acuerdo a las definiciones y vocabularios controlados del estándar *Darwin Core* para cada elemento mapeado (Fig. 3).
+Una vez que haya trasladado todos los datos del archivo [<FONT FACE="monospace"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/docs/Datos_Caso1_20reg.xlsx) a la plantilla de publicación, ajuste las columnas de acuerdo a las definiciones y vocabularios controlados del estándar *Darwin Core* para cada elemento mapeado (Fig. 3).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Estandarizacion_EstructuraPlantilla.png" width=800>
 
@@ -88,7 +88,7 @@ Al finalizar, su plantilla debe verse similar a la siguiente imagen (Fig. 4):
 Descargue y compare el siguiente archivo, estandarizado según las definiciones del *Darwin Core*, con el archivo que trabajó en el laboratorio e identifique aciertos y posibilidades de mejora. ¿Logró completar más información del conjunto de datos en la plantilla?
 
 
-* [Archivo estandarizado](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg_estandarizado.xlsx)
+* [<FONT FACE="Archivo estandarizado"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg_estandarizado.xlsx)
 
 ## Paso 8 - Datos propios
 
@@ -97,7 +97,7 @@ Si tiene datos propios que desee publicar, estandarícelos siguiendo los pasos d
 ****
 
 **¡Felicitaciones!** :raised_hands:
-Su conjunto de datos ha sido estandarizado en *Darwin Core*.
+Su conjunto de datos ha sido estandarizado según el estándar *Darwin Core*.
 
 ****
 
