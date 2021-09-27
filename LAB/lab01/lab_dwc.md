@@ -11,15 +11,15 @@ Estructurar un conjunto de datos bajo el estándar [*Darwin Core* (DwC)](https:/
 
 **Sobre la actividad**
 
-Estructurar un conjunto de datos de prueba en el estándar DwC, usando la plantilla de publicación de registros biológicos del [SiB Colombia](https://sibcolombia.net/). El conjunto de datos tiene problemas de completitud y formato, los cuales deben ser resueltos para que el conjunto se ajuste a las definiciones y contenga los elementos mínimos requeridos por el estándar.
+Estructurar un conjunto de datos de prueba según el estándar DwC, usando la plantilla de publicación de registros biológicos del [SiB Colombia](https://sibcolombia.net/). El conjunto de datos tiene problemas de completitud y formato, los cuales deben ser resueltos para que el conjunto se ajuste a las definiciones y contenga los elementos mínimos requeridos por el estándar.
 
 **Requisitos** 
-* Para realizar este ejercicio es necesario contar con un programa que procese archivos de texto. Por ejemplo, Excel.
+* Para realizar este ejercicio, es necesario contar con un programa que procese archivos de texto. Por ejemplo, Excel.
 
 
 **Archivo de trabajo**
-* Descargue el archivo [```Datos_Caso1_20reg.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx) para realizar el laboratorio.
-* Descargue la última versión de la [plantilla de publicación](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0) de registros biológicos.
+* Descargue el archivo [<FONT FACE="monospace"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx) para realizar el laboratorio.
+* Descargue la última versión de la [<FONT FACE="monospace"><b>«plantilla de publicación»</b></FONT>](https://sites.google.com/humboldt.org.co/wikisib/publicar/plantillas?authuser=0) de registros biológicos.
 
 --------
 
@@ -50,16 +50,16 @@ En la pestaña de instrucciones, encontrará adicionalmente una sección titulad
 <sup>*Figura 1. Instrucciones de la plantilla DwC. Elementos obligatorios según el origen de los datos.*</sup>
 
 ## Paso 3 - Crear los elementos obligatorios 
-Abra el archivo de trabajo [```Datos_Caso1_20reg.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx) y cree los elementos obligatorios faltantes a partir de la información del caso de estudio y los mismos datos.
+Abra el archivo de trabajo [<FONT FACE="monospace"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx) y cree los elementos obligatorios faltantes a partir de la información del caso de estudio y los mismos datos.
 
  
-> **Pista**: Debe crear un identificador único del registro biológico (*occurenceID*) a partir del código de la institución (*institutionCode*), código de la colección (*collectionCode*) y número de catálogo (*catalogNumber*). Revise la definición del elemento *occurrenceID* en la plantilla para saber cómo construirlo.
+> **Pista**: Debe crear un identificador único del registro biológico (<span style="color:MediumSeaGreen">**_occurrenceID_**</span>) a partir del código de la institución (<span style="color:MediumSeaGreen">**_institutionCode_**</span>), código de la colección (<span style="color:MediumSeaGreen">**_collectionCode_**</span>) y número de catálogo (<span style="color:MediumSeaGreen">**_catalogNumber_**</span>). Revise la definición del elemento <span style="color:MediumSeaGreen">**_occurrenceID_**</span> en la plantilla para saber cómo construirlo.
 
-Ejemplo de *occurrenceID*: UCN:MH-ORNIT:46-2300MI2008AV0954.
+Ejemplo de (<span style="color:MediumSeaGreen">**_occurrenceID_**</span>): UCN:MH-ORNIT:46-2300MI2008AV0954.
 
 
 ## Paso 4 - Mapeo de los datos 
-Una vez que haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo [```Datos_Caso1_20reg.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx) e identifique a cuál elemento DwC de la plantilla de publicación corresponde. Este proceso recibe el nombre de **mapeo de datos**. Cuando identifique el elemento correspondiente, copie y pegue el contenido de esa columna en la plantilla, como se muestra en la siguiente imagen (Fig. 2):
+Una vez que haya creado los elementos obligatorios, revise detenidamente el nombre y contenido de cada columna del archivo <FONT FACE="monospace"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>(https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/docs/Datos_Caso1_20reg.xlsx) e identifique a cuál elemento DwC de la plantilla de publicación corresponde. Este proceso recibe el nombre de **mapeo de datos**. Cuando identifique el elemento correspondiente, copie y pegue el contenido de esa columna en la plantilla, como se muestra en la siguiente imagen (Fig. 2):
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Estandarizacion_mapeo.png" width=1000>
 
@@ -67,7 +67,7 @@ Una vez que haya creado los elementos obligatorios, revise detenidamente el nomb
 
 ## Paso 5 - Ajustar los datos  
 
-Una vez que haya trasladado todos los datos del archivo [```Datos_Caso1_20reg.xlsx```](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg.xlsx) a la plantilla de publicación, ajuste las columnas de acuerdo a las definiciones y vocabularios controlados del estándar *Darwin Core* para cada elemento mapeado (Fig. 3).
+Una vez que haya trasladado todos los datos del archivo <FONT FACE="monospace"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>(https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/docs/Datos_Caso1_20reg.xlsx) a la plantilla de publicación, ajuste las columnas de acuerdo a las definiciones y vocabularios controlados del estándar *Darwin Core* para cada elemento mapeado (Fig. 3).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig4_Estandarizacion_EstructuraPlantilla.png" width=800>
 
