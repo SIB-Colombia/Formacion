@@ -67,7 +67,7 @@ El validador le indicará si el conjunto de datos tiene la estructura adecuada p
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_datavalid_Informe_frecuencia.PNG" width=700>
 
-<sup>*Figura 3. Componentes del informe - Frecuencia del término*</sup>
+<sup>*Figura 3. Componentes del informe - Frecuencia del término*.</sup>
 
 **2.3. Problemas de validación**
 
@@ -105,7 +105,7 @@ Si el conjunto no puede ser indexado, revise el mensaje de alerta de la herramie
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_datavalid_detalleerror.PNG" width=800>
 
-<sup>*Figura 6. Mensaje de alerta - Estructura del recurso. Al hacer clic en las alertas, podrá ver el detalle de los registros que presentan el error para saber qué debe ajustar. Al hacer clic en el ícono de información, obtendrá una descripción detallada del problema*</sup>
+<sup>*Figura 6. Mensaje de alerta - Estructura del recurso. Al hacer clic en las alertas, podrá ver el detalle de los registros que presentan el error para saber qué debe ajustar. Al hacer clic en el ícono de información, obtendrá una descripción detallada del problema*.</sup>
 
 ### 3.3. Problemas de validación
 
@@ -115,7 +115,7 @@ Haga clic sobre las flechas de cada una de las alertas para desglosar de los reg
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig7_datavalid_detalleerror_2.png" width=1000>
 
-<sup>*Figura 7. Mensaje de alerta - Interpretación del registro de GBIF. Al hacer clic en las alertas, podrá ver el detalle de los registros que presentan el error para saber qué debe ajustar. Al hacer clic en el ícono de información, obtendrá una descripción detallada del problema*</sup>
+<sup>*Figura 7. Mensaje de alerta - Interpretación del registro de GBIF. Al hacer clic en las alertas, podrá ver el detalle de los registros que presentan el error para saber qué debe ajustar. Al hacer clic en el ícono de información, obtendrá una descripción detallada del problema*.</sup>
 
 
 **:vertical_traffic_light: Las alertas se agrupan en 3 categorías según su color:**
