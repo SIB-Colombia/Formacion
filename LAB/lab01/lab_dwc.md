@@ -88,7 +88,7 @@ Al finalizar, su plantilla debe verse similar a la siguiente imagen (Fig. 4):
 Descargue y compare el siguiente archivo, estandarizado según las definiciones del *Darwin Core*, con el archivo que trabajó en el laboratorio e identifique aciertos y posibilidades de mejora. ¿Logró completar más información del conjunto de datos en la plantilla?
 
 
-* [<FONT FACE="Archivo estandarizado"><b>«Datos_Caso1_20reg.xlsx»</b></FONT>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg_estandarizado.xlsx)
+* [<FONT FACE="monospace"><b>«Archivo estandarizado»</b></FONT>](https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_docs/Datos_Caso1_20reg_estandarizado.xlsx)
 
 ## Paso 8 - Datos propios
 
@@ -97,7 +97,7 @@ Si tiene datos propios que desee publicar, estandarícelos siguiendo los pasos d
 ****
 
 **¡Felicitaciones!** :raised_hands:
-Su conjunto de datos ha sido estandarizado según el estándar *Darwin Core*.
+Su conjunto de datos ha sido estandarizado según el *Darwin Core*.
 
 ****
 
