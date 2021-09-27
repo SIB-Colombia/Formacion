@@ -79,15 +79,15 @@ Teniendo en cuenta que las medidas se pueden dividir en dos categorías, identif
 
 * **Cuantitativas** (medidas): son variables cuantificables que cuenta con una unidad de medida. Por lo tanto, se asocian a los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span>, <span style="color:MediumSeaGreen">**_measurementeValue_**</span> y <span style="color:MediumSeaGreen">**_measurementeUnit_**</span>.
  _Ejemplo_:
-- <span style="color:MediumSeaGreen">**_measurementType_**</span>: largo del pico.
-- <span style="color:MediumSeaGreen">**_measurementeValue_**</span>: 20.
-- <span style="color:MediumSeaGreen">**_measurementeUnit_**</span>: mm (milímetros).
+    - <span style="color:MediumSeaGreen">**_measurementType_**</span>: largo del pico.
+    - <span style="color:MediumSeaGreen">**_measurementeValue_**</span>: 20.
+    - <span style="color:MediumSeaGreen">**_measurementeUnit_**</span>: mm (milímetros).
 
 * **Cualitativas** (hechos): son variables categóricas que guardan algún tipo de lógica, pero no están asociadas directamente a una unidad de medida. Por consiguiente, se asocian a los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span> y <span style="color:MediumSeaGreen">**_measurementeValue_**</span>. 
 
 _Ejemplo_:
-- <span style="color:MediumSeaGreen">**_measurementType_**</span>: color del pico
-- <span style="color:MediumSeaGreen">**_measurementeValue_**</span>: amarillo.
+    - <span style="color:MediumSeaGreen">**_measurementType_**</span>: color del pico
+    - <span style="color:MediumSeaGreen">**_measurementeValue_**</span>: amarillo.
 
 #### 3.2. Mapeo de elementos 
 De acuerdo al paso anterior, ahora deberá mapear las medidas en los elementos de la extensión. Puede duplicar los elementos tantas veces como se requiera. Por ejemplo, puede duplicar los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span>, <span style="color:MediumSeaGreen">**_measurementeValue_**</span>, <span style="color:MediumSeaGreen">**_measurementeUnit_**</span> y <span style="color:MediumSeaGreen">**_measurementDeterminatedBy_**</span> para documentar las medidas de **«Altura de percha»** y **«Longitud rostro cloacal»** (Fig 2). Haga lo mismo para las medidas faltantes.
