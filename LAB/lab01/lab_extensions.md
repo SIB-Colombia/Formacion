@@ -90,7 +90,7 @@ _Ejemplo_:
 - <span style="color:MediumSeaGreen">**_measurementeValue_**</span>: amarillo.
 
 #### 3.2. Mapeo de elementos 
-De acuerdo al paso anterior, ahora deberá mapear las medidas en los elementos de la extensión. Puede duplicar los elementos tantas veces como se requiera. Por ejemplo, puede duplicar los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span>, <span style="color:MediumSeaGreen">**_measurementeValue_**</span>, <span style="color:MediumSeaGreen">**_measurementeUnit_**</span> y<span style="color:MediumSeaGreen">**_measurementDeterminatedBy_**</span> para documentar las medidas de **«Altura de percha»** y **«Longitud rostro cloacal»** (Fig 2). Haga lo mismo para las medidas faltantes.
+De acuerdo al paso anterior, ahora deberá mapear las medidas en los elementos de la extensión. Puede duplicar los elementos tantas veces como se requiera. Por ejemplo, puede duplicar los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span>, <span style="color:MediumSeaGreen">**_measurementeValue_**</span>, <span style="color:MediumSeaGreen">**_measurementeUnit_**</span> y <span style="color:MediumSeaGreen">**_measurementDeterminatedBy_**</span> para documentar las medidas de **«Altura de percha»** y **«Longitud rostro cloacal»** (Fig 2). Haga lo mismo para las medidas faltantes.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig2_Extensiones_mapeo.png" width=700>
 
@@ -102,7 +102,7 @@ Para usar cualquier extensión, es necesario contar con un identificador (ID). E
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig3_Extensiones_occurrenceID.png" width=400>
 
-<sup>_Figura 3. Diferencia entre el _occurrenceID_ del conjunto de datos de registros biológicos y el del elemento mapeado en la extensión._</sup>
+<sup>_Figura 3. Diferencia entre el <span style="color:MediumSeaGreen">**occurrenceID**</span> del conjunto de datos de registros biológicos y el del elemento mapeado en la extensión._</sup>
  
 
 ### Paso 4 - Ajustar los datos
@@ -162,7 +162,7 @@ Para usar cualquier extensión, es necesario contar con un identificador (ID). E
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig8_Extensiones_sd_taxonID.png" width=500>
 
-<sup>_Figura 8. Documentación del <span style="color:MediumSeaGreen">**_taxonID_**</span> en la plantilla **Distribución de especies** a partir de la lista de especies._</sup>
+<sup>_Figura 8. Documentación del <span style="color:MediumSeaGreen">**taxonID**</span> en la plantilla **Distribución de especies** a partir de la lista de especies._</sup>
 
 
 ### Paso 4 - Ajustar los datos
@@ -184,8 +184,8 @@ Elimine las columnas de los elementos DwC que quedaron vacías en la plantilla *
 
 ### Paso 5 - Verificación del resultado
 Compare el siguiente archivo, estandarizado según las definiciones del *Darwin Core*, con el archivo que trabajó en el laboratorio para identificar aciertos y posibilidades de mejora. ¿Logró construir correctamente las extensiones?
-
-**Descargue el** [<FONT FACE="monospace"><b>«archivo estandarizado»</b></FONT>](https://drive.google.com/uc?id=1Kk5UjFbWbLM-12W8L1cmNd58mrDXK-Jz&authuser=0&export=download)
+.
+Descargue el [<FONT FACE="monospace"><b>«archivo estandarizado»</b></FONT>](https://drive.google.com/uc?id=1Kk5UjFbWbLM-12W8L1cmNd58mrDXK-Jz&authuser=0&export=download).
 
 
 ## Ejercicio 3. - Recursos multimedia
@@ -193,14 +193,14 @@ Compare el siguiente archivo, estandarizado según las definiciones del *Darwin 
 ### Paso 1 - Aplicar lo aprendido
 A partir de los ejercicios previos, se puede deducir que las extensiones funcionan de forma similar. Por lo tanto, este ejercicio consiste en estructurar la extensión **Multimedia simple** (_Simple Multimedia_) a partir de lo aprendido anteriormente. 
 
-El archivo ```Ejercicio3_Registrosbiologicos_Estructurado.xlsx``` se encuentra estructurado en DwC y contiene los datos de una colección de microorganismos. Se desea asociar las cepas de dichos microorganismos a imágenes de referencia, las cuales se encuentran enlazadas en el archivo <FONT FACE="monospace"><b>«Ejercicio3_Multimedia_porEstructurar.xlsx»</b></FONT>. El primer paso consiste en estructurar las imágenes, usando la extensión **Multimedia simple** (_Simple multimedia_).
+El archivo <FONT FACE="monospace"><b>«Ejercicio3_Registrosbiologicos_Estructurado.xlsx»</b></FONT> se encuentra estructurado en DwC y contiene los datos de una colección de microorganismos. Se desea asociar las cepas de dichos microorganismos a imágenes de referencia, las cuales se encuentran enlazadas en el archivo <FONT FACE="monospace"><b>«Ejercicio3_Multimedia_porEstructurar.xlsx»</b></FONT>. El primer paso consiste en estructurar las imágenes, usando la extensión **Multimedia simple** (_Simple Multimedia_).
 
  
 ### Paso 2 - Verificación del resultado
 Compare el siguiente archivo, estandarizado según las definiciones del *Darwin Core*, con el archivo que trabajó en el laboratorio para identificar aciertos y posibilidades de mejora. ¿Logró construir correctamente las extensiones?
 
 
-**[Archivo estandarizado](https://drive.google.com/uc?id=1pODwB1jELAvpTa9CvujyOd6vcFyA0Nld&authuser=0&export=download)**
+**[<FONT FACE="monospace"><b>«Archivo estandarizado»</b></FONT>](https://drive.google.com/uc?id=1pODwB1jELAvpTa9CvujyOd6vcFyA0Nld&authuser=0&export=download)**
 
 
 ## Ejercicio 4 - Datos propios
@@ -219,7 +219,7 @@ En este ejercicio, notará que las imágenes se encuentran en un repositorio. Si
     * Sobre las colecciones: [https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-](https://help.archive.org/hc/en-us/articles/360017502272-How-to-request-a-collection-).
     * Ejemplo colecciones: [https://archive.org/details/brooklynmuseum](https://archive.org/details/brooklynmuseum).
     
-* [flickr](https://www.flickr.com/)
+* [Flickr](https://www.flickr.com/)
     * Opción de almacenamiento gratuito.
     * Limitado a 1000 fotografías.
     * Ejemplo: [https://www.flickr.com/photos/98788120@N02/](https://www.flickr.com/photos/98788120@N02/).
