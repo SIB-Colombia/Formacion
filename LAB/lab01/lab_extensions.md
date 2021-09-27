@@ -25,20 +25,20 @@ Utilizar tres de las extensiones más comunes del estándar DwC para incorporar 
 
     - [<FONT FACE="monospace"><b>«Ejercicio1_Registrosbiológicos_Estructurado.xlsx»</b></FONT>](https://drive.google.com/uc?id=1KslrtjZAwFbOWsQJ9NdBi2BLBbxNoVJo&authuser=0&export=download)
     - [<FONT FACE="monospace"><b>«Ejercicio1_MedidasoHechos_porEstructurar.xlsx»</b></FONT>](https://drive.google.com/uc?id=1fHWfwjQ8s_4j12uHHleUw4JFyIRoeq0V&authuser=0&export=download)
-    - [<FONT FACE="monospace"><b>«Plantilla Medidas o hechos (*Measurement or Facts*)»</b></FONT>](https://drive.google.com/uc?export=download&id=1s05MAYDixYt6wPp9V8de8qrCHxuOOw-o) 
+    - [<FONT FACE="monospace"><b>«Plantilla Medidas o hechos (_Measurement or Facts_)»</b></FONT>](https://drive.google.com/uc?export=download&id=1s05MAYDixYt6wPp9V8de8qrCHxuOOw-o) 
 
 
 - *Ejercicio de Distribución de especies*
 
     - [<FONT FACE="monospace"><b>«Ejercicio2_ListadeEspecies_Estructurado.xlsx»</b></FONT>](https://drive.google.com/uc?id=1YoBeJIxmH5LdVNWglcyeFcuxJT83MryO&authuser=0&export=download)
     - [<FONT FACE="monospace"><b>«Ejercicio2_DistribuciónEspecies_porEstructurar.xlsx»</b></FONT>](https://drive.google.com/uc?id=1FRUsnhRglZ11eRQnn2mL0XCQp1W3WicZ&authuser=0&export=download)
-    - [<FONT FACE="monospace"><b>«Plantilla Distribución de especies (*Species Distribution*)»</b></FONT>](https://drive.google.com/uc?export=download&id=1kqyGIkeP6KdR0-hz7CbGvriQuSitWqwp)
+    - [<FONT FACE="monospace"><b>«Plantilla Distribución de especies (_Species Distribution_)»</b></FONT>](https://drive.google.com/uc?export=download&id=1kqyGIkeP6KdR0-hz7CbGvriQuSitWqwp)
 
 - *Ejercicio de Multimedia*
 
     - [<FONT FACE="monospace"><b>«Ejercicio3_Registrosbiológicos_Estructurado.xlsx»</b></FONT>](https://drive.google.com/uc?id=1wm7ZvwBqywuROZ-xqTmx00dsAZUY_oQO&authuser=0&export=download)
     - [<FONT FACE="monospace"><b>«Ejercicio3_Multimedia_porEstructurar.xlsx»</b></FONT>](https://drive.google.com/uc?id=1ghJuuEc9TDBvwu0vaWAuuu1d113nNpa7&authuser=0&export=download)
-    - [<FONT FACE="monospace"><b>«Plantilla Multimedia Simple (*Simple Multimedia*)»</b></FONT>](https://drive.google.com/uc?export=download&id=1Bfdgnl-KXwvLHs8H-bSe8yBXVyD8qrx8)
+    - [<FONT FACE="monospace"><b>«Plantilla Multimedia Simple (_Simple Multimedia_)»</b></FONT>](https://drive.google.com/uc?export=download&id=1Bfdgnl-KXwvLHs8H-bSe8yBXVyD8qrx8)
 
 ## Ejercicio 1 - Rasgos funcionales
 
@@ -83,7 +83,7 @@ Teniendo en cuenta que las medidas se pueden dividir en dos categorías, identif
     - <span style="color:MediumSeaGreen">**_measurementeUnit_**</span>: mm (milímetros).
 
 * **Cualitativas** (hechos): son variables categóricas que guardan algún tipo de lógica, pero no están asociadas directamente a una unidad de medida. Por consiguiente, se asocian a los elementos <span style="color:MediumSeaGreen">**_measurementType_**</span> y <span style="color:MediumSeaGreen">**_measurementeValue_**</span>. Por ejemplo:
-    - <span style="color:MediumSeaGreen">**_measurementType_**</span>: color del pico
+    - <span style="color:MediumSeaGreen">**_measurementType_**</span>: color del pico.
     - <span style="color:MediumSeaGreen">**_measurementeValue_**</span>: amarillo.
 
 #### 3.2. Mapeo de elementos 
@@ -125,7 +125,7 @@ Tenga en cuenta que existen dos formas válidas de documentar esta extensión. L
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab01/_images/Fig6_Extensiones_tiposmapeo.png" width=800>
 
-<sup>_Figura 6. Segundo mecanismo de documentación de la extensión de medidas y hechos en forma de filas sin duplicar elementos DwC._</sup>
+<sup>_Figura 6. Segundo mecanismo de documentación de la extensión de **medidas y hechos** en forma de filas sin duplicar elementos DwC._</sup>
 
 En el archivo descargado, podrá ver las dos formas de estructurar la extensión.
 
