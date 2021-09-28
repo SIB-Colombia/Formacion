@@ -7,7 +7,7 @@ sort: 1
 
 **Objetivo**
 
-Utilizar _OpenRefine_ para manejar, validar y limpiar de manera eficiente datos sobre biodiversidad, asegurando una mejor calidad para su publicación.
+Utilizar _OpenRefine_ para administrar, validar y limpiar de manera eficiente datos sobre biodiversidad, asegurando una mejor calidad para su publicación.
 
 **Introducción**
 
@@ -16,13 +16,13 @@ Utilizar _OpenRefine_ para manejar, validar y limpiar de manera eficiente datos 
 
 **Sobre la Herramienta**
 
-[_OpenRefine_](https://openrefine.org/) es un software creado con el objetivo de pulir datos crudos hasta convertirlos en diamantes :gem:, activos valiosos en la era del _BigData_.
+[_OpenRefine_](https://openrefine.org/) es un software creado con el objetivo de pulir datos crudos hasta convertirlos en diamantes :gem:, los cuales son activos valiosos en la era del _BigData_.
 
-Este sofware permite visualizar y manipular datos tabulares facilitando mejorar la calidad general de un conjunto de datos. Tiene la apariencia de un software tradicional de hoja de cálculo -similar a Excel, pero funciona como una base de datos. Esto significa que _OpenRefine_ no es adecuado para adicionar nuevas filas de datos, pero **es extremadamente poderoso cuando se trata de explorar, limpiar y vincular datos**. 
+Este sofware permite visualizar y manipular datos tabulares, facilitando el mejoramiento de la calidad general de un conjunto de datos. Tiene la apariencia de un software tradicional de hoja de cálculo (similar a Excel), pero funciona como una base de datos. Esto significa que _OpenRefine_ no es adecuado para adicionar nuevas filas de datos, pero **es extremadamente poderoso cuando se trata de explorar, limpiar y vincular datos**. 
 
-_OpenRefine_ es un _software_ de código abierto bajo una [licencia BSD](https://github.com/OpenRefine/OpenRefine/blob/master/LICENSE.txt), se instala localmente por lo cual funciona como una aplicación web personal y de acceso privado, al que se accede desde un navegador web.
+_OpenRefine_ es un _software_ de código abierto bajo una [licencia BSD](https://github.com/OpenRefine/OpenRefine/blob/master/LICENSE.txt) y se instala localmente, por lo que funciona como una aplicación web personal y de acceso privado a la que se accede desde un navegador web.
 
-Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se explica su funcionamiento en el contexto de datos sobre biodiversidad estandarizados en _Darwin Core_. Puede consultar mayor información de la herramienta en el [manual de usuario](https://docs.openrefine.org/) (en inglés).
+Esta herramienta sirve para **todo tipo de datos**. Sin embargo, en este laboratorio se explica su funcionamiento en el contexto de datos sobre biodiversidad, estandarizados en _Darwin Core_. Puede consultar mayor información de la herramienta en el [manual de usuario](https://docs.openrefine.org/) (en inglés).
 
 **Convenciones**
 
@@ -35,7 +35,7 @@ Esta herramienta sirve para **todo tipo de datos**. En este laboratorio se expli
 
 **Requerimientos** 
 
-- Navegador Chrome instalado, y configurado como navegador predeterminado.
+- Navegador Chrome instalado y configurado como navegador predeterminado.
 
 ``` warning
 No utilice _Internet Explorer_ para este laboratorio, ya que _OpenRefine_ no funciona bien en este navegador.
@@ -50,19 +50,19 @@ No utilice _Internet Explorer_ para este laboratorio, ya que _OpenRefine_ no fun
 ## Paso 1 - Instalación 
 
 ### Instalación en Windows
-1. Descargue [OpenRefine versión 3.4.1 + Java para Windows](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip).
+1. Descargue [<FONT FACE="monospace"><b>«OpenRefine versión 3.4.1 + Java para Windows»</b></FONT>](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip).
 2. Descomprima el archivo descargado y copie la carpeta resultante en el disco local (C:/).
-3. Abra la carpeta y haga doble clic en ```openrefine.exe.```
+3. Abra la carpeta y haga doble clic en [<FONT FACE="monospace"><b>«openrefine.exe»</b></FONT>].
 4. Aparecerá una ventana de comando (que no debe cerrar) e inmediatamente después su navegador web mostrará una nueva ventana con la aplicación.
 
 
 ### Instalación en Mac
-1. Descargue [OpenRefine versión 3.4.1 + Java para Mac](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg).
+1. Descargue [<FONT FACE="monospace"><b>«OpenRefine versión 3.4.1 + Java para Mac»</b></FONT>](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg).
 2. Haga doble clic sobre el archivo de descarga y arrastre el icono en la carpeta Aplicaciones.
 4. Haga doble clic en el icono y su navegador web mostrará una nueva ventana con la aplicación.
 5. Si al dar doble clic no abre _OpenRefine_ en el navegador,  escriba la siguiente dirección en el buscador: [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
 
-> Asegúrese de que su navegador predeterminado sea Chrome o Mozilla
+> Asegúrese de que su navegador predeterminado sea Google Chrome o Mozilla Firefox.
 
 ## Paso 2 - Crear un proyecto
 
@@ -71,7 +71,7 @@ Puede cargar datos con diferentes formatos y extensiones: TSV, CSV, SV, Excel (.
 
 **2.1. Abrir un nuevo proyecto**
 
-Abra _OpenRefine_ y seleccione la pestaña ```Create Project```. Para cargar el archivo siga la ruta **_```Get data from > This Computer```_**, y haga clic en ```Choose Files``` (Fig. 1).
+Abra _OpenRefine_ y seleccione la pestaña _**"Create Project"**_. Para cargar el archivo, siga la ruta **_```Get data from > This Computer```_**, y haga clic en ```Choose Files``` (Fig. 1).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig1_OR_cargar.png" width=800>
 
@@ -79,55 +79,55 @@ Abra _OpenRefine_ y seleccione la pestaña ```Create Project```. Para cargar el 
 
 **2.2. Selección del archivo**
 
-Seleccione el archivo ```Datos_Estructurado.xlsx``` que descargó al incio del laboratorio y haga clic en _```Next```_ (Fig. 1).
+Seleccione el archivo <FONT FACE="monospace"><b>«datos_Estructurados.xlsx»</b></FONT> que descargó al incio del laboratorio y haga clic en ```Next``` (Fig. 1).
 
 
-> Puede subir varios archivos a la vez, el software unirá los archivos basados en los encabezados de las columnas.
+> Puede subir varios archivos a la vez, el software unirá los archivos con base en los encabezados de las columnas.
 > 
 
 **2.3. Configuración del archivo**
 
-Tras seleccionar el archivo aparecerá un panel de configuración, este le permite especificar el tipo de archivo que cargó y configurar la manera en la que los datos son leídos (Fig. 2). 
+Tras seleccionar el archivo, aparecerá un panel de configuración. Este permite especificar el tipo de archivo que cargó y configurar la manera en la que los datos son leídos (Fig. 2). 
 
-_OpenRefine_ hace una interpretación automática del tipo de archivo, codificación del texto y filas de encabezado, entre otros. El conjunto de datos de ejemplo de este laboratorio es interpretado de manera correcta y no necesita ajustes adicionales. 
+_OpenRefine_ hace una interpretación automática del tipo de archivo, la codificación del texto, las filas de encabezado, entre otros. El conjunto de datos de ejemplo de este laboratorio es interpretado de manera correcta y no necesita ajustes adicionales. 
 
 ```warning
-Si sube sus propios datos o utiliza otro formato debe fijarse en la vista previa del archivo y ajustar la configuración de lectura detenidamente (Fig. 2).
+Si sube sus propios datos o utiliza otro formato, debe fijarse en la vista previa del archivo y ajustar la configuración de lectura detenidamente (Fig. 2).
 ````
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig2._OR_config.png">
 
-<sup>_Figura 2. Opciones para configurar la lectura y carga de los datos para un archivo Excel (.xls y .xlsx)_: A. tipo de archivo, B. hojas a importar, C.selección de filas, D. carga de filas. </sup>
+<sup>_Figura 2. Opciones para configurar la lectura y carga de los datos para un archivo Excel (.xls y .xlsx)_: A. Tipo de archivo, B. Hojas a importar, C. Elección de filas, D. Carga de filas. </sup>
 
- - **A.** Tipo de archivo, permite configurar el tipo de la fuente de datos.
- - **B.** Hojas a importar, si carga uno o varios archivos con múltiples hojas, puede seleccionar que hojas desea importar y cuáles no.
- - **C.** Selección de filas, permite seleccionar la fila que se convertirá en el encabezado de las columnas, ignorar filas, entre otros.
- - **D.** Carga de filas en blanco, permite especificar si serán cargadas y como se realizará la carga. 
+ - **A.** Tipo de archivo: permite configurar el tipo de la fuente de datos.
+ - **B.** Hojas a importar: si carga uno o varios archivos con múltiples hojas, puede seleccionar cuáles hojas desea importar y cuáles no.
+ - **C.** Selección de filas: permite seleccionar la fila que se convertirá en el encabezado de las columnas, ignorar filas, entre otros.
+ - **D.** Carga de filas en blanco: permite especificar si se cargan filas vacías cargadas y cómo se realizará la carga. 
 
-> Character encoding: Cuando cargue datos en formato de texto plano, en la previsualización pueda que vea que las tíldes (í) y las eñes (ñ) remplazadas por caracteres extraños. Si es el caso, seleccione la codificación UTF-8. Esto le permitirá resolver el problema a menos que haya otro tipo de error en los datos. 
+> Character encoding: al cargar datos en formato de texto plano, es posible que la previsualización muestre las tíldes (í) y las eñes (ñ) remplazadas por caracteres extraños. Si esto ocurre, seleccione la codificación UTF-8. Esto le permitirá resolver el problema, a menos que haya otro tipo de error en los datos. 
 
 **2.4. Personalización del proyecto y carga del archivo**
 
-Cambie el nombre del proyecto, en la esquina superior derecha verá un cuadro de texto en el que puede cambiar el nombre del proyecto, nómbrelo ```Datos_OR``` y haga clic en el botón ```Create Project``` (Fig. 3). Opcionalmente puede añadir _Tags_ (etiquetas) para poder organizar y filtrar los proyectos en la aplicación.
+En la esquina superior derecha, verá un cuadro de texto en el que puede modificar el nombre del proyecto. En ese cuadro, escriba **"Datos_OR"** y haga clic en el botón ```Create Project``` (Fig. 3). Opcionalmente, puede añadir _Tags_ (etiquetas) para organizar y filtrar los proyectos en la aplicación.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig3_OR_renombrar.png" width=700>
 
 <sup>_Figura 3. Configuración del proyecto, ajuste de nombre, adición de etiquetas y creación._</sup>
 
 
-Espere a que cargue el archivo, esto puede tomar un tiempo dependiendo del tamaño del mismo.
+Espere a que cargue el archivo. Este proceso puede tomar un tiempo, dependiendo del tamaño que tenga archivo.
 
 
 ## Paso 3 - _Faceting_
 
-Es un método para filtrar los datos en conjuntos más pequeños facilitando la validación y limpieza de los datos, puede hacerse para texto, números y fechas.
+Es un método para filtrar los datos en conjuntos más pequeños, facilitando la validación y limpieza de los datos. Puede implementarse para texto, números y fechas.
 
 ### 3.1 Correcciones masivas
 
 **3.1.1. Crear un _Text Facet_**
 
-Diríjase a la columna _```class```_, haga clic en el menú de la columna y siga la ruta _```Facet > Text Facet```_ (Fig. 4).
+Diríjase a la columna <span style="color:MediumSeaGreen">**_class_**</span>, haga clic en el menú de la columna y siga la ruta **_```Facet > Text Facet```_** (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_OR_facet.png" width=350>
 
@@ -143,21 +143,21 @@ El _```Text Facet```_ creado aparecerá a la izquierda de la aplicación, verá 
 
 **3.1.3. Corrección de los datos**
 
-Corrija las inconsistencias en los nombres de las clases **Aves** y **Mammalia**. Para esto acerque el cursor al valor que desea corregir y haga clic en *```Edit```*, luego en el cuadro de texto que aparece corrija el error y haga clic en _```Apply```_ (Fig. 6). Todos los valores serán corregidos de manera automática y las celdas se transformarán de forma masiva.
+Corrija las inconsistencias en los nombres de las clases **Aves** y **Mammalia**. Para esto, acerque el cursor al valor que desea corregir y haga clic en _```Edit```_. Luego, en el cuadro de texto que aparece, corrija el error y haga clic en _```Apply```_ (Fig. 6). Todos los valores serán corregidos de manera automática y las celdas se transformarán de forma masiva.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_OR_classCorrect.png" width=500>
 
-<sup>_Figura 6. Corrección masiva de la columna class usando un Text Facet._</sup>
+<sup>_Figura 6. Corrección masiva de la columna  <span style="color:MediumSeaGreen">**class**</span> por medio de un Text Facet._</sup>
 
-Realice el mismo proceso con la columna _**basisOfRecord**_ y _**sex**_  ajustándolas al vocabulario controlado de cada elemento (Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
+Realice el mismo proceso con la columna <span style="color:MediumSeaGreen">**_basisOfRecord_**</span> y <span style="color:MediumSeaGreen">**_sex_**</span>, ajustándolas al vocabulario controlado de cada elemento (Revise el [Laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=500>
 
-<sup>_Figura 7. Corrección masiva de las columnas basisOfRecord y sex usando un Text Facet._</sup>
+<sup>_Figura 7. Corrección masiva de las columnas <span style="color:MediumSeaGreen">**basisOfRecord**</span> y <span style="color:MediumSeaGreen">**sex**</span> por medio de un Text Facet._</sup>
 
 
-Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _Facets_ y Filtros que tenga en uso.
+Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _facets_ y filtros que tenga en uso.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig8_OR_remover.png" width=350>
 
@@ -166,36 +166,36 @@ Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opció
 
 ### 3.2 Limpieza de espacios en blanco
 
-Diríjase a la columna _```individualCount```_, haga clic en el menú de la columna y realice un _```Text Facet```_.
-A su izquierda aparecerá la ventana con el nombre de la columna y el Facet que se realizó (Fig. 9).
+Diríjase a la columna <span style="color:MediumSeaGreen">**_individualCount_**</span>, haga clic en el menú de la columna y realice un _Text Facet_.
+A su izquierda aparecerá la ventana con el nombre de la columna y el facet que se realizó (Fig. 9).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_OR_individual.png" width=300>
 
-<sup>_Figura 9. Vista del Text Facet y las diferentes formas de documentación del elemento individualCount._</sup>
+<sup>_Figura 9. Vista del Text Facet y las diferentes formas de documentación del elemento <span style="color:MediumSeaGreen">**individualCount**</span>._</sup>
 
-Aunque a simple vista los datos se encuentran sin errores, al realizar este procedimiento vemos que el programa ha detectado espacios extra y por eso nos muestra cuatro opciones diferentes para el valor ```1```.
-Corrija las inconsistencias desde el menú de la columna _```individualCount```_, siguiendo la ruta _```Edit Cells > Common transforms > Trim leading and trailing whitespace```_, verá un mensaje de notificación que le indicará en cuantas celdas se eliminaron espacios (Fig. 10).
+Aunque parece que los datos no tienen errores, este procedimiento evidencia que el programa ha detectado espacios extra. Por tal motivo, el _facet_ muestra cuatro opciones diferentes para el valor ```1```.
+Corrija las inconsistencias desde el menú de la columna <span style="color:MediumSeaGreen">**_individualCount_**</span>, siguiendo la ruta **_```Edit Cells > Common transforms > Trim leading and trailing whitespace```_**. Posteriormente, verá un mensaje de notificación, el cual le indicará en cuántas celdas se eliminaron espacios (Fig. 10).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig10_OR_trimSpaces.png" width=600>
 
 <sup>_Figura 10. Transformación de la columna para eliminar dobles espacios y espacios al final del texto._</sup>
 
-Observe la ventana del _Facet_ de _```individualCount```_, notará que ahora solo existe una opción y que los espacios fueron eliminados.
+Si observa la ventana del _facet_ de <span style="color:MediumSeaGreen">**_individualCount_**</span>, notará que ahora solo existe una opción y los espacios fueron eliminados.
 
-Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_. Así removerá todos los _Facets_ y Filtros que tenga en uso.
+Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_. De esta forma, removerá todos los _facets_ y filtros que tenga en uso.
 
 ### 3.3 Detección de duplicados
 
-Diríjase a la columna _```catalogNumber```_, haga clic en el menú de la columna y siga la ruta _```Facet > Customized facets > Duplicates facet```_, a su izquierda verá la ventana del _Facet_ (Fig. 11).
+Diríjase a la columna <span style="color:MediumSeaGreen">**_catalogNumber_**</span>, haga clic en el menú de la columna y siga la ruta **_```Facet > Customized facets > Duplicates facet```_**. La ventana del _facet_ aparecerá a la izquierda (Fig. 11).
 
 
-Podemos ver que el programa ha detectado valores únicos _```false```_ y valores duplicados _```true```_ (Fig. 11). Haga clic en true y verá los registros. De esta manera se pueden detectar los duplicados para un análisis posterior. En este caso corrija el registro de ```Feb 2001``` cambiando por ```46-2300MI2008AV0248``` tanto en _```catalogNumber```_ como en _```occurrenceID```_ (Fig. 11).
+Podemos ver que el programa ha detectado valores únicos _```false```_ y valores duplicados _```true```_ (Fig. 11). Haga clic en true y verá los registros. De esta manera, se pueden detectar los duplicados para un análisis posterior. En este caso, corrija el registro de **"Feb 2001"** cambiándolo por <code>46-2300MI2008AV0248</code>, tanto en <span style="color:MediumSeaGreen">**_catalogNumber_**</span> como en <span style="color:MediumSeaGreen">**_occurrenceID_**</span> (Fig. 11).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig11_OR_duplicates.png" width=600>
 
 <sup>_Figura 11. Revisión de los registros duplicados y corrección de los identificadores._</sup>
 
-Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _Facets_ y Filtros que tenga en uso.
+Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). De esa manera, removerá todos los _facets_ y filtros que tenga en uso.
 
 ## Paso 4 - Filtros
 
