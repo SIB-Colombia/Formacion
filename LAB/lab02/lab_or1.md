@@ -125,21 +125,21 @@ Es un método para filtrar los datos en conjuntos más pequeños, facilitando la
 
 ### 3.1 Correcciones masivas
 
-**3.1.1. Crear un _Text Facet_**
+**3.1.1. Crear un _Text facet_**
 
-Diríjase a la columna <span style="color:MediumSeaGreen">**_class_**</span>, haga clic en el menú de la columna y siga la ruta **_```Facet > Text Facet```_** (Fig. 4).
+Diríjase a la columna <span style="color:MediumSeaGreen">**_class_**</span>, haga clic en el menú de la columna y siga la ruta **_```Facet > Text facet```_** (Fig. 4).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig4_OR_facet.png" width=350>
 
-<sup>_Figura 4. Creación de un Text Facet._</sup>
+<sup>_Figura 4. Creación de un Text facet._</sup>
 
-**3.1.2. Organizar el _Text Facet_**
+**3.1.2. Organizar el _Text facet_**
 
-El _```Text Facet```_ creado aparecerá a la izquierda de la aplicación, verá una ventana con el nombre de la columna y el _Facet_ que acaba de crear (Fig. 5). Haga clic en _```count```_ para organizar las clases de la más a la menos abundante y en _```name```_ para organizarlas en orden alfabético.
+El _```Text facet```_ creado aparecerá a la izquierda de la aplicación, verá una ventana con el nombre de la columna y el _Facet_ que acaba de crear (Fig. 5). Haga clic en _```count```_ para organizar las clases de la más a la menos abundante y en _```name```_ para organizarlas en orden alfabético.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig5_OR_facet2.png" width=350>
 
-<sup>_Figura 5. Vista del Text Facet y las opciones para organizar las opciones de texto de la columna._</sup>
+<sup>_Figura 5. Vista del Text facet y las opciones para organizar las opciones de texto de la columna._</sup>
 
 **3.1.3. Corrección de los datos**
 
@@ -147,17 +147,17 @@ Corrija las inconsistencias en los nombres de las clases **Aves** y **Mammalia**
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig6_OR_classCorrect.png" width=500>
 
-<sup>_Figura 6. Corrección masiva de la columna  <span style="color:MediumSeaGreen">**class**</span> por medio de un Text Facet._</sup>
+<sup>_Figura 6. Corrección masiva de la columna  <span style="color:MediumSeaGreen">**class**</span> por medio de un Text facet._</sup>
 
 Realice el mismo proceso con la columna <span style="color:MediumSeaGreen">**_basisOfRecord_**</span> y <span style="color:MediumSeaGreen">**_sex_**</span>, ajustándolas al vocabulario controlado de cada elemento (Revise el [Laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)) (Fig. 7).
 
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig7_OR_otrosCorrect.png" width=500>
 
-<sup>_Figura 7. Corrección masiva de las columnas <span style="color:MediumSeaGreen">**basisOfRecord**</span> y <span style="color:MediumSeaGreen">**sex**</span> por medio de un Text Facet._</sup>
+<sup>_Figura 7. Corrección masiva de las columnas <span style="color:MediumSeaGreen">**basisOfRecord**</span> y <span style="color:MediumSeaGreen">**sex**</span> por medio de un Text facet._</sup>
 
 
-Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _facets_ y filtros que tenga en uso.
+Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8) para quitar todos los _facets_ y filtros que tenga en uso.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig8_OR_remover.png" width=350>
 
@@ -166,12 +166,12 @@ Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción 
 
 ### 3.2 Limpieza de espacios en blanco
 
-Diríjase a la columna <span style="color:MediumSeaGreen">**_individualCount_**</span>, haga clic en el menú de la columna y realice un _Text Facet_.
+Diríjase a la columna <span style="color:MediumSeaGreen">**_individualCount_**</span>, haga clic en el menú de la columna y realice un _Text facet_.
 A su izquierda aparecerá la ventana con el nombre de la columna y el facet que se realizó (Fig. 9).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig9_OR_individual.png" width=300>
 
-<sup>_Figura 9. Vista del Text Facet y las diferentes formas de documentación del elemento <span style="color:MediumSeaGreen">**individualCount**</span>._</sup>
+<sup>_Figura 9. Vista del Text facet y las diferentes formas de documentación del elemento <span style="color:MediumSeaGreen">**individualCount**</span>._</sup>
 
 Aunque parece que los datos no tienen errores, este procedimiento evidencia que el programa ha detectado espacios extra. Por tal motivo, el _facet_ muestra cuatro opciones diferentes para el valor ```1```.
 Corrija las inconsistencias desde el menú de la columna <span style="color:MediumSeaGreen">**_individualCount_**</span>, siguiendo la ruta **_```Edit Cells > Common transforms > Trim leading and trailing whitespace```_**. Posteriormente, verá un mensaje de notificación, el cual le indicará en cuántas celdas se eliminaron espacios (Fig. 10).
@@ -182,113 +182,113 @@ Corrija las inconsistencias desde el menú de la columna <span style="color:Medi
 
 Si observa la ventana del _facet_ de <span style="color:MediumSeaGreen">**_individualCount_**</span>, notará que ahora solo existe una opción y los espacios fueron eliminados.
 
-Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_. De esta forma, removerá todos los _facets_ y filtros que tenga en uso.
+Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ para quitar todos los _facets_ y filtros que tenga en uso.
 
 ### 3.3 Detección de duplicados
 
 Diríjase a la columna <span style="color:MediumSeaGreen">**_catalogNumber_**</span>, haga clic en el menú de la columna y siga la ruta **_```Facet > Customized facets > Duplicates facet```_**. La ventana del _facet_ aparecerá a la izquierda (Fig. 11).
 
 
-Podemos ver que el programa ha detectado valores únicos _```false```_ y valores duplicados _```true```_ (Fig. 11). Haga clic en true y verá los registros. De esta manera, se pueden detectar los duplicados para un análisis posterior. En este caso, corrija el registro de **"Feb 2001"** cambiándolo por <code>46-2300MI2008AV0248</code>, tanto en <span style="color:MediumSeaGreen">**_catalogNumber_**</span> como en <span style="color:MediumSeaGreen">**_occurrenceID_**</span> (Fig. 11).
+Podemos ver que el programa ha detectado valores únicos _```false```_ y valores duplicados _```true```_ (Fig. 11). Haga clic en true y verá los registros. De esta manera, se pueden detectar los duplicados para un análisis posterior. En este caso, cambie el registro de **"Feb 2001"** por <code>46-2300MI2008AV0248</code>, tanto en <span style="color:MediumSeaGreen">**_catalogNumber_**</span> como en <span style="color:MediumSeaGreen">**_occurrenceID_**</span> (Fig. 11).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig11_OR_duplicates.png" width=600>
 
 <sup>_Figura 11. Revisión de los registros duplicados y corrección de los identificadores._</sup>
 
-Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). De esa manera, removerá todos los _facets_ y filtros que tenga en uso.
+Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8) para quitar todos los _facets_ y filtros que tenga en uso.
 
 ## Paso 4 - Filtros
 
 ### 4.1 Corrección combinando filtros y funciones
 
-**4.1.1. Corrección elemento _```scientificName```_**
+**4.1.1. Corrección elemento <span style="color:MediumSeaGreen">**_scientificName_**</span>**
 
-Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro.
-Escriba en el campo de texto ```sp.``` y realice un _```Text Facet```_ en _```scientificName```_ para visualizar los registros con este valor (Fig. 12).
+Diríjase a la columna <span style="color:MediumSeaGreen">**_scientificName_**</span>, haga clic en el menú de la columna  y luego en _```Text filter```_. Cuando aparezca la ventana del filtro, escriba <code>sp.</code> en el campo de texto y realice un _```Text facet```_ en <span style="color:MediumSeaGreen">**_scientificName_**</span> para visualizar los registros que tienen el valor mencionado (Fig. 12).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig12_OR_sp.png" width=450>
 
-<sup>_Figura 12. Aplicación de un filtro de texto a la columna scientificName e identificación de nombres científicos a corregir._</sup>
+<sup>_Figura 12. Aplicación de un filtro de texto a la columna <span style="color:MediumSeaGreen">**scientificName**</span> e identificación de nombres científicos a corregir._</sup>
 
 
-Este tipo de identificación parcial (sp.) no debe documentarse en el elemento _```scientificName```_, para ello se emplea el elemento _DwC_ _```verbatimTaxonRank```_.
+Este tipo de identificación parcial (sp.) no debe documentarse en el elemento <span style="color:MediumSeaGreen">**_scientificName_**</span>, para ello se emplea el elemento _DwC_ <span style="color:MediumSeaGreen">**_verbatimTaxonRank_**</span>.
 
-Realice un _```Text Facet```_ en _```verbatimTaxonRank```_ y edite masivamente reemplazando las celdas vacías (_blank_) con ```sp.```, haga clic en _```Apply```_ (Fig. 13).
+Realice un _```Text facet```_ en <span style="color:MediumSeaGreen">**_verbatimTaxonRank_**</span> y reemplace masivamente las celdas vacías (_blank_) con <code>sp.</code>. Después, haga clic en _```Apply```_ (Fig. 13).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig13_OR_sp2.png" width=450>
 
-<sup>_Figura 13. Documentación masiva del elemento verbatimTaxonRank._</sup>
+<sup>_Figura 13. Documentación masiva del elemento <span style="color:MediumSeaGreen">**verbatimTaxonRank**</span>._</sup>
 
 
-Diríjase nuevamente al menú de la columna de _```scientificName```_ y siga la ruta _```Edit cells > Transform```_, luego ingrese la fórmula  <code>value.replace(" sp.","")</code>, note que en la pestaña _```Preview```_ puede ver la vista previa del resultado al aplicar la fórmula, y corroborar si es el cambio deseado (Fig. 14). Haga clic en _```OK```_ y aparecerá un mensaje de confirmación de que los cambios se han realizado.
+Diríjase nuevamente al menú de la columna de <span style="color:MediumSeaGreen">**scientificName**</span> y ga la ruta **_```Edit cells > Transform```_**. Posteriormente, ingrese el comando  <code>value.replace(" sp.","")</code> en el cuadro de texto **"_Expression_"**. Note que la pestaña **"_Preview_"** muestra una vista previa del resultado al aplicar el comando. Corrobore si es el cambio deseado (Fig. 14) y haga clic en _```OK```_. De inmediato, aparecerá un mensaje de confirmación de los cambios.
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig14_OR_replace.png" width=800>
 
-<sup>_Figura 14. Transformación masiva de los datos usando comando value.replace() del lenguaje GREL de OpenRefine._</sup>
+<sup>_Figura 14. Transformación masiva de los datos con el comando <code>value.replace()</code> del lenguaje GREL de OpenRefine._</sup>
 
-Empleando el comando _```value.replace```_ se puede sustituir cualquier valor de una columna poniendo dentro del paréntesis el valor a buscar encerrado entre comillas [ “ ] (ej. " sp.") y luego separado por una coma [ , ] el valor de reemplazo - también entre comillas-, en este caso será ninguno, por lo cual se ponen unas comillas vacías [""].
+Empleando el comando <code>value.replace</code> se puede sustituir cualquier valor de una columna. Para ello, es necesario cambiar el contenido del paréntesis, escribiendo el valor a buscar encerrado entre comillas [ “ ] (ej. " sp.") y separado por una coma [ , ], seguido del valor de reemplazo entre comillas. En este caso, no hay valores de reemplazo, así que solamente se ponen las comillas [""].
 
-> Para conocer más del lenguaje de programación GREL de diríjase a la [documentación de OpenRefine](https://docs.openrefine.org/manual/grelfunctions).
+> Para conocer más sobre el lenguaje de programación GREL de _OpenRefine_, diríjase a la [documentación de OpenRefine](https://docs.openrefine.org/manual/grelfunctions).
 
-**4.1.2. Corrección elementos _```recordedBy``` ```identifiedBy```_**
+**4.1.2. Corrección elementos <span style="color:MediumSeaGreen">**_recordedBy_**</span> e <span style="color:MediumSeaGreen">**_identifiedBy_**</span>**
 
-Corrija las columnas _```recordedBy```_ e _```identifiedBy```_ empleando la función _```value.replace```_ del punto anterior, reemplace en cada una el carácter de separación entre los nombres ```"; "``` por el que acepta el estándar Darwin Core actualmente para este elemento ```" | "``` ( Refiérase al [laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)).
+Corrija las columnas <span style="color:MediumSeaGreen">**_recordedBy_**</span> e <span style="color:MediumSeaGreen">**_identifiedBy_**</span>, empleando el comando <code>value.replace</code> del punto anterior. Para ello, reemplace en ambos elementos el carácter de separación entre los nombres <code>"; "</code> por el que acepta el estándar _Darwin Core_ para este elemento <code>" | "</code> (Revise el [Laboratorio de estandarización](https://sib-colombia.github.io/Formacion/LAB/lab01/lab_dwc.html)).
 
-Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _Facets_ y Filtros que tenga en uso.
+Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8) para quitar todos los _facets_ y filtros que tenga en uso.
 
 ### 4.2 Filtros con expresiones regulares
 
-**4.2.1. Corrección elemento _```family```_** 
+**4.2.1. Corrección elemento <span style="color:MediumSeaGreen">**_family_**</span>**
 
-Diríjase a la columna _```family```_  y realice un _```Text Facet```_. Haga clic en el menú de la columna y luego en _```Text filter```_. Aparecerá la ventana del Filtro.
-Marque la casilla _```regular expression```_. Escriba en el campo de texto la expresión regular  ```.*(?:(?!ae).).$``` esta expresión permite excluir todas las palabras de la columna que no terminan en ```ae```, correspondiente a las últimas letras de la declinación en latín para la categoría taxonómica de familia (*idae*, *ceae*) (Fig, 15).
+Diríjase a la columna <span style="color:MediumSeaGreen">**_family_**</span> y realice un _```Text facet```_. Haga clic en el menú de la columna y luego en _```Text filter```_ para que aparezca la ventana del filtro.
+Marque la casilla _```regular expression```_ y escriba en el cuadro de texto la expresión <code>.*(?:(?!ae).).$</code>. Esta expresión permite excluir todas las palabras de la columna que no terminan en <code>ae</code>, que corresponden a las últimas letras de la declinación en latín para la categoría taxonómica de familia (*idae*, *ceae*) (Fig, 15).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig16_OR_regulasExp.png" width=500>
 
-<sup>_Figura 15. Uso de expresiones regulares en GREL para filtrar la columna family._</sup>
+<sup>_Figura 15. Uso de expresiones regulares en GREL para filtrar la columna <span style="color:MediumSeaGreen">**family**</span>._</sup>
 
-Podrá observar como los registros que no corresponden a la categoría de familia han sido filtrados, usted puede editarlos haciendo uso de las opciones aprendidas en pasos previos. En este caso particular reemplace ```Bolitoglossa```, que corresponde a un género, por ```Plethodontidae```, la familia a la que pertenece el nombre científico (Fig. 15).
+Luego de realizar el procedimiento anterior, observará que los registros que no corresponden a la categoría de familia han sido filtrados. Para editarlos, utilice las opciones aprendidas en pasos previos. En este caso particular, reemplace _<code>Bolitoglossa</code>_ , que corresponde a un género, por _<code>Plethodontidae</code>_, la familia a la que pertenece el nombre científico (Fig. 15).
 
-> Para conocer más de las expresiones regulares diríjase a la [documentación de OpenRefine](https://docs.openrefine.org/manual/expressions#regular-expressions).
+> Para conocer más acerca de las expresiones regulares, visite la [documentación de OpenRefine](https://docs.openrefine.org/manual/expressions#regular-expressions).
 
-Al finalizar este ejercicio diríjase en el menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los Facets y Filtros que tenga en uso.
+Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8) para quitar todos los _facets_ y filtros que tenga en uso.
 
-**4.2.2. Corrección elementos _```scientificName```_ _```identificationQualifier```_** 
+**4.2.2. Corrección elementos <span style="color:MediumSeaGreen">**_scientificName_**</span> e <span style="color:MediumSeaGreen">**_identificationQualifier_**</span>** 
 
-Diríjase a la columna _```scientificName```_, haga clic en el menú de la columna  y luego en _```Text filter```_, aparecerá la ventana del Filtro. Marque la casilla _```regular expression```_. Escriba en el campo de texto la expresión regular  ```[.]``` y realice un _```Text Facet```_ para visualizar los registros con este  elemento (Fig. 16).
+Diríjase a la columna <span style="color:MediumSeaGreen">**_scientificName_**</span>, haga clic en el menú de la columna  y luego en _```Text filter```_. Cuando aparezca la ventana del filtro, marque la casilla _```regular expression```_ y escriba en el campo de texto la expresión <code>[.]</code>. Luego, realice un _```Text facet```_ para visualizar los registros con este  elemento (Fig. 16).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_qualifier.png" width=500>
 
 <sup>_Figura 16. Uso de expresiones regulares en GREL para filtrar y corregir las columnas scientificName identificationQualifier._</sup>
 
-Podrá observar los registros que cumplen con el criterio de la expresión regular. El elemento _```identificationQualifier```_ está diseñado para almacenar este tipo de información y por su parte el elemento _```scientificName```_ debe encontrarse sin calificadores.
+Al terminar el procedimiento anterior, observará los registros que cumplen con el criterio de la expresión regular. El elemento <span style="color:MediumSeaGreen">**_identificationQualifier_**</span> está diseñado para almacenar este tipo de información, mientras que el elemento <span style="color:MediumSeaGreen">**_scientificName_**</span> debe encontrarse sin calificadores.
 
-Para hacer el ajuste realice un _```Text Facet```_ en el elemento _```identificationQualifier```_ edite el blank documentando “cf. sowelli” y borre este texto en el _```scientificName```_ (Fig. 16) de esta manera edita masivamente todos los campos.
+Para ajustar ambos elementos, aplique un _```Text facet```_ en <span style="color:MediumSeaGreen">**_identificationQualifier_**</span> y reemplace el _blank_ por _<code>cf. sowelli</code>_; además, borre este mismo texto en el <span style="color:MediumSeaGreen">**_scientificName_**</span> (Fig. 16). De esta manera, se corrigen masivamente todos los campos.
 
 ```note
-El grado de incertidumbre de la identificación puede indicarse agregando varios términos, como **aff.** y **cf.** al nombre científico. El término calificativo se aplica a la parte del nombre que sigue inmediatamente al calificador y se pueden colocar delante de cualquier elemento del nombre.
+El grado de incertidumbre de la identificación puede indicarse agregando varios calificativos, como **"aff."** y **"cf."**, al nombre científico. El calificativo se escribe después del elemento al que corresponde la incertidumbre de identificación (género o especie).
 
-- **aff.** Similar o limítrofe, indica que una especie tiene afinidad con la especie mencionada, pero no es idéntica a ella.
-- **cf.** Comparar con, describe que un espécimen que es difícil de identificar e indica diversos grados o tipos de incertidumbre sobre el taxon y pueden usarse de manera diferente según el autor.
+- **aff.**: similar o limítrofe, indica que otra especie tiene afinidad con la especie mencionada, pero no es idéntica a ella.
+- **cf.**: comparar con, describe un espécimen que es difícil de identificar e indica diversos grados o tipos de incertidumbre sobre el taxon, los cuales pueden usarse de manera diferente según el autor.
 ````
 
-Finalmente estos registros deben quedar documentados con el género _Carollia_ en _```scientificName```_ y en _```identificationQualifier```_ el valor ```cf. sowelli``` (Fig. 17).
+Finalmente, debe documentarse el género _<code>Carollia</code>_ en <span style="color:MediumSeaGreen">**_scientificName_**</span> y asociarlo con el calificativo <code>cf. sowelli</code> en <span style="color:MediumSeaGreen">**_identificationQualifier_**</span> (Fig. 17).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig17_OR_Resulqualifier.png" width=500>
 
-<sup>_Figura 17. Documentación corregida y correcta de los elementos scientificName identificationQualifier._</sup>
+<sup>_Figura 17. Documentación corregida y correcta de los elementos <span style="color:MediumSeaGreen">**scientificName**</span> e <span style="color:MediumSeaGreen">**identificationQualifier**</span>._</sup>
 
-Al finalizar este ejercicio diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8). Así removerá todos los _Facets_ y Filtros que tenga en uso.
+Al finalizar este ejercicio, diríjase al menú lateral y seleccione la opción _```Remove All```_ (Fig. 8) para quitar todos los _facets_ y filtros que tenga en uso.
+
 ## Paso 5 - Conjuntos
 
-Diríjase a la columna _```recordedBy```_, haga clic en el menú de la columna y luego en _```Text facet```_, aparecerá la ventana del Facet con más de 200 opciones  (_choices_) diferentes (Fig. 18).
+Diríjase a la columna <span style="color:MediumSeaGreen">**_recordedBy_**</span> y despliegue el menú. Posteriormente, haga clic en _```Text facet```_ para que la ventana del facet con más de 200 opciones (_choices_) diferentes (Fig. 18).
 
 <img src="https://raw.githubusercontent.com/SIB-Colombia/Formacion/master/LAB/lab02/_images/Fig19_OR_cluster1.png" width=320>
 
-<sup>_Figura 18. Facet y opciones del elemento recordedBy._</sup>
+<sup>_Figura 18. Facet y opciones del elemento <span style="color:MediumSeaGreen">**recordedBy**</span>._</sup>
 
 
-En la parte superior derecha verá el botón _```Cluster```_. Al hacer clic en el (Fig. 18) aparecerá la ventana de _Cluster &  Edit_ para la columna _```recordedBy```_ (Fig. 19).
+En la parte superior derecha, verá el botón _```Cluster```_. Al hacer clic en él (Fig. 18), aparecerá la ventana de **"_Cluster &  Edit_"** para la columna <span style="color:MediumSeaGreen">**_recordedBy_**</span> (Fig. 19).
 
 Podrá ver la siguiente información:
 
