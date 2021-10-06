@@ -36,7 +36,6 @@ Se provee un caso de uso para realizar el ejercicio. Sin embargo, se recomienda 
 
 - Descargue el caso de uso [```Informe Expedición Parulidae 2001.pdf```](https://drive.google.com/file/d/10ygXD9rD4_mmQhTrLn3VnM0OXUnNJt4h/view?usp=sharing) 
 
-
 --------
 
 ## Paso 1 - Ingreso al IPT
@@ -351,7 +350,7 @@ Puede ver más detalles acerca de esta sección en la [Guía de referencia rápi
 Si realizó este laboratorio con el *Caso de Uso*, ahora intente crear un nuevo recurso y documentar los metadatos basado en sus propios informes o artículos.
 
 ****
-**¡Felicitaciones!** :raised_hands:
+**¡Felicitaciones!**
 Ha aprendido a documentar metadatos asociados a datos sobre biodiversidad a través del IPT.
 
 ****
