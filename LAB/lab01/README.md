@@ -1,6 +1,3 @@
----
-sort: 1
----
 
 # Laboratorio de estructuración y calidad
 
