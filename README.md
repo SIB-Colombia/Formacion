@@ -1,6 +1,9 @@
 ## Laboratorios de datos
 
-Este repositorio contiene la página de los laboratorios para el ciclo de formación virtual del SiB Colombia para  la gestión y publicación de datos sobre biodiversidad.
+``` warning
+Nos trasladamos.
+Explore nuevos contenidos, el portal de datos mejorado y toda la información que usted consultaba en esta wiki, visitando [https://biodiversidad.co](https://biodiversidad.co/formacion/laboratorios)
+```
 
 **Enlace**: [https://sib-colombia.github.io/Formacion/](https://sib-colombia.github.io/Formacion/)
 
